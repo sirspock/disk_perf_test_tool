@@ -23,6 +23,6 @@ cd "$OMGPATN"
 git clone http://github.com/openstack/oslo.messaging
 source venv/bin/activate
 apt-get -y install python-scipy libblas-dev liblapack-dev libatlas-base-dev gfortran
-pip install numpy scipy eventlet PyYAML oslo.messaging petname
+pip install numpy scipy eventlet PyYAML oslo.messaging petname redis zmq
 cd oslo.messaging
 python setup.py install

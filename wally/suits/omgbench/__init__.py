@@ -23,8 +23,8 @@ class OmgTestResults(TestResults):
         self.results['received'] = sum([int(r) for r in res_list[2:]])
         self.results['bandwidth'] = self.results['received'] / \
                                     self.results['duration']
-        self.results['success'] = int(self.results['sent']
-                                      / self.results['received'] * 100)
+        self.results['success'] = int(self.results['received']
+                                      / self.results['sent'] * 100)
 
     def get_yamable(self):
         return {'omg': {'sent': self.results['sent'],
