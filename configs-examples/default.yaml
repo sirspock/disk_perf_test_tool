@@ -1,7 +1,7 @@
 settings:
     collect_info: false
     suspend_unused_vms: false
-    results_storage: /var/wally_results
+    results_storage: ~/wally_results
     log_level: DEBUG
 
 vm_configs:
