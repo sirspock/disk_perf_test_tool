@@ -12,3 +12,9 @@ sshtunnel==0.0.3
 texttable
 pycrypto
 ecdsa
+python-novaclient
+python-openssl
+python-novaclient
+python-cinderclient
+python-glanceclient
+python-faulthandler 
