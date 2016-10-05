@@ -438,7 +438,7 @@ class IOPerfTest(PerfTest):
                                              self.config_fname + '.cfg')
 
         self.alive_check_interval = get('alive_check_interval')
-        self.use_system_fio = get('use_system_fio', False)
+        self.use_system_fio = get('use_system_fio', True)
 
         if get('prefill_files') is not None:
             logger.warning("prefill_files option is depricated. Use force_prefill instead")
