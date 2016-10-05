@@ -15,4 +15,3 @@ ecdsa
 python-novaclient
 python-cinderclient
 python-glanceclient
-python-faulthandler 
