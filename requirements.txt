@@ -13,8 +13,6 @@ texttable
 pycrypto
 ecdsa
 python-novaclient
-python-openssl
-python-novaclient
 python-cinderclient
 python-glanceclient
 python-faulthandler 
