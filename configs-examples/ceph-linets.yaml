@@ -1,22 +1,18 @@
-include: default.yaml
-
 clouds:
     ceph: ssh://root@172.17.1.1::/root/.ssh/id_rsa
 
 discover: ceph
 
 explicit_nodes:
-    "ssh://root@172.17.1.2::/root/.ssh/id_rsa": testnode
+    "ssh://root@172.17.1.1::/root/.ssh/id_rsa": testnode
 
 sensors:
     roles_mapping:
         ceph-osd: system-cpu, block-io, net-io
-        testnode: system-cpu, block-io, net-io
     sensors_remote_path: /tmp/sensors2/
-
 tests:
     - io:
         cfg: ceph
         params:
-            FILENAME: /dev/rbd2
-            TEST_FILE_SIZE:  100G
+            FILENAME: /dev/rbd0
+            TEST_FILE_SIZE: 20G
