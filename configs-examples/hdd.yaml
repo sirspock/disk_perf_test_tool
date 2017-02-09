@@ -1,10 +1,12 @@
 include: default.yaml
-explicit_nodes:
-   "ssh://root@localhost::/home/zeus/.ssh/id_rsa": testnode
-
+explicit_nodes: 
+    "ssh://root@138.219.231.52:22:/home/mosorio/.ssh/id_rsa": testnode
+    "ssh://root@170.80.74.57:22:/home/mosorio/.ssh/id_rsa": nomada
+       
 tests:
     - io:
         cfg: hdd
         params:
-            FILENAME: /tmp/test.raw
-            TEST_FILE_SIZE: 10G
+            NUM_ROUNDS: 1
+            FILENAME: /mnt/test.raw
+            TEST_FILE_SIZE: 20G
