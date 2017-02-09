@@ -1,10 +1,10 @@
 clouds:
-    ceph: ssh://root@172.17.1.1::/root/.ssh/id_rsa
+    ceph: ssh://root@172.19.1.1::/home/mosorio/.ssh/id_rsa
 
 discover: ceph
 
 explicit_nodes:
-    "ssh://root@172.17.1.1::/root/.ssh/id_rsa": testnode
+    "ssh://root@172.19.1.1::/home/mosorio/.ssh/id_rsa": testnode
 
 sensors:
     roles_mapping:
