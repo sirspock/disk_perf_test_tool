@@ -2,7 +2,7 @@ include: default.yaml
 
 
 explicit_nodes:
-    "ssh://root@172.17.1.2::/root/.ssh/id_rsa": testnode
+    "ssh://root@172.19.1.1::/home/mosorio/.ssh/id_rsa": testnode
 internal:
     var_dir_root: /tmp/perf_tests
 
@@ -10,6 +10,6 @@ tests:
     - io:
         cfg: hdd
         params:
-            FILENAME: /dev/rbd1
-            NUM_ROUNDS: 7
-            TEST_FILE_SIZE: 20G
+            FILENAME: /dev/nvme0n1p8 -
+            NUM_ROUNDS: 1
+            TEST_FILE_SIZE: 10G
