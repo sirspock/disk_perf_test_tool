@@ -1,0 +1,77 @@
+11:05:40 -     INFO - wally           - All info would be stored into /home/mosorio/wally/docker_results/mutual_swan
+11:05:40 -     INFO - wally           - Start discover_stage
+11:05:40 -     INFO - wally           - Start reuse_vms_stage
+11:05:40 -     INFO - wally           - Start log_nodes_statistic_stage
+11:05:40 -     INFO - wally           - Found 1 nodes total
+11:05:40 -    DEBUG - wally           - Found 1 nodes with role testnode
+11:05:40 -     INFO - wally           - Start save_nodes_stage
+11:05:40 -     INFO - wally           - Start connect_stage
+11:05:40 -     INFO - wally           - Connecting to nodes
+11:05:41 -     INFO - wally           - All nodes connected successfully
+11:05:41 -     INFO - wally           - Start run_tests_stage
+11:05:41 -    DEBUG - wally           - Run preparation
+11:05:43 -    DEBUG - wally           - prefill is skipped
+11:05:43 -     INFO - wally           - Entire test should takes aroud: 0:16:30 and finished at 11:22:13
+11:05:43 -     INFO - wally           - Will run hdd_rwx4kth1 test
+11:05:43 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:08:13, will wait at most till 11:13:13
+11:05:43 -    DEBUG - wally           - SSH:170.80.74.32:32770 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_swan/io/cmd.sh'
+11:08:17 -    DEBUG - wally           - Test on node 170.80.74.32_32770 is finished
+11:08:17 -     INFO - wally           - Will run hdd_rwx4kth2 test
+11:08:17 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:10:47, will wait at most till 11:15:47
+11:08:17 -    DEBUG - wally           - SSH:170.80.74.32:32770 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_swan/io/cmd.sh'
+11:10:50 -    DEBUG - wally           - Test on node 170.80.74.32_32770 is finished
+11:10:50 -     INFO - wally           - Will run hdd_rwx4kth3 test
+11:10:50 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:13:20, will wait at most till 11:18:20
+11:10:51 -    DEBUG - wally           - SSH:170.80.74.32:32770 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_swan/io/cmd.sh'
+11:13:24 -    DEBUG - wally           - Test on node 170.80.74.32_32770 is finished
+11:13:24 -     INFO - wally           - Will run hdd_rwx4kth4 test
+11:13:24 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:15:54, will wait at most till 11:20:54
+11:13:24 -    DEBUG - wally           - SSH:170.80.74.32:32770 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_swan/io/cmd.sh'
+11:15:57 -    DEBUG - wally           - Test on node 170.80.74.32_32770 is finished
+11:15:57 -     INFO - wally           - Will run hdd_rwx4kth5 test
+11:15:57 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:18:27, will wait at most till 11:23:27
+11:15:58 -    DEBUG - wally           - SSH:170.80.74.32:32770 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_swan/io/cmd.sh'
+11:18:31 -    DEBUG - wally           - Test on node 170.80.74.32_32770 is finished
+11:18:32 -     INFO - wally           - Will run hdd_rwd4kth1 test
+11:18:32 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:21:02, will wait at most till 11:26:02
+11:18:32 -    DEBUG - wally           - SSH:170.80.74.32:32770 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_swan/io/cmd.sh'
+11:21:05 -    DEBUG - wally           - Test on node 170.80.74.32_32770 is finished
+11:21:08 -     INFO - wally           - Start store_raw_results_stage
+11:21:08 -     INFO - wally           - Start disconnect_stage
+11:21:08 -    DEBUG - wally           - Start utils.cleanup
+11:21:08 -     INFO - wally           - Start console_report_stage
+11:21:08 -    ERROR - wally           - During console_report_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 295, in main
+    report_stage(cfg, ctx)
+  File "wally/run_test.py", line 541, in console_report_stage
+    IOPerfTest.format_for_console(list(result)))
+  File "wally/suits/io/fio.py", line 1083, in format_for_console
+    for item in cls.prepare_data(results):
+  File "wally/suits/io/fio.py", line 999, in prepare_data
+    test_dinfo = item.disk_perf_info()
+  File "wally/suits/io/fio.py", line 372, in disk_perf_info
+    pinfo.raw_iops_sys = map(prepare, self.iops_sys.per_vm())
+  File "wally/suits/io/fio.py", line 338, in prepare
+    if ts_data.average_interval() < avg_interval:
+  File "wally/suits/itest.py", line 130, in average_interval
+    return float(sum([val[1] for val in self.data])) / len(self.data)
+ZeroDivisionError: float division by zero
+11:21:08 -     INFO - wally           - Start html_report_stage
+11:21:08 -    ERROR - wally.report    - Diring hdd report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 641, in make_hdd_report
+    perf_infos = [res.disk_perf_info() for res in processed_results]
+  File "wally/suits/io/fio.py", line 372, in disk_perf_info
+    pinfo.raw_iops_sys = map(prepare, self.iops_sys.per_vm())
+  File "wally/suits/io/fio.py", line 338, in prepare
+    if ts_data.average_interval() < avg_interval:
+  File "wally/suits/itest.py", line 130, in average_interval
+    return float(sum([val[1] for val in self.data])) / len(self.data)
+ZeroDivisionError: float division by zero
+11:21:08 -     INFO - wally           - All info stored into /home/mosorio/wally/docker_results/mutual_swan
+11:21:08 -     INFO - wally           - Tests finished successfully

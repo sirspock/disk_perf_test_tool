@@ -1,0 +1,9 @@
+17:20:39 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/ample_beagle
+17:20:39 -     INFO - wally           - Start discover_stage
+17:20:39 -     INFO - wally           - Start reuse_vms_stage
+17:20:39 -     INFO - wally           - Start log_nodes_statistic_stage
+17:20:39 -     INFO - wally           - Found 1 nodes total
+17:20:39 -    DEBUG - wally           - Found 1 nodes with role testnode
+17:20:39 -     INFO - wally           - Start save_nodes_stage
+17:20:39 -     INFO - wally           - Start connect_stage
+17:20:39 -     INFO - wally           - Connecting to nodes

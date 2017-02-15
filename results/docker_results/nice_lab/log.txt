@@ -1,0 +1,82 @@
+10:49:47 -     INFO - wally           - All info would be stored into /home/mosorio/wally/docker_results/nice_lab
+10:49:47 -     INFO - wally           - Start discover_stage
+10:49:47 -     INFO - wally           - Start reuse_vms_stage
+10:49:47 -     INFO - wally           - Start log_nodes_statistic_stage
+10:49:47 -     INFO - wally           - Found 1 nodes total
+10:49:47 -    DEBUG - wally           - Found 1 nodes with role testnode
+10:49:47 -     INFO - wally           - Start save_nodes_stage
+10:49:47 -     INFO - wally           - Start connect_stage
+10:49:47 -     INFO - wally           - Connecting to nodes
+10:49:47 -     INFO - wally           - All nodes connected successfully
+10:49:47 -     INFO - wally           - Start run_tests_stage
+10:49:47 -    DEBUG - wally           - Run preparation
+10:49:48 -     INFO - wally           - Prefilling file /mnt/test.raw
+10:49:48 -    DEBUG - wally           - SSH:138.219.231.52:22 Exec 'sudo fio --name=xxx --filename=/mnt/test.raw --direct=1 --bs=4m --size=20480m --rw=write'
+10:54:17 -     INFO - wally           - Initiall fio fill bw is 76 MiBps for this vm
+10:54:17 -     INFO - wally           - Entire test should takes aroud: 0:16:30 and finished at 11:10:47
+10:54:17 -     INFO - wally           - Will run hdd_rwx4kth1 test
+10:54:17 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 10:56:47, will wait at most till 11:01:47
+10:54:17 -    DEBUG - wally           - SSH:138.219.231.52:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nice_lab/io/cmd.sh'
+10:54:17 -    ERROR - wally           - During fio run
+Traceback (most recent call last):
+  File "wally/suits/io/fio.py", line 734, in run
+    intervals = list(pool.map(func, self.config.nodes))
+  File "/home/mosorio/wally_env/lib/python2.7/site-packages/concurrent/futures/_base.py", line 581, in result_iterator
+    yield future.result()
+  File "/home/mosorio/wally_env/lib/python2.7/site-packages/concurrent/futures/_base.py", line 405, in result
+    return self.__get_result()
+  File "/home/mosorio/wally_env/lib/python2.7/site-packages/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "wally/suits/io/fio.py", line 864, in do_run
+    task.start(sudo + "bash " + self.sh_file)
+  File "wally/ssh_utils.py", line 397, in start
+    **params)
+  File "wally/ssh_utils.py", line 543, in run_over_ssh
+    raise OSError(templ.format(node, cmd, code, output))
+OSError: SSH:138.219.231.52:22 Cmd 'screen -S test -d -m sudo bash /tmp/wally/nice_lab/io/cmd.sh' failed with code 127. Output: bash: screen: command not found
+
+10:54:17 -     INFO - wally           - Reconnectiong, sleeping 30s and retrying
+10:54:49 -    DEBUG - wally           - SSH:138.219.231.52:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nice_lab/io/cmd.sh'
+10:54:49 -    ERROR - wally           - During fio run
+Traceback (most recent call last):
+  File "wally/suits/io/fio.py", line 734, in run
+    intervals = list(pool.map(func, self.config.nodes))
+  File "/home/mosorio/wally_env/lib/python2.7/site-packages/concurrent/futures/_base.py", line 581, in result_iterator
+    yield future.result()
+  File "/home/mosorio/wally_env/lib/python2.7/site-packages/concurrent/futures/_base.py", line 405, in result
+    return self.__get_result()
+  File "/home/mosorio/wally_env/lib/python2.7/site-packages/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "wally/suits/io/fio.py", line 864, in do_run
+    task.start(sudo + "bash " + self.sh_file)
+  File "wally/ssh_utils.py", line 397, in start
+    **params)
+  File "wally/ssh_utils.py", line 543, in run_over_ssh
+    raise OSError(templ.format(node, cmd, code, output))
+OSError: SSH:138.219.231.52:22 Cmd 'screen -S test -d -m sudo bash /tmp/wally/nice_lab/io/cmd.sh' failed with code 127. Output: bash: screen: command not found
+
+10:54:49 -     INFO - wally           - Reconnectiong, sleeping 30s and retrying
+10:55:19 -    DEBUG - wally           - SSH:138.219.231.52:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nice_lab/io/cmd.sh'
+10:55:19 -    ERROR - wally           - During fio run
+Traceback (most recent call last):
+  File "wally/suits/io/fio.py", line 734, in run
+    intervals = list(pool.map(func, self.config.nodes))
+  File "/home/mosorio/wally_env/lib/python2.7/site-packages/concurrent/futures/_base.py", line 581, in result_iterator
+    yield future.result()
+  File "/home/mosorio/wally_env/lib/python2.7/site-packages/concurrent/futures/_base.py", line 405, in result
+    return self.__get_result()
+  File "/home/mosorio/wally_env/lib/python2.7/site-packages/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "wally/suits/io/fio.py", line 864, in do_run
+    task.start(sudo + "bash " + self.sh_file)
+  File "wally/ssh_utils.py", line 397, in start
+    **params)
+  File "wally/ssh_utils.py", line 543, in run_over_ssh
+    raise OSError(templ.format(node, cmd, code, output))
+OSError: SSH:138.219.231.52:22 Cmd 'screen -S test -d -m sudo bash /tmp/wally/nice_lab/io/cmd.sh' failed with code 127. Output: bash: screen: command not found
+
+10:55:19 -    ERROR - wally           - Exception during run_tests_stage: Fio failed
+10:55:19 -     INFO - wally           - Start disconnect_stage
+10:55:19 -    DEBUG - wally           - Start utils.cleanup
+10:55:19 -     INFO - wally           - All info stored into /home/mosorio/wally/docker_results/nice_lab
+10:55:19 -    ERROR - wally           - Tests are failed. See detailed error above

@@ -1,0 +1,58 @@
+10:53:39 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/needed_gnu
+10:53:39 -     INFO - wally           - Start discover_stage
+10:53:39 -     INFO - wally           - Start reuse_vms_stage
+10:53:39 -     INFO - wally           - Start log_nodes_statistic_stage
+10:53:39 -     INFO - wally           - Found 1 nodes total
+10:53:39 -    DEBUG - wally           - Found 1 nodes with role testnode
+10:53:39 -     INFO - wally           - Start save_nodes_stage
+10:53:39 -     INFO - wally           - Start connect_stage
+10:53:39 -     INFO - wally           - Connecting to nodes
+10:53:40 -     INFO - wally           - All nodes connected successfully
+10:53:40 -     INFO - wally           - Start run_tests_stage
+10:53:40 -    DEBUG - wally           - Run preparation
+10:53:41 -    DEBUG - wally           - SSH:138.219.231.195:22 Exec 'sudo yum -y install screen fio'
+10:53:55 -     INFO - wally           - Prefilling file /tmp/test.raw
+10:53:55 -    DEBUG - wally           - SSH:138.219.231.195:22 Exec 'sudo fio --name=xxx --filename=/tmp/test.raw --direct=1 --bs=4m --size=1024m --rw=write'
+10:54:13 -     INFO - wally           - Initiall fio fill bw is 54 MiBps for this vm
+10:54:13 -     INFO - wally           - Entire test should takes aroud: 0:16:30 and finished at 11:10:43
+10:54:13 -     INFO - wally           - Will run hdd_rwx4kth1 test
+10:54:13 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 10:56:43, will wait at most till 11:01:43
+10:54:14 -    DEBUG - wally           - SSH:138.219.231.195:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/needed_gnu/io/cmd.sh'
+10:56:46 -    DEBUG - wally           - Test on node 138.219.231.195_22 is finished
+10:56:47 -     INFO - wally           - Will run hdd_rwx4kth2 test
+10:56:47 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 10:59:17, will wait at most till 11:04:17
+10:56:47 -    DEBUG - wally           - SSH:138.219.231.195:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/needed_gnu/io/cmd.sh'
+10:59:20 -    DEBUG - wally           - Test on node 138.219.231.195_22 is finished
+10:59:20 -     INFO - wally           - Will run hdd_rwx4kth3 test
+10:59:20 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:01:50, will wait at most till 11:06:50
+10:59:20 -    DEBUG - wally           - SSH:138.219.231.195:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/needed_gnu/io/cmd.sh'
+11:01:54 -    DEBUG - wally           - Test on node 138.219.231.195_22 is finished
+11:01:55 -     INFO - wally           - Will run hdd_rwx4kth4 test
+11:01:55 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:04:25, will wait at most till 11:09:25
+11:01:55 -    DEBUG - wally           - SSH:138.219.231.195:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/needed_gnu/io/cmd.sh'
+11:04:28 -    DEBUG - wally           - Test on node 138.219.231.195_22 is finished
+11:04:29 -     INFO - wally           - Will run hdd_rwx4kth5 test
+11:04:29 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:06:59, will wait at most till 11:11:59
+11:04:29 -    DEBUG - wally           - SSH:138.219.231.195:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/needed_gnu/io/cmd.sh'
+11:07:02 -    DEBUG - wally           - Test on node 138.219.231.195_22 is finished
+11:07:02 -     INFO - wally           - Will run hdd_rwd4kth1 test
+11:07:02 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:09:32, will wait at most till 11:14:32
+11:07:03 -    DEBUG - wally           - SSH:138.219.231.195:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/needed_gnu/io/cmd.sh'
+11:09:36 -    DEBUG - wally           - Test on node 138.219.231.195_22 is finished
+11:09:37 -     INFO - wally           - Start store_raw_results_stage
+11:09:37 -     INFO - wally           - Start disconnect_stage
+11:09:37 -    DEBUG - wally           - Start utils.cleanup
+11:09:37 -     INFO - wally           - Start console_report_stage
+11:09:37 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/needed_gnu/report.txt
+11:09:37 -     INFO - wally           - Start html_report_stage
+11:09:37 -    ERROR - wally.report    - Diring hdd report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 642, in make_hdd_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 464, in make_plots
+    raise ValueError("Can't found any date for " + name_pref)
+ValueError: Can't found any date for hdd_rrd4k
+11:09:37 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/needed_gnu
+11:09:37 -     INFO - wally           - Tests finished successfully

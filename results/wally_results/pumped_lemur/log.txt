@@ -1,0 +1,107 @@
+18:39:05 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/pumped_lemur
+18:39:05 -     INFO - wally           - Start discover_stage
+18:39:05 -     INFO - wally           - Start reuse_vms_stage
+18:39:05 -     INFO - wally           - Start log_nodes_statistic_stage
+18:39:05 -     INFO - wally           - Found 1 nodes total
+18:39:05 -    DEBUG - wally           - Found 1 nodes with role testnode
+18:39:05 -     INFO - wally           - Start save_nodes_stage
+18:39:05 -     INFO - wally           - Start connect_stage
+18:39:05 -     INFO - wally           - Connecting to nodes
+18:39:05 -     INFO - wally           - All nodes connected successfully
+18:39:05 -     INFO - wally           - Start run_tests_stage
+18:39:05 -    DEBUG - wally           - Run preparation
+18:39:08 -    DEBUG - wally           - prefill is skipped
+18:39:08 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 19:59:59
+18:39:08 -     INFO - wally           - Will run ceph_rws4kth1 test
+18:39:08 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 18:42:38, will wait at most till 18:47:38
+18:39:08 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+18:42:41 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+18:42:42 -     INFO - wally           - Will run ceph_rws4kth5 test
+18:42:42 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 18:46:12, will wait at most till 18:51:12
+18:42:42 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+18:46:16 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+18:46:16 -     INFO - wally           - Will run ceph_rws4kth10 test
+18:46:16 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 18:49:46, will wait at most till 18:54:46
+18:46:16 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+18:49:56 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+18:49:56 -     INFO - wally           - Will run ceph_rws4kth15 test
+18:49:56 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 18:53:26, will wait at most till 18:58:26
+18:49:56 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+18:53:30 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+18:53:30 -     INFO - wally           - Will run ceph_rws4kth25 test
+18:53:30 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 18:57:00, will wait at most till 19:02:00
+18:53:30 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+18:57:10 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+18:57:11 -     INFO - wally           - Will run ceph_rws4kth40 test
+18:57:11 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:00:41, will wait at most till 19:05:41
+18:57:11 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+19:00:46 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:00:47 -     INFO - wally           - Will run ceph_rrd4kth1 test
+19:00:47 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:04:17, will wait at most till 19:09:17
+19:00:47 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+19:04:25 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:04:25 -     INFO - wally           - Will run ceph_rrd4kth5 test
+19:04:25 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:07:55, will wait at most till 19:12:55
+19:04:25 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+19:07:59 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:07:59 -     INFO - wally           - Will run ceph_rrd4kth10 test
+19:07:59 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:11:29, will wait at most till 19:16:29
+19:07:59 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+19:11:33 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:11:33 -     INFO - wally           - Will run ceph_rrd4kth15 test
+19:11:33 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:15:03, will wait at most till 19:20:03
+19:11:33 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+19:15:07 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:15:07 -     INFO - wally           - Will run ceph_rrd4kth25 test
+19:15:07 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:18:37, will wait at most till 19:23:37
+19:15:07 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+19:18:41 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:18:41 -     INFO - wally           - Will run ceph_rrd4kth40 test
+19:18:41 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:22:11, will wait at most till 19:27:11
+19:18:42 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+19:22:15 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:22:16 -     INFO - wally           - Will run ceph_rrd4kth80 test
+19:22:16 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:25:46, will wait at most till 19:30:46
+19:22:16 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+19:25:49 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:25:50 -     INFO - wally           - Will run ceph_rrd4kth120 test
+19:25:50 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:29:20, will wait at most till 19:34:20
+19:25:50 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+19:29:24 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:29:25 -     INFO - wally           - Will run ceph_rwd4kth1 test
+19:29:25 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:32:55, will wait at most till 19:37:55
+19:29:25 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+19:32:59 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:32:59 -     INFO - wally           - Will run ceph_rrd16mth1 test
+19:32:59 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:36:29, will wait at most till 19:41:29
+19:32:59 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+19:36:33 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:36:33 -     INFO - wally           - Will run ceph_rrd16mth3 test
+19:36:33 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:40:03, will wait at most till 19:45:03
+19:36:34 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+19:40:07 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:40:08 -     INFO - wally           - Will run ceph_rrd16mth10 test
+19:40:08 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:43:38, will wait at most till 19:48:38
+19:40:08 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+19:43:42 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:43:42 -     INFO - wally           - Will run ceph_rwd16mth1 test
+19:43:42 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:47:12, will wait at most till 19:52:12
+19:43:42 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+19:47:16 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:47:16 -     INFO - wally           - Will run ceph_rwd16mth3 test
+19:47:16 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:50:46, will wait at most till 19:55:46
+19:47:16 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+19:50:50 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:50:50 -     INFO - wally           - Will run ceph_rwd16mth10 test
+19:50:50 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:54:20, will wait at most till 19:59:20
+19:50:51 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/pumped_lemur/io/cmd.sh'
+19:54:24 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:54:25 -     INFO - wally           - Start store_raw_results_stage
+19:54:25 -     INFO - wally           - Start disconnect_stage
+19:54:25 -    DEBUG - wally           - Start utils.cleanup
+19:54:25 -     INFO - wally           - Start console_report_stage
+19:54:26 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/pumped_lemur/report.txt
+19:54:26 -     INFO - wally           - Start html_report_stage
+19:54:28 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/pumped_lemur/ceph_report.html
+19:54:28 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/pumped_lemur
+19:54:28 -     INFO - wally           - Tests finished successfully

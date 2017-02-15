@@ -1,0 +1,126 @@
+14:19:07 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/rapid_toad
+14:19:07 -     INFO - wally           - Start discover_stage
+14:19:07 -     INFO - wally           - Start reuse_vms_stage
+14:19:07 -     INFO - wally           - Start log_nodes_statistic_stage
+14:19:07 -     INFO - wally           - Found 1 nodes total
+14:19:07 -    DEBUG - wally           - Found 1 nodes with role testnode
+14:19:07 -     INFO - wally           - Start save_nodes_stage
+14:19:07 -     INFO - wally           - Start connect_stage
+14:19:07 -     INFO - wally           - Connecting to nodes
+14:19:07 -     INFO - wally           - All nodes connected successfully
+14:19:07 -     INFO - wally           - Start run_tests_stage
+14:19:07 -    DEBUG - wally           - Run preparation
+14:19:09 -    DEBUG - wally           - prefill is skipped
+14:19:09 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 15:40:00
+14:19:09 -     INFO - wally           - Will run ceph_rws4kth1 test
+14:19:09 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:22:39, will wait at most till 14:27:39
+14:19:10 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+14:22:43 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+14:22:44 -     INFO - wally           - Will run ceph_rws4kth5 test
+14:22:44 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:26:14, will wait at most till 14:31:14
+14:22:44 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+14:26:17 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+14:26:17 -     INFO - wally           - Will run ceph_rws4kth10 test
+14:26:17 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:29:47, will wait at most till 14:34:47
+14:26:18 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+14:29:51 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+14:29:51 -     INFO - wally           - Will run ceph_rws4kth15 test
+14:29:51 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:33:21, will wait at most till 14:38:21
+14:29:52 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+14:33:27 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+14:33:27 -     INFO - wally           - Will run ceph_rws4kth25 test
+14:33:27 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:36:57, will wait at most till 14:41:57
+14:33:28 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+14:37:13 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+14:37:14 -     INFO - wally           - Will run ceph_rws4kth40 test
+14:37:14 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:40:44, will wait at most till 14:45:44
+14:37:14 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+14:40:58 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+14:40:58 -     INFO - wally           - Will run ceph_rrd4kth1 test
+14:40:58 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:44:28, will wait at most till 14:49:28
+14:40:58 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+14:44:32 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+14:44:32 -     INFO - wally           - Will run ceph_rrd4kth5 test
+14:44:32 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:48:02, will wait at most till 14:53:02
+14:44:32 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+14:48:05 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+14:48:06 -     INFO - wally           - Will run ceph_rrd4kth10 test
+14:48:06 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:51:36, will wait at most till 14:56:36
+14:48:06 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+14:51:39 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+14:51:39 -     INFO - wally           - Will run ceph_rrd4kth15 test
+14:51:39 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:55:09, will wait at most till 15:00:09
+14:51:39 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+14:55:13 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+14:55:13 -     INFO - wally           - Will run ceph_rrd4kth25 test
+14:55:13 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:58:43, will wait at most till 15:03:43
+14:55:14 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+14:58:47 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+14:58:48 -     INFO - wally           - Will run ceph_rrd4kth40 test
+14:58:48 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:02:18, will wait at most till 15:07:18
+14:58:48 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+15:02:21 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:02:22 -     INFO - wally           - Will run ceph_rrd4kth80 test
+15:02:22 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:05:52, will wait at most till 15:10:52
+15:02:22 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+15:05:56 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:05:57 -     INFO - wally           - Will run ceph_rrd4kth120 test
+15:05:57 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:09:27, will wait at most till 15:14:27
+15:05:57 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+15:09:30 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:09:31 -     INFO - wally           - Will run ceph_rwd4kth1 test
+15:09:31 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:13:01, will wait at most till 15:18:01
+15:09:31 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+15:13:05 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:13:05 -     INFO - wally           - Will run ceph_rrd16mth1 test
+15:13:05 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:16:35, will wait at most till 15:21:35
+15:13:05 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+15:16:39 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:16:39 -     INFO - wally           - Will run ceph_rrd16mth3 test
+15:16:39 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:20:09, will wait at most till 15:25:09
+15:16:39 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+15:20:13 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:20:13 -     INFO - wally           - Will run ceph_rrd16mth10 test
+15:20:13 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:23:43, will wait at most till 15:28:43
+15:20:13 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+15:23:47 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:23:47 -     INFO - wally           - Will run ceph_rwd16mth1 test
+15:23:47 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:27:17, will wait at most till 15:32:17
+15:23:47 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+15:27:21 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:27:21 -     INFO - wally           - Will run ceph_rwd16mth3 test
+15:27:21 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:30:51, will wait at most till 15:35:51
+15:27:21 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+15:30:54 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:30:55 -     INFO - wally           - Will run ceph_rwd16mth10 test
+15:30:55 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:34:25, will wait at most till 15:39:25
+15:30:55 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rapid_toad/io/cmd.sh'
+15:34:28 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:34:29 -     INFO - wally           - Start store_raw_results_stage
+15:34:29 -     INFO - wally           - Start disconnect_stage
+15:34:29 -    DEBUG - wally           - Start utils.cleanup
+15:34:29 -     INFO - wally           - Start console_report_stage
+15:34:30 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/rapid_toad/report.txt
+15:34:30 -     INFO - wally           - Start html_report_stage
+15:34:30 -    ERROR - wally.report    - Diring ceph report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 678, in make_ceph_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+15:34:30 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/rapid_toad
+15:34:30 -     INFO - wally           - Tests finished successfully
+18:21:46 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/rapid_toad
+18:21:46 -     INFO - wally           - Start load_data_from_path_stage
+18:21:49 -    DEBUG - wally           - Start utils.cleanup
+18:21:49 -     INFO - wally           - Start console_report_stage
+18:21:51 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/rapid_toad/report.txt
+18:21:51 -     INFO - wally           - Start html_report_stage
+18:21:53 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/rapid_toad/ceph_report.html
+18:21:53 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/rapid_toad
+18:21:53 -     INFO - wally           - Tests finished successfully

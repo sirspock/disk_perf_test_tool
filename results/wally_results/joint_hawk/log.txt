@@ -1,0 +1,231 @@
+12:32:18 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/joint_hawk
+12:32:18 -     INFO - wally           - Start discover_stage
+12:32:18 -     INFO - wally           - Start reuse_vms_stage
+12:32:18 -     INFO - wally           - Start log_nodes_statistic_stage
+12:32:18 -     INFO - wally           - Found 1 nodes total
+12:32:18 -    DEBUG - wally           - Found 1 nodes with role testnode
+12:32:18 -     INFO - wally           - Start save_nodes_stage
+12:32:18 -     INFO - wally           - Start connect_stage
+12:32:18 -     INFO - wally           - Connecting to nodes
+12:32:18 -     INFO - wally           - All nodes connected successfully
+12:32:18 -     INFO - wally           - Start run_tests_stage
+12:32:18 -    DEBUG - wally           - Run preparation
+12:32:20 -    DEBUG - wally           - prefill is skipped
+12:32:20 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 13:53:11
+12:32:20 -     INFO - wally           - Will run ceph_rws4kth1 test
+12:32:20 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:35:50, will wait at most till 12:40:50
+12:32:20 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+12:35:54 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:35:54 -     INFO - wally           - Will run ceph_rws4kth5 test
+12:35:54 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:39:24, will wait at most till 12:44:24
+12:35:54 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+12:39:27 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:39:28 -     INFO - wally           - Will run ceph_rws4kth10 test
+12:39:28 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:42:58, will wait at most till 12:47:58
+12:39:28 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+12:43:03 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:43:04 -     INFO - wally           - Will run ceph_rws4kth15 test
+12:43:04 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:46:34, will wait at most till 12:51:34
+12:43:04 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+12:46:46 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:46:46 -     INFO - wally           - Will run ceph_rws4kth25 test
+12:46:46 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:50:16, will wait at most till 12:55:16
+12:46:46 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+12:50:23 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:50:24 -     INFO - wally           - Will run ceph_rws4kth40 test
+12:50:24 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:53:54, will wait at most till 12:58:54
+12:50:24 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+12:54:04 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:54:04 -     INFO - wally           - Will run ceph_rrd4kth1 test
+12:54:04 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:57:34, will wait at most till 13:02:34
+12:54:04 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+12:57:44 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:57:44 -     INFO - wally           - Will run ceph_rrd4kth5 test
+12:57:44 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:01:14, will wait at most till 13:06:14
+12:57:44 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+13:01:18 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:01:18 -     INFO - wally           - Will run ceph_rrd4kth10 test
+13:01:18 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:04:48, will wait at most till 13:09:48
+13:01:18 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+13:04:52 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:04:52 -     INFO - wally           - Will run ceph_rrd4kth15 test
+13:04:52 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:08:22, will wait at most till 13:13:22
+13:04:52 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+13:08:26 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:08:26 -     INFO - wally           - Will run ceph_rrd4kth25 test
+13:08:26 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:11:56, will wait at most till 13:16:56
+13:08:26 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+13:12:00 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:12:00 -     INFO - wally           - Will run ceph_rrd4kth40 test
+13:12:00 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:15:30, will wait at most till 13:20:30
+13:12:00 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+13:15:34 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:15:34 -     INFO - wally           - Will run ceph_rrd4kth80 test
+13:15:34 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:19:04, will wait at most till 13:24:04
+13:15:35 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+13:19:08 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:19:10 -     INFO - wally           - Will run ceph_rrd4kth120 test
+13:19:10 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:22:40, will wait at most till 13:27:40
+13:19:10 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+13:22:44 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:22:45 -     INFO - wally           - Will run ceph_rwd4kth1 test
+13:22:45 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:26:15, will wait at most till 13:31:15
+13:22:45 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+13:26:18 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:26:19 -     INFO - wally           - Will run ceph_rrd16mth1 test
+13:26:19 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:29:49, will wait at most till 13:34:49
+13:26:19 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+13:29:52 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:29:53 -     INFO - wally           - Will run ceph_rrd16mth3 test
+13:29:53 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:33:23, will wait at most till 13:38:23
+13:29:53 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+13:33:26 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:33:27 -     INFO - wally           - Will run ceph_rrd16mth10 test
+13:33:27 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:36:57, will wait at most till 13:41:57
+13:33:27 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+13:37:00 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:37:00 -     INFO - wally           - Will run ceph_rwd16mth1 test
+13:37:00 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:40:30, will wait at most till 13:45:30
+13:37:00 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+13:40:34 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:40:34 -     INFO - wally           - Will run ceph_rwd16mth3 test
+13:40:34 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:44:04, will wait at most till 13:49:04
+13:40:34 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+13:44:08 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:44:08 -     INFO - wally           - Will run ceph_rwd16mth10 test
+13:44:08 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:47:38, will wait at most till 13:52:38
+13:44:08 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/joint_hawk/io/cmd.sh'
+13:47:42 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:47:42 -     INFO - wally           - Start store_raw_results_stage
+13:47:42 -     INFO - wally           - Start disconnect_stage
+13:47:42 -    DEBUG - wally           - Start utils.cleanup
+13:47:42 -     INFO - wally           - Start console_report_stage
+13:47:44 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/joint_hawk/report.txt
+13:47:44 -     INFO - wally           - Start html_report_stage
+13:47:44 -    ERROR - wally.report    - Diring ceph report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 678, in make_ceph_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+13:47:44 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/joint_hawk
+13:47:44 -     INFO - wally           - Tests finished successfully
+15:00:05 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/joint_hawk
+15:00:05 -     INFO - wally           - Start load_data_from_path_stage
+15:00:07 -    DEBUG - wally           - Start utils.cleanup
+15:00:07 -     INFO - wally           - Start console_report_stage
+15:00:09 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/joint_hawk/report.txt
+15:00:09 -     INFO - wally           - Start html_report_stage
+15:00:09 -    ERROR - wally.report    - Diring ceph report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 678, in make_ceph_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+15:00:09 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/joint_hawk
+15:00:09 -     INFO - wally           - Tests finished successfully
+15:00:45 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/joint_hawk
+15:00:45 -     INFO - wally           - Start load_data_from_path_stage
+15:00:47 -    DEBUG - wally           - Start utils.cleanup
+15:00:47 -     INFO - wally           - Start console_report_stage
+15:00:48 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/joint_hawk/report.txt
+15:00:48 -     INFO - wally           - Start test_load_report_stage
+15:00:48 -    ERROR - wally           - During test_load_report_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 295, in main
+    report_stage(cfg, ctx)
+  File "wally/run_test.py", line 572, in test_load_report_stage
+    report.make_load_report(idx, cfg['results'], load_rep_fname)
+TypeError: 'Config' object has no attribute '__getitem__'
+15:00:48 -     INFO - wally           - Start html_report_stage
+15:00:48 -    ERROR - wally.report    - Diring ceph report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 678, in make_ceph_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+15:00:48 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/joint_hawk
+15:00:48 -     INFO - wally           - Tests finished successfully
+15:03:18 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/joint_hawk
+15:03:18 -     INFO - wally           - Start load_data_from_path_stage
+15:03:19 -    DEBUG - wally           - Start utils.cleanup
+15:03:19 -     INFO - wally           - Start console_report_stage
+15:03:21 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/joint_hawk/report.txt
+15:03:21 -     INFO - wally           - Start test_load_report_stage
+15:03:21 -    ERROR - wally           - During test_load_report_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 295, in main
+    report_stage(cfg, ctx)
+  File "wally/run_test.py", line 572, in test_load_report_stage
+    report.make_load_report(idx, cfg['results'], load_rep_fname)
+TypeError: 'Config' object has no attribute '__getitem__'
+15:03:21 -     INFO - wally           - Start html_report_stage
+15:03:21 -    ERROR - wally.report    - Diring ceph report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 678, in make_ceph_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+15:03:21 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/joint_hawk
+15:03:21 -     INFO - wally           - Tests finished successfully
+15:18:55 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/joint_hawk
+15:18:55 -     INFO - wally           - Start load_data_from_path_stage
+15:18:56 -    DEBUG - wally           - Start utils.cleanup
+15:18:56 -     INFO - wally           - Start console_report_stage
+15:18:58 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/joint_hawk/report.txt
+15:18:58 -     INFO - wally           - Start test_load_report_stage
+15:18:58 -    ERROR - wally           - During test_load_report_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 295, in main
+    report_stage(cfg, ctx)
+  File "wally/run_test.py", line 572, in test_load_report_stage
+    report.make_load_report(idx, cfg['results'], load_rep_fname)
+TypeError: 'Config' object has no attribute '__getitem__'
+15:18:58 -     INFO - wally           - Start html_report_stage
+15:19:00 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/joint_hawk/ceph_report.html
+15:19:00 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/joint_hawk
+15:19:00 -     INFO - wally           - Tests finished successfully
+15:19:11 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/joint_hawk
+15:19:11 -     INFO - wally           - Start load_data_from_path_stage
+15:19:14 -    DEBUG - wally           - Start utils.cleanup
+15:19:14 -     INFO - wally           - Start console_report_stage
+15:19:16 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/joint_hawk/report.txt
+15:19:16 -     INFO - wally           - Start html_report_stage
+15:19:19 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/joint_hawk/ceph_report.html
+15:19:19 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/joint_hawk
+15:19:19 -     INFO - wally           - Tests finished successfully
+18:20:51 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/joint_hawk
+18:20:51 -     INFO - wally           - Start load_data_from_path_stage
+18:20:53 -    DEBUG - wally           - Start utils.cleanup
+18:20:53 -     INFO - wally           - Start console_report_stage
+18:20:55 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/joint_hawk/report.txt
+18:20:55 -     INFO - wally           - Start html_report_stage
+18:20:57 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/joint_hawk/ceph_report.html
+18:20:57 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/joint_hawk
+18:20:57 -     INFO - wally           - Tests finished successfully

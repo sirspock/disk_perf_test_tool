@@ -1,0 +1,107 @@
+14:58:48 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/key_civet
+14:58:48 -     INFO - wally           - Start discover_stage
+14:58:48 -     INFO - wally           - Start reuse_vms_stage
+14:58:48 -     INFO - wally           - Start log_nodes_statistic_stage
+14:58:48 -     INFO - wally           - Found 1 nodes total
+14:58:48 -    DEBUG - wally           - Found 1 nodes with role testnode
+14:58:48 -     INFO - wally           - Start save_nodes_stage
+14:58:48 -     INFO - wally           - Start connect_stage
+14:58:48 -     INFO - wally           - Connecting to nodes
+14:58:48 -     INFO - wally           - All nodes connected successfully
+14:58:48 -     INFO - wally           - Start run_tests_stage
+14:58:48 -    DEBUG - wally           - Run preparation
+14:58:51 -    DEBUG - wally           - prefill is skipped
+14:58:51 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 16:19:42
+14:58:51 -     INFO - wally           - Will run ceph_rws4kth1 test
+14:58:51 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:02:21, will wait at most till 15:07:21
+14:58:51 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+15:02:24 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:02:25 -     INFO - wally           - Will run ceph_rws4kth5 test
+15:02:25 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:05:55, will wait at most till 15:10:55
+15:02:25 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+15:05:58 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:05:59 -     INFO - wally           - Will run ceph_rws4kth10 test
+15:05:59 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:09:29, will wait at most till 15:14:29
+15:05:59 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+15:09:36 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:09:37 -     INFO - wally           - Will run ceph_rws4kth15 test
+15:09:37 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:13:07, will wait at most till 15:18:07
+15:09:37 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+15:13:13 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:13:13 -     INFO - wally           - Will run ceph_rws4kth25 test
+15:13:13 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:16:43, will wait at most till 15:21:43
+15:13:13 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+15:16:53 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:16:53 -     INFO - wally           - Will run ceph_rws4kth40 test
+15:16:53 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:20:23, will wait at most till 15:25:23
+15:16:53 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+15:20:33 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:20:33 -     INFO - wally           - Will run ceph_rrd4kth1 test
+15:20:33 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:24:03, will wait at most till 15:29:03
+15:20:34 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+15:24:11 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:24:11 -     INFO - wally           - Will run ceph_rrd4kth5 test
+15:24:11 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:27:41, will wait at most till 15:32:41
+15:24:12 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+15:27:45 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:27:45 -     INFO - wally           - Will run ceph_rrd4kth10 test
+15:27:45 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:31:15, will wait at most till 15:36:15
+15:27:45 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+15:31:19 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:31:19 -     INFO - wally           - Will run ceph_rrd4kth15 test
+15:31:19 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:34:49, will wait at most till 15:39:49
+15:31:19 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+15:34:53 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:34:53 -     INFO - wally           - Will run ceph_rrd4kth25 test
+15:34:53 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:38:23, will wait at most till 15:43:23
+15:34:53 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+15:38:27 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:38:28 -     INFO - wally           - Will run ceph_rrd4kth40 test
+15:38:28 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:41:58, will wait at most till 15:46:58
+15:38:28 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+15:42:01 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:42:02 -     INFO - wally           - Will run ceph_rrd4kth80 test
+15:42:02 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:45:32, will wait at most till 15:50:32
+15:42:02 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+15:45:36 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:45:37 -     INFO - wally           - Will run ceph_rrd4kth120 test
+15:45:37 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:49:07, will wait at most till 15:54:07
+15:45:37 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+15:49:11 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:49:13 -     INFO - wally           - Will run ceph_rwd4kth1 test
+15:49:13 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:52:43, will wait at most till 15:57:43
+15:49:13 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+15:52:46 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:52:47 -     INFO - wally           - Will run ceph_rrd16mth1 test
+15:52:47 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:56:17, will wait at most till 16:01:17
+15:52:47 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+15:56:20 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:56:21 -     INFO - wally           - Will run ceph_rrd16mth3 test
+15:56:21 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:59:51, will wait at most till 16:04:51
+15:56:21 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+15:59:54 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:59:55 -     INFO - wally           - Will run ceph_rrd16mth10 test
+15:59:55 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:03:25, will wait at most till 16:08:25
+15:59:55 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+16:03:28 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+16:03:29 -     INFO - wally           - Will run ceph_rwd16mth1 test
+16:03:29 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:06:59, will wait at most till 16:11:59
+16:03:29 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+16:07:02 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+16:07:03 -     INFO - wally           - Will run ceph_rwd16mth3 test
+16:07:03 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:10:33, will wait at most till 16:15:33
+16:07:03 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+16:10:37 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+16:10:37 -     INFO - wally           - Will run ceph_rwd16mth10 test
+16:10:37 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:14:07, will wait at most till 16:19:07
+16:10:37 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/key_civet/io/cmd.sh'
+16:14:13 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+16:14:13 -     INFO - wally           - Start store_raw_results_stage
+16:14:13 -     INFO - wally           - Start disconnect_stage
+16:14:13 -    DEBUG - wally           - Start utils.cleanup
+16:14:13 -     INFO - wally           - Start console_report_stage
+16:14:15 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/key_civet/report.txt
+16:14:15 -     INFO - wally           - Start html_report_stage
+16:14:19 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/key_civet/ceph_report.html
+16:14:19 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/key_civet
+16:14:19 -     INFO - wally           - Tests finished successfully

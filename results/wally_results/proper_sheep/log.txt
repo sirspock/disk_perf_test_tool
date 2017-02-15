@@ -1,0 +1,25 @@
+10:14:12 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/proper_sheep
+10:14:12 -     INFO - wally           - Start discover_stage
+10:14:12 -     INFO - wally           - Start reuse_vms_stage
+10:14:12 -     INFO - wally           - Start log_nodes_statistic_stage
+10:14:12 -     INFO - wally           - Found 1 nodes total
+10:14:12 -    DEBUG - wally           - Found 1 nodes with role testnode
+10:14:12 -     INFO - wally           - Start save_nodes_stage
+10:14:12 -     INFO - wally           - Start connect_stage
+10:14:12 -     INFO - wally           - Connecting to nodes
+10:14:26 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+10:14:26 -    ERROR - paramiko.transport - Traceback (most recent call last):
+10:14:26 -    ERROR - paramiko.transport -   File "/home/mosorio/wally_env/lib/python2.7/site-packages/paramiko/transport.py", line 1744, in run
+10:14:26 -    ERROR - paramiko.transport -     self._check_banner()
+10:14:26 -    ERROR - paramiko.transport -   File "/home/mosorio/wally_env/lib/python2.7/site-packages/paramiko/transport.py", line 1892, in _check_banner
+10:14:26 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+10:14:26 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+10:14:26 -    ERROR - paramiko.transport - 
+10:14:29 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+10:14:29 -    ERROR - paramiko.transport - Traceback (most recent call last):
+10:14:29 -    ERROR - paramiko.transport -   File "/home/mosorio/wally_env/lib/python2.7/site-packages/paramiko/transport.py", line 1744, in run
+10:14:29 -    ERROR - paramiko.transport -     self._check_banner()
+10:14:29 -    ERROR - paramiko.transport -   File "/home/mosorio/wally_env/lib/python2.7/site-packages/paramiko/transport.py", line 1892, in _check_banner
+10:14:29 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+10:14:29 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+10:14:29 -    ERROR - paramiko.transport - 

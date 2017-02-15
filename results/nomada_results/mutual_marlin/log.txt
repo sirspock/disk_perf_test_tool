@@ -1,0 +1,160 @@
+11:19:46 -     INFO - wally           - All info would be stored into /home/mosorio/wally/results/nomada_results/mutual_marlin
+11:19:46 -     INFO - wally           - Start discover_stage
+11:19:46 -     INFO - wally           - Start reuse_vms_stage
+11:19:46 -     INFO - wally           - Start log_nodes_statistic_stage
+11:19:46 -     INFO - wally           - Found 1 nodes total
+11:19:46 -    DEBUG - wally           - Found 1 nodes with role testnode
+11:19:46 -     INFO - wally           - Start save_nodes_stage
+11:19:46 -     INFO - wally           - Start connect_stage
+11:19:46 -     INFO - wally           - Connecting to nodes
+11:19:46 -     INFO - wally           - All nodes connected successfully
+11:19:46 -     INFO - wally           - Start run_tests_stage
+11:19:46 -    DEBUG - wally           - Run preparation
+11:19:49 -    DEBUG - wally           - prefill is skipped
+11:19:49 -     INFO - wally           - Entire test should takes aroud: 0:41:15 and finished at 12:01:04
+11:19:49 -     INFO - wally           - Will run hdd_rwx4kth1 test
+11:19:49 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:22:19, will wait at most till 11:27:19
+11:19:49 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_marlin/io/cmd.sh'
+11:22:23 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+11:22:23 -     INFO - wally           - Will run hdd_rwx4kth5 test
+11:22:23 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:24:53, will wait at most till 11:29:53
+11:22:23 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_marlin/io/cmd.sh'
+11:24:57 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+11:24:57 -     INFO - wally           - Will run hdd_rwx4kth10 test
+11:24:57 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:27:27, will wait at most till 11:32:27
+11:24:58 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_marlin/io/cmd.sh'
+11:27:36 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+11:27:37 -     INFO - wally           - Will run hdd_rwx4kth15 test
+11:27:37 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:30:07, will wait at most till 11:35:07
+11:27:37 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_marlin/io/cmd.sh'
+11:30:11 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+11:30:12 -     INFO - wally           - Will run hdd_rwx4kth25 test
+11:30:12 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:32:42, will wait at most till 11:37:42
+11:30:12 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_marlin/io/cmd.sh'
+11:32:45 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+11:32:46 -     INFO - wally           - Will run hdd_rwx4kth40 test
+11:32:46 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:35:16, will wait at most till 11:40:16
+11:32:46 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_marlin/io/cmd.sh'
+11:35:20 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+11:35:21 -     INFO - wally           - Will run hdd_rrd4kth1 test
+11:35:21 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:37:51, will wait at most till 11:42:51
+11:35:21 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_marlin/io/cmd.sh'
+11:37:54 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+11:37:55 -     INFO - wally           - Will run hdd_rrd4kth5 test
+11:37:55 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:40:25, will wait at most till 11:45:25
+11:37:55 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_marlin/io/cmd.sh'
+11:40:29 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+11:40:30 -     INFO - wally           - Will run hdd_rrd4kth10 test
+11:40:30 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:43:00, will wait at most till 11:48:00
+11:40:30 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_marlin/io/cmd.sh'
+11:43:05 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+11:43:05 -     INFO - wally           - Will run hdd_rrd4kth15 test
+11:43:05 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:45:35, will wait at most till 11:50:35
+11:43:06 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_marlin/io/cmd.sh'
+11:45:40 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+11:45:41 -     INFO - wally           - Will run hdd_rrd4kth25 test
+11:45:41 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:48:11, will wait at most till 11:53:11
+11:45:41 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_marlin/io/cmd.sh'
+11:48:15 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+11:48:16 -     INFO - wally           - Will run hdd_rrd4kth40 test
+11:48:16 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:50:46, will wait at most till 11:55:46
+11:48:16 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_marlin/io/cmd.sh'
+11:50:49 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+11:50:50 -     INFO - wally           - Will run hdd_srd1mth1 test
+11:50:50 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:53:20, will wait at most till 11:58:20
+11:50:51 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_marlin/io/cmd.sh'
+11:53:25 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+11:53:25 -     INFO - wally           - Will run hdd_swd1mth1 test
+11:53:25 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:55:55, will wait at most till 12:00:55
+11:53:26 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_marlin/io/cmd.sh'
+11:55:59 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+11:55:59 -     INFO - wally           - Will run hdd_rwd4kth1 test
+11:55:59 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:58:29, will wait at most till 12:03:29
+11:56:00 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_marlin/io/cmd.sh'
+11:58:34 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+11:58:35 -     INFO - wally           - Start store_raw_results_stage
+11:58:35 -     INFO - wally           - Start disconnect_stage
+11:58:35 -    DEBUG - wally           - Start utils.cleanup
+11:58:35 -     INFO - wally           - Start console_report_stage
+11:58:36 -     INFO - wally           - Text report were stored in /home/mosorio/wally/results/nomada_results/mutual_marlin/report.txt
+11:58:36 -     INFO - wally           - Start html_report_stage
+11:58:36 -    ERROR - wally.report    - Diring hdd report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 642, in make_hdd_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+11:58:36 -     INFO - wally           - All info stored into /home/mosorio/wally/results/nomada_results/mutual_marlin
+11:58:36 -     INFO - wally           - Tests finished successfully
+12:54:30 -     INFO - wally           - All info would be stored into /home/mosorio/wally/results/nomada_results/mutual_marlin
+12:54:30 -     INFO - wally           - Start load_data_from_path_stage
+12:54:31 -    DEBUG - wally           - Start utils.cleanup
+12:54:31 -     INFO - wally           - Start console_report_stage
+12:54:31 -     INFO - wally           - Text report were stored in /home/mosorio/wally/results/nomada_results/mutual_marlin/report.txt
+12:54:31 -     INFO - wally           - Start test_load_report_stage
+12:54:31 -    ERROR - wally           - During test_load_report_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 295, in main
+    report_stage(cfg, ctx)
+  File "wally/run_test.py", line 572, in test_load_report_stage
+    report.make_load_report(idx, cfg['results'], load_rep_fname)
+TypeError: 'Config' object has no attribute '__getitem__'
+12:54:31 -     INFO - wally           - Start html_report_stage
+12:54:31 -    ERROR - wally.report    - Diring hdd report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 642, in make_hdd_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+12:54:31 -     INFO - wally           - All info stored into /home/mosorio/wally/results/nomada_results/mutual_marlin
+12:54:31 -     INFO - wally           - Tests finished successfully
+12:54:51 -     INFO - wally           - All info would be stored into /home/mosorio/wally/results/nomada_results/mutual_marlin
+12:54:51 -     INFO - wally           - Start load_data_from_path_stage
+12:54:52 -    DEBUG - wally           - Start utils.cleanup
+12:54:52 -     INFO - wally           - Start console_report_stage
+12:54:53 -     INFO - wally           - Text report were stored in /home/mosorio/wally/results/nomada_results/mutual_marlin/report.txt
+12:54:53 -     INFO - wally           - Start test_load_report_stage
+12:54:53 -    ERROR - wally           - During test_load_report_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 295, in main
+    report_stage(cfg, ctx)
+  File "wally/run_test.py", line 572, in test_load_report_stage
+    report.make_load_report(idx, cfg['results'], load_rep_fname)
+TypeError: 'Config' object has no attribute '__getitem__'
+12:54:53 -     INFO - wally           - Start html_report_stage
+12:54:53 -    ERROR - wally.report    - Diring hdd report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 642, in make_hdd_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+12:54:53 -     INFO - wally           - All info stored into /home/mosorio/wally/results/nomada_results/mutual_marlin
+12:54:53 -     INFO - wally           - Tests finished successfully
+15:03:54 -     INFO - wally           - All info would be stored into /home/mosorio/wally/results/nomada_results/mutual_marlin
+15:03:54 -     INFO - wally           - Start load_data_from_path_stage
+15:03:55 -    DEBUG - wally           - Start utils.cleanup
+15:03:55 -     INFO - wally           - Start console_report_stage
+15:03:56 -     INFO - wally           - Text report were stored in /home/mosorio/wally/results/nomada_results/mutual_marlin/report.txt
+15:03:56 -     INFO - wally           - Start html_report_stage
+15:03:59 -     INFO - wally.report    - Report hdd saved into /home/mosorio/wally/results/nomada_results/mutual_marlin/hdd_report.html
+15:03:59 -     INFO - wally           - All info stored into /home/mosorio/wally/results/nomada_results/mutual_marlin
+15:03:59 -     INFO - wally           - Tests finished successfully

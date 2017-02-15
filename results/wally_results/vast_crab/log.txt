@@ -1,0 +1,38 @@
+17:10:11 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/vast_crab
+17:10:11 -     INFO - wally           - Start discover_stage
+17:10:11 -     INFO - wally           - Start reuse_vms_stage
+17:10:11 -     INFO - wally           - Start log_nodes_statistic_stage
+17:10:11 -     INFO - wally           - Found 1 nodes total
+17:10:11 -    DEBUG - wally           - Found 1 nodes with role testnode
+17:10:11 -     INFO - wally           - Start save_nodes_stage
+17:10:11 -     INFO - wally           - Start connect_stage
+17:10:11 -     INFO - wally           - Connecting to nodes
+17:10:12 -     INFO - wally           - All nodes connected successfully
+17:10:12 -     INFO - wally           - Start run_tests_stage
+17:10:12 -    DEBUG - wally           - Run preparation
+17:10:12 -    ERROR - wally           - Failed to create folder /tmp/wally/vast_crab/io on remote 170.80.74.32:32770. Error: SSH:170.80.74.32:32770 Cmd 'sudo mkdir -p "/tmp/wally/vast_crab/io" ; sudo chown root /tmp/wally/vast_crab/io' failed with code 127. Output: bash: sudo: command not found
+bash: sudo: command not found
+Traceback (most recent call last):
+  File "wally/suits/io/fio.py", line 656, in pre_run_th
+    rossh(cmd, nolog=True)
+  File "wally/suits/itest.py", line 204, in closure
+    **kwargs)
+  File "wally/ssh_utils.py", line 543, in run_over_ssh
+    raise OSError(templ.format(node, cmd, code, output))
+OSError: SSH:170.80.74.32:32770 Cmd 'sudo mkdir -p "/tmp/wally/vast_crab/io" ; sudo chown root /tmp/wally/vast_crab/io' failed with code 127. Output: bash: sudo: command not found
+bash: sudo: command not found
+
+17:10:12 -    ERROR - wally           - XXXX
+Traceback (most recent call last):
+  File "wally/suits/io/fio.py", line 665, in pre_run_th
+    raise StopTestError(msg, exc)
+StopTestError: Failed to create folder /tmp/wally/vast_crab/io on remote 170.80.74.32:32770. Error: SSH:170.80.74.32:32770 Cmd 'sudo mkdir -p "/tmp/wally/vast_crab/io" ; sudo chown root /tmp/wally/vast_crab/io' failed with code 127. Output: bash: sudo: command not found
+bash: sudo: command not found
+
+17:10:12 -    ERROR - wally           - Exception during run_tests_stage: Failed to create folder /tmp/wally/vast_crab/io on remote 170.80.74.32:32770. Error: SSH:170.80.74.32:32770 Cmd 'sudo mkdir -p "/tmp/wally/vast_crab/io" ; sudo chown root /tmp/wally/vast_crab/io' failed with code 127. Output: bash: sudo: command not found
+bash: sudo: command not found
+
+17:10:12 -     INFO - wally           - Start disconnect_stage
+17:10:12 -    DEBUG - wally           - Start utils.cleanup
+17:10:12 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/vast_crab
+17:10:12 -    ERROR - wally           - Tests are failed. See detailed error above

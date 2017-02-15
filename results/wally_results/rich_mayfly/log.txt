@@ -1,0 +1,61 @@
+10:16:36 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/rich_mayfly
+10:16:36 -     INFO - wally           - Start discover_stage
+10:16:36 -     INFO - wally           - Start reuse_vms_stage
+10:16:36 -     INFO - wally           - Start log_nodes_statistic_stage
+10:16:36 -     INFO - wally           - Found 1 nodes total
+10:16:36 -    DEBUG - wally           - Found 1 nodes with role testnode
+10:16:36 -     INFO - wally           - Start save_nodes_stage
+10:16:36 -     INFO - wally           - Start connect_stage
+10:16:36 -     INFO - wally           - Connecting to nodes
+10:16:36 -     INFO - wally           - All nodes connected successfully
+10:16:36 -     INFO - wally           - Start run_tests_stage
+10:16:37 -    DEBUG - wally           - Run preparation
+10:16:39 -    DEBUG - wally           - prefill is skipped
+10:16:39 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 11:37:30
+10:16:39 -     INFO - wally           - Will run ceph_rws4kth1 test
+10:16:39 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:20:09, will wait at most till 10:25:09
+10:16:39 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rich_mayfly/io/cmd.sh'
+10:20:12 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:20:12 -     INFO - wally           - Will run ceph_rws4kth5 test
+10:20:12 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:23:42, will wait at most till 10:28:42
+10:20:13 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rich_mayfly/io/cmd.sh'
+10:23:46 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:23:47 -     INFO - wally           - Will run ceph_rws4kth10 test
+10:23:47 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:27:17, will wait at most till 10:32:17
+10:23:47 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rich_mayfly/io/cmd.sh'
+10:27:20 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:27:21 -     INFO - wally           - Will run ceph_rws4kth15 test
+10:27:21 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:30:51, will wait at most till 10:35:51
+10:27:21 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rich_mayfly/io/cmd.sh'
+10:30:56 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:30:57 -     INFO - wally           - Will run ceph_rws4kth25 test
+10:30:57 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:34:27, will wait at most till 10:39:27
+10:30:57 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rich_mayfly/io/cmd.sh'
+10:34:34 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:34:35 -     INFO - wally           - Will run ceph_rws4kth40 test
+10:34:35 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:38:05, will wait at most till 10:43:05
+10:34:35 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rich_mayfly/io/cmd.sh'
+10:38:11 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:38:11 -     INFO - wally           - Will run ceph_rrd4kth1 test
+10:38:11 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:41:41, will wait at most till 10:46:41
+10:38:11 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rich_mayfly/io/cmd.sh'
+10:41:47 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:41:47 -     INFO - wally           - Will run ceph_rrd4kth5 test
+10:41:47 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:45:17, will wait at most till 10:50:17
+10:41:47 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/rich_mayfly/io/cmd.sh'
+18:21:55 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/rich_mayfly
+18:21:55 -     INFO - wally           - Start load_data_from_path_stage
+18:21:55 -    ERROR - wally           - During load_data_from_path_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 277, in main
+    stage(cfg, ctx)
+  File "wally/run_test.py", line 607, in load_data_from_path_stage
+    for tp, vals in load_data_from_path(var_dir).items():
+  File "wally/run_test.py", line 594, in load_data_from_path
+    raw_res = yaml_load(open(files['raw_results']).read())
+IOError: [Errno 2] No such file or directory: 'wally_results/rich_mayfly/raw_results.yaml'
+18:21:55 -    DEBUG - wally           - Start utils.cleanup
+18:21:55 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/rich_mayfly
+18:21:55 -    ERROR - wally           - Tests are failed. See detailed error above

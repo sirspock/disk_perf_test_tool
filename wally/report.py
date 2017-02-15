@@ -371,7 +371,7 @@ def io_chart(title, concurence,
              latv_95=None,
              error2=None):
 
-    matplotlib.rcParams.update({'font.size': 10})
+    #matplotlib.rcParams.update({'font.size': 10})
     points = " MiBps" if legend == 'BW' else ""
     lc = len(concurence)
     width = 0.35

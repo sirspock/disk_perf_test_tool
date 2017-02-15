@@ -1,0 +1,52 @@
+17:12:29 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/viable_ram
+17:12:29 -     INFO - wally           - Start discover_stage
+17:12:29 -     INFO - wally           - Start reuse_vms_stage
+17:12:29 -     INFO - wally           - Start log_nodes_statistic_stage
+17:12:29 -     INFO - wally           - Found 1 nodes total
+17:12:29 -    DEBUG - wally           - Found 1 nodes with role testnode
+17:12:29 -     INFO - wally           - Start save_nodes_stage
+17:12:29 -     INFO - wally           - Start connect_stage
+17:12:29 -     INFO - wally           - Connecting to nodes
+17:12:29 -     INFO - wally           - All nodes connected successfully
+17:12:29 -     INFO - wally           - Start run_tests_stage
+17:12:29 -    DEBUG - wally           - Run preparation
+17:12:29 -    ERROR - wally           - XXXX
+Traceback (most recent call last):
+  File "wally/suits/io/fio.py", line 667, in pre_run_th
+    self.install_utils(node, rossh)
+  File "wally/suits/io/fio.py", line 565, in install_utils
+    os_info = get_os(rossh)
+  File "wally/utils.py", line 351, in get_os
+    raise RuntimeError("Unknown os")
+RuntimeError: Unknown os
+17:12:29 -    ERROR - wally           - During run_tests_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 277, in main
+    stage(cfg, ctx)
+  File "wally/run_test.py", line 481, in run_tests_stage
+    for tp, res in run_tests(cfg, test_group, ctx.nodes):
+  File "wally/run_test.py", line 242, in run_tests
+    res = test_cls(test_cfg).run()
+  File "wally/suits/io/fio.py", line 687, in run
+    self.pre_run()
+  File "wally/suits/io/fio.py", line 642, in pre_run
+    list(pool.map(fc, self.config.nodes))
+  File "/home/mosorio/.pyenv/versions/2.7.10/lib/python2.7/site-packages/concurrent/futures/_base.py", line 581, in result_iterator
+    yield future.result()
+  File "/home/mosorio/.pyenv/versions/2.7.10/lib/python2.7/site-packages/concurrent/futures/_base.py", line 405, in result
+    return self.__get_result()
+  File "/home/mosorio/.pyenv/versions/2.7.10/lib/python2.7/site-packages/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "wally/suits/io/fio.py", line 667, in pre_run_th
+    self.install_utils(node, rossh)
+  File "wally/suits/io/fio.py", line 565, in install_utils
+    os_info = get_os(rossh)
+  File "wally/utils.py", line 351, in get_os
+    raise RuntimeError("Unknown os")
+RuntimeError: Unknown os
+17:12:29 -     INFO - wally           - Start disconnect_stage
+17:12:29 -    DEBUG - wally           - Start utils.cleanup
+17:12:29 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/viable_ram
+17:12:29 -    ERROR - wally           - Tests are failed. See detailed error above

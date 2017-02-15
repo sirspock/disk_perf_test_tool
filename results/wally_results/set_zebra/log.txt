@@ -1,0 +1,33 @@
+17:55:24 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/set_zebra
+17:55:24 -     INFO - wally           - Start discover_stage
+17:55:24 -     INFO - wally           - Start reuse_vms_stage
+17:55:24 -     INFO - wally           - Start log_nodes_statistic_stage
+17:55:24 -     INFO - wally           - Found 1 nodes total
+17:55:24 -    DEBUG - wally           - Found 1 nodes with role testnode
+17:55:24 -     INFO - wally           - Start save_nodes_stage
+17:55:24 -     INFO - wally           - Start connect_stage
+17:55:24 -     INFO - wally           - Connecting to nodes
+17:55:24 -     INFO - wally           - All nodes connected successfully
+17:55:24 -     INFO - wally           - Start run_tests_stage
+17:55:24 -    DEBUG - wally           - Run preparation
+17:55:27 -    DEBUG - wally           - prefill is skipped
+17:55:27 -     INFO - wally           - Entire test should takes aroud: 0:24:45 and finished at 18:20:12
+17:55:27 -     INFO - wally           - Will run hdd_rwx4kth1 test
+17:55:27 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:57:57, will wait at most till 18:02:57
+17:55:27 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/set_zebra/io/cmd.sh'
+18:22:16 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/set_zebra
+18:22:16 -     INFO - wally           - Start load_data_from_path_stage
+18:22:16 -    ERROR - wally           - During load_data_from_path_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 277, in main
+    stage(cfg, ctx)
+  File "wally/run_test.py", line 607, in load_data_from_path_stage
+    for tp, vals in load_data_from_path(var_dir).items():
+  File "wally/run_test.py", line 594, in load_data_from_path
+    raw_res = yaml_load(open(files['raw_results']).read())
+IOError: [Errno 2] No such file or directory: 'wally_results/set_zebra/raw_results.yaml'
+18:22:16 -    DEBUG - wally           - Start utils.cleanup
+18:22:16 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/set_zebra
+18:22:16 -    ERROR - wally           - Tests are failed. See detailed error above

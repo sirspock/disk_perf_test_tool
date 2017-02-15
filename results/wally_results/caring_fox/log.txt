@@ -1,0 +1,65 @@
+12:00:08 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/caring_fox
+12:00:08 -     INFO - wally           - Start discover_stage
+12:00:08 -     INFO - wally           - Start reuse_vms_stage
+12:00:08 -     INFO - wally           - Start log_nodes_statistic_stage
+12:00:08 -     INFO - wally           - Found 1 nodes total
+12:00:08 -    DEBUG - wally           - Found 1 nodes with role testnode
+12:00:08 -     INFO - wally           - Start save_nodes_stage
+12:00:08 -     INFO - wally           - Start connect_stage
+12:00:08 -     INFO - wally           - Connecting to nodes
+12:00:08 -     INFO - wally           - All nodes connected successfully
+12:00:08 -     INFO - wally           - Start run_tests_stage
+12:00:08 -    DEBUG - wally           - Run preparation
+12:00:10 -    DEBUG - wally           - prefill is skipped
+12:00:10 -     INFO - wally           - Entire test should takes aroud: 0:19:15 and finished at 12:19:25
+12:00:10 -     INFO - wally           - Will run ceph_rws4kth1 test
+12:00:10 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:03:40, will wait at most till 12:08:40
+12:00:10 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/caring_fox/io/cmd.sh'
+14:59:12 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/caring_fox
+14:59:12 -     INFO - wally           - Start load_data_from_path_stage
+14:59:12 -    ERROR - wally           - During load_data_from_path_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 277, in main
+    stage(cfg, ctx)
+  File "wally/run_test.py", line 607, in load_data_from_path_stage
+    for tp, vals in load_data_from_path(var_dir).items():
+  File "wally/run_test.py", line 594, in load_data_from_path
+    raw_res = yaml_load(open(files['raw_results']).read())
+IOError: [Errno 2] No such file or directory: 'wally_results/caring_fox/raw_results.yaml'
+14:59:12 -    DEBUG - wally           - Start utils.cleanup
+14:59:12 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/caring_fox
+14:59:12 -    ERROR - wally           - Tests are failed. See detailed error above
+18:18:16 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/caring_fox
+18:18:16 -     INFO - wally           - Start load_data_from_path_stage
+18:18:16 -    ERROR - wally           - During load_data_from_path_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 277, in main
+    stage(cfg, ctx)
+  File "wally/run_test.py", line 607, in load_data_from_path_stage
+    for tp, vals in load_data_from_path(var_dir).items():
+  File "wally/run_test.py", line 594, in load_data_from_path
+    raw_res = yaml_load(open(files['raw_results']).read())
+IOError: [Errno 2] No such file or directory: 'wally_results/caring_fox/raw_results.yaml'
+18:18:16 -    DEBUG - wally           - Start utils.cleanup
+18:18:16 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/caring_fox
+18:18:16 -    ERROR - wally           - Tests are failed. See detailed error above
+18:20:19 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/caring_fox
+18:20:19 -     INFO - wally           - Start load_data_from_path_stage
+18:20:19 -    ERROR - wally           - During load_data_from_path_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 277, in main
+    stage(cfg, ctx)
+  File "wally/run_test.py", line 607, in load_data_from_path_stage
+    for tp, vals in load_data_from_path(var_dir).items():
+  File "wally/run_test.py", line 594, in load_data_from_path
+    raw_res = yaml_load(open(files['raw_results']).read())
+IOError: [Errno 2] No such file or directory: 'wally_results/caring_fox/raw_results.yaml'
+18:20:19 -    DEBUG - wally           - Start utils.cleanup
+18:20:19 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/caring_fox
+18:20:19 -    ERROR - wally           - Tests are failed. See detailed error above

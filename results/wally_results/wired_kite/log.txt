@@ -1,0 +1,71 @@
+11:26:58 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/wired_kite
+11:26:58 -     INFO - wally           - Start discover_stage
+11:26:58 -     INFO - wally           - Start reuse_vms_stage
+11:26:58 -     INFO - wally           - Start log_nodes_statistic_stage
+11:26:58 -     INFO - wally           - Found 1 nodes total
+11:26:58 -    DEBUG - wally           - Found 1 nodes with role testnode
+11:26:58 -     INFO - wally           - Start save_nodes_stage
+11:26:58 -     INFO - wally           - Start connect_stage
+11:26:58 -     INFO - wally           - Connecting to nodes
+11:26:58 -     INFO - wally           - All nodes connected successfully
+11:26:58 -     INFO - wally           - Start run_tests_stage
+11:26:58 -    DEBUG - wally           - Run preparation
+11:27:01 -    DEBUG - wally           - prefill is skipped
+11:27:01 -     INFO - wally           - Entire test should takes aroud: 0:19:15 and finished at 11:46:16
+11:27:01 -     INFO - wally           - Will run ceph_rws4kth1 test
+11:27:01 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:30:31, will wait at most till 11:35:31
+11:27:01 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/wired_kite/io/cmd.sh'
+11:30:34 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:30:35 -     INFO - wally           - Will run ceph_rrd4kth1 test
+11:30:35 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:34:05, will wait at most till 11:39:05
+11:30:35 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/wired_kite/io/cmd.sh'
+11:34:09 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:34:09 -     INFO - wally           - Will run ceph_rwd4kth1 test
+11:34:09 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:37:39, will wait at most till 11:42:39
+11:34:09 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/wired_kite/io/cmd.sh'
+11:37:43 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:37:43 -     INFO - wally           - Will run ceph_rrd16mth1 test
+11:37:43 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:41:13, will wait at most till 11:46:13
+11:37:43 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/wired_kite/io/cmd.sh'
+11:41:16 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:41:17 -     INFO - wally           - Will run ceph_rwd16mth1 test
+11:41:17 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:44:47, will wait at most till 11:49:47
+11:41:17 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/wired_kite/io/cmd.sh'
+11:44:50 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:44:51 -     INFO - wally           - Start store_raw_results_stage
+11:44:51 -     INFO - wally           - Start disconnect_stage
+11:44:51 -    DEBUG - wally           - Start utils.cleanup
+11:44:51 -     INFO - wally           - Start console_report_stage
+11:44:51 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/wired_kite/report.txt
+11:44:51 -     INFO - wally           - Start html_report_stage
+11:44:51 -    ERROR - wally.report    - Diring ceph report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 678, in make_ceph_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+11:44:51 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/wired_kite
+11:44:51 -     INFO - wally           - Tests finished successfully
+18:19:51 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/wired_kite
+18:19:51 -     INFO - wally           - Start load_data_from_path_stage
+18:19:52 -    DEBUG - wally           - Start utils.cleanup
+18:19:52 -     INFO - wally           - Start console_report_stage
+18:19:52 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/wired_kite/report.txt
+18:19:52 -     INFO - wally           - Start html_report_stage
+18:19:53 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/wired_kite/ceph_report.html
+18:19:53 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/wired_kite
+18:19:53 -     INFO - wally           - Tests finished successfully
+18:22:35 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/wired_kite
+18:22:35 -     INFO - wally           - Start load_data_from_path_stage
+18:22:35 -    DEBUG - wally           - Start utils.cleanup
+18:22:35 -     INFO - wally           - Start console_report_stage
+18:22:36 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/wired_kite/report.txt
+18:22:36 -     INFO - wally           - Start html_report_stage
+18:22:37 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/wired_kite/ceph_report.html
+18:22:37 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/wired_kite
+18:22:37 -     INFO - wally           - Tests finished successfully

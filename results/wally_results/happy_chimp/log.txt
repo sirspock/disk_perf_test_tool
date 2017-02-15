@@ -1,0 +1,16 @@
+15:18:41 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/happy_chimp
+15:18:41 -     INFO - wally           - Start discover_stage
+15:18:41 -     INFO - wally           - Start reuse_vms_stage
+15:18:41 -     INFO - wally           - Start log_nodes_statistic_stage
+15:18:41 -     INFO - wally           - Found 1 nodes total
+15:18:41 -    DEBUG - wally           - Found 1 nodes with role testnode
+15:18:41 -     INFO - wally           - Start save_nodes_stage
+15:18:41 -     INFO - wally           - Start connect_stage
+15:18:41 -     INFO - wally           - Connecting to nodes
+15:18:41 -    ERROR - wally           - During connect to root@localhost::/home/zeus/.ssh/id_rsa: [Errno 13] Permission denied: '/home/zeus/.ssh/id_rsa'
+15:18:41 -    ERROR - wally           - Can't connect to testnode(s) localhost:22
+15:18:41 -    ERROR - wally           - Exception during connect_stage: Can't connect to testnode(s) localhost:22
+15:18:41 -     INFO - wally           - Start disconnect_stage
+15:18:41 -    DEBUG - wally           - Start utils.cleanup
+15:18:41 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/happy_chimp
+15:18:41 -    ERROR - wally           - Tests are failed. See detailed error above

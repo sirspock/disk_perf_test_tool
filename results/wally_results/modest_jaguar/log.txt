@@ -1,0 +1,78 @@
+18:00:10 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/modest_jaguar
+18:00:10 -     INFO - wally           - Start discover_stage
+18:00:10 -     INFO - wally           - Start reuse_vms_stage
+18:00:10 -     INFO - wally           - Start log_nodes_statistic_stage
+18:00:10 -     INFO - wally           - Found 1 nodes total
+18:00:10 -    DEBUG - wally           - Found 1 nodes with role testnode
+18:00:10 -     INFO - wally           - Start save_nodes_stage
+18:00:10 -     INFO - wally           - Start connect_stage
+18:00:10 -     INFO - wally           - Connecting to nodes
+18:00:11 -     INFO - wally           - All nodes connected successfully
+18:00:11 -     INFO - wally           - Start run_tests_stage
+18:00:11 -    DEBUG - wally           - Run preparation
+18:00:13 -    DEBUG - wally           - prefill is skipped
+18:00:13 -     INFO - wally           - Entire test should takes aroud: 0:24:45 and finished at 18:24:58
+18:00:13 -     INFO - wally           - Will run hdd_rwx4kth1 test
+18:00:13 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 18:02:43, will wait at most till 18:07:43
+18:00:13 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/modest_jaguar/io/cmd.sh'
+18:02:47 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+18:02:47 -     INFO - wally           - Will run hdd_rwx4kth5 test
+18:02:47 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 18:05:17, will wait at most till 18:10:17
+18:02:47 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/modest_jaguar/io/cmd.sh'
+18:05:22 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+18:05:22 -     INFO - wally           - Will run hdd_rwx4kth10 test
+18:05:22 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 18:07:52, will wait at most till 18:12:52
+18:05:22 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/modest_jaguar/io/cmd.sh'
+18:07:56 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+18:07:57 -     INFO - wally           - Will run hdd_rrd4kth1 test
+18:07:57 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 18:10:27, will wait at most till 18:15:27
+18:07:57 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/modest_jaguar/io/cmd.sh'
+18:10:31 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+18:10:31 -     INFO - wally           - Will run hdd_rrd4kth5 test
+18:10:31 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 18:13:01, will wait at most till 18:18:01
+18:10:31 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/modest_jaguar/io/cmd.sh'
+18:13:05 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+18:13:06 -     INFO - wally           - Will run hdd_rrd4kth10 test
+18:13:06 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 18:15:36, will wait at most till 18:20:36
+18:13:06 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/modest_jaguar/io/cmd.sh'
+18:15:40 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+18:15:40 -     INFO - wally           - Will run hdd_srd1mth1 test
+18:15:40 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 18:18:10, will wait at most till 18:23:10
+18:15:41 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/modest_jaguar/io/cmd.sh'
+18:18:15 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+18:18:15 -     INFO - wally           - Will run hdd_swd1mth1 test
+18:18:15 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 18:20:45, will wait at most till 18:25:45
+18:18:15 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/modest_jaguar/io/cmd.sh'
+18:20:49 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+18:20:50 -     INFO - wally           - Will run hdd_rwd4kth1 test
+18:20:50 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 18:23:20, will wait at most till 18:28:20
+18:20:50 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/modest_jaguar/io/cmd.sh'
+18:23:24 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+18:23:24 -     INFO - wally           - Start store_raw_results_stage
+18:23:24 -     INFO - wally           - Start disconnect_stage
+18:23:25 -    DEBUG - wally           - Start utils.cleanup
+18:23:25 -     INFO - wally           - Start console_report_stage
+18:23:25 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/modest_jaguar/report.txt
+18:23:25 -     INFO - wally           - Start html_report_stage
+18:23:25 -    ERROR - wally.report    - Diring hdd report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 642, in make_hdd_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+18:23:25 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/modest_jaguar
+18:23:25 -     INFO - wally           - Tests finished successfully
+18:21:32 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/modest_jaguar
+18:21:32 -     INFO - wally           - Start load_data_from_path_stage
+18:21:32 -    DEBUG - wally           - Start utils.cleanup
+18:21:32 -     INFO - wally           - Start console_report_stage
+18:21:33 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/modest_jaguar/report.txt
+18:21:33 -     INFO - wally           - Start html_report_stage
+18:21:34 -     INFO - wally.report    - Report hdd saved into /home/mosorio/wally/wally_results/modest_jaguar/hdd_report.html
+18:21:34 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/modest_jaguar
+18:21:34 -     INFO - wally           - Tests finished successfully

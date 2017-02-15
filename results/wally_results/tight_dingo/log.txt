@@ -1,0 +1,126 @@
+11:54:36 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/tight_dingo
+11:54:36 -     INFO - wally           - Start discover_stage
+11:54:36 -     INFO - wally           - Start reuse_vms_stage
+11:54:36 -     INFO - wally           - Start log_nodes_statistic_stage
+11:54:36 -     INFO - wally           - Found 1 nodes total
+11:54:36 -    DEBUG - wally           - Found 1 nodes with role testnode
+11:54:36 -     INFO - wally           - Start save_nodes_stage
+11:54:36 -     INFO - wally           - Start connect_stage
+11:54:36 -     INFO - wally           - Connecting to nodes
+11:54:36 -     INFO - wally           - All nodes connected successfully
+11:54:36 -     INFO - wally           - Start run_tests_stage
+11:54:36 -    DEBUG - wally           - Run preparation
+11:54:39 -    DEBUG - wally           - prefill is skipped
+11:54:39 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 13:15:30
+11:54:39 -     INFO - wally           - Will run ceph_rws4kth1 test
+11:54:39 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:58:09, will wait at most till 12:03:09
+11:54:39 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+11:58:12 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:58:13 -     INFO - wally           - Will run ceph_rws4kth5 test
+11:58:13 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:01:43, will wait at most till 12:06:43
+11:58:13 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+12:01:46 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:01:46 -     INFO - wally           - Will run ceph_rws4kth10 test
+12:01:46 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:05:16, will wait at most till 12:10:16
+12:01:47 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+12:05:20 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:05:20 -     INFO - wally           - Will run ceph_rws4kth15 test
+12:05:20 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:08:50, will wait at most till 12:13:50
+12:05:20 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+12:09:02 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:09:02 -     INFO - wally           - Will run ceph_rws4kth25 test
+12:09:02 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:12:32, will wait at most till 12:17:32
+12:09:02 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+12:12:40 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:12:40 -     INFO - wally           - Will run ceph_rws4kth40 test
+12:12:40 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:16:10, will wait at most till 12:21:10
+12:12:40 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+12:16:22 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:16:22 -     INFO - wally           - Will run ceph_rrd4kth1 test
+12:16:22 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:19:52, will wait at most till 12:24:52
+12:16:23 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+12:19:58 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:19:58 -     INFO - wally           - Will run ceph_rrd4kth5 test
+12:19:58 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:23:28, will wait at most till 12:28:28
+12:19:59 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+12:23:32 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:23:32 -     INFO - wally           - Will run ceph_rrd4kth10 test
+12:23:32 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:27:02, will wait at most till 12:32:02
+12:23:32 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+12:27:06 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:27:06 -     INFO - wally           - Will run ceph_rrd4kth15 test
+12:27:06 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:30:36, will wait at most till 12:35:36
+12:27:06 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+12:30:40 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:30:40 -     INFO - wally           - Will run ceph_rrd4kth25 test
+12:30:40 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:34:10, will wait at most till 12:39:10
+12:30:40 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+12:34:14 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:34:14 -     INFO - wally           - Will run ceph_rrd4kth40 test
+12:34:14 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:37:44, will wait at most till 12:42:44
+12:34:14 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+12:37:48 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:37:48 -     INFO - wally           - Will run ceph_rrd4kth80 test
+12:37:48 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:41:18, will wait at most till 12:46:18
+12:37:48 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+12:41:22 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:41:23 -     INFO - wally           - Will run ceph_rrd4kth120 test
+12:41:23 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:44:53, will wait at most till 12:49:53
+12:41:23 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+12:44:57 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:44:59 -     INFO - wally           - Will run ceph_rwd4kth1 test
+12:44:59 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:48:29, will wait at most till 12:53:29
+12:44:59 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+12:48:32 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:48:33 -     INFO - wally           - Will run ceph_rrd16mth1 test
+12:48:33 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:52:03, will wait at most till 12:57:03
+12:48:33 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+12:52:06 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:52:07 -     INFO - wally           - Will run ceph_rrd16mth3 test
+12:52:07 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:55:37, will wait at most till 13:00:37
+12:52:07 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+12:55:40 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:55:40 -     INFO - wally           - Will run ceph_rrd16mth10 test
+12:55:40 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:59:10, will wait at most till 13:04:10
+12:55:40 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+12:59:14 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:59:14 -     INFO - wally           - Will run ceph_rwd16mth1 test
+12:59:14 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:02:44, will wait at most till 13:07:44
+12:59:14 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+13:02:48 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:02:48 -     INFO - wally           - Will run ceph_rwd16mth3 test
+13:02:48 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:06:18, will wait at most till 13:11:18
+13:02:48 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+13:06:22 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:06:22 -     INFO - wally           - Will run ceph_rwd16mth10 test
+13:06:22 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:09:52, will wait at most till 13:14:52
+13:06:22 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/tight_dingo/io/cmd.sh'
+13:10:00 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:10:00 -     INFO - wally           - Start store_raw_results_stage
+13:10:00 -     INFO - wally           - Start disconnect_stage
+13:10:00 -    DEBUG - wally           - Start utils.cleanup
+13:10:00 -     INFO - wally           - Start console_report_stage
+13:10:02 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/tight_dingo/report.txt
+13:10:02 -     INFO - wally           - Start html_report_stage
+13:10:02 -    ERROR - wally.report    - Diring ceph report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 678, in make_ceph_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+13:10:02 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/tight_dingo
+13:10:02 -     INFO - wally           - Tests finished successfully
+18:22:17 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/tight_dingo
+18:22:17 -     INFO - wally           - Start load_data_from_path_stage
+18:22:23 -    DEBUG - wally           - Start utils.cleanup
+18:22:23 -     INFO - wally           - Start console_report_stage
+18:22:24 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/tight_dingo/report.txt
+18:22:24 -     INFO - wally           - Start html_report_stage
+18:22:27 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/tight_dingo/ceph_report.html
+18:22:27 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/tight_dingo
+18:22:27 -     INFO - wally           - Tests finished successfully

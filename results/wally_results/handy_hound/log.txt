@@ -1,0 +1,62 @@
+16:49:11 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/handy_hound
+16:49:11 -     INFO - wally           - Start discover_stage
+16:49:11 -     INFO - wally           - Start reuse_vms_stage
+16:49:11 -     INFO - wally           - Start log_nodes_statistic_stage
+16:49:11 -     INFO - wally           - Found 1 nodes total
+16:49:11 -    DEBUG - wally           - Found 1 nodes with role testnode
+16:49:11 -     INFO - wally           - Start save_nodes_stage
+16:49:11 -     INFO - wally           - Start connect_stage
+16:49:11 -     INFO - wally           - Connecting to nodes
+16:49:11 -     INFO - wally           - All nodes connected successfully
+16:49:11 -     INFO - wally           - Start run_tests_stage
+16:49:11 -    DEBUG - wally           - Run preparation
+16:50:12 -    ERROR - wally           - XXXX
+Traceback (most recent call last):
+  File "wally/suits/io/fio.py", line 668, in pre_run_th
+    self.prefill_test_files(rossh, files, force)
+  File "wally/suits/io/fio.py", line 545, in prefill_test_files
+    if not self.check_prefill_required(rossh, fname, curr_sz):
+  File "wally/suits/io/fio.py", line 508, in check_prefill_required
+    data = rossh(cmd.format(fname, offset), nolog=True)
+  File "wally/suits/itest.py", line 204, in closure
+    **kwargs)
+  File "wally/ssh_utils.py", line 528, in run_over_ssh
+    raise OSError(output + "\nExecution timeout")
+OSError: 
+Execution timeout
+16:50:12 -    ERROR - wally           - During run_tests_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 277, in main
+    stage(cfg, ctx)
+  File "wally/run_test.py", line 481, in run_tests_stage
+    for tp, res in run_tests(cfg, test_group, ctx.nodes):
+  File "wally/run_test.py", line 242, in run_tests
+    res = test_cls(test_cfg).run()
+  File "wally/suits/io/fio.py", line 687, in run
+    self.pre_run()
+  File "wally/suits/io/fio.py", line 642, in pre_run
+    list(pool.map(fc, self.config.nodes))
+  File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/concurrent/futures/_base.py", line 581, in result_iterator
+    yield future.result()
+  File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/concurrent/futures/_base.py", line 405, in result
+    return self.__get_result()
+  File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "wally/suits/io/fio.py", line 668, in pre_run_th
+    self.prefill_test_files(rossh, files, force)
+  File "wally/suits/io/fio.py", line 545, in prefill_test_files
+    if not self.check_prefill_required(rossh, fname, curr_sz):
+  File "wally/suits/io/fio.py", line 508, in check_prefill_required
+    data = rossh(cmd.format(fname, offset), nolog=True)
+  File "wally/suits/itest.py", line 204, in closure
+    **kwargs)
+  File "wally/ssh_utils.py", line 528, in run_over_ssh
+    raise OSError(output + "\nExecution timeout")
+OSError: 
+Execution timeout
+16:50:12 -     INFO - wally           - Start disconnect_stage
+16:50:12 -    DEBUG - wally           - Start utils.cleanup
+16:50:12 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/handy_hound
+16:50:12 -    ERROR - wally           - Tests are failed. See detailed error above

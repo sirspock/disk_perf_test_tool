@@ -1,0 +1,9 @@
+16:47:07 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/able_cicada
+16:47:07 -     INFO - wally           - Start discover_stage
+16:47:07 -     INFO - wally           - Start reuse_vms_stage
+16:47:07 -     INFO - wally           - Start log_nodes_statistic_stage
+16:47:07 -     INFO - wally           - Found 1 nodes total
+16:47:07 -    DEBUG - wally           - Found 1 nodes with role testnode
+16:47:07 -     INFO - wally           - Start save_nodes_stage
+16:47:07 -     INFO - wally           - Start connect_stage
+16:47:07 -     INFO - wally           - Connecting to nodes

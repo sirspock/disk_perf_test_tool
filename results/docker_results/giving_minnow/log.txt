@@ -1,0 +1,77 @@
+18:04:35 -     INFO - wally           - All info would be stored into /home/mosorio/wally/docker_results/giving_minnow
+18:04:35 -     INFO - wally           - Start discover_stage
+18:04:35 -     INFO - wally           - Start reuse_vms_stage
+18:04:35 -     INFO - wally           - Start log_nodes_statistic_stage
+18:04:35 -     INFO - wally           - Found 1 nodes total
+18:04:35 -    DEBUG - wally           - Found 1 nodes with role testnode
+18:04:35 -     INFO - wally           - Start save_nodes_stage
+18:04:35 -     INFO - wally           - Start connect_stage
+18:04:35 -     INFO - wally           - Connecting to nodes
+18:04:35 -     INFO - wally           - All nodes connected successfully
+18:04:35 -     INFO - wally           - Start run_tests_stage
+18:04:35 -    DEBUG - wally           - Run preparation
+18:04:37 -    DEBUG - wally           - prefill is skipped
+18:04:37 -     INFO - wally           - Entire test should takes aroud: 0:16:30 and finished at 18:21:07
+18:04:37 -     INFO - wally           - Will run hdd_rwx4kth1 test
+18:04:37 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 18:07:07, will wait at most till 18:12:07
+18:04:38 -    DEBUG - wally           - SSH:170.80.74.32:32770 Exec 'screen -S test -d -m sudo bash /tmp/wally/giving_minnow/io/cmd.sh'
+18:07:10 -    DEBUG - wally           - Test on node 170.80.74.32_32770 is finished
+18:07:11 -     INFO - wally           - Will run hdd_rwx4kth2 test
+18:07:11 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 18:09:41, will wait at most till 18:14:41
+18:07:11 -    DEBUG - wally           - SSH:170.80.74.32:32770 Exec 'screen -S test -d -m sudo bash /tmp/wally/giving_minnow/io/cmd.sh'
+18:09:45 -    DEBUG - wally           - Test on node 170.80.74.32_32770 is finished
+18:09:45 -     INFO - wally           - Will run hdd_rwx4kth3 test
+18:09:45 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 18:12:15, will wait at most till 18:17:15
+18:09:46 -    DEBUG - wally           - SSH:170.80.74.32:32770 Exec 'screen -S test -d -m sudo bash /tmp/wally/giving_minnow/io/cmd.sh'
+18:12:20 -    DEBUG - wally           - Test on node 170.80.74.32_32770 is finished
+18:12:21 -     INFO - wally           - Will run hdd_rwx4kth4 test
+18:12:21 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 18:14:51, will wait at most till 18:19:51
+18:12:21 -    DEBUG - wally           - SSH:170.80.74.32:32770 Exec 'screen -S test -d -m sudo bash /tmp/wally/giving_minnow/io/cmd.sh'
+18:14:55 -    DEBUG - wally           - Test on node 170.80.74.32_32770 is finished
+18:14:56 -     INFO - wally           - Will run hdd_rwx4kth5 test
+18:14:56 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 18:17:26, will wait at most till 18:22:26
+18:14:56 -    DEBUG - wally           - SSH:170.80.74.32:32770 Exec 'screen -S test -d -m sudo bash /tmp/wally/giving_minnow/io/cmd.sh'
+18:17:30 -    DEBUG - wally           - Test on node 170.80.74.32_32770 is finished
+18:17:31 -     INFO - wally           - Will run hdd_rwd4kth1 test
+18:17:31 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 18:20:01, will wait at most till 18:25:01
+18:17:31 -    DEBUG - wally           - SSH:170.80.74.32:32770 Exec 'screen -S test -d -m sudo bash /tmp/wally/giving_minnow/io/cmd.sh'
+18:20:05 -    DEBUG - wally           - Test on node 170.80.74.32_32770 is finished
+18:20:05 -     INFO - wally           - Start store_raw_results_stage
+18:20:05 -     INFO - wally           - Start disconnect_stage
+18:20:05 -    DEBUG - wally           - Start utils.cleanup
+18:20:05 -     INFO - wally           - Start console_report_stage
+18:20:05 -    ERROR - wally           - During console_report_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 295, in main
+    report_stage(cfg, ctx)
+  File "wally/run_test.py", line 541, in console_report_stage
+    IOPerfTest.format_for_console(list(result)))
+  File "wally/suits/io/fio.py", line 1083, in format_for_console
+    for item in cls.prepare_data(results):
+  File "wally/suits/io/fio.py", line 999, in prepare_data
+    test_dinfo = item.disk_perf_info()
+  File "wally/suits/io/fio.py", line 372, in disk_perf_info
+    pinfo.raw_iops_sys = map(prepare, self.iops_sys.per_vm())
+  File "wally/suits/io/fio.py", line 338, in prepare
+    if ts_data.average_interval() < avg_interval:
+  File "wally/suits/itest.py", line 130, in average_interval
+    return float(sum([val[1] for val in self.data])) / len(self.data)
+ZeroDivisionError: float division by zero
+18:20:05 -     INFO - wally           - Start html_report_stage
+18:20:05 -    ERROR - wally.report    - Diring hdd report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 641, in make_hdd_report
+    perf_infos = [res.disk_perf_info() for res in processed_results]
+  File "wally/suits/io/fio.py", line 372, in disk_perf_info
+    pinfo.raw_iops_sys = map(prepare, self.iops_sys.per_vm())
+  File "wally/suits/io/fio.py", line 338, in prepare
+    if ts_data.average_interval() < avg_interval:
+  File "wally/suits/itest.py", line 130, in average_interval
+    return float(sum([val[1] for val in self.data])) / len(self.data)
+ZeroDivisionError: float division by zero
+18:20:05 -     INFO - wally           - All info stored into /home/mosorio/wally/docker_results/giving_minnow
+18:20:05 -     INFO - wally           - Tests finished successfully

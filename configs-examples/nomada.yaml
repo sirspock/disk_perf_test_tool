@@ -1,0 +1,11 @@
+include: default.yaml
+explicit_nodes: 
+    "ssh://root@170.80.74.57:22:/home/mosorio/.ssh/wally": testnode
+       
+tests:
+    - io:
+        cfg: hdd
+        params:
+            NUM_ROUNDS: 1
+            FILENAME: /mnt/test.raw
+            TEST_FILE_SIZE: 10G

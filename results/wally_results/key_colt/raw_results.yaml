@@ -1,0 +1,12 @@
+-   -   io
+    -   -   hdd: 
+                -   /home/mosorio/wally/wally_results/key_colt/results/io_0
+                -   [rwx4kth1vm1,0]
+                -   [rwx4kth5vm1,1]
+                -   [rwx4kth10vm1,2]
+                -   [rrd4kth1vm1,3]
+                -   [rrd4kth5vm1,4]
+                -   [rrd4kth10vm1,5]
+                -   [srd1mth1vm1,6]
+                -   [swd1mth1vm1,7]
+                -   [rwd4kth1vm1,8]

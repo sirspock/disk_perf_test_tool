@@ -1,0 +1,43 @@
+14:03:48 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/smooth_osprey
+14:03:48 -     INFO - wally           - Start discover_stage
+14:03:48 -     INFO - wally           - Start reuse_vms_stage
+14:03:48 -     INFO - wally           - Start log_nodes_statistic_stage
+14:03:48 -     INFO - wally           - Found 1 nodes total
+14:03:48 -    DEBUG - wally           - Found 1 nodes with role testnode
+14:03:48 -     INFO - wally           - Start save_nodes_stage
+14:03:48 -     INFO - wally           - Start connect_stage
+14:03:48 -     INFO - wally           - Connecting to nodes
+14:03:49 -     INFO - wally           - All nodes connected successfully
+14:03:49 -     INFO - wally           - Start run_tests_stage
+14:03:49 -    DEBUG - wally           - Run preparation
+14:03:49 -     INFO - wally           - Prefilling file /root/test.raw
+14:03:49 -    DEBUG - wally           - SSH:138.219.231.195:2121 Exec 'sudo fio --name=xxx --filename=/root/test.raw --direct=1 --bs=4m --size=109m --rw=write'
+14:03:51 -     INFO - wally           - Initiall fio fill bw is 67 MiBps for this vm
+14:03:51 -     INFO - wally           - Entire test should takes aroud: 0:16:30 and finished at 14:20:21
+14:03:51 -     INFO - wally           - Will run hdd_rwx4kth1 test
+14:03:51 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 14:06:21, will wait at most till 14:11:21
+14:03:51 -    DEBUG - wally           - SSH:138.219.231.195:2121 Exec 'screen -S test -d -m sudo bash /tmp/wally/smooth_osprey/io/cmd.sh'
+14:06:24 -    DEBUG - wally           - Test on node 138.219.231.195_2121 is finished
+14:06:24 -    ERROR - wally           - During run_tests_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 277, in main
+    stage(cfg, ctx)
+  File "wally/run_test.py", line 481, in run_tests_stage
+    for tp, res in run_tests(cfg, test_group, ctx.nodes):
+  File "wally/run_test.py", line 242, in run_tests
+    res = test_cls(test_cfg).run()
+  File "wally/suits/io/fio.py", line 765, in run
+    res = load_test_results(self.config.log_directory, pos)
+  File "wally/suits/io/fio.py", line 131, in load_test_results
+    ts = load_sys_log_file(ftype, os.path.join(folder, fname))
+  File "wally/suits/io/fio.py", line 89, in load_sys_log_file
+    return TimeSeriesValue(vals)
+  File "wally/suits/itest.py", line 116, in __init__
+    assert len(data) > 0
+AssertionError
+14:06:24 -     INFO - wally           - Start disconnect_stage
+14:06:24 -    DEBUG - wally           - Start utils.cleanup
+14:06:24 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/smooth_osprey
+14:06:24 -    ERROR - wally           - Tests are failed. See detailed error above

@@ -1,0 +1,78 @@
+21:23:23 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/hip_grub
+21:23:23 -     INFO - wally           - Start discover_stage
+21:23:23 -     INFO - wally           - Start reuse_vms_stage
+21:23:23 -     INFO - wally           - Start log_nodes_statistic_stage
+21:23:23 -     INFO - wally           - Found 1 nodes total
+21:23:23 -    DEBUG - wally           - Found 1 nodes with role testnode
+21:23:23 -     INFO - wally           - Start save_nodes_stage
+21:23:23 -     INFO - wally           - Start connect_stage
+21:23:23 -     INFO - wally           - Connecting to nodes
+21:23:24 -     INFO - wally           - All nodes connected successfully
+21:23:24 -     INFO - wally           - Start run_tests_stage
+21:23:24 -    DEBUG - wally           - Run preparation
+21:23:26 -    DEBUG - wally           - prefill is skipped
+21:23:26 -     INFO - wally           - Entire test should takes aroud: 0:24:45 and finished at 21:48:11
+21:23:26 -     INFO - wally           - Will run hdd_rwx4kth1 test
+21:23:26 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 21:25:56, will wait at most till 21:30:56
+21:23:26 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/hip_grub/io/cmd.sh'
+21:26:00 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+21:26:00 -     INFO - wally           - Will run hdd_rwx4kth5 test
+21:26:00 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 21:28:30, will wait at most till 21:33:30
+21:26:00 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/hip_grub/io/cmd.sh'
+21:28:35 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+21:28:35 -     INFO - wally           - Will run hdd_rwx4kth10 test
+21:28:35 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 21:31:05, will wait at most till 21:36:05
+21:28:35 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/hip_grub/io/cmd.sh'
+21:31:09 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+21:31:10 -     INFO - wally           - Will run hdd_rrd4kth1 test
+21:31:10 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 21:33:40, will wait at most till 21:38:40
+21:31:10 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/hip_grub/io/cmd.sh'
+21:33:44 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+21:33:44 -     INFO - wally           - Will run hdd_rrd4kth5 test
+21:33:44 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 21:36:14, will wait at most till 21:41:14
+21:33:44 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/hip_grub/io/cmd.sh'
+21:36:18 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+21:36:19 -     INFO - wally           - Will run hdd_rrd4kth10 test
+21:36:19 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 21:38:49, will wait at most till 21:43:49
+21:36:19 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/hip_grub/io/cmd.sh'
+21:38:53 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+21:38:54 -     INFO - wally           - Will run hdd_srd1mth1 test
+21:38:54 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 21:41:24, will wait at most till 21:46:24
+21:38:54 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/hip_grub/io/cmd.sh'
+21:41:28 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+21:41:28 -     INFO - wally           - Will run hdd_swd1mth1 test
+21:41:28 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 21:43:58, will wait at most till 21:48:58
+21:41:28 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/hip_grub/io/cmd.sh'
+21:44:02 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+21:44:03 -     INFO - wally           - Will run hdd_rwd4kth1 test
+21:44:03 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 21:46:33, will wait at most till 21:51:33
+21:44:03 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/hip_grub/io/cmd.sh'
+21:46:37 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+21:46:37 -     INFO - wally           - Start store_raw_results_stage
+21:46:37 -     INFO - wally           - Start disconnect_stage
+21:46:38 -    DEBUG - wally           - Start utils.cleanup
+21:46:38 -     INFO - wally           - Start console_report_stage
+21:46:38 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/hip_grub/report.txt
+21:46:38 -     INFO - wally           - Start html_report_stage
+21:46:38 -    ERROR - wally.report    - Diring hdd report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 642, in make_hdd_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+21:46:38 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/hip_grub
+21:46:38 -     INFO - wally           - Tests finished successfully
+18:20:46 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/hip_grub
+18:20:46 -     INFO - wally           - Start load_data_from_path_stage
+18:20:46 -    DEBUG - wally           - Start utils.cleanup
+18:20:46 -     INFO - wally           - Start console_report_stage
+18:20:46 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/hip_grub/report.txt
+18:20:46 -     INFO - wally           - Start html_report_stage
+18:20:47 -     INFO - wally.report    - Report hdd saved into /home/mosorio/wally/wally_results/hip_grub/hdd_report.html
+18:20:47 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/hip_grub
+18:20:47 -     INFO - wally           - Tests finished successfully

@@ -1,0 +1,13 @@
+18:03:25 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/honest_ghost
+18:03:25 -     INFO - wally           - Start discover_stage
+18:03:25 -     INFO - wally           - Start reuse_vms_stage
+18:03:25 -     INFO - wally           - Start log_nodes_statistic_stage
+18:03:25 -     INFO - wally           - Found 1 nodes total
+18:03:25 -    DEBUG - wally           - Found 1 nodes with role testnode
+18:03:25 -     INFO - wally           - Start save_nodes_stage
+18:03:25 -     INFO - wally           - Start connect_stage
+18:03:25 -     INFO - wally           - Connecting to nodes
+18:03:26 -     INFO - wally           - All nodes connected successfully
+18:03:26 -     INFO - wally           - Start run_tests_stage
+18:03:26 -    DEBUG - wally           - Run preparation
+18:03:28 -    DEBUG - wally           - prefill is skipped

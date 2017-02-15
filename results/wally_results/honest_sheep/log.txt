@@ -1,0 +1,20 @@
+17:36:56 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/honest_sheep
+17:36:56 -     INFO - wally           - Start discover_stage
+17:36:56 -     INFO - wally           - Start reuse_vms_stage
+17:36:56 -     INFO - wally           - Start log_nodes_statistic_stage
+17:36:56 -     INFO - wally           - Found 1 nodes total
+17:36:56 -    DEBUG - wally           - Found 1 nodes with role testnode
+17:36:56 -     INFO - wally           - Start save_nodes_stage
+17:36:56 -     INFO - wally           - Start connect_stage
+17:36:56 -     INFO - wally           - Connecting to nodes
+17:37:18 -     INFO - wally           - All nodes connected successfully
+17:37:18 -     INFO - wally           - Start run_tests_stage
+17:37:18 -    DEBUG - wally           - Run preparation
+17:37:46 -    DEBUG - wally           - prefill is skipped
+17:37:46 -     INFO - wally           - Entire test should takes aroud: 0:16:30 and finished at 17:54:16
+17:37:46 -     INFO - wally           - Will run hdd_rwx4kth1 test
+17:37:46 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:40:16, will wait at most till 17:45:16
+17:37:46 -    DEBUG - wally           - SSH:138.219.231.195:2121 Exec 'screen -S test -d -m sudo bash /tmp/wally/honest_sheep/io/cmd.sh'
+17:37:53 -    DEBUG - wally           - Test on node 138.219.231.195_2121 is finished
+17:37:53 -    ERROR - wally           - No exit code file found on 138.219.231.195_2121. Looks like process failed to start
+17:37:53 -     INFO - wally           - Reconnectiong, sleeping 30s and retrying

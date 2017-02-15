@@ -1,0 +1,35 @@
+14:24:22 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/ample_guppy
+14:24:22 -     INFO - wally           - Start discover_stage
+14:24:22 -     INFO - wally           - Start reuse_vms_stage
+14:24:22 -     INFO - wally           - Start log_nodes_statistic_stage
+14:24:22 -     INFO - wally           - Found 1 nodes total
+14:24:22 -    DEBUG - wally           - Found 1 nodes with role testnode
+14:24:22 -     INFO - wally           - Start save_nodes_stage
+14:24:22 -     INFO - wally           - Start connect_stage
+14:24:22 -     INFO - wally           - Connecting to nodes
+14:24:22 -     INFO - wally           - All nodes connected successfully
+14:24:22 -     INFO - wally           - Start run_tests_stage
+14:24:22 -    DEBUG - wally           - Run preparation
+14:24:22 -    ERROR - wally           - During run_tests_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 277, in main
+    stage(cfg, ctx)
+  File "wally/run_test.py", line 481, in run_tests_stage
+    for tp, res in run_tests(cfg, test_group, ctx.nodes):
+  File "wally/run_test.py", line 242, in run_tests
+    res = test_cls(test_cfg).run()
+  File "wally/suits/io/fio.py", line 687, in run
+    self.pre_run()
+  File "wally/suits/io/fio.py", line 622, in pre_run
+    self.fio_configs = list(self.fio_configs)
+  File "wally/suits/io/fio_task_parser.py", line 307, in finall_process
+    sz = ssize2b(sec.vals['size'])
+  File "wally/utils.py", line 135, in ssize2b
+    raise ValueError("Unknow size format {0!r}".format(ssize))
+ValueError: Unknow size format '0.1g'
+14:24:22 -     INFO - wally           - Start disconnect_stage
+14:24:22 -    DEBUG - wally           - Start utils.cleanup
+14:24:22 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/ample_guppy
+14:24:22 -    ERROR - wally           - Tests are failed. See detailed error above

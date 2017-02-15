@@ -1,0 +1,50 @@
+22:50:56 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/hardy_dragon
+22:50:56 -     INFO - wally           - Start discover_stage
+22:50:56 -     INFO - wally           - Start reuse_vms_stage
+22:50:56 -     INFO - wally           - Start log_nodes_statistic_stage
+22:50:56 -     INFO - wally           - Found 1 nodes total
+22:50:56 -    DEBUG - wally           - Found 1 nodes with role testnode
+22:50:56 -     INFO - wally           - Start save_nodes_stage
+22:50:56 -     INFO - wally           - Start connect_stage
+22:50:56 -     INFO - wally           - Connecting to nodes
+22:50:56 -     INFO - wally           - All nodes connected successfully
+22:50:56 -     INFO - wally           - Start run_tests_stage
+22:50:56 -    DEBUG - wally           - Run preparation
+22:50:58 -    DEBUG - wally           - prefill is skipped
+22:50:58 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 00:11:49
+22:50:58 -     INFO - wally           - Will run ceph_rws4kth1 test
+22:50:58 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 22:54:28, will wait at most till 22:59:28
+22:50:58 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/hardy_dragon/io/cmd.sh'
+22:54:32 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+22:54:32 -     INFO - wally           - Will run ceph_rws4kth5 test
+22:54:32 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 22:58:02, will wait at most till 23:03:02
+22:54:32 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/hardy_dragon/io/cmd.sh'
+22:58:06 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+22:58:06 -     INFO - wally           - Will run ceph_rws4kth10 test
+22:58:06 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:01:36, will wait at most till 23:06:36
+22:58:06 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/hardy_dragon/io/cmd.sh'
+23:01:40 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+23:01:40 -     INFO - wally           - Will run ceph_rws4kth15 test
+23:01:40 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:05:10, will wait at most till 23:10:10
+23:01:40 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/hardy_dragon/io/cmd.sh'
+23:05:16 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+23:05:16 -     INFO - wally           - Will run ceph_rws4kth25 test
+23:05:16 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:08:46, will wait at most till 23:13:46
+23:05:16 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/hardy_dragon/io/cmd.sh'
+23:07:07 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+18:20:44 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/hardy_dragon
+18:20:44 -     INFO - wally           - Start load_data_from_path_stage
+18:20:44 -    ERROR - wally           - During load_data_from_path_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 277, in main
+    stage(cfg, ctx)
+  File "wally/run_test.py", line 607, in load_data_from_path_stage
+    for tp, vals in load_data_from_path(var_dir).items():
+  File "wally/run_test.py", line 594, in load_data_from_path
+    raw_res = yaml_load(open(files['raw_results']).read())
+IOError: [Errno 2] No such file or directory: 'wally_results/hardy_dragon/raw_results.yaml'
+18:20:44 -    DEBUG - wally           - Start utils.cleanup
+18:20:44 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/hardy_dragon
+18:20:44 -    ERROR - wally           - Tests are failed. See detailed error above

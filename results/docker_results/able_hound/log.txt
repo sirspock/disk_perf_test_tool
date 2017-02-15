@@ -1,0 +1,20 @@
+10:48:39 -     INFO - wally           - All info would be stored into /home/mosorio/wally/docker_results/able_hound
+10:48:39 -     INFO - wally           - Start discover_stage
+10:48:39 -     INFO - wally           - Start reuse_vms_stage
+10:48:39 -     INFO - wally           - Start log_nodes_statistic_stage
+10:48:39 -     INFO - wally           - Found 2 nodes total
+10:48:39 -    DEBUG - wally           - Found 1 nodes with role bombus
+10:48:39 -    DEBUG - wally           - Found 1 nodes with role nomada
+10:48:39 -     INFO - wally           - Start save_nodes_stage
+10:48:39 -     INFO - wally           - Start connect_stage
+10:48:39 -     INFO - wally           - Connecting to nodes
+10:48:39 -     INFO - wally           - All nodes connected successfully
+10:48:39 -     INFO - wally           - Start run_tests_stage
+10:48:39 -    ERROR - wally           - No test nodes found
+10:48:39 -     INFO - wally           - Start store_raw_results_stage
+10:48:39 -     INFO - wally           - Start disconnect_stage
+10:48:39 -    DEBUG - wally           - Start utils.cleanup
+10:48:39 -     INFO - wally           - Start console_report_stage
+10:48:39 -     INFO - wally           - Start html_report_stage
+10:48:39 -     INFO - wally           - All info stored into /home/mosorio/wally/docker_results/able_hound
+10:48:39 -     INFO - wally           - Tests finished successfully

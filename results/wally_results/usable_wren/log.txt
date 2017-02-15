@@ -1,0 +1,107 @@
+11:51:19 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/usable_wren
+11:51:19 -     INFO - wally           - Start discover_stage
+11:51:19 -     INFO - wally           - Start reuse_vms_stage
+11:51:19 -     INFO - wally           - Start log_nodes_statistic_stage
+11:51:19 -     INFO - wally           - Found 1 nodes total
+11:51:19 -    DEBUG - wally           - Found 1 nodes with role testnode
+11:51:19 -     INFO - wally           - Start save_nodes_stage
+11:51:19 -     INFO - wally           - Start connect_stage
+11:51:19 -     INFO - wally           - Connecting to nodes
+11:51:19 -     INFO - wally           - All nodes connected successfully
+11:51:19 -     INFO - wally           - Start run_tests_stage
+11:51:19 -    DEBUG - wally           - Run preparation
+11:51:21 -    DEBUG - wally           - prefill is skipped
+11:51:21 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 13:12:12
+11:51:21 -     INFO - wally           - Will run ceph_rws4kth1 test
+11:51:21 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:54:51, will wait at most till 11:59:51
+11:51:21 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+11:54:55 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:54:55 -     INFO - wally           - Will run ceph_rws4kth5 test
+11:54:55 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:58:25, will wait at most till 12:03:25
+11:54:55 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+11:58:29 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:58:29 -     INFO - wally           - Will run ceph_rws4kth10 test
+11:58:29 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:01:59, will wait at most till 12:06:59
+11:58:29 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+12:02:09 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:02:09 -     INFO - wally           - Will run ceph_rws4kth15 test
+12:02:09 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:05:39, will wait at most till 12:10:39
+12:02:09 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+12:05:43 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:05:43 -     INFO - wally           - Will run ceph_rws4kth25 test
+12:05:43 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:09:13, will wait at most till 12:14:13
+12:05:43 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+12:09:21 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:09:21 -     INFO - wally           - Will run ceph_rws4kth40 test
+12:09:21 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:12:51, will wait at most till 12:17:51
+12:09:21 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+12:13:05 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:13:05 -     INFO - wally           - Will run ceph_rrd4kth1 test
+12:13:05 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:16:35, will wait at most till 12:21:35
+12:13:06 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+12:16:39 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:16:39 -     INFO - wally           - Will run ceph_rrd4kth5 test
+12:16:39 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:20:09, will wait at most till 12:25:09
+12:16:40 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+12:20:13 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:20:13 -     INFO - wally           - Will run ceph_rrd4kth10 test
+12:20:13 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:23:43, will wait at most till 12:28:43
+12:20:13 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+12:23:47 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:23:47 -     INFO - wally           - Will run ceph_rrd4kth15 test
+12:23:47 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:27:17, will wait at most till 12:32:17
+12:23:47 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+12:27:21 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:27:21 -     INFO - wally           - Will run ceph_rrd4kth25 test
+12:27:21 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:30:51, will wait at most till 12:35:51
+12:27:21 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+12:30:55 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:30:55 -     INFO - wally           - Will run ceph_rrd4kth40 test
+12:30:55 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:34:25, will wait at most till 12:39:25
+12:30:55 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+12:34:29 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:34:29 -     INFO - wally           - Will run ceph_rrd4kth80 test
+12:34:29 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:37:59, will wait at most till 12:42:59
+12:34:29 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+12:38:03 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:38:04 -     INFO - wally           - Will run ceph_rrd4kth120 test
+12:38:04 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:41:34, will wait at most till 12:46:34
+12:38:04 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+12:41:38 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:41:40 -     INFO - wally           - Will run ceph_rwd4kth1 test
+12:41:40 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:45:10, will wait at most till 12:50:10
+12:41:40 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+12:45:13 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:45:14 -     INFO - wally           - Will run ceph_rrd16mth1 test
+12:45:14 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:48:44, will wait at most till 12:53:44
+12:45:14 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+12:48:47 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:48:48 -     INFO - wally           - Will run ceph_rrd16mth3 test
+12:48:48 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:52:18, will wait at most till 12:57:18
+12:48:48 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+12:52:21 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:52:21 -     INFO - wally           - Will run ceph_rrd16mth10 test
+12:52:21 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:55:51, will wait at most till 13:00:51
+12:52:22 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+12:55:55 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:55:55 -     INFO - wally           - Will run ceph_rwd16mth1 test
+12:55:55 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:59:25, will wait at most till 13:04:25
+12:55:55 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+12:59:29 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:59:29 -     INFO - wally           - Will run ceph_rwd16mth3 test
+12:59:29 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:02:59, will wait at most till 13:07:59
+12:59:29 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+13:03:03 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:03:03 -     INFO - wally           - Will run ceph_rwd16mth10 test
+13:03:03 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:06:33, will wait at most till 13:11:33
+13:03:03 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/usable_wren/io/cmd.sh'
+13:06:37 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:06:37 -     INFO - wally           - Start store_raw_results_stage
+13:06:37 -     INFO - wally           - Start disconnect_stage
+13:06:37 -    DEBUG - wally           - Start utils.cleanup
+13:06:37 -     INFO - wally           - Start console_report_stage
+13:06:39 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/usable_wren/report.txt
+13:06:39 -     INFO - wally           - Start html_report_stage
+13:06:41 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/usable_wren/ceph_report.html
+13:06:41 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/usable_wren
+13:06:41 -     INFO - wally           - Tests finished successfully

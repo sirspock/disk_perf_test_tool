@@ -1,0 +1,17 @@
+14:17:33 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/smart_tiger
+14:17:33 -     INFO - wally           - Start discover_stage
+14:17:33 -     INFO - wally           - Start reuse_vms_stage
+14:17:33 -     INFO - wally           - Start log_nodes_statistic_stage
+14:17:33 -     INFO - wally           - Found 1 nodes total
+14:17:33 -    DEBUG - wally           - Found 1 nodes with role testnode
+14:17:33 -     INFO - wally           - Start save_nodes_stage
+14:17:33 -     INFO - wally           - Start connect_stage
+14:17:33 -     INFO - wally           - Connecting to nodes
+14:17:33 -     INFO - wally           - All nodes connected successfully
+14:17:33 -     INFO - wally           - Start run_tests_stage
+14:17:33 -    DEBUG - wally           - Run preparation
+14:17:37 -    DEBUG - wally           - prefill is skipped
+14:17:37 -     INFO - wally           - Entire test should takes aroud: 0:16:30 and finished at 14:34:07
+14:17:37 -     INFO - wally           - Will run hdd_rwx4kth1 test
+14:17:37 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 14:20:07, will wait at most till 14:25:07
+14:17:37 -    DEBUG - wally           - SSH:138.219.231.195:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/smart_tiger/io/cmd.sh'

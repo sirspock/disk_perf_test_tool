@@ -1,0 +1,15 @@
+15:18:54 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/pet_raven
+15:18:54 -     INFO - wally           - Start discover_stage
+15:18:54 -     INFO - wally           - Start reuse_vms_stage
+15:18:54 -     INFO - wally           - Start log_nodes_statistic_stage
+15:18:54 -     INFO - wally           - Found 1 nodes total
+15:18:54 -    DEBUG - wally           - Found 1 nodes with role testnode
+15:18:54 -     INFO - wally           - Start save_nodes_stage
+15:18:54 -     INFO - wally           - Start connect_stage
+15:18:54 -     INFO - wally           - Connecting to nodes
+15:18:55 -     INFO - wally           - All nodes connected successfully
+15:18:55 -     INFO - wally           - Start run_tests_stage
+15:18:55 -    DEBUG - wally           - Run preparation
+15:18:55 -     INFO - wally           - Prefilling file /dev/nvme0n1p8 -
+15:18:55 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'sudo fio --name=xxx --filename=/dev/nvme0n1p8 - --direct=1 --bs=4m --size=10240m --rw=write'
+15:19:08 -     INFO - wally           - Initiall fio fill bw is 808 MiBps for this vm

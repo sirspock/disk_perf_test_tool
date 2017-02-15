@@ -1,0 +1,107 @@
+19:46:11 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/warm_eel
+19:46:11 -     INFO - wally           - Start discover_stage
+19:46:11 -     INFO - wally           - Start reuse_vms_stage
+19:46:11 -     INFO - wally           - Start log_nodes_statistic_stage
+19:46:11 -     INFO - wally           - Found 1 nodes total
+19:46:11 -    DEBUG - wally           - Found 1 nodes with role testnode
+19:46:11 -     INFO - wally           - Start save_nodes_stage
+19:46:11 -     INFO - wally           - Start connect_stage
+19:46:11 -     INFO - wally           - Connecting to nodes
+19:46:11 -     INFO - wally           - All nodes connected successfully
+19:46:11 -     INFO - wally           - Start run_tests_stage
+19:46:11 -    DEBUG - wally           - Run preparation
+19:46:13 -    DEBUG - wally           - prefill is skipped
+19:46:13 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 21:07:04
+19:46:13 -     INFO - wally           - Will run ceph_rws4kth1 test
+19:46:13 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:49:43, will wait at most till 19:54:43
+19:46:13 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+19:49:47 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:49:47 -     INFO - wally           - Will run ceph_rws4kth5 test
+19:49:47 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:53:17, will wait at most till 19:58:17
+19:49:47 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+19:53:21 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:53:21 -     INFO - wally           - Will run ceph_rws4kth10 test
+19:53:21 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:56:51, will wait at most till 20:01:51
+19:53:21 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+19:57:03 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:57:03 -     INFO - wally           - Will run ceph_rws4kth15 test
+19:57:03 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 20:00:33, will wait at most till 20:05:33
+19:57:03 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+20:00:37 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+20:00:37 -     INFO - wally           - Will run ceph_rws4kth25 test
+20:00:37 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 20:04:07, will wait at most till 20:09:07
+20:00:37 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+20:04:15 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+20:04:15 -     INFO - wally           - Will run ceph_rws4kth40 test
+20:04:15 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 20:07:45, will wait at most till 20:12:45
+20:04:15 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+20:07:53 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+20:07:54 -     INFO - wally           - Will run ceph_rrd4kth1 test
+20:07:54 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 20:11:24, will wait at most till 20:16:24
+20:07:54 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+20:11:31 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+20:11:32 -     INFO - wally           - Will run ceph_rrd4kth5 test
+20:11:32 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 20:15:02, will wait at most till 20:20:02
+20:11:32 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+20:15:05 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+20:15:05 -     INFO - wally           - Will run ceph_rrd4kth10 test
+20:15:05 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 20:18:35, will wait at most till 20:23:35
+20:15:06 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+20:18:39 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+20:18:39 -     INFO - wally           - Will run ceph_rrd4kth15 test
+20:18:39 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 20:22:09, will wait at most till 20:27:09
+20:18:39 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+20:22:13 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+20:22:13 -     INFO - wally           - Will run ceph_rrd4kth25 test
+20:22:13 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 20:25:43, will wait at most till 20:30:43
+20:22:14 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+20:25:47 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+20:25:48 -     INFO - wally           - Will run ceph_rrd4kth40 test
+20:25:48 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 20:29:18, will wait at most till 20:34:18
+20:25:48 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+20:29:21 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+20:29:22 -     INFO - wally           - Will run ceph_rrd4kth80 test
+20:29:22 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 20:32:52, will wait at most till 20:37:52
+20:29:22 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+20:32:55 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+20:32:56 -     INFO - wally           - Will run ceph_rrd4kth120 test
+20:32:56 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 20:36:26, will wait at most till 20:41:26
+20:32:57 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+20:36:30 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+20:36:32 -     INFO - wally           - Will run ceph_rwd4kth1 test
+20:36:32 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 20:40:02, will wait at most till 20:45:02
+20:36:32 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+20:40:05 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+20:40:06 -     INFO - wally           - Will run ceph_rrd16mth1 test
+20:40:06 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 20:43:36, will wait at most till 20:48:36
+20:40:06 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+20:43:39 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+20:43:40 -     INFO - wally           - Will run ceph_rrd16mth3 test
+20:43:40 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 20:47:10, will wait at most till 20:52:10
+20:43:40 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+20:47:13 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+20:47:14 -     INFO - wally           - Will run ceph_rrd16mth10 test
+20:47:14 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 20:50:44, will wait at most till 20:55:44
+20:47:14 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+20:50:47 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+20:50:47 -     INFO - wally           - Will run ceph_rwd16mth1 test
+20:50:47 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 20:54:17, will wait at most till 20:59:17
+20:50:47 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+20:54:21 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+20:54:21 -     INFO - wally           - Will run ceph_rwd16mth3 test
+20:54:21 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 20:57:51, will wait at most till 21:02:51
+20:54:21 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+20:57:55 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+20:57:55 -     INFO - wally           - Will run ceph_rwd16mth10 test
+20:57:55 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 21:01:25, will wait at most till 21:06:25
+20:57:55 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_eel/io/cmd.sh'
+21:01:29 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+21:01:29 -     INFO - wally           - Start store_raw_results_stage
+21:01:29 -     INFO - wally           - Start disconnect_stage
+21:01:29 -    DEBUG - wally           - Start utils.cleanup
+21:01:29 -     INFO - wally           - Start console_report_stage
+21:01:31 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/warm_eel/report.txt
+21:01:31 -     INFO - wally           - Start html_report_stage
+21:01:33 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/warm_eel/ceph_report.html
+21:01:33 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/warm_eel
+21:01:33 -     INFO - wally           - Tests finished successfully

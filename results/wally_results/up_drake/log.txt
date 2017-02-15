@@ -1,0 +1,13 @@
+11:50:41 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/up_drake
+11:50:41 -     INFO - wally           - Start discover_stage
+11:50:41 -     INFO - wally           - Start reuse_vms_stage
+11:50:41 -     INFO - wally           - Start log_nodes_statistic_stage
+11:50:41 -     INFO - wally           - Found 1 nodes total
+11:50:41 -    DEBUG - wally           - Found 1 nodes with role testnode
+11:50:41 -     INFO - wally           - Start save_nodes_stage
+11:50:41 -     INFO - wally           - Start connect_stage
+11:50:41 -     INFO - wally           - Connecting to nodes
+11:50:41 -     INFO - wally           - All nodes connected successfully
+11:50:41 -     INFO - wally           - Start run_tests_stage
+11:50:41 -    DEBUG - wally           - Run preparation
+11:50:48 -    DEBUG - wally           - prefill is skipped

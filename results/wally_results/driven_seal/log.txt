@@ -1,0 +1,136 @@
+22:47:06 -     INFO - wally           - All info would be stored into /home/mosorio/wally/~/wally_results/driven_seal
+22:47:06 -     INFO - wally           - Start discover_stage
+22:47:06 -     INFO - wally           - Start reuse_vms_stage
+22:47:06 -     INFO - wally           - Start log_nodes_statistic_stage
+22:47:06 -     INFO - wally           - Found 1 nodes total
+22:47:06 -    DEBUG - wally           - Found 1 nodes with role testnode
+22:47:06 -     INFO - wally           - Start save_nodes_stage
+22:47:06 -     INFO - wally           - Start connect_stage
+22:47:06 -     INFO - wally           - Connecting to nodes
+22:47:06 -     INFO - wally           - All nodes connected successfully
+22:47:06 -     INFO - wally           - Start run_tests_stage
+22:47:06 -    DEBUG - wally           - Run preparation
+22:47:08 -    DEBUG - wally           - prefill is skipped
+22:47:08 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 00:07:59
+22:47:08 -     INFO - wally           - Will run ceph_rws4kth1 test
+22:47:08 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 22:50:38, will wait at most till 22:55:38
+22:47:09 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+22:50:42 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+22:50:43 -     INFO - wally           - Will run ceph_rws4kth5 test
+22:50:43 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 22:54:13, will wait at most till 22:59:13
+22:50:43 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+22:54:20 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+22:54:21 -     INFO - wally           - Will run ceph_rws4kth10 test
+22:54:21 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 22:57:51, will wait at most till 23:02:51
+22:54:21 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+22:57:59 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+22:57:59 -     INFO - wally           - Will run ceph_rws4kth15 test
+22:57:59 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:01:29, will wait at most till 23:06:29
+22:57:59 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+23:01:37 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+23:01:37 -     INFO - wally           - Will run ceph_rws4kth25 test
+23:01:37 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:05:07, will wait at most till 23:10:07
+23:01:37 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+23:05:35 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+23:05:35 -     INFO - wally           - Will run ceph_rws4kth40 test
+23:05:35 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:09:05, will wait at most till 23:14:05
+23:05:35 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+23:09:19 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+23:09:20 -     INFO - wally           - Will run ceph_rrd4kth1 test
+23:09:20 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:12:50, will wait at most till 23:17:50
+23:09:20 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+23:12:55 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+23:12:56 -     INFO - wally           - Will run ceph_rrd4kth5 test
+23:12:56 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:16:26, will wait at most till 23:21:26
+23:12:56 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+23:16:29 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+23:16:30 -     INFO - wally           - Will run ceph_rrd4kth10 test
+23:16:30 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:20:00, will wait at most till 23:25:00
+23:16:30 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+23:20:03 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+23:20:04 -     INFO - wally           - Will run ceph_rrd4kth15 test
+23:20:04 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:23:34, will wait at most till 23:28:34
+23:20:04 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+23:23:37 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+23:23:38 -     INFO - wally           - Will run ceph_rrd4kth25 test
+23:23:38 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:27:08, will wait at most till 23:32:08
+23:23:38 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+23:27:11 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+23:27:12 -     INFO - wally           - Will run ceph_rrd4kth40 test
+23:27:12 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:30:42, will wait at most till 23:35:42
+23:27:12 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+23:30:45 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+23:30:46 -     INFO - wally           - Will run ceph_rrd4kth80 test
+23:30:46 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:34:16, will wait at most till 23:39:16
+23:30:46 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+23:34:20 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+23:34:21 -     INFO - wally           - Will run ceph_rrd4kth120 test
+23:34:21 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:37:51, will wait at most till 23:42:51
+23:34:21 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+23:37:54 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+23:37:56 -     INFO - wally           - Will run ceph_rwd4kth1 test
+23:37:56 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:41:26, will wait at most till 23:46:26
+23:37:56 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+23:41:29 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+23:41:30 -     INFO - wally           - Will run ceph_rrd16mth1 test
+23:41:30 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:45:00, will wait at most till 23:50:00
+23:41:30 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+23:45:03 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+23:45:04 -     INFO - wally           - Will run ceph_rrd16mth3 test
+23:45:04 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:48:34, will wait at most till 23:53:34
+23:45:04 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+23:48:37 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+23:48:38 -     INFO - wally           - Will run ceph_rrd16mth10 test
+23:48:38 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:52:08, will wait at most till 23:57:08
+23:48:38 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+23:52:11 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+23:52:12 -     INFO - wally           - Will run ceph_rwd16mth1 test
+23:52:12 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:55:42, will wait at most till 00:00:42
+23:52:12 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+23:55:45 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+23:55:46 -     INFO - wally           - Will run ceph_rwd16mth3 test
+23:55:46 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:59:16, will wait at most till 00:04:16
+23:55:46 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+23:59:19 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+23:59:20 -     INFO - wally           - Will run ceph_rwd16mth10 test
+23:59:20 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:02:50, will wait at most till 00:07:50
+23:59:20 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/driven_seal/io/cmd.sh'
+00:02:55 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+00:02:56 -     INFO - wally           - Start store_raw_results_stage
+00:02:56 -     INFO - wally           - Start disconnect_stage
+00:02:56 -    DEBUG - wally           - Start utils.cleanup
+00:02:56 -     INFO - wally           - Start console_report_stage
+00:02:57 -     INFO - wally           - Text report were stored in /home/mosorio/wally/~/wally_results/driven_seal/report.txt
+00:02:57 -     INFO - wally           - Start html_report_stage
+00:02:57 -    ERROR - wally.report    - Diring ceph report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 678, in make_ceph_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+00:02:57 -     INFO - wally           - All info stored into /home/mosorio/wally/~/wally_results/driven_seal
+00:02:57 -     INFO - wally           - Tests finished successfully
+00:18:18 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/driven_seal
+00:18:18 -     INFO - wally           - Start load_data_from_path_stage
+00:18:20 -    DEBUG - wally           - Start utils.cleanup
+00:18:20 -     INFO - wally           - Start console_report_stage
+00:18:22 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/driven_seal/report.txt
+00:18:22 -     INFO - wally           - Start html_report_stage
+00:18:22 -    ERROR - wally.report    - Diring ceph report generation
+Traceback (most recent call last):
+  File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/wally/report.py", line 678, in make_ceph_report
+    images = make_plots(perf_infos, plots)
+  File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+00:18:22 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/driven_seal
+00:18:22 -     INFO - wally           - Tests finished successfully

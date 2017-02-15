@@ -1,0 +1,126 @@
+00:10:40 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/robust_perch
+00:10:40 -     INFO - wally           - Start discover_stage
+00:10:40 -     INFO - wally           - Start reuse_vms_stage
+00:10:40 -     INFO - wally           - Start log_nodes_statistic_stage
+00:10:40 -     INFO - wally           - Found 1 nodes total
+00:10:40 -    DEBUG - wally           - Found 1 nodes with role testnode
+00:10:40 -     INFO - wally           - Start save_nodes_stage
+00:10:40 -     INFO - wally           - Start connect_stage
+00:10:40 -     INFO - wally           - Connecting to nodes
+00:10:40 -     INFO - wally           - All nodes connected successfully
+00:10:40 -     INFO - wally           - Start run_tests_stage
+00:10:40 -    DEBUG - wally           - Run preparation
+00:10:43 -    DEBUG - wally           - prefill is skipped
+00:10:43 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 01:31:34
+00:10:43 -     INFO - wally           - Will run ceph_rws4kth1 test
+00:10:43 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:14:13, will wait at most till 00:19:13
+00:10:43 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+00:14:16 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+00:14:17 -     INFO - wally           - Will run ceph_rws4kth5 test
+00:14:17 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:17:47, will wait at most till 00:22:47
+00:14:17 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+00:17:50 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+00:17:51 -     INFO - wally           - Will run ceph_rws4kth10 test
+00:17:51 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:21:21, will wait at most till 00:26:21
+00:17:51 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+00:20:06 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+00:20:06 -     INFO - wally           - Will run ceph_rws4kth15 test
+00:20:06 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:23:36, will wait at most till 00:28:36
+00:20:06 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+00:23:46 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+00:23:46 -     INFO - wally           - Will run ceph_rws4kth25 test
+00:23:46 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:27:16, will wait at most till 00:32:16
+00:23:47 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+00:27:20 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+00:27:21 -     INFO - wally           - Will run ceph_rws4kth40 test
+00:27:21 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:30:51, will wait at most till 00:35:51
+00:27:21 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+00:30:56 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+00:30:57 -     INFO - wally           - Will run ceph_rrd4kth1 test
+00:30:57 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:34:27, will wait at most till 00:39:27
+00:30:57 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+00:34:45 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+00:34:45 -     INFO - wally           - Will run ceph_rrd4kth5 test
+00:34:45 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:38:15, will wait at most till 00:43:15
+00:34:45 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+00:38:18 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+00:38:19 -     INFO - wally           - Will run ceph_rrd4kth10 test
+00:38:19 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:41:49, will wait at most till 00:46:49
+00:38:19 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+00:41:52 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+00:41:53 -     INFO - wally           - Will run ceph_rrd4kth15 test
+00:41:53 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:45:23, will wait at most till 00:50:23
+00:41:53 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+00:45:26 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+00:45:27 -     INFO - wally           - Will run ceph_rrd4kth25 test
+00:45:27 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:48:57, will wait at most till 00:53:57
+00:45:27 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+00:49:00 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+00:49:01 -     INFO - wally           - Will run ceph_rrd4kth40 test
+00:49:01 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:52:31, will wait at most till 00:57:31
+00:49:01 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+00:52:34 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+00:52:35 -     INFO - wally           - Will run ceph_rrd4kth80 test
+00:52:35 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:56:05, will wait at most till 01:01:05
+00:52:35 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+00:56:09 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+00:56:09 -     INFO - wally           - Will run ceph_rrd4kth120 test
+00:56:09 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:59:39, will wait at most till 01:04:39
+00:56:09 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+00:59:43 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+00:59:44 -     INFO - wally           - Will run ceph_rwd4kth1 test
+00:59:44 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:03:14, will wait at most till 01:08:14
+00:59:44 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+01:03:18 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+01:03:18 -     INFO - wally           - Will run ceph_rrd16mth1 test
+01:03:18 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:06:48, will wait at most till 01:11:48
+01:03:18 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+01:06:52 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+01:06:52 -     INFO - wally           - Will run ceph_rrd16mth3 test
+01:06:52 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:10:22, will wait at most till 01:15:22
+01:06:53 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+01:10:26 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+01:10:26 -     INFO - wally           - Will run ceph_rrd16mth10 test
+01:10:26 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:13:56, will wait at most till 01:18:56
+01:10:27 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+01:14:00 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+01:14:01 -     INFO - wally           - Will run ceph_rwd16mth1 test
+01:14:01 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:17:31, will wait at most till 01:22:31
+01:14:01 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+01:17:34 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+01:17:35 -     INFO - wally           - Will run ceph_rwd16mth3 test
+01:17:35 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:21:05, will wait at most till 01:26:05
+01:17:35 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+01:21:08 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+01:21:09 -     INFO - wally           - Will run ceph_rwd16mth10 test
+01:21:09 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:24:39, will wait at most till 01:29:39
+01:21:09 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/robust_perch/io/cmd.sh'
+01:24:42 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+01:24:43 -     INFO - wally           - Start store_raw_results_stage
+01:24:43 -     INFO - wally           - Start disconnect_stage
+01:24:43 -    DEBUG - wally           - Start utils.cleanup
+01:24:43 -     INFO - wally           - Start console_report_stage
+01:24:44 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/robust_perch/report.txt
+01:24:44 -     INFO - wally           - Start html_report_stage
+01:24:44 -    ERROR - wally.report    - Diring ceph report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 678, in make_ceph_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+01:24:44 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/robust_perch
+01:24:44 -     INFO - wally           - Tests finished successfully
+18:22:04 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/robust_perch
+18:22:04 -     INFO - wally           - Start load_data_from_path_stage
+18:22:08 -    DEBUG - wally           - Start utils.cleanup
+18:22:08 -     INFO - wally           - Start console_report_stage
+18:22:10 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/robust_perch/report.txt
+18:22:10 -     INFO - wally           - Start html_report_stage
+18:22:14 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/robust_perch/ceph_report.html
+18:22:14 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/robust_perch
+18:22:14 -     INFO - wally           - Tests finished successfully

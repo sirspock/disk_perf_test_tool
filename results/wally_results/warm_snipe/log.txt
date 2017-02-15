@@ -1,0 +1,26 @@
+12:26:42 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/warm_snipe
+12:26:42 -     INFO - wally           - Start discover_stage
+12:26:42 -     INFO - wally           - Start reuse_vms_stage
+12:26:42 -     INFO - wally           - Start log_nodes_statistic_stage
+12:26:42 -     INFO - wally           - Found 1 nodes total
+12:26:42 -    DEBUG - wally           - Found 1 nodes with role testnode
+12:26:42 -     INFO - wally           - Start save_nodes_stage
+12:26:42 -     INFO - wally           - Start connect_stage
+12:26:42 -     INFO - wally           - Connecting to nodes
+12:26:42 -     INFO - wally           - All nodes connected successfully
+12:26:42 -     INFO - wally           - Start run_tests_stage
+12:26:42 -    DEBUG - wally           - Run preparation
+12:26:44 -    DEBUG - wally           - prefill is skipped
+12:26:44 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 13:47:35
+12:26:44 -     INFO - wally           - Will run ceph_rws4kth1 test
+12:26:44 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:30:14, will wait at most till 12:35:14
+12:26:44 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_snipe/io/cmd.sh'
+12:30:18 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:30:18 -     INFO - wally           - Will run ceph_rws4kth5 test
+12:30:18 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:33:48, will wait at most till 12:38:48
+12:30:18 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_snipe/io/cmd.sh'
+12:33:52 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:33:52 -     INFO - wally           - Will run ceph_rws4kth10 test
+12:33:52 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:37:22, will wait at most till 12:42:22
+12:33:52 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/warm_snipe/io/cmd.sh'
+12:35:55 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished

@@ -1,0 +1,11 @@
+include: default.yaml
+explicit_nodes: 
+    "ssh://root@138.219.231.52:22:/home/mosorio/.ssh/id_rsa": testnode
+       
+tests:
+    - io:
+        cfg: hdd
+        params:
+            NUM_ROUNDS: 1
+            FILENAME: /mnt/test.raw
+            TEST_FILE_SIZE: 20G

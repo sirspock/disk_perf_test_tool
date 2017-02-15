@@ -1,0 +1,81 @@
+11:31:33 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/master_frog
+11:31:33 -     INFO - wally           - Start discover_stage
+11:31:33 -     INFO - wally           - Start reuse_vms_stage
+11:31:33 -     INFO - wally           - Start log_nodes_statistic_stage
+11:31:33 -     INFO - wally           - Found 1 nodes total
+11:31:33 -    DEBUG - wally           - Found 1 nodes with role testnode
+11:31:33 -     INFO - wally           - Start save_nodes_stage
+11:31:33 -     INFO - wally           - Start connect_stage
+11:31:33 -     INFO - wally           - Connecting to nodes
+11:31:46 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+11:31:46 -    ERROR - paramiko.transport - Traceback (most recent call last):
+11:31:46 -    ERROR - paramiko.transport -   File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/paramiko/transport.py", line 1740, in run
+11:31:46 -    ERROR - paramiko.transport -     self._check_banner()
+11:31:46 -    ERROR - paramiko.transport -   File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/paramiko/transport.py", line 1888, in _check_banner
+11:31:46 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+11:31:46 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+11:31:46 -    ERROR - paramiko.transport - 
+11:31:54 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+11:31:54 -    ERROR - paramiko.transport - Traceback (most recent call last):
+11:31:54 -    ERROR - paramiko.transport -   File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/paramiko/transport.py", line 1740, in run
+11:31:54 -    ERROR - paramiko.transport -     self._check_banner()
+11:31:54 -    ERROR - paramiko.transport -   File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/paramiko/transport.py", line 1888, in _check_banner
+11:31:54 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+11:31:54 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+11:31:54 -    ERROR - paramiko.transport - 
+11:31:58 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+11:31:58 -    ERROR - paramiko.transport - Traceback (most recent call last):
+11:31:58 -    ERROR - paramiko.transport -   File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/paramiko/transport.py", line 1740, in run
+11:31:58 -    ERROR - paramiko.transport -     self._check_banner()
+11:31:58 -    ERROR - paramiko.transport -   File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/paramiko/transport.py", line 1888, in _check_banner
+11:31:58 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+11:31:58 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+11:31:58 -    ERROR - paramiko.transport - 
+11:31:59 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+11:31:59 -    ERROR - paramiko.transport - Traceback (most recent call last):
+11:31:59 -    ERROR - paramiko.transport -   File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/paramiko/transport.py", line 1740, in run
+11:31:59 -    ERROR - paramiko.transport -     self._check_banner()
+11:31:59 -    ERROR - paramiko.transport -   File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/paramiko/transport.py", line 1888, in _check_banner
+11:31:59 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+11:31:59 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+11:31:59 -    ERROR - paramiko.transport - 
+11:32:00 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+11:32:00 -    ERROR - paramiko.transport - Traceback (most recent call last):
+11:32:00 -    ERROR - paramiko.transport -   File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/paramiko/transport.py", line 1740, in run
+11:32:00 -    ERROR - paramiko.transport -     self._check_banner()
+11:32:00 -    ERROR - paramiko.transport -   File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/paramiko/transport.py", line 1888, in _check_banner
+11:32:00 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+11:32:00 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+11:32:00 -    ERROR - paramiko.transport - 
+11:32:01 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+11:32:01 -    ERROR - paramiko.transport - Traceback (most recent call last):
+11:32:01 -    ERROR - paramiko.transport -   File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/paramiko/transport.py", line 1740, in run
+11:32:01 -    ERROR - paramiko.transport -     self._check_banner()
+11:32:01 -    ERROR - paramiko.transport -   File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/paramiko/transport.py", line 1888, in _check_banner
+11:32:01 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+11:32:01 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+11:32:01 -    ERROR - paramiko.transport - 
+11:32:02 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+11:32:02 -    ERROR - paramiko.transport - Traceback (most recent call last):
+11:32:02 -    ERROR - paramiko.transport -   File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/paramiko/transport.py", line 1740, in run
+11:32:02 -    ERROR - paramiko.transport -     self._check_banner()
+11:32:02 -    ERROR - paramiko.transport -   File "/home/mosorio/wally_env/local/lib/python2.7/site-packages/paramiko/transport.py", line 1888, in _check_banner
+11:32:02 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+11:32:02 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+11:32:02 -    ERROR - paramiko.transport - 
+18:21:10 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/master_frog
+18:21:10 -     INFO - wally           - Start load_data_from_path_stage
+18:21:10 -    ERROR - wally           - During load_data_from_path_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 277, in main
+    stage(cfg, ctx)
+  File "wally/run_test.py", line 607, in load_data_from_path_stage
+    for tp, vals in load_data_from_path(var_dir).items():
+  File "wally/run_test.py", line 594, in load_data_from_path
+    raw_res = yaml_load(open(files['raw_results']).read())
+IOError: [Errno 2] No such file or directory: 'wally_results/master_frog/raw_results.yaml'
+18:21:10 -    DEBUG - wally           - Start utils.cleanup
+18:21:10 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/master_frog
+18:21:10 -    ERROR - wally           - Tests are failed. See detailed error above

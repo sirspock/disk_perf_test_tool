@@ -1,0 +1,135 @@
+10:36:01 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/glad_badger
+10:36:01 -     INFO - wally           - Start discover_stage
+10:36:01 -     INFO - wally           - Start reuse_vms_stage
+10:36:01 -     INFO - wally           - Start log_nodes_statistic_stage
+10:36:01 -     INFO - wally           - Found 1 nodes total
+10:36:01 -    DEBUG - wally           - Found 1 nodes with role testnode
+10:36:01 -     INFO - wally           - Start save_nodes_stage
+10:36:01 -     INFO - wally           - Start connect_stage
+10:36:01 -     INFO - wally           - Connecting to nodes
+10:36:02 -     INFO - wally           - All nodes connected successfully
+10:36:02 -     INFO - wally           - Start run_tests_stage
+10:36:02 -    DEBUG - wally           - Run preparation
+10:36:09 -    DEBUG - wally           - prefill is skipped
+10:36:09 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 11:57:00
+10:36:09 -     INFO - wally           - Will run ceph_rws4kth1 test
+10:36:09 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:39:39, will wait at most till 10:44:39
+10:36:09 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+10:39:43 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:39:43 -     INFO - wally           - Will run ceph_rws4kth5 test
+10:39:43 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:43:13, will wait at most till 10:48:13
+10:39:43 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+10:43:17 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:43:17 -     INFO - wally           - Will run ceph_rws4kth10 test
+10:43:17 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:46:47, will wait at most till 10:51:47
+10:43:17 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+10:46:57 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:46:57 -     INFO - wally           - Will run ceph_rws4kth15 test
+10:46:57 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:50:27, will wait at most till 10:55:27
+10:46:57 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+10:50:33 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:50:33 -     INFO - wally           - Will run ceph_rws4kth25 test
+10:50:33 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:54:03, will wait at most till 10:59:03
+10:50:33 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+10:54:11 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:54:11 -     INFO - wally           - Will run ceph_rws4kth40 test
+10:54:11 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:57:41, will wait at most till 11:02:41
+10:54:11 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+10:57:57 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:57:57 -     INFO - wally           - Will run ceph_rrd4kth1 test
+10:57:57 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:01:27, will wait at most till 11:06:27
+10:57:57 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+11:01:35 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:01:35 -     INFO - wally           - Will run ceph_rrd4kth5 test
+11:01:35 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:05:05, will wait at most till 11:10:05
+11:01:35 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+11:05:09 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:05:09 -     INFO - wally           - Will run ceph_rrd4kth10 test
+11:05:09 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:08:39, will wait at most till 11:13:39
+11:05:09 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+11:08:42 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:08:43 -     INFO - wally           - Will run ceph_rrd4kth15 test
+11:08:43 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:12:13, will wait at most till 11:17:13
+11:08:43 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+11:12:16 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:12:17 -     INFO - wally           - Will run ceph_rrd4kth25 test
+11:12:17 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:15:47, will wait at most till 11:20:47
+11:12:17 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+11:15:50 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:15:51 -     INFO - wally           - Will run ceph_rrd4kth40 test
+11:15:51 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:19:21, will wait at most till 11:24:21
+11:15:51 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+11:19:24 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:19:25 -     INFO - wally           - Will run ceph_rrd4kth80 test
+11:19:25 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:22:55, will wait at most till 11:27:55
+11:19:25 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+11:22:59 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:23:00 -     INFO - wally           - Will run ceph_rrd4kth120 test
+11:23:00 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:26:30, will wait at most till 11:31:30
+11:23:00 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+11:26:34 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:26:35 -     INFO - wally           - Will run ceph_rwd4kth1 test
+11:26:35 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:30:05, will wait at most till 11:35:05
+11:26:35 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+11:30:09 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:30:09 -     INFO - wally           - Will run ceph_rrd16mth1 test
+11:30:09 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:33:39, will wait at most till 11:38:39
+11:30:09 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+11:33:43 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:33:43 -     INFO - wally           - Will run ceph_rrd16mth3 test
+11:33:43 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:37:13, will wait at most till 11:42:13
+11:33:43 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+11:37:17 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:37:17 -     INFO - wally           - Will run ceph_rrd16mth10 test
+11:37:17 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:40:47, will wait at most till 11:45:47
+11:37:17 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+11:40:50 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:40:51 -     INFO - wally           - Will run ceph_rwd16mth1 test
+11:40:51 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:44:21, will wait at most till 11:49:21
+11:40:51 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+11:44:24 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:44:25 -     INFO - wally           - Will run ceph_rwd16mth3 test
+11:44:25 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:47:55, will wait at most till 11:52:55
+11:44:25 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+11:47:58 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:47:58 -     INFO - wally           - Will run ceph_rwd16mth10 test
+11:47:58 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:51:28, will wait at most till 11:56:28
+11:47:59 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/glad_badger/io/cmd.sh'
+11:51:32 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:51:32 -     INFO - wally           - Start store_raw_results_stage
+11:51:32 -     INFO - wally           - Start disconnect_stage
+11:51:32 -    DEBUG - wally           - Start utils.cleanup
+11:51:32 -     INFO - wally           - Start console_report_stage
+11:51:34 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/glad_badger/report.txt
+11:51:34 -     INFO - wally           - Start html_report_stage
+11:51:34 -    ERROR - wally.report    - Diring ceph report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 678, in make_ceph_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+11:51:34 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/glad_badger
+11:51:34 -     INFO - wally           - Tests finished successfully
+15:22:32 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/glad_badger
+15:22:32 -     INFO - wally           - Start load_data_from_path_stage
+15:22:34 -    DEBUG - wally           - Start utils.cleanup
+15:22:34 -     INFO - wally           - Start console_report_stage
+15:22:35 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/glad_badger/report.txt
+15:22:35 -     INFO - wally           - Start html_report_stage
+15:22:38 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/glad_badger/ceph_report.html
+15:22:38 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/glad_badger
+15:22:38 -     INFO - wally           - Tests finished successfully
+18:20:30 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/glad_badger
+18:20:30 -     INFO - wally           - Start load_data_from_path_stage
+18:20:32 -    DEBUG - wally           - Start utils.cleanup
+18:20:32 -     INFO - wally           - Start console_report_stage
+18:20:33 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/glad_badger/report.txt
+18:20:33 -     INFO - wally           - Start html_report_stage
+18:20:36 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/glad_badger/ceph_report.html
+18:20:36 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/glad_badger
+18:20:36 -     INFO - wally           - Tests finished successfully

@@ -1,0 +1,126 @@
+08:13:10 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/novel_weevil
+08:13:10 -     INFO - wally           - Start discover_stage
+08:13:10 -     INFO - wally           - Start reuse_vms_stage
+08:13:10 -     INFO - wally           - Start log_nodes_statistic_stage
+08:13:10 -     INFO - wally           - Found 1 nodes total
+08:13:10 -    DEBUG - wally           - Found 1 nodes with role testnode
+08:13:10 -     INFO - wally           - Start save_nodes_stage
+08:13:10 -     INFO - wally           - Start connect_stage
+08:13:10 -     INFO - wally           - Connecting to nodes
+08:13:10 -     INFO - wally           - All nodes connected successfully
+08:13:10 -     INFO - wally           - Start run_tests_stage
+08:13:10 -    DEBUG - wally           - Run preparation
+08:13:17 -    DEBUG - wally           - prefill is skipped
+08:13:17 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 09:34:08
+08:13:17 -     INFO - wally           - Will run ceph_rws4kth1 test
+08:13:17 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 08:16:47, will wait at most till 08:21:47
+08:13:17 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+08:16:51 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+08:16:51 -     INFO - wally           - Will run ceph_rws4kth5 test
+08:16:51 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 08:20:21, will wait at most till 08:25:21
+08:16:51 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+08:20:25 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+08:20:25 -     INFO - wally           - Will run ceph_rws4kth10 test
+08:20:25 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 08:23:55, will wait at most till 08:28:55
+08:20:25 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+08:24:05 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+08:24:05 -     INFO - wally           - Will run ceph_rws4kth15 test
+08:24:05 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 08:27:35, will wait at most till 08:32:35
+08:24:05 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+08:27:45 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+08:27:45 -     INFO - wally           - Will run ceph_rws4kth25 test
+08:27:45 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 08:31:15, will wait at most till 08:36:15
+08:27:45 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+08:31:21 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+08:31:21 -     INFO - wally           - Will run ceph_rws4kth40 test
+08:31:21 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 08:34:51, will wait at most till 08:39:51
+08:31:21 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+08:35:05 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+08:35:05 -     INFO - wally           - Will run ceph_rrd4kth1 test
+08:35:05 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 08:38:35, will wait at most till 08:43:35
+08:35:05 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+08:38:41 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+08:38:41 -     INFO - wally           - Will run ceph_rrd4kth5 test
+08:38:41 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 08:42:11, will wait at most till 08:47:11
+08:38:41 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+08:42:15 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+08:42:15 -     INFO - wally           - Will run ceph_rrd4kth10 test
+08:42:15 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 08:45:45, will wait at most till 08:50:45
+08:42:15 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+08:45:49 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+08:45:49 -     INFO - wally           - Will run ceph_rrd4kth15 test
+08:45:49 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 08:49:19, will wait at most till 08:54:19
+08:45:49 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+08:49:22 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+08:49:23 -     INFO - wally           - Will run ceph_rrd4kth25 test
+08:49:23 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 08:52:53, will wait at most till 08:57:53
+08:49:23 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+08:52:56 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+08:52:57 -     INFO - wally           - Will run ceph_rrd4kth40 test
+08:52:57 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 08:56:27, will wait at most till 09:01:27
+08:52:57 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+08:56:30 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+08:56:31 -     INFO - wally           - Will run ceph_rrd4kth80 test
+08:56:31 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 09:00:01, will wait at most till 09:05:01
+08:56:31 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+09:00:04 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+09:00:05 -     INFO - wally           - Will run ceph_rrd4kth120 test
+09:00:05 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 09:03:35, will wait at most till 09:08:35
+09:00:05 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+09:03:39 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+09:03:41 -     INFO - wally           - Will run ceph_rwd4kth1 test
+09:03:41 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 09:07:11, will wait at most till 09:12:11
+09:03:41 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+09:07:14 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+09:07:14 -     INFO - wally           - Will run ceph_rrd16mth1 test
+09:07:14 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 09:10:44, will wait at most till 09:15:44
+09:07:15 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+09:10:48 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+09:10:48 -     INFO - wally           - Will run ceph_rrd16mth3 test
+09:10:48 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 09:14:18, will wait at most till 09:19:18
+09:10:48 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+09:14:22 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+09:14:22 -     INFO - wally           - Will run ceph_rrd16mth10 test
+09:14:22 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 09:17:52, will wait at most till 09:22:52
+09:14:22 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+09:17:56 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+09:17:56 -     INFO - wally           - Will run ceph_rwd16mth1 test
+09:17:56 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 09:21:26, will wait at most till 09:26:26
+09:17:56 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+09:21:29 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+09:21:30 -     INFO - wally           - Will run ceph_rwd16mth3 test
+09:21:30 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 09:25:00, will wait at most till 09:30:00
+09:21:30 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+09:25:03 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+09:25:04 -     INFO - wally           - Will run ceph_rwd16mth10 test
+09:25:04 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 09:28:34, will wait at most till 09:33:34
+09:25:04 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/novel_weevil/io/cmd.sh'
+09:28:41 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+09:28:42 -     INFO - wally           - Start store_raw_results_stage
+09:28:42 -     INFO - wally           - Start disconnect_stage
+09:28:42 -    DEBUG - wally           - Start utils.cleanup
+09:28:42 -     INFO - wally           - Start console_report_stage
+09:28:43 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/novel_weevil/report.txt
+09:28:43 -     INFO - wally           - Start html_report_stage
+09:28:43 -    ERROR - wally.report    - Diring ceph report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 678, in make_ceph_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+09:28:43 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/novel_weevil
+09:28:43 -     INFO - wally           - Tests finished successfully
+18:21:35 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/novel_weevil
+18:21:35 -     INFO - wally           - Start load_data_from_path_stage
+18:21:39 -    DEBUG - wally           - Start utils.cleanup
+18:21:39 -     INFO - wally           - Start console_report_stage
+18:21:40 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/novel_weevil/report.txt
+18:21:40 -     INFO - wally           - Start html_report_stage
+18:21:43 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/novel_weevil/ceph_report.html
+18:21:43 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/novel_weevil
+18:21:43 -     INFO - wally           - Tests finished successfully

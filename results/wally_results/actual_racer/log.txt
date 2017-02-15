@@ -1,0 +1,213 @@
+10:26:45 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/actual_racer
+10:26:45 -     INFO - wally           - Start discover_stage
+10:26:45 -     INFO - wally           - Start reuse_vms_stage
+10:26:45 -     INFO - wally           - Start log_nodes_statistic_stage
+10:26:45 -     INFO - wally           - Found 1 nodes total
+10:26:45 -    DEBUG - wally           - Found 1 nodes with role testnode
+10:26:45 -     INFO - wally           - Start save_nodes_stage
+10:26:45 -     INFO - wally           - Start connect_stage
+10:26:45 -     INFO - wally           - Connecting to nodes
+10:26:45 -     INFO - wally           - All nodes connected successfully
+10:26:45 -     INFO - wally           - Start run_tests_stage
+10:26:45 -    DEBUG - wally           - Run preparation
+10:26:46 -     INFO - wally           - Prefilling file /dev/rbd1
+10:26:46 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'sudo fio --name=xxx --filename=/dev/rbd1 --direct=1 --bs=4m --size=20480m --rw=write'
+10:29:00 -     INFO - wally           - Initiall fio fill bw is 153 MiBps for this vm
+10:29:00 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 11:49:51
+10:29:00 -     INFO - wally           - Will run ceph_rws4kth1 test
+10:29:00 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:32:30, will wait at most till 10:37:30
+10:29:00 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+10:32:33 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:32:33 -     INFO - wally           - Will run ceph_rws4kth5 test
+10:32:33 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:36:03, will wait at most till 10:41:03
+10:32:34 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+10:36:07 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:36:07 -     INFO - wally           - Will run ceph_rws4kth10 test
+10:36:07 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:39:37, will wait at most till 10:44:37
+10:36:08 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+10:39:41 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:39:41 -     INFO - wally           - Will run ceph_rws4kth15 test
+10:39:41 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:43:11, will wait at most till 10:48:11
+10:39:42 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+10:43:19 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:43:20 -     INFO - wally           - Will run ceph_rws4kth25 test
+10:43:20 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:46:50, will wait at most till 10:51:50
+10:43:20 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+10:47:03 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:47:04 -     INFO - wally           - Will run ceph_rws4kth40 test
+10:47:04 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:50:34, will wait at most till 10:55:34
+10:47:04 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+10:50:37 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:50:38 -     INFO - wally           - Will run ceph_rrd4kth1 test
+10:50:38 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:54:08, will wait at most till 10:59:08
+10:50:38 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+10:54:13 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:54:14 -     INFO - wally           - Will run ceph_rrd4kth5 test
+10:54:14 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:57:44, will wait at most till 11:02:44
+10:54:14 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+10:57:47 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:57:47 -     INFO - wally           - Will run ceph_rrd4kth10 test
+10:57:47 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:01:17, will wait at most till 11:06:17
+10:57:48 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+11:01:21 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:01:21 -     INFO - wally           - Will run ceph_rrd4kth15 test
+11:01:21 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:04:51, will wait at most till 11:09:51
+11:01:21 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+11:04:55 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:04:55 -     INFO - wally           - Will run ceph_rrd4kth25 test
+11:04:55 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:08:25, will wait at most till 11:13:25
+11:04:55 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+11:08:29 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:08:29 -     INFO - wally           - Will run ceph_rrd4kth40 test
+11:08:29 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:11:59, will wait at most till 11:16:59
+11:08:29 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+11:12:03 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:12:03 -     INFO - wally           - Will run ceph_rrd4kth80 test
+11:12:03 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:15:33, will wait at most till 11:20:33
+11:12:03 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+11:15:37 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:15:38 -     INFO - wally           - Will run ceph_rrd4kth120 test
+11:15:38 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:19:08, will wait at most till 11:24:08
+11:15:38 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+11:19:12 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:19:13 -     INFO - wally           - Will run ceph_rwd4kth1 test
+11:19:13 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:22:43, will wait at most till 11:27:43
+11:19:13 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+11:22:46 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:22:47 -     INFO - wally           - Will run ceph_rrd16mth1 test
+11:22:47 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:26:17, will wait at most till 11:31:17
+11:22:47 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+11:26:20 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:26:21 -     INFO - wally           - Will run ceph_rrd16mth3 test
+11:26:21 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:29:51, will wait at most till 11:34:51
+11:26:21 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+11:29:54 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:29:55 -     INFO - wally           - Will run ceph_rrd16mth10 test
+11:29:55 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:33:25, will wait at most till 11:38:25
+11:29:55 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+11:33:28 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:33:29 -     INFO - wally           - Will run ceph_rwd16mth1 test
+11:33:29 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:36:59, will wait at most till 11:41:59
+11:33:29 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+11:37:02 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:37:03 -     INFO - wally           - Will run ceph_rwd16mth3 test
+11:37:03 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:40:33, will wait at most till 11:45:33
+11:37:03 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+11:40:36 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:40:37 -     INFO - wally           - Will run ceph_rwd16mth10 test
+11:40:37 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:44:07, will wait at most till 11:49:07
+11:40:37 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_racer/io/cmd.sh'
+11:44:10 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:44:11 -     INFO - wally           - Start store_raw_results_stage
+11:44:11 -     INFO - wally           - Start disconnect_stage
+11:44:11 -    DEBUG - wally           - Start utils.cleanup
+11:44:11 -     INFO - wally           - Start console_report_stage
+11:44:12 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/actual_racer/report.txt
+11:44:12 -     INFO - wally           - Start html_report_stage
+11:44:12 -    ERROR - wally.report    - Diring ceph report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 678, in make_ceph_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+11:44:12 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/actual_racer
+11:44:12 -     INFO - wally           - Tests finished successfully
+14:56:15 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/actual_racer
+14:56:15 -     INFO - wally           - Start load_data_from_path_stage
+14:56:18 -    DEBUG - wally           - Start utils.cleanup
+14:56:18 -     INFO - wally           - Start console_report_stage
+14:56:20 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/actual_racer/report.txt
+14:56:20 -     INFO - wally           - Start html_report_stage
+14:56:20 -    ERROR - wally.report    - Diring ceph report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 678, in make_ceph_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+14:56:20 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/actual_racer
+14:56:20 -     INFO - wally           - Tests finished successfully
+14:57:03 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/actual_racer
+14:57:03 -     INFO - wally           - Start load_data_from_path_stage
+14:57:05 -    DEBUG - wally           - Start utils.cleanup
+14:57:05 -     INFO - wally           - Start console_report_stage
+14:57:07 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/actual_racer/report.txt
+14:57:07 -     INFO - wally           - Start html_report_stage
+14:57:07 -    ERROR - wally.report    - Diring ceph report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 678, in make_ceph_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+14:57:07 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/actual_racer
+14:57:07 -     INFO - wally           - Tests finished successfully
+14:57:57 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/actual_racer
+14:57:57 -     INFO - wally           - Start load_data_from_path_stage
+14:57:59 -    DEBUG - wally           - Start utils.cleanup
+14:57:59 -     INFO - wally           - Start console_report_stage
+14:58:01 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/actual_racer/report.txt
+14:58:01 -     INFO - wally           - Start html_report_stage
+14:58:01 -    ERROR - wally.report    - Diring ceph report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 678, in make_ceph_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+14:58:01 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/actual_racer
+14:58:01 -     INFO - wally           - Tests finished successfully
+14:58:42 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/actual_racer
+14:58:42 -     INFO - wally           - Start load_data_from_path_stage
+14:58:43 -    DEBUG - wally           - Start utils.cleanup
+14:58:43 -     INFO - wally           - Start console_report_stage
+14:58:44 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/actual_racer/report.txt
+14:58:44 -     INFO - wally           - Start html_report_stage
+14:58:44 -    ERROR - wally.report    - Diring ceph report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 678, in make_ceph_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+14:58:44 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/actual_racer
+14:58:44 -     INFO - wally           - Tests finished successfully
+18:18:05 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/actual_racer
+18:18:05 -     INFO - wally           - Start load_data_from_path_stage
+18:18:07 -    DEBUG - wally           - Start utils.cleanup
+18:18:07 -     INFO - wally           - Start console_report_stage
+18:18:10 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/actual_racer/report.txt
+18:18:10 -     INFO - wally           - Start html_report_stage
+18:18:14 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/actual_racer/ceph_report.html
+18:18:14 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/actual_racer
+18:18:14 -     INFO - wally           - Tests finished successfully
+18:20:10 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/actual_racer
+18:20:10 -     INFO - wally           - Start load_data_from_path_stage
+18:20:13 -    DEBUG - wally           - Start utils.cleanup
+18:20:13 -     INFO - wally           - Start console_report_stage
+18:20:15 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/actual_racer/report.txt
+18:20:15 -     INFO - wally           - Start html_report_stage
+18:20:17 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/actual_racer/ceph_report.html
+18:20:17 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/actual_racer
+18:20:17 -     INFO - wally           - Tests finished successfully

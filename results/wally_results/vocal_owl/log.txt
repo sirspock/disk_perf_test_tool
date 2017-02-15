@@ -1,0 +1,81 @@
+12:06:52 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/vocal_owl
+12:06:52 -     INFO - wally           - Start discover_stage
+12:06:52 -     INFO - wally           - Start reuse_vms_stage
+12:06:52 -     INFO - wally           - Start log_nodes_statistic_stage
+12:06:52 -     INFO - wally           - Found 1 nodes total
+12:06:52 -    DEBUG - wally           - Found 1 nodes with role testnode
+12:06:52 -     INFO - wally           - Start save_nodes_stage
+12:06:52 -     INFO - wally           - Start connect_stage
+12:06:52 -     INFO - wally           - Connecting to nodes
+12:06:52 -     INFO - wally           - All nodes connected successfully
+12:06:52 -     INFO - wally           - Start run_tests_stage
+12:06:52 -    DEBUG - wally           - Run preparation
+12:06:53 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'sudo yum -y install screen'
+12:06:55 -     INFO - wally           - Prefilling file /tmp/img
+12:06:55 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'sudo fio --name=xxx --filename=/tmp/img --direct=1 --bs=4m --size=10240m --rw=write'
+12:07:21 -     INFO - wally           - Initiall fio fill bw is 399 MiBps for this vm
+12:07:21 -     INFO - wally           - Entire test should takes aroud: 0:24:45 and finished at 12:32:06
+12:07:21 -     INFO - wally           - Will run hdd_rwx4kth1 test
+12:07:21 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 12:09:51, will wait at most till 12:14:51
+12:07:21 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/vocal_owl/io/cmd.sh'
+12:09:55 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+12:09:55 -     INFO - wally           - Will run hdd_rwx4kth5 test
+12:09:55 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 12:12:25, will wait at most till 12:17:25
+12:09:56 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/vocal_owl/io/cmd.sh'
+12:12:30 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+12:12:30 -     INFO - wally           - Will run hdd_rwx4kth10 test
+12:12:30 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 12:15:00, will wait at most till 12:20:00
+12:12:30 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/vocal_owl/io/cmd.sh'
+12:15:04 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+12:15:05 -     INFO - wally           - Will run hdd_rrd4kth1 test
+12:15:05 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 12:17:35, will wait at most till 12:22:35
+12:15:05 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/vocal_owl/io/cmd.sh'
+12:17:39 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+12:17:39 -     INFO - wally           - Will run hdd_rrd4kth5 test
+12:17:39 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 12:20:09, will wait at most till 12:25:09
+12:17:40 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/vocal_owl/io/cmd.sh'
+12:20:14 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+12:20:14 -     INFO - wally           - Will run hdd_rrd4kth10 test
+12:20:14 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 12:22:44, will wait at most till 12:27:44
+12:20:14 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/vocal_owl/io/cmd.sh'
+12:22:46 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+12:22:47 -     INFO - wally           - Will run hdd_srd1mth1 test
+12:22:47 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 12:25:17, will wait at most till 12:30:17
+12:22:47 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/vocal_owl/io/cmd.sh'
+12:25:21 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+12:25:21 -     INFO - wally           - Will run hdd_swd1mth1 test
+12:25:21 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 12:27:51, will wait at most till 12:32:51
+12:25:22 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/vocal_owl/io/cmd.sh'
+12:27:54 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+12:27:54 -     INFO - wally           - Will run hdd_rwd4kth1 test
+12:27:54 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 12:30:24, will wait at most till 12:35:24
+12:27:54 -    DEBUG - wally           - SSH:192.168.50.47:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/vocal_owl/io/cmd.sh'
+12:30:31 -    DEBUG - wally           - Test on node 192.168.50.47_22 is finished
+12:30:31 -     INFO - wally           - Start store_raw_results_stage
+12:30:31 -     INFO - wally           - Start disconnect_stage
+12:30:31 -    DEBUG - wally           - Start utils.cleanup
+12:30:31 -     INFO - wally           - Start console_report_stage
+12:30:31 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/vocal_owl/report.txt
+12:30:31 -     INFO - wally           - Start html_report_stage
+12:30:31 -    ERROR - wally.report    - Diring hdd report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 642, in make_hdd_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 374, in io_chart
+    matplotlib.rcParams.update({'font.size': 10})
+NameError: global name 'matplotlib' is not defined
+12:30:31 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/vocal_owl
+12:30:31 -     INFO - wally           - Tests finished successfully
+18:22:31 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/vocal_owl
+18:22:31 -     INFO - wally           - Start load_data_from_path_stage
+18:22:32 -    DEBUG - wally           - Start utils.cleanup
+18:22:32 -     INFO - wally           - Start console_report_stage
+18:22:32 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/vocal_owl/report.txt
+18:22:32 -     INFO - wally           - Start html_report_stage
+18:22:33 -     INFO - wally.report    - Report hdd saved into /home/mosorio/wally/wally_results/vocal_owl/hdd_report.html
+18:22:33 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/vocal_owl
+18:22:33 -     INFO - wally           - Tests finished successfully

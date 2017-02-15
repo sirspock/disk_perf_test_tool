@@ -1,0 +1,75 @@
+10:50:11 -     INFO - wally           - All info would be stored into /home/mosorio/wally/docker_results/cosmic_guinea
+10:50:11 -     INFO - wally           - Start discover_stage
+10:50:11 -     INFO - wally           - Start reuse_vms_stage
+10:50:11 -     INFO - wally           - Start log_nodes_statistic_stage
+10:50:11 -     INFO - wally           - Found 1 nodes total
+10:50:11 -    DEBUG - wally           - Found 1 nodes with role testnode
+10:50:11 -     INFO - wally           - Start save_nodes_stage
+10:50:11 -     INFO - wally           - Start connect_stage
+10:50:11 -     INFO - wally           - Connecting to nodes
+10:50:12 -     INFO - wally           - All nodes connected successfully
+10:50:12 -     INFO - wally           - Start run_tests_stage
+10:50:12 -    DEBUG - wally           - Run preparation
+10:50:16 -    DEBUG - wally           - prefill is skipped
+10:50:16 -     INFO - wally           - Entire test should takes aroud: 0:16:30 and finished at 11:06:46
+10:50:16 -     INFO - wally           - Will run hdd_rwx4kth1 test
+10:50:16 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 10:52:46, will wait at most till 10:57:46
+10:50:17 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/cosmic_guinea/io/cmd.sh'
+10:50:17 -    ERROR - wally           - During fio run
+Traceback (most recent call last):
+  File "wally/suits/io/fio.py", line 734, in run
+    intervals = list(pool.map(func, self.config.nodes))
+  File "/home/mosorio/wally_env/lib/python2.7/site-packages/concurrent/futures/_base.py", line 581, in result_iterator
+    yield future.result()
+  File "/home/mosorio/wally_env/lib/python2.7/site-packages/concurrent/futures/_base.py", line 405, in result
+    return self.__get_result()
+  File "/home/mosorio/wally_env/lib/python2.7/site-packages/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "wally/suits/io/fio.py", line 864, in do_run
+    task.start(sudo + "bash " + self.sh_file)
+  File "wally/ssh_utils.py", line 397, in start
+    **params)
+  File "wally/ssh_utils.py", line 543, in run_over_ssh
+    raise OSError(templ.format(node, cmd, code, output))
+OSError: SSH:170.80.74.57:22 Cmd 'screen -S test -d -m sudo bash /tmp/wally/cosmic_guinea/io/cmd.sh' failed with code 127. Output: bash: screen: command not found
+
+10:50:17 -     INFO - wally           - Reconnectiong, sleeping 30s and retrying
+10:50:48 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/cosmic_guinea/io/cmd.sh'
+10:53:20 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+10:53:21 -     INFO - wally           - Will run hdd_rwx4kth2 test
+10:53:21 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 10:55:51, will wait at most till 11:00:51
+10:53:22 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/cosmic_guinea/io/cmd.sh'
+10:55:55 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+10:55:56 -     INFO - wally           - Will run hdd_rwx4kth3 test
+10:55:56 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 10:58:26, will wait at most till 11:03:26
+10:55:57 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/cosmic_guinea/io/cmd.sh'
+10:58:31 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+10:58:32 -     INFO - wally           - Will run hdd_rwx4kth4 test
+10:58:32 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:01:02, will wait at most till 11:06:02
+10:58:33 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/cosmic_guinea/io/cmd.sh'
+11:01:07 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+11:01:08 -     INFO - wally           - Will run hdd_rwx4kth5 test
+11:01:08 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:03:38, will wait at most till 11:08:38
+11:01:08 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/cosmic_guinea/io/cmd.sh'
+11:03:41 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+11:03:42 -     INFO - wally           - Will run hdd_rwd4kth1 test
+11:03:42 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 11:06:12, will wait at most till 11:11:12
+11:03:43 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/cosmic_guinea/io/cmd.sh'
+11:06:20 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+11:06:20 -     INFO - wally           - Start store_raw_results_stage
+11:06:20 -     INFO - wally           - Start disconnect_stage
+11:06:20 -    DEBUG - wally           - Start utils.cleanup
+11:06:20 -     INFO - wally           - Start console_report_stage
+11:06:20 -     INFO - wally           - Text report were stored in /home/mosorio/wally/docker_results/cosmic_guinea/report.txt
+11:06:20 -     INFO - wally           - Start html_report_stage
+11:06:20 -    ERROR - wally.report    - Diring hdd report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 642, in make_hdd_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 464, in make_plots
+    raise ValueError("Can't found any date for " + name_pref)
+ValueError: Can't found any date for hdd_rrd4k
+11:06:21 -     INFO - wally           - All info stored into /home/mosorio/wally/docker_results/cosmic_guinea
+11:06:21 -     INFO - wally           - Tests finished successfully

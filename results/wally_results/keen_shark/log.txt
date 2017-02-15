@@ -1,0 +1,107 @@
+10:32:28 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/keen_shark
+10:32:28 -     INFO - wally           - Start discover_stage
+10:32:28 -     INFO - wally           - Start reuse_vms_stage
+10:32:28 -     INFO - wally           - Start log_nodes_statistic_stage
+10:32:28 -     INFO - wally           - Found 1 nodes total
+10:32:28 -    DEBUG - wally           - Found 1 nodes with role testnode
+10:32:28 -     INFO - wally           - Start save_nodes_stage
+10:32:28 -     INFO - wally           - Start connect_stage
+10:32:28 -     INFO - wally           - Connecting to nodes
+10:32:28 -     INFO - wally           - All nodes connected successfully
+10:32:28 -     INFO - wally           - Start run_tests_stage
+10:32:28 -    DEBUG - wally           - Run preparation
+10:32:30 -    DEBUG - wally           - prefill is skipped
+10:32:30 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 11:53:21
+10:32:30 -     INFO - wally           - Will run ceph_rws4kth1 test
+10:32:30 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:36:00, will wait at most till 10:41:00
+10:32:30 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+10:36:04 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:36:04 -     INFO - wally           - Will run ceph_rws4kth5 test
+10:36:04 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:39:34, will wait at most till 10:44:34
+10:36:04 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+10:39:38 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:39:38 -     INFO - wally           - Will run ceph_rws4kth10 test
+10:39:38 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:43:08, will wait at most till 10:48:08
+10:39:38 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+10:43:12 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:43:12 -     INFO - wally           - Will run ceph_rws4kth15 test
+10:43:12 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:46:42, will wait at most till 10:51:42
+10:43:12 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+10:46:46 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:46:46 -     INFO - wally           - Will run ceph_rws4kth25 test
+10:46:46 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:50:16, will wait at most till 10:55:16
+10:46:47 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+10:50:25 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:50:25 -     INFO - wally           - Will run ceph_rws4kth40 test
+10:50:25 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:53:55, will wait at most till 10:58:55
+10:50:25 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+10:54:01 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:54:01 -     INFO - wally           - Will run ceph_rrd4kth1 test
+10:54:01 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:57:31, will wait at most till 11:02:31
+10:54:01 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+10:57:41 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+10:57:41 -     INFO - wally           - Will run ceph_rrd4kth5 test
+10:57:41 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:01:11, will wait at most till 11:06:11
+10:57:41 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+11:01:15 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:01:15 -     INFO - wally           - Will run ceph_rrd4kth10 test
+11:01:15 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:04:45, will wait at most till 11:09:45
+11:01:15 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+11:04:49 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:04:49 -     INFO - wally           - Will run ceph_rrd4kth15 test
+11:04:49 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:08:19, will wait at most till 11:13:19
+11:04:49 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+11:08:23 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:08:23 -     INFO - wally           - Will run ceph_rrd4kth25 test
+11:08:23 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:11:53, will wait at most till 11:16:53
+11:08:23 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+11:11:57 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:11:57 -     INFO - wally           - Will run ceph_rrd4kth40 test
+11:11:57 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:15:27, will wait at most till 11:20:27
+11:11:58 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+11:15:31 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:15:32 -     INFO - wally           - Will run ceph_rrd4kth80 test
+11:15:32 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:19:02, will wait at most till 11:24:02
+11:15:32 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+11:19:05 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:19:07 -     INFO - wally           - Will run ceph_rrd4kth120 test
+11:19:07 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:22:37, will wait at most till 11:27:37
+11:19:07 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+11:22:41 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:22:42 -     INFO - wally           - Will run ceph_rwd4kth1 test
+11:22:42 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:26:12, will wait at most till 11:31:12
+11:22:42 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+11:26:16 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:26:16 -     INFO - wally           - Will run ceph_rrd16mth1 test
+11:26:16 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:29:46, will wait at most till 11:34:46
+11:26:16 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+11:29:50 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:29:50 -     INFO - wally           - Will run ceph_rrd16mth3 test
+11:29:50 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:33:20, will wait at most till 11:38:20
+11:29:50 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+11:33:24 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:33:24 -     INFO - wally           - Will run ceph_rrd16mth10 test
+11:33:24 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:36:54, will wait at most till 11:41:54
+11:33:24 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+11:36:58 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:36:58 -     INFO - wally           - Will run ceph_rwd16mth1 test
+11:36:58 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:40:28, will wait at most till 11:45:28
+11:36:58 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+11:40:32 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:40:32 -     INFO - wally           - Will run ceph_rwd16mth3 test
+11:40:32 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:44:02, will wait at most till 11:49:02
+11:40:32 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+11:44:05 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:44:06 -     INFO - wally           - Will run ceph_rwd16mth10 test
+11:44:06 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:47:36, will wait at most till 11:52:36
+11:44:06 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_shark/io/cmd.sh'
+11:47:41 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+11:47:42 -     INFO - wally           - Start store_raw_results_stage
+11:47:42 -     INFO - wally           - Start disconnect_stage
+11:47:42 -    DEBUG - wally           - Start utils.cleanup
+11:47:42 -     INFO - wally           - Start console_report_stage
+11:47:43 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/keen_shark/report.txt
+11:47:43 -     INFO - wally           - Start html_report_stage
+11:47:46 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/keen_shark/ceph_report.html
+11:47:46 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/keen_shark
+11:47:46 -     INFO - wally           - Tests finished successfully

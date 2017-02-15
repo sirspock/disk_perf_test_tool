@@ -1,0 +1,107 @@
+12:35:59 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/humble_eft
+12:35:59 -     INFO - wally           - Start discover_stage
+12:35:59 -     INFO - wally           - Start reuse_vms_stage
+12:35:59 -     INFO - wally           - Start log_nodes_statistic_stage
+12:35:59 -     INFO - wally           - Found 1 nodes total
+12:35:59 -    DEBUG - wally           - Found 1 nodes with role testnode
+12:35:59 -     INFO - wally           - Start save_nodes_stage
+12:35:59 -     INFO - wally           - Start connect_stage
+12:35:59 -     INFO - wally           - Connecting to nodes
+12:35:59 -     INFO - wally           - All nodes connected successfully
+12:35:59 -     INFO - wally           - Start run_tests_stage
+12:35:59 -    DEBUG - wally           - Run preparation
+12:36:01 -    DEBUG - wally           - prefill is skipped
+12:36:01 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 13:56:52
+12:36:01 -     INFO - wally           - Will run ceph_rws4kth1 test
+12:36:01 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:39:31, will wait at most till 12:44:31
+12:36:01 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+12:39:35 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:39:35 -     INFO - wally           - Will run ceph_rws4kth5 test
+12:39:35 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:43:05, will wait at most till 12:48:05
+12:39:35 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+12:43:09 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:43:09 -     INFO - wally           - Will run ceph_rws4kth10 test
+12:43:09 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:46:39, will wait at most till 12:51:39
+12:43:09 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+12:46:45 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:46:45 -     INFO - wally           - Will run ceph_rws4kth15 test
+12:46:45 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:50:15, will wait at most till 12:55:15
+12:46:45 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+12:50:25 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:50:26 -     INFO - wally           - Will run ceph_rws4kth25 test
+12:50:26 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:53:56, will wait at most till 12:58:56
+12:50:26 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+12:54:02 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:54:02 -     INFO - wally           - Will run ceph_rws4kth40 test
+12:54:02 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:57:32, will wait at most till 13:02:32
+12:54:02 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+12:57:42 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+12:57:42 -     INFO - wally           - Will run ceph_rrd4kth1 test
+12:57:42 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:01:12, will wait at most till 13:06:12
+12:57:42 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+13:01:18 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:01:18 -     INFO - wally           - Will run ceph_rrd4kth5 test
+13:01:18 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:04:48, will wait at most till 13:09:48
+13:01:18 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+13:04:52 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:04:52 -     INFO - wally           - Will run ceph_rrd4kth10 test
+13:04:52 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:08:22, will wait at most till 13:13:22
+13:04:52 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+13:08:26 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:08:26 -     INFO - wally           - Will run ceph_rrd4kth15 test
+13:08:26 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:11:56, will wait at most till 13:16:56
+13:08:26 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+13:12:00 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:12:00 -     INFO - wally           - Will run ceph_rrd4kth25 test
+13:12:00 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:15:30, will wait at most till 13:20:30
+13:12:00 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+13:15:34 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:15:34 -     INFO - wally           - Will run ceph_rrd4kth40 test
+13:15:34 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:19:04, will wait at most till 13:24:04
+13:15:34 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+13:19:08 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:19:09 -     INFO - wally           - Will run ceph_rrd4kth80 test
+13:19:09 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:22:39, will wait at most till 13:27:39
+13:19:09 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+13:22:43 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:22:44 -     INFO - wally           - Will run ceph_rrd4kth120 test
+13:22:44 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:26:14, will wait at most till 13:31:14
+13:22:44 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+13:26:18 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:26:20 -     INFO - wally           - Will run ceph_rwd4kth1 test
+13:26:20 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:29:50, will wait at most till 13:34:50
+13:26:20 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+13:29:53 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:29:54 -     INFO - wally           - Will run ceph_rrd16mth1 test
+13:29:54 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:33:24, will wait at most till 13:38:24
+13:29:54 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+13:33:27 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:33:28 -     INFO - wally           - Will run ceph_rrd16mth3 test
+13:33:28 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:36:58, will wait at most till 13:41:58
+13:33:28 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+13:37:01 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:37:02 -     INFO - wally           - Will run ceph_rrd16mth10 test
+13:37:02 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:40:32, will wait at most till 13:45:32
+13:37:02 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+13:40:35 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:40:36 -     INFO - wally           - Will run ceph_rwd16mth1 test
+13:40:36 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:44:06, will wait at most till 13:49:06
+13:40:36 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+13:44:09 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:44:10 -     INFO - wally           - Will run ceph_rwd16mth3 test
+13:44:10 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:47:40, will wait at most till 13:52:40
+13:44:10 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+13:47:44 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:47:44 -     INFO - wally           - Will run ceph_rwd16mth10 test
+13:47:44 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:51:14, will wait at most till 13:56:14
+13:47:44 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/humble_eft/io/cmd.sh'
+13:51:18 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+13:51:18 -     INFO - wally           - Start store_raw_results_stage
+13:51:18 -     INFO - wally           - Start disconnect_stage
+13:51:18 -    DEBUG - wally           - Start utils.cleanup
+13:51:18 -     INFO - wally           - Start console_report_stage
+13:51:20 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/humble_eft/report.txt
+13:51:20 -     INFO - wally           - Start html_report_stage
+13:51:24 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/humble_eft/ceph_report.html
+13:51:24 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/humble_eft
+13:51:24 -     INFO - wally           - Tests finished successfully

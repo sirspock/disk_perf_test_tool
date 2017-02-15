@@ -1,0 +1,11 @@
+include: default.yaml
+explicit_nodes:
+   "ssh://root@localhost::/home/zeus/.ssh/id_rsa": testnode
+
+tests:
+    - io:
+        cfg: hdd
+        params:
+            NUM_ROUNDS: 1
+            FILENAME: /tmp/test.raw
+            TEST_FILE_SIZE: 10G

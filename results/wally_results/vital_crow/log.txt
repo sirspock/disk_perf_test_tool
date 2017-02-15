@@ -1,0 +1,33 @@
+10:44:10 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/vital_crow
+10:44:10 -     INFO - wally           - Start discover_stage
+10:44:10 -     INFO - wally           - Start reuse_vms_stage
+10:44:10 -     INFO - wally           - Start log_nodes_statistic_stage
+10:44:10 -     INFO - wally           - Found 1 nodes total
+10:44:10 -    DEBUG - wally           - Found 1 nodes with role testnode
+10:44:10 -     INFO - wally           - Start save_nodes_stage
+10:44:10 -     INFO - wally           - Start connect_stage
+10:44:10 -     INFO - wally           - Connecting to nodes
+10:44:10 -     INFO - wally           - All nodes connected successfully
+10:44:10 -     INFO - wally           - Start run_tests_stage
+10:44:10 -    DEBUG - wally           - Run preparation
+10:44:12 -    DEBUG - wally           - prefill is skipped
+10:44:12 -     INFO - wally           - Entire test should takes aroud: 0:50:03 and finished at 11:34:15
+10:44:12 -     INFO - wally           - Will run ceph_rws4kth1 test
+10:44:12 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:47:42, will wait at most till 10:52:42
+10:44:12 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/vital_crow/io/cmd.sh'
+18:22:30 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/vital_crow
+18:22:30 -     INFO - wally           - Start load_data_from_path_stage
+18:22:30 -    ERROR - wally           - During load_data_from_path_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 277, in main
+    stage(cfg, ctx)
+  File "wally/run_test.py", line 607, in load_data_from_path_stage
+    for tp, vals in load_data_from_path(var_dir).items():
+  File "wally/run_test.py", line 594, in load_data_from_path
+    raw_res = yaml_load(open(files['raw_results']).read())
+IOError: [Errno 2] No such file or directory: 'wally_results/vital_crow/raw_results.yaml'
+18:22:30 -    DEBUG - wally           - Start utils.cleanup
+18:22:30 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/vital_crow
+18:22:30 -    ERROR - wally           - Tests are failed. See detailed error above

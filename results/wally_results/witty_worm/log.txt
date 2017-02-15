@@ -1,0 +1,107 @@
+18:40:59 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/witty_worm
+18:40:59 -     INFO - wally           - Start discover_stage
+18:40:59 -     INFO - wally           - Start reuse_vms_stage
+18:40:59 -     INFO - wally           - Start log_nodes_statistic_stage
+18:40:59 -     INFO - wally           - Found 1 nodes total
+18:40:59 -    DEBUG - wally           - Found 1 nodes with role testnode
+18:40:59 -     INFO - wally           - Start save_nodes_stage
+18:40:59 -     INFO - wally           - Start connect_stage
+18:40:59 -     INFO - wally           - Connecting to nodes
+18:40:59 -     INFO - wally           - All nodes connected successfully
+18:40:59 -     INFO - wally           - Start run_tests_stage
+18:40:59 -    DEBUG - wally           - Run preparation
+18:41:01 -    DEBUG - wally           - prefill is skipped
+18:41:01 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 20:01:52
+18:41:01 -     INFO - wally           - Will run ceph_rws4kth1 test
+18:41:01 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 18:44:31, will wait at most till 18:49:31
+18:41:01 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+18:44:35 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+18:44:35 -     INFO - wally           - Will run ceph_rws4kth5 test
+18:44:35 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 18:48:05, will wait at most till 18:53:05
+18:44:35 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+18:48:09 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+18:48:09 -     INFO - wally           - Will run ceph_rws4kth10 test
+18:48:09 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 18:51:39, will wait at most till 18:56:39
+18:48:09 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+18:51:43 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+18:51:43 -     INFO - wally           - Will run ceph_rws4kth15 test
+18:51:43 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 18:55:13, will wait at most till 19:00:13
+18:51:43 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+18:55:19 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+18:55:20 -     INFO - wally           - Will run ceph_rws4kth25 test
+18:55:20 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 18:58:50, will wait at most till 19:03:50
+18:55:20 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+18:58:55 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+18:58:56 -     INFO - wally           - Will run ceph_rws4kth40 test
+18:58:56 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:02:26, will wait at most till 19:07:26
+18:58:56 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+19:02:34 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:02:34 -     INFO - wally           - Will run ceph_rrd4kth1 test
+19:02:34 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:06:04, will wait at most till 19:11:04
+19:02:34 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+19:06:10 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:06:10 -     INFO - wally           - Will run ceph_rrd4kth5 test
+19:06:10 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:09:40, will wait at most till 19:14:40
+19:06:10 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+19:09:44 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:09:44 -     INFO - wally           - Will run ceph_rrd4kth10 test
+19:09:44 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:13:14, will wait at most till 19:18:14
+19:09:44 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+19:13:18 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:13:18 -     INFO - wally           - Will run ceph_rrd4kth15 test
+19:13:18 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:16:48, will wait at most till 19:21:48
+19:13:18 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+19:16:52 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:16:52 -     INFO - wally           - Will run ceph_rrd4kth25 test
+19:16:52 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:20:22, will wait at most till 19:25:22
+19:16:52 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+19:20:26 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:20:27 -     INFO - wally           - Will run ceph_rrd4kth40 test
+19:20:27 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:23:57, will wait at most till 19:28:57
+19:20:27 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+19:24:00 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:24:01 -     INFO - wally           - Will run ceph_rrd4kth80 test
+19:24:01 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:27:31, will wait at most till 19:32:31
+19:24:01 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+19:27:35 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:27:36 -     INFO - wally           - Will run ceph_rrd4kth120 test
+19:27:36 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:31:06, will wait at most till 19:36:06
+19:27:36 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+19:31:10 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:31:11 -     INFO - wally           - Will run ceph_rwd4kth1 test
+19:31:11 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:34:41, will wait at most till 19:39:41
+19:31:11 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+19:34:45 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:34:45 -     INFO - wally           - Will run ceph_rrd16mth1 test
+19:34:45 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:38:15, will wait at most till 19:43:15
+19:34:45 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+19:38:19 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:38:20 -     INFO - wally           - Will run ceph_rrd16mth3 test
+19:38:20 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:41:50, will wait at most till 19:46:50
+19:38:20 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+19:41:53 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:41:54 -     INFO - wally           - Will run ceph_rrd16mth10 test
+19:41:54 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:45:24, will wait at most till 19:50:24
+19:41:54 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+19:45:27 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:45:28 -     INFO - wally           - Will run ceph_rwd16mth1 test
+19:45:28 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:48:58, will wait at most till 19:53:58
+19:45:28 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+19:49:02 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:49:02 -     INFO - wally           - Will run ceph_rwd16mth3 test
+19:49:02 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:52:32, will wait at most till 19:57:32
+19:49:02 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+19:52:36 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:52:36 -     INFO - wally           - Will run ceph_rwd16mth10 test
+19:52:36 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 19:56:06, will wait at most till 20:01:06
+19:52:36 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/witty_worm/io/cmd.sh'
+19:56:10 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+19:56:11 -     INFO - wally           - Start store_raw_results_stage
+19:56:11 -     INFO - wally           - Start disconnect_stage
+19:56:11 -    DEBUG - wally           - Start utils.cleanup
+19:56:11 -     INFO - wally           - Start console_report_stage
+19:56:13 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/witty_worm/report.txt
+19:56:13 -     INFO - wally           - Start html_report_stage
+19:56:16 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/witty_worm/ceph_report.html
+19:56:16 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/witty_worm
+19:56:16 -     INFO - wally           - Tests finished successfully

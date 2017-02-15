@@ -1,0 +1,107 @@
+15:25:55 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/epic_bunny
+15:25:55 -     INFO - wally           - Start discover_stage
+15:25:55 -     INFO - wally           - Start reuse_vms_stage
+15:25:55 -     INFO - wally           - Start log_nodes_statistic_stage
+15:25:55 -     INFO - wally           - Found 1 nodes total
+15:25:55 -    DEBUG - wally           - Found 1 nodes with role testnode
+15:25:55 -     INFO - wally           - Start save_nodes_stage
+15:25:55 -     INFO - wally           - Start connect_stage
+15:25:55 -     INFO - wally           - Connecting to nodes
+15:25:55 -     INFO - wally           - All nodes connected successfully
+15:25:55 -     INFO - wally           - Start run_tests_stage
+15:25:55 -    DEBUG - wally           - Run preparation
+15:25:57 -    DEBUG - wally           - prefill is skipped
+15:25:57 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 16:46:48
+15:25:57 -     INFO - wally           - Will run ceph_rws4kth1 test
+15:25:57 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:29:27, will wait at most till 15:34:27
+15:25:57 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+15:29:31 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:29:31 -     INFO - wally           - Will run ceph_rws4kth5 test
+15:29:31 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:33:01, will wait at most till 15:38:01
+15:29:31 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+15:33:05 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:33:05 -     INFO - wally           - Will run ceph_rws4kth10 test
+15:33:05 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:36:35, will wait at most till 15:41:35
+15:33:05 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+15:36:41 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:36:41 -     INFO - wally           - Will run ceph_rws4kth15 test
+15:36:41 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:40:11, will wait at most till 15:45:11
+15:36:41 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+15:40:17 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:40:17 -     INFO - wally           - Will run ceph_rws4kth25 test
+15:40:17 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:43:47, will wait at most till 15:48:47
+15:40:18 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+15:43:53 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:43:54 -     INFO - wally           - Will run ceph_rws4kth40 test
+15:43:54 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:47:24, will wait at most till 15:52:24
+15:43:54 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+15:47:33 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:47:34 -     INFO - wally           - Will run ceph_rrd4kth1 test
+15:47:34 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:51:04, will wait at most till 15:56:04
+15:47:34 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+15:51:12 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:51:12 -     INFO - wally           - Will run ceph_rrd4kth5 test
+15:51:12 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:54:42, will wait at most till 15:59:42
+15:51:12 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+15:54:45 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:54:46 -     INFO - wally           - Will run ceph_rrd4kth10 test
+15:54:46 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:58:16, will wait at most till 16:03:16
+15:54:46 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+15:58:19 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+15:58:20 -     INFO - wally           - Will run ceph_rrd4kth15 test
+15:58:20 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:01:50, will wait at most till 16:06:50
+15:58:20 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+16:01:53 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+16:01:53 -     INFO - wally           - Will run ceph_rrd4kth25 test
+16:01:53 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:05:23, will wait at most till 16:10:23
+16:01:54 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+16:05:27 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+16:05:27 -     INFO - wally           - Will run ceph_rrd4kth40 test
+16:05:27 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:08:57, will wait at most till 16:13:57
+16:05:28 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+16:09:01 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+16:09:02 -     INFO - wally           - Will run ceph_rrd4kth80 test
+16:09:02 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:12:32, will wait at most till 16:17:32
+16:09:02 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+16:12:36 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+16:12:37 -     INFO - wally           - Will run ceph_rrd4kth120 test
+16:12:37 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:16:07, will wait at most till 16:21:07
+16:12:37 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+16:16:11 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+16:16:12 -     INFO - wally           - Will run ceph_rwd4kth1 test
+16:16:12 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:19:42, will wait at most till 16:24:42
+16:16:12 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+16:19:45 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+16:19:46 -     INFO - wally           - Will run ceph_rrd16mth1 test
+16:19:46 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:23:16, will wait at most till 16:28:16
+16:19:46 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+16:23:20 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+16:23:20 -     INFO - wally           - Will run ceph_rrd16mth3 test
+16:23:20 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:26:50, will wait at most till 16:31:50
+16:23:20 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+16:26:54 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+16:26:54 -     INFO - wally           - Will run ceph_rrd16mth10 test
+16:26:54 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:30:24, will wait at most till 16:35:24
+16:26:54 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+16:30:28 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+16:30:28 -     INFO - wally           - Will run ceph_rwd16mth1 test
+16:30:28 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:33:58, will wait at most till 16:38:58
+16:30:28 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+16:34:01 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+16:34:02 -     INFO - wally           - Will run ceph_rwd16mth3 test
+16:34:02 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:37:32, will wait at most till 16:42:32
+16:34:02 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+16:37:35 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+16:37:36 -     INFO - wally           - Will run ceph_rwd16mth10 test
+16:37:36 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:41:06, will wait at most till 16:46:06
+16:37:36 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/epic_bunny/io/cmd.sh'
+16:41:09 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+16:41:10 -     INFO - wally           - Start store_raw_results_stage
+16:41:10 -     INFO - wally           - Start disconnect_stage
+16:41:10 -    DEBUG - wally           - Start utils.cleanup
+16:41:10 -     INFO - wally           - Start console_report_stage
+16:41:11 -     INFO - wally           - Text report were stored in /home/mosorio/wally/wally_results/epic_bunny/report.txt
+16:41:11 -     INFO - wally           - Start html_report_stage
+16:41:14 -     INFO - wally.report    - Report ceph saved into /home/mosorio/wally/wally_results/epic_bunny/ceph_report.html
+16:41:14 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/epic_bunny
+16:41:14 -     INFO - wally           - Tests finished successfully

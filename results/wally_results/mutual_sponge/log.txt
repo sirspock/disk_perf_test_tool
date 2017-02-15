@@ -1,0 +1,37 @@
+17:13:40 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/mutual_sponge
+17:13:40 -     INFO - wally           - Start discover_stage
+17:13:40 -     INFO - wally           - Start reuse_vms_stage
+17:13:40 -     INFO - wally           - Start log_nodes_statistic_stage
+17:13:40 -     INFO - wally           - Found 1 nodes total
+17:13:40 -    DEBUG - wally           - Found 1 nodes with role testnode
+17:13:40 -     INFO - wally           - Start save_nodes_stage
+17:13:40 -     INFO - wally           - Start connect_stage
+17:13:40 -     INFO - wally           - Connecting to nodes
+17:13:41 -     INFO - wally           - All nodes connected successfully
+17:13:41 -     INFO - wally           - Start run_tests_stage
+17:13:41 -    DEBUG - wally           - Run preparation
+17:13:41 -     INFO - wally           - Prefilling file /root/test.raw
+17:13:41 -    DEBUG - wally           - SSH:170.80.74.32:32770 Exec 'sudo fio --name=xxx --filename=/root/test.raw --direct=1 --bs=4m --size=109m --rw=write'
+17:13:42 -     INFO - wally           - Entire test should takes aroud: 0:16:30 and finished at 17:30:12
+17:13:42 -     INFO - wally           - Will run hdd_rwx4kth1 test
+17:13:42 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:16:12, will wait at most till 17:21:12
+17:13:42 -    DEBUG - wally           - SSH:170.80.74.32:32770 Exec 'screen -S test -d -m sudo bash /tmp/wally/mutual_sponge/io/cmd.sh'
+17:13:42 -    ERROR - wally           - During fio run
+Traceback (most recent call last):
+  File "wally/suits/io/fio.py", line 734, in run
+    intervals = list(pool.map(func, self.config.nodes))
+  File "/home/mosorio/.pyenv/versions/2.7.10/lib/python2.7/site-packages/concurrent/futures/_base.py", line 581, in result_iterator
+    yield future.result()
+  File "/home/mosorio/.pyenv/versions/2.7.10/lib/python2.7/site-packages/concurrent/futures/_base.py", line 405, in result
+    return self.__get_result()
+  File "/home/mosorio/.pyenv/versions/2.7.10/lib/python2.7/site-packages/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "wally/suits/io/fio.py", line 864, in do_run
+    task.start(sudo + "bash " + self.sh_file)
+  File "wally/ssh_utils.py", line 397, in start
+    **params)
+  File "wally/ssh_utils.py", line 543, in run_over_ssh
+    raise OSError(templ.format(node, cmd, code, output))
+OSError: SSH:170.80.74.32:32770 Cmd 'screen -S test -d -m sudo bash /tmp/wally/mutual_sponge/io/cmd.sh' failed with code 127. Output: bash: screen: command not found
+
+17:13:42 -     INFO - wally           - Reconnectiong, sleeping 30s and retrying

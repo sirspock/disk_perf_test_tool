@@ -1,0 +1,41 @@
+10:34:22 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/keen_possum
+10:34:22 -     INFO - wally           - Start discover_stage
+10:34:22 -     INFO - wally           - Start reuse_vms_stage
+10:34:22 -     INFO - wally           - Start log_nodes_statistic_stage
+10:34:22 -     INFO - wally           - Found 1 nodes total
+10:34:22 -    DEBUG - wally           - Found 1 nodes with role testnode
+10:34:22 -     INFO - wally           - Start save_nodes_stage
+10:34:22 -     INFO - wally           - Start connect_stage
+10:34:22 -     INFO - wally           - Connecting to nodes
+10:34:23 -     INFO - wally           - All nodes connected successfully
+10:34:23 -     INFO - wally           - Start run_tests_stage
+10:34:23 -    DEBUG - wally           - Run preparation
+10:34:25 -    DEBUG - wally           - prefill is skipped
+10:34:25 -     INFO - wally           - Entire test should takes aroud: 0:16:30 and finished at 10:50:55
+10:34:25 -     INFO - wally           - Will run hdd_rwx4kth1 test
+10:34:25 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 10:36:55, will wait at most till 10:41:55
+10:34:25 -    DEBUG - wally           - SSH:138.219.231.195:2121 Exec 'screen -S test -d -m sudo bash /tmp/wally/keen_possum/io/cmd.sh'
+10:36:58 -    DEBUG - wally           - Test on node 138.219.231.195_2121 is finished
+10:36:58 -    ERROR - wally           - During run_tests_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 277, in main
+    stage(cfg, ctx)
+  File "wally/run_test.py", line 481, in run_tests_stage
+    for tp, res in run_tests(cfg, test_group, ctx.nodes):
+  File "wally/run_test.py", line 242, in run_tests
+    res = test_cls(test_cfg).run()
+  File "wally/suits/io/fio.py", line 765, in run
+    res = load_test_results(self.config.log_directory, pos)
+  File "wally/suits/io/fio.py", line 131, in load_test_results
+    ts = load_sys_log_file(ftype, os.path.join(folder, fname))
+  File "wally/suits/io/fio.py", line 89, in load_sys_log_file
+    return TimeSeriesValue(vals)
+  File "wally/suits/itest.py", line 116, in __init__
+    assert len(data) > 0
+AssertionError
+10:36:58 -     INFO - wally           - Start disconnect_stage
+10:36:58 -    DEBUG - wally           - Start utils.cleanup
+10:36:58 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/keen_possum
+10:36:58 -    ERROR - wally           - Tests are failed. See detailed error above

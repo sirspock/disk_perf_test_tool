@@ -1,0 +1,29 @@
+16:25:53 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/liked_weasel
+16:25:53 -     INFO - wally           - Start discover_stage
+16:25:53 -     INFO - wally           - Start reuse_vms_stage
+16:25:53 -     INFO - wally           - Start log_nodes_statistic_stage
+16:25:53 -     INFO - wally           - Found 1 nodes total
+16:25:53 -    DEBUG - wally           - Found 1 nodes with role testnode
+16:25:53 -     INFO - wally           - Start save_nodes_stage
+16:25:53 -     INFO - wally           - Start connect_stage
+16:25:53 -     INFO - wally           - Connecting to nodes
+16:25:53 -     INFO - wally           - All nodes connected successfully
+16:25:53 -     INFO - wally           - Start run_tests_stage
+16:25:53 -    DEBUG - wally           - Run preparation
+16:25:54 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'sudo apt-get -y install screen fio'
+16:25:59 -     INFO - wally           - Prefilling file /dev/rbd0
+16:25:59 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'sudo fio --name=xxx --filename=/dev/rbd0 --direct=1 --bs=4m --size=20480m --rw=write'
+16:27:48 -     INFO - wally           - Initiall fio fill bw is 187 MiBps for this vm
+16:27:48 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 17:48:39
+16:27:48 -     INFO - wally           - Will run ceph_rws4kth1 test
+16:27:48 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:31:18, will wait at most till 16:36:18
+16:27:48 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/liked_weasel/io/cmd.sh'
+16:31:22 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+16:31:22 -     INFO - wally           - Will run ceph_rws4kth5 test
+16:31:22 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:34:52, will wait at most till 16:39:52
+16:31:22 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/liked_weasel/io/cmd.sh'
+16:34:56 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished
+16:34:56 -     INFO - wally           - Will run ceph_rws4kth10 test
+16:34:56 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:38:26, will wait at most till 16:43:26
+16:34:57 -    DEBUG - wally           - SSH:172.19.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/liked_weasel/io/cmd.sh'
+16:38:30 -    DEBUG - wally           - Test on node 172.19.1.1_22 is finished

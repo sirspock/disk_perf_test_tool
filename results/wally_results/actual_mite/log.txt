@@ -1,0 +1,19 @@
+16:40:28 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/actual_mite
+16:40:28 -     INFO - wally           - Start discover_stage
+16:40:28 -     INFO - wally           - Start reuse_vms_stage
+16:40:28 -     INFO - wally           - Start log_nodes_statistic_stage
+16:40:28 -     INFO - wally           - Found 1 nodes total
+16:40:28 -    DEBUG - wally           - Found 1 nodes with role testnode
+16:40:28 -     INFO - wally           - Start save_nodes_stage
+16:40:28 -     INFO - wally           - Start connect_stage
+16:40:28 -     INFO - wally           - Connecting to nodes
+16:40:29 -     INFO - wally           - All nodes connected successfully
+16:40:29 -     INFO - wally           - Start run_tests_stage
+16:40:29 -    DEBUG - wally           - Run preparation
+16:40:30 -     INFO - wally           - Prefilling file /root/test.raw
+16:40:30 -    DEBUG - wally           - SSH:138.219.231.195:2121 Exec 'sudo fio --name=xxx --filename=/root/test.raw --direct=1 --bs=4m --size=109m --rw=write'
+16:40:31 -     INFO - wally           - Initiall fio fill bw is 71 MiBps for this vm
+16:40:31 -     INFO - wally           - Entire test should takes aroud: 0:16:30 and finished at 16:57:01
+16:40:31 -     INFO - wally           - Will run hdd_rwx4kth1 test
+16:40:31 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 16:43:01, will wait at most till 16:48:01
+16:40:31 -    DEBUG - wally           - SSH:138.219.231.195:2121 Exec 'screen -S test -d -m sudo bash /tmp/wally/actual_mite/io/cmd.sh'

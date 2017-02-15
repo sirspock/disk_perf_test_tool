@@ -1,0 +1,54 @@
+12:04:19 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/keen_emu
+12:04:19 -     INFO - wally           - Start discover_stage
+12:04:19 -     INFO - wally           - Start reuse_vms_stage
+12:04:19 -     INFO - wally           - Start log_nodes_statistic_stage
+12:04:19 -     INFO - wally           - Found 1 nodes total
+12:04:19 -    DEBUG - wally           - Found 1 nodes with role testnode
+12:04:19 -     INFO - wally           - Start save_nodes_stage
+12:04:19 -     INFO - wally           - Start connect_stage
+12:04:19 -     INFO - wally           - Connecting to nodes
+12:04:20 -     INFO - wally           - All nodes connected successfully
+12:04:20 -     INFO - wally           - Start run_tests_stage
+12:04:20 -    DEBUG - wally           - Run preparation
+12:04:20 -    ERROR - wally           - Failed to create folder /tmp/wally/keen_emu/io on remote 192.168.50.47:22. Error: SSH:192.168.50.47:22 Cmd 'sudo mkdir -p "/tmp/wally/keen_emu/io" ; sudo chown beebop /tmp/wally/keen_emu/io' failed with code 1. Output: sudo: sorry, you must have a tty to run sudo
+sudo: sorry, you must have a tty to run sudo
+Traceback (most recent call last):
+  File "wally/suits/io/fio.py", line 656, in pre_run_th
+    rossh(cmd, nolog=True)
+  File "wally/suits/itest.py", line 204, in closure
+    **kwargs)
+  File "wally/ssh_utils.py", line 543, in run_over_ssh
+    raise OSError(templ.format(node, cmd, code, output))
+OSError: SSH:192.168.50.47:22 Cmd 'sudo mkdir -p "/tmp/wally/keen_emu/io" ; sudo chown beebop /tmp/wally/keen_emu/io' failed with code 1. Output: sudo: sorry, you must have a tty to run sudo
+sudo: sorry, you must have a tty to run sudo
+
+12:04:20 -    ERROR - wally           - XXXX
+Traceback (most recent call last):
+  File "wally/suits/io/fio.py", line 665, in pre_run_th
+    raise StopTestError(msg, exc)
+StopTestError: Failed to create folder /tmp/wally/keen_emu/io on remote 192.168.50.47:22. Error: SSH:192.168.50.47:22 Cmd 'sudo mkdir -p "/tmp/wally/keen_emu/io" ; sudo chown beebop /tmp/wally/keen_emu/io' failed with code 1. Output: sudo: sorry, you must have a tty to run sudo
+sudo: sorry, you must have a tty to run sudo
+
+12:04:20 -    ERROR - wally           - Exception during run_tests_stage: Failed to create folder /tmp/wally/keen_emu/io on remote 192.168.50.47:22. Error: SSH:192.168.50.47:22 Cmd 'sudo mkdir -p "/tmp/wally/keen_emu/io" ; sudo chown beebop /tmp/wally/keen_emu/io' failed with code 1. Output: sudo: sorry, you must have a tty to run sudo
+sudo: sorry, you must have a tty to run sudo
+
+12:04:20 -     INFO - wally           - Start disconnect_stage
+12:04:20 -    DEBUG - wally           - Start utils.cleanup
+12:04:20 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/keen_emu
+12:04:20 -    ERROR - wally           - Tests are failed. See detailed error above
+18:21:00 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/keen_emu
+18:21:00 -     INFO - wally           - Start load_data_from_path_stage
+18:21:00 -    ERROR - wally           - During load_data_from_path_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 277, in main
+    stage(cfg, ctx)
+  File "wally/run_test.py", line 607, in load_data_from_path_stage
+    for tp, vals in load_data_from_path(var_dir).items():
+  File "wally/run_test.py", line 594, in load_data_from_path
+    raw_res = yaml_load(open(files['raw_results']).read())
+IOError: [Errno 2] No such file or directory: 'wally_results/keen_emu/raw_results.yaml'
+18:21:00 -    DEBUG - wally           - Start utils.cleanup
+18:21:00 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/keen_emu
+18:21:00 -    ERROR - wally           - Tests are failed. See detailed error above

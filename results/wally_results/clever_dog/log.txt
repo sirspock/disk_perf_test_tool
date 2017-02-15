@@ -1,0 +1,29 @@
+17:32:48 -     INFO - wally           - All info would be stored into /home/mosorio/wally/wally_results/clever_dog
+17:32:48 -     INFO - wally           - Start discover_stage
+17:32:48 -     INFO - wally           - Start reuse_vms_stage
+17:32:48 -     INFO - wally           - Start log_nodes_statistic_stage
+17:32:48 -     INFO - wally           - Found 1 nodes total
+17:32:48 -    DEBUG - wally           - Found 1 nodes with role testnode
+17:32:48 -     INFO - wally           - Start save_nodes_stage
+17:32:48 -     INFO - wally           - Start connect_stage
+17:32:48 -     INFO - wally           - Connecting to nodes
+17:32:48 -    ERROR - wally           - During connect to root@138.219.231.195:2121::/home/mosorio/.ssh/id_rsa: Can't parse 'root@138.219.231.195:2121::/home/mosorio/.ssh/id_rsa' as ssh uri value
+17:32:48 -    ERROR - wally           - During connect_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 125, in log_stage
+    yield
+  File "wally/main.py", line 277, in main
+    stage(cfg, ctx)
+  File "wally/run_test.py", line 260, in connect_stage
+    connect_all(ctx.nodes)
+  File "wally/run_test.py", line 84, in connect_all
+    failed_testnodes.append(node.get_conn_id())
+  File "wally/discover/node.py", line 27, in get_conn_id
+    creds = parse_ssh_uri(self.conn_url[6:])
+  File "wally/ssh_utils.py", line 358, in parse_ssh_uri
+    raise ValueError("Can't parse {0!r} as ssh uri value".format(uri))
+ValueError: Can't parse 'root@138.219.231.195:2121::/home/mosorio/.ssh/id_rsa' as ssh uri value
+17:32:48 -     INFO - wally           - Start disconnect_stage
+17:32:48 -    DEBUG - wally           - Start utils.cleanup
+17:32:48 -     INFO - wally           - All info stored into /home/mosorio/wally/wally_results/clever_dog
+17:32:48 -    ERROR - wally           - Tests are failed. See detailed error above
