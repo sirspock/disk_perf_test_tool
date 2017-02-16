@@ -1,0 +1,19 @@
+[global]
+
+throttler_perf_counter = false
+
+
+
+[osd]
+
+journal_max_write_bytes = 4194304000 #(3.9 GB)
+journal_max_write_entries = 2000
+journal_queue_max_bytes = 4194304000 #(3.9 GB)
+journal_queue_max_ops = 3000
+osd_enable_op_tracker = false
+osd_client_message_cap = 0
+osd_client_message_size_cap = 0
+
+filestore_op_threads = 2
+filestore_min_sync_interval = 0.1
+filestore_max_sync_interval = 1

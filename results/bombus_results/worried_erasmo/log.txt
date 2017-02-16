@@ -1,0 +1,83 @@
+22:37:41 -     INFO - wally           - All info would be stored into /var/wally_results/worried_erasmo
+22:37:41 -     INFO - wally           - Start discover_stage
+22:37:41 -     INFO - wally           - Start reuse_vms_stage
+22:37:41 -     INFO - wally           - Start log_nodes_statistic_stage
+22:37:41 -     INFO - wally           - Found 1 nodes total
+22:37:41 -    DEBUG - wally           - Found 1 nodes with role testnode
+22:37:41 -     INFO - wally           - Start save_nodes_stage
+22:37:41 -     INFO - wally           - Start connect_stage
+22:37:41 -     INFO - wally           - Connecting to nodes
+22:37:41 -     INFO - wally           - All nodes connected successfully
+22:37:41 -     INFO - wally           - Start run_tests_stage
+22:37:41 -    DEBUG - wally           - Run preparation
+22:37:44 -    DEBUG - wally           - prefill is skipped
+22:37:44 -     INFO - wally           - Entire test should takes aroud: 0:41:15 and finished at 23:18:59
+22:37:44 -     INFO - wally           - Will run hdd_rwx4kth1 test
+22:37:44 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 22:40:14, will wait at most till 22:45:14
+22:37:44 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/worried_erasmo/io/cmd.sh'
+22:40:16 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:40:17 -     INFO - wally           - Will run hdd_rwx4kth5 test
+22:40:17 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 22:42:47, will wait at most till 22:47:47
+22:40:17 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/worried_erasmo/io/cmd.sh'
+22:42:50 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:42:50 -     INFO - wally           - Will run hdd_rwx4kth10 test
+22:42:50 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 22:45:20, will wait at most till 22:50:20
+22:42:51 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/worried_erasmo/io/cmd.sh'
+22:45:23 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:45:23 -     INFO - wally           - Will run hdd_rwx4kth15 test
+22:45:23 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 22:47:53, will wait at most till 22:52:53
+22:45:23 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/worried_erasmo/io/cmd.sh'
+22:47:58 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:47:58 -     INFO - wally           - Will run hdd_rwx4kth25 test
+22:47:58 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 22:50:28, will wait at most till 22:55:28
+22:47:58 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/worried_erasmo/io/cmd.sh'
+22:50:31 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:50:31 -     INFO - wally           - Will run hdd_rwx4kth40 test
+22:50:31 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 22:53:01, will wait at most till 22:58:01
+22:50:32 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/worried_erasmo/io/cmd.sh'
+22:53:10 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:53:10 -     INFO - wally           - Will run hdd_rrd4kth1 test
+22:53:10 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 22:55:40, will wait at most till 23:00:40
+22:53:11 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/worried_erasmo/io/cmd.sh'
+22:55:43 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:55:43 -     INFO - wally           - Will run hdd_rrd4kth5 test
+22:55:43 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 22:58:13, will wait at most till 23:03:13
+22:55:44 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/worried_erasmo/io/cmd.sh'
+22:58:16 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:58:16 -     INFO - wally           - Will run hdd_rrd4kth10 test
+22:58:16 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:00:46, will wait at most till 23:05:46
+22:58:16 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/worried_erasmo/io/cmd.sh'
+23:00:49 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:00:49 -     INFO - wally           - Will run hdd_rrd4kth15 test
+23:00:49 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:03:19, will wait at most till 23:08:19
+23:00:50 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/worried_erasmo/io/cmd.sh'
+23:03:24 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:03:24 -     INFO - wally           - Will run hdd_rrd4kth25 test
+23:03:24 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:05:54, will wait at most till 23:10:54
+23:03:24 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/worried_erasmo/io/cmd.sh'
+23:05:59 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:05:59 -     INFO - wally           - Will run hdd_rrd4kth40 test
+23:05:59 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:08:29, will wait at most till 23:13:29
+23:05:59 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/worried_erasmo/io/cmd.sh'
+23:08:34 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:08:34 -     INFO - wally           - Will run hdd_srd1mth1 test
+23:08:34 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:11:04, will wait at most till 23:16:04
+23:08:35 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/worried_erasmo/io/cmd.sh'
+23:11:09 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:11:09 -     INFO - wally           - Will run hdd_swd1mth1 test
+23:11:09 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:13:39, will wait at most till 23:18:39
+23:11:09 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/worried_erasmo/io/cmd.sh'
+23:13:42 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:13:42 -     INFO - wally           - Will run hdd_rwd4kth1 test
+23:13:42 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:16:12, will wait at most till 23:21:12
+23:13:43 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/worried_erasmo/io/cmd.sh'
+23:16:36 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:16:37 -     INFO - wally           - Start store_raw_results_stage
+23:16:37 -     INFO - wally           - Start disconnect_stage
+23:16:37 -    DEBUG - wally           - Start utils.cleanup
+23:16:37 -     INFO - wally           - Start console_report_stage
+23:16:37 -     INFO - wally           - Text report were stored in /var/wally_results/worried_erasmo/report.txt
+23:16:37 -     INFO - wally           - Start html_report_stage
+23:16:38 -     INFO - wally.report    - Report hdd saved into /var/wally_results/worried_erasmo/hdd_report.html
+23:16:38 -     INFO - wally           - All info stored into /var/wally_results/worried_erasmo
+23:16:38 -     INFO - wally           - Tests finished successfully

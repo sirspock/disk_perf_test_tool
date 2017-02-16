@@ -1,0 +1,29 @@
+vals: 
+    buffered: 0
+    blocksize: 1m
+    direct: 1
+    group_reporting: 1
+    ramp_time: 30
+    log_avg_msec: 500
+    FILENAME: /mnt/test.raw
+    write_lat_log: fio_log
+    size: 10G
+    rw: write
+    norandommap: 1
+    randrepeat: 0
+    filename: /mnt/test.raw
+    NUMJOBS: [1, 5, 10, 15, 25, 40]
+    unified_rw_reporting: '1'
+    iodepth: 1
+    TEST_FILE_SIZE: 10G
+    time_based: 1
+    thread: 1
+    write_bw_log: fio_log
+    write_iops_log: fio_log
+    runtime: 120
+    wait_for_previous: 1
+nodes: ['170.80.74.57:22']
+intervals: 
+    -   [1487261797.46, 1487261951.51]
+name: hdd_swd1mth1
+vm_count: 1

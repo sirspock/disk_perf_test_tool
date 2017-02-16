@@ -1,0 +1,9 @@
+20:50:25 -     INFO - wally           - All info would be stored into /var/wally_results/pathoformic_hanna
+20:50:25 -     INFO - wally           - Start discover_stage
+20:50:25 -     INFO - wally           - Start reuse_vms_stage
+20:50:25 -     INFO - wally           - Start log_nodes_statistic_stage
+20:50:25 -     INFO - wally           - Found 1 nodes total
+20:50:25 -    DEBUG - wally           - Found 1 nodes with role testnode
+20:50:25 -     INFO - wally           - Start save_nodes_stage
+20:50:25 -     INFO - wally           - Start connect_stage
+20:50:25 -     INFO - wally           - Connecting to nodes

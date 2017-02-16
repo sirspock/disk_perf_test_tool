@@ -1,0 +1,76 @@
+17:23:08 -     INFO - wally           - All info would be stored into /var/wally_results/unexcitable_olevia
+17:23:08 -     INFO - wally           - Start discover_stage
+17:23:08 -     INFO - wally           - Start reuse_vms_stage
+17:23:08 -     INFO - wally           - Start log_nodes_statistic_stage
+17:23:08 -     INFO - wally           - Found 1 nodes total
+17:23:08 -    DEBUG - wally           - Found 1 nodes with role testnode
+17:23:08 -     INFO - wally           - Start save_nodes_stage
+17:23:08 -     INFO - wally           - Start connect_stage
+17:23:08 -     INFO - wally           - Connecting to nodes
+17:23:08 -     INFO - wally           - All nodes connected successfully
+17:23:08 -     INFO - wally           - Start run_tests_stage
+17:23:08 -    DEBUG - wally           - Run preparation
+17:24:08 -    ERROR - wally           - XXXX
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 669, in pre_run_th
+    self.prefill_test_files(rossh, files, force)
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 545, in prefill_test_files
+    if not self.check_prefill_required(rossh, fname, curr_sz):
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 483, in check_prefill_required
+    with rossh.connection.open_sftp() as sftp:
+  File "/usr/local/lib/python2.7/dist-packages/paramiko/client.py", line 439, in open_sftp
+    return self._transport.open_sftp_client()
+  File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 905, in open_sftp_client
+    return SFTPClient.from_transport(self)
+  File "/usr/local/lib/python2.7/dist-packages/paramiko/sftp_client.py", line 132, in from_transport
+    return cls(chan)
+  File "/usr/local/lib/python2.7/dist-packages/paramiko/sftp_client.py", line 99, in __init__
+    server_version = self._send_version()
+  File "/usr/local/lib/python2.7/dist-packages/paramiko/sftp.py", line 105, in _send_version
+    t, data = self._read_packet()
+  File "/usr/local/lib/python2.7/dist-packages/paramiko/sftp.py", line 177, in _read_packet
+    raise SFTPError('Garbage packet received')
+SFTPError: Garbage packet received
+17:24:08 -    ERROR - wally           - During run_tests_stage
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/wally/main.py", line 124, in log_stage
+    yield
+  File "/usr/local/lib/python2.7/dist-packages/wally/main.py", line 276, in main
+    stage(cfg, ctx)
+  File "/usr/local/lib/python2.7/dist-packages/wally/run_test.py", line 481, in run_tests_stage
+    for tp, res in run_tests(cfg, test_group, ctx.nodes):
+  File "/usr/local/lib/python2.7/dist-packages/wally/run_test.py", line 242, in run_tests
+    res = test_cls(test_cfg).run()
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 688, in run
+    self.pre_run()
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 643, in pre_run
+    list(pool.map(fc, self.config.nodes))
+  File "/usr/local/lib/python2.7/dist-packages/concurrent/futures/_base.py", line 581, in result_iterator
+    yield future.result()
+  File "/usr/local/lib/python2.7/dist-packages/concurrent/futures/_base.py", line 405, in result
+    return self.__get_result()
+  File "/usr/local/lib/python2.7/dist-packages/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 669, in pre_run_th
+    self.prefill_test_files(rossh, files, force)
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 545, in prefill_test_files
+    if not self.check_prefill_required(rossh, fname, curr_sz):
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 483, in check_prefill_required
+    with rossh.connection.open_sftp() as sftp:
+  File "/usr/local/lib/python2.7/dist-packages/paramiko/client.py", line 439, in open_sftp
+    return self._transport.open_sftp_client()
+  File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 905, in open_sftp_client
+    return SFTPClient.from_transport(self)
+  File "/usr/local/lib/python2.7/dist-packages/paramiko/sftp_client.py", line 132, in from_transport
+    return cls(chan)
+  File "/usr/local/lib/python2.7/dist-packages/paramiko/sftp_client.py", line 99, in __init__
+    server_version = self._send_version()
+  File "/usr/local/lib/python2.7/dist-packages/paramiko/sftp.py", line 105, in _send_version
+    t, data = self._read_packet()
+  File "/usr/local/lib/python2.7/dist-packages/paramiko/sftp.py", line 177, in _read_packet
+    raise SFTPError('Garbage packet received')
+SFTPError: Garbage packet received
+17:24:08 -     INFO - wally           - Start disconnect_stage
+17:24:09 -    DEBUG - wally           - Start utils.cleanup
+17:24:09 -     INFO - wally           - All info stored into /var/wally_results/unexcitable_olevia
+17:24:09 -    ERROR - wally           - Tests are failed. See detailed error above

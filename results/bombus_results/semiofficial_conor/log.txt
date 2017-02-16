@@ -1,0 +1,86 @@
+15:23:40 -     INFO - wally           - All info would be stored into /var/wally_results/semiofficial_conor
+15:23:40 -     INFO - wally           - Start discover_stage
+15:23:40 -     INFO - wally           - Start reuse_vms_stage
+15:23:40 -     INFO - wally           - Start log_nodes_statistic_stage
+15:23:40 -     INFO - wally           - Found 1 nodes total
+15:23:40 -    DEBUG - wally           - Found 1 nodes with role testnode
+15:23:40 -     INFO - wally           - Start save_nodes_stage
+15:23:40 -     INFO - wally           - Start connect_stage
+15:23:40 -     INFO - wally           - Connecting to nodes
+15:23:43 -     INFO - wally           - All nodes connected successfully
+15:23:43 -     INFO - wally           - Start run_tests_stage
+15:23:43 -    DEBUG - wally           - Run preparation
+15:23:46 -    DEBUG - wally           - SSH:162.243.94.217:22 Exec 'sudo yum -y install screen'
+15:23:52 -     INFO - wally           - Prefilling file /test/ssd
+15:23:52 -    DEBUG - wally           - SSH:162.243.94.217:22 Exec 'sudo fio --name=xxx --filename=/test/ssd --direct=1 --bs=4m --size=10240m --rw=write'
+15:24:14 -     INFO - wally           - Initiall fio fill bw is 466 MiBps for this vm
+15:24:14 -     INFO - wally           - Entire test should takes aroud: 0:41:15 and finished at 16:05:29
+15:24:14 -     INFO - wally           - Will run hdd_rwx4kth1 test
+15:24:14 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:26:44, will wait at most till 15:31:44
+15:24:16 -    DEBUG - wally           - SSH:162.243.94.217:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/semiofficial_conor/io/cmd.sh'
+15:26:50 -    DEBUG - wally           - Test on node 162.243.94.217_22 is finished
+15:26:55 -     INFO - wally           - Will run hdd_rwx4kth5 test
+15:26:55 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:29:25, will wait at most till 15:34:25
+15:26:57 -    DEBUG - wally           - SSH:162.243.94.217:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/semiofficial_conor/io/cmd.sh'
+15:29:32 -    DEBUG - wally           - Test on node 162.243.94.217_22 is finished
+15:29:36 -     INFO - wally           - Will run hdd_rwx4kth10 test
+15:29:36 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:32:06, will wait at most till 15:37:06
+15:29:38 -    DEBUG - wally           - SSH:162.243.94.217:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/semiofficial_conor/io/cmd.sh'
+15:32:12 -    DEBUG - wally           - Test on node 162.243.94.217_22 is finished
+15:32:17 -     INFO - wally           - Will run hdd_rwx4kth15 test
+15:32:17 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:34:47, will wait at most till 15:39:47
+15:32:19 -    DEBUG - wally           - SSH:162.243.94.217:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/semiofficial_conor/io/cmd.sh'
+15:34:54 -    DEBUG - wally           - Test on node 162.243.94.217_22 is finished
+15:35:00 -     INFO - wally           - Will run hdd_rwx4kth25 test
+15:35:00 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:37:30, will wait at most till 15:42:30
+15:35:02 -    DEBUG - wally           - SSH:162.243.94.217:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/semiofficial_conor/io/cmd.sh'
+15:37:36 -    DEBUG - wally           - Test on node 162.243.94.217_22 is finished
+15:37:43 -     INFO - wally           - Will run hdd_rwx4kth40 test
+15:37:43 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:40:13, will wait at most till 15:45:13
+15:37:45 -    DEBUG - wally           - SSH:162.243.94.217:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/semiofficial_conor/io/cmd.sh'
+15:40:20 -    DEBUG - wally           - Test on node 162.243.94.217_22 is finished
+15:40:28 -     INFO - wally           - Will run hdd_rrd4kth1 test
+15:40:28 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:42:58, will wait at most till 15:47:58
+15:40:31 -    DEBUG - wally           - SSH:162.243.94.217:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/semiofficial_conor/io/cmd.sh'
+15:43:06 -    DEBUG - wally           - Test on node 162.243.94.217_22 is finished
+15:43:09 -     INFO - wally           - Will run hdd_rrd4kth5 test
+15:43:09 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:45:39, will wait at most till 15:50:39
+15:43:11 -    DEBUG - wally           - SSH:162.243.94.217:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/semiofficial_conor/io/cmd.sh'
+15:45:45 -    DEBUG - wally           - Test on node 162.243.94.217_22 is finished
+15:45:49 -     INFO - wally           - Will run hdd_rrd4kth10 test
+15:45:49 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:48:19, will wait at most till 15:53:19
+15:45:51 -    DEBUG - wally           - SSH:162.243.94.217:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/semiofficial_conor/io/cmd.sh'
+15:48:25 -    DEBUG - wally           - Test on node 162.243.94.217_22 is finished
+15:48:30 -     INFO - wally           - Will run hdd_rrd4kth15 test
+15:48:30 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:51:00, will wait at most till 15:56:00
+15:48:32 -    DEBUG - wally           - SSH:162.243.94.217:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/semiofficial_conor/io/cmd.sh'
+15:51:06 -    DEBUG - wally           - Test on node 162.243.94.217_22 is finished
+15:51:11 -     INFO - wally           - Will run hdd_rrd4kth25 test
+15:51:11 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:53:41, will wait at most till 15:58:41
+15:51:13 -    DEBUG - wally           - SSH:162.243.94.217:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/semiofficial_conor/io/cmd.sh'
+15:53:47 -    DEBUG - wally           - Test on node 162.243.94.217_22 is finished
+15:53:52 -     INFO - wally           - Will run hdd_rrd4kth40 test
+15:53:52 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:56:22, will wait at most till 16:01:22
+15:53:54 -    DEBUG - wally           - SSH:162.243.94.217:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/semiofficial_conor/io/cmd.sh'
+15:56:30 -    DEBUG - wally           - Test on node 162.243.94.217_22 is finished
+15:56:38 -     INFO - wally           - Will run hdd_srd1mth1 test
+15:56:38 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:59:08, will wait at most till 16:04:08
+15:56:41 -    DEBUG - wally           - SSH:162.243.94.217:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/semiofficial_conor/io/cmd.sh'
+15:59:15 -    DEBUG - wally           - Test on node 162.243.94.217_22 is finished
+15:59:19 -     INFO - wally           - Will run hdd_swd1mth1 test
+15:59:19 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 16:01:49, will wait at most till 16:06:49
+15:59:22 -    DEBUG - wally           - SSH:162.243.94.217:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/semiofficial_conor/io/cmd.sh'
+16:01:56 -    DEBUG - wally           - Test on node 162.243.94.217_22 is finished
+16:02:00 -     INFO - wally           - Will run hdd_rwd4kth1 test
+16:02:00 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 16:04:30, will wait at most till 16:09:30
+16:02:02 -    DEBUG - wally           - SSH:162.243.94.217:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/semiofficial_conor/io/cmd.sh'
+16:04:37 -    DEBUG - wally           - Test on node 162.243.94.217_22 is finished
+16:04:40 -     INFO - wally           - Start store_raw_results_stage
+16:04:40 -     INFO - wally           - Start disconnect_stage
+16:04:40 -    DEBUG - wally           - Start utils.cleanup
+16:04:40 -     INFO - wally           - Start console_report_stage
+16:04:41 -     INFO - wally           - Text report were stored in /var/wally_results/semiofficial_conor/report.txt
+16:04:41 -     INFO - wally           - Start html_report_stage
+16:04:42 -     INFO - wally.report    - Report hdd saved into /var/wally_results/semiofficial_conor/hdd_report.html
+16:04:42 -     INFO - wally           - All info stored into /var/wally_results/semiofficial_conor
+16:04:42 -     INFO - wally           - Tests finished successfully

@@ -1,0 +1,873 @@
+23:08:29 -     INFO - wally           - All info would be stored into /var/wally_results/perceivable_jaxson
+23:08:29 -     INFO - wally           - Start discover_stage
+23:08:29 -     INFO - wally           - Start reuse_vms_stage
+23:08:29 -     INFO - wally           - Start log_nodes_statistic_stage
+23:08:29 -     INFO - wally           - Found 3 nodes total
+23:08:29 -    DEBUG - wally           - Found 3 nodes with role testnode
+23:08:29 -     INFO - wally           - Start save_nodes_stage
+23:08:29 -     INFO - wally           - Start connect_stage
+23:08:29 -     INFO - wally           - Connecting to nodes
+23:08:30 -     INFO - wally           - All nodes connected successfully
+23:08:30 -     INFO - wally           - Start run_tests_stage
+23:08:30 -    DEBUG - wally           - Run preparation
+23:08:32 -    DEBUG - wally           - prefill is skipped
+23:08:32 -    DEBUG - wally           - prefill is skipped
+23:08:32 -    DEBUG - wally           - prefill is skipped
+23:08:32 -     INFO - wally           - Entire test should takes aroud: 3:59:15 and finished at 03:07:47
+23:08:32 -     INFO - wally           - Will run hdd_rwx4kth1 test
+23:08:32 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:11:02, will wait at most till 23:16:02
+23:08:32 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:08:32 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:08:33 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:11:05 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:11:05 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:11:06 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:11:06 -     INFO - wally           - Will run hdd_rwx4kth1 test
+23:11:06 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:13:06, will wait at most till 23:18:06
+23:11:07 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:11:07 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:11:07 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:13:09 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:13:10 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:13:10 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:13:10 -     INFO - wally           - Will run hdd_rwx4kth1 test
+23:13:10 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:15:10, will wait at most till 23:20:10
+23:13:11 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:13:11 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:13:11 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:15:13 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:15:15 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:15:15 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:15:15 -     INFO - wally           - Will run hdd_rwx4kth1 test
+23:15:15 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:17:15, will wait at most till 23:22:15
+23:15:15 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:15:15 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:15:15 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:17:19 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:17:19 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:17:19 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:17:20 -     INFO - wally           - Will run hdd_rwx4kth1 test
+23:17:20 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:19:20, will wait at most till 23:24:20
+23:17:20 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:17:20 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:17:20 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:19:22 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:19:24 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:19:24 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:19:24 -     INFO - wally           - Will run hdd_rwx4kth1 test
+23:19:24 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:21:24, will wait at most till 23:26:24
+23:19:25 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:19:25 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:19:25 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:21:29 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:21:29 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:21:29 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:21:29 -     INFO - wally           - Will run hdd_rwx4kth1 test
+23:21:29 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:23:29, will wait at most till 23:28:29
+23:21:29 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:21:29 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:21:29 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:23:33 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:23:33 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:23:33 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:23:34 -     INFO - wally           - Will run hdd_rwx4kth5 test
+23:23:34 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:26:04, will wait at most till 23:31:04
+23:23:34 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:23:34 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:23:34 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:26:07 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:26:07 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:26:07 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:26:08 -     INFO - wally           - Will run hdd_rwx4kth5 test
+23:26:08 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:28:08, will wait at most till 23:33:08
+23:26:08 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:26:08 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:26:08 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:28:12 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:28:12 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:28:12 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:28:13 -     INFO - wally           - Will run hdd_rwx4kth5 test
+23:28:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:30:13, will wait at most till 23:35:13
+23:28:13 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:28:13 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:28:13 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:30:17 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:30:17 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:30:17 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:30:18 -     INFO - wally           - Will run hdd_rwx4kth5 test
+23:30:18 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:32:18, will wait at most till 23:37:18
+23:30:18 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:30:18 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:30:18 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:32:22 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:32:22 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:32:22 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:32:23 -     INFO - wally           - Will run hdd_rwx4kth5 test
+23:32:23 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:34:23, will wait at most till 23:39:23
+23:32:23 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:32:23 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:32:23 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:34:26 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:34:27 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:34:29 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:34:29 -     INFO - wally           - Will run hdd_rwx4kth5 test
+23:34:29 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:36:29, will wait at most till 23:41:29
+23:34:29 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:34:29 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:34:29 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:36:33 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:36:33 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:36:33 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:36:34 -     INFO - wally           - Will run hdd_rwx4kth5 test
+23:36:34 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:38:34, will wait at most till 23:43:34
+23:36:34 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:36:34 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:36:34 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:38:38 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:38:38 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:38:38 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:38:38 -     INFO - wally           - Will run hdd_rwx4kth10 test
+23:38:38 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:41:08, will wait at most till 23:46:08
+23:38:39 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:38:39 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:38:39 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:41:11 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:41:11 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:41:13 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:41:13 -     INFO - wally           - Will run hdd_rwx4kth10 test
+23:41:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:43:13, will wait at most till 23:48:13
+23:41:14 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:41:14 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:41:14 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:43:16 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:43:18 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:43:18 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:43:18 -     INFO - wally           - Will run hdd_rwx4kth10 test
+23:43:18 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:45:18, will wait at most till 23:50:18
+23:43:18 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:43:18 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:43:18 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:45:22 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:45:22 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:45:23 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:45:23 -     INFO - wally           - Will run hdd_rwx4kth10 test
+23:45:23 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:47:23, will wait at most till 23:52:23
+23:45:23 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:45:23 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:45:23 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:47:27 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:47:27 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:47:27 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:47:28 -     INFO - wally           - Will run hdd_rwx4kth10 test
+23:47:28 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:49:28, will wait at most till 23:54:28
+23:47:28 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:47:28 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:47:28 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:49:32 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:49:32 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:49:32 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:49:33 -     INFO - wally           - Will run hdd_rwx4kth10 test
+23:49:33 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:51:33, will wait at most till 23:56:33
+23:49:33 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:49:33 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:49:33 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:51:37 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:51:37 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:51:37 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:51:38 -     INFO - wally           - Will run hdd_rwx4kth10 test
+23:51:38 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:53:38, will wait at most till 23:58:38
+23:51:38 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:51:38 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:51:38 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:53:42 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:53:42 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:53:42 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:53:43 -     INFO - wally           - Will run hdd_rwx4kth15 test
+23:53:43 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:56:13, will wait at most till 00:01:13
+23:53:43 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:53:43 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:53:43 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:56:15 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:56:15 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:56:15 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:56:16 -     INFO - wally           - Will run hdd_rwx4kth15 test
+23:56:16 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:58:16, will wait at most till 00:03:16
+23:56:16 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:56:16 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:56:16 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:58:19 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:58:19 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:58:20 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:58:21 -     INFO - wally           - Will run hdd_rwx4kth15 test
+23:58:21 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:00:21, will wait at most till 00:05:21
+23:58:21 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:58:21 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+23:58:21 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:00:23 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:00:25 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:00:25 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:00:25 -     INFO - wally           - Will run hdd_rwx4kth15 test
+00:00:25 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:02:25, will wait at most till 00:07:25
+00:00:25 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:00:25 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:00:25 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:02:29 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:02:29 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:02:29 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:02:30 -     INFO - wally           - Will run hdd_rwx4kth15 test
+00:02:30 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:04:30, will wait at most till 00:09:30
+00:02:30 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:02:30 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:02:30 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:04:32 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:04:34 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:04:34 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:04:35 -     INFO - wally           - Will run hdd_rwx4kth15 test
+00:04:35 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:06:35, will wait at most till 00:11:35
+00:04:35 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:04:35 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:04:35 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:06:39 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:06:39 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:06:41 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:06:42 -     INFO - wally           - Will run hdd_rwx4kth15 test
+00:06:42 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:08:42, will wait at most till 00:13:42
+00:06:42 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:06:42 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:06:42 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:08:44 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:08:46 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:08:46 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:08:47 -     INFO - wally           - Will run hdd_rwx4kth25 test
+00:08:47 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 00:11:17, will wait at most till 00:16:17
+00:08:47 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:08:47 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:08:47 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:11:20 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:11:21 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:11:24 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:11:24 -     INFO - wally           - Will run hdd_rwx4kth25 test
+00:11:24 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:13:24, will wait at most till 00:18:24
+00:11:25 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:11:25 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:11:25 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:13:28 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:13:29 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:13:29 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:13:29 -     INFO - wally           - Will run hdd_rwx4kth25 test
+00:13:29 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:15:29, will wait at most till 00:20:29
+00:13:29 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:13:29 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:13:30 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:15:32 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:15:33 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:15:34 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:15:34 -     INFO - wally           - Will run hdd_rwx4kth25 test
+00:15:34 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:17:34, will wait at most till 00:22:34
+00:15:34 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:15:34 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:15:34 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:17:37 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:17:38 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:17:38 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:17:39 -     INFO - wally           - Will run hdd_rwx4kth25 test
+00:17:39 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:19:39, will wait at most till 00:24:39
+00:17:39 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:17:39 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:17:39 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:19:43 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:19:43 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:19:43 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:19:44 -     INFO - wally           - Will run hdd_rwx4kth25 test
+00:19:44 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:21:44, will wait at most till 00:26:44
+00:19:44 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:19:44 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:19:44 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:21:48 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:21:48 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:21:54 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:21:55 -     INFO - wally           - Will run hdd_rwx4kth25 test
+00:21:55 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:23:55, will wait at most till 00:28:55
+00:21:55 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:21:55 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:21:55 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:23:59 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:23:59 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:24:09 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:24:10 -     INFO - wally           - Will run hdd_rwx4kth40 test
+00:24:10 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 00:26:40, will wait at most till 00:31:40
+00:24:10 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:24:10 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:24:10 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:26:42 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:26:42 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:26:43 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:26:43 -     INFO - wally           - Will run hdd_rwx4kth40 test
+00:26:43 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:28:43, will wait at most till 00:33:43
+00:26:43 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:26:43 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:26:43 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:28:47 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:28:47 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:29:02 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:29:02 -     INFO - wally           - Will run hdd_rwx4kth40 test
+00:29:02 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:31:02, will wait at most till 00:36:02
+00:29:02 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:29:02 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:29:02 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:31:06 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:31:06 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:31:11 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:31:11 -     INFO - wally           - Will run hdd_rwx4kth40 test
+00:31:11 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:33:11, will wait at most till 00:38:11
+00:31:11 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:31:11 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:31:11 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:33:15 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:33:15 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:33:15 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:33:16 -     INFO - wally           - Will run hdd_rwx4kth40 test
+00:33:16 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:35:16, will wait at most till 00:40:16
+00:33:16 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:33:16 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:33:16 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:35:18 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:35:20 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:35:21 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:35:21 -     INFO - wally           - Will run hdd_rwx4kth40 test
+00:35:21 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:37:21, will wait at most till 00:42:21
+00:35:21 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:35:21 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:35:21 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:37:25 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:37:25 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:37:25 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:37:26 -     INFO - wally           - Will run hdd_rwx4kth40 test
+00:37:26 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:39:26, will wait at most till 00:44:26
+00:37:26 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:37:26 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:37:26 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:39:30 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:39:30 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:39:51 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:39:51 -     INFO - wally           - Will run hdd_rrd4kth1 test
+00:39:51 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 00:42:21, will wait at most till 00:47:21
+00:39:52 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:39:52 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:39:52 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:42:24 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:42:24 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:42:26 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:42:26 -     INFO - wally           - Will run hdd_rrd4kth1 test
+00:42:26 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:44:26, will wait at most till 00:49:26
+00:42:27 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:42:27 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:42:27 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:44:30 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:44:31 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:44:31 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:44:31 -     INFO - wally           - Will run hdd_rrd4kth1 test
+00:44:31 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:46:31, will wait at most till 00:51:31
+00:44:31 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:44:31 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:44:31 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:46:34 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:46:34 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:46:36 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:46:36 -     INFO - wally           - Will run hdd_rrd4kth1 test
+00:46:36 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:48:36, will wait at most till 00:53:36
+00:46:36 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:46:36 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:46:36 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:48:40 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:48:40 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:48:40 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:48:41 -     INFO - wally           - Will run hdd_rrd4kth1 test
+00:48:41 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:50:41, will wait at most till 00:55:41
+00:48:41 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:48:41 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:48:41 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:50:45 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:50:45 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:50:45 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:50:46 -     INFO - wally           - Will run hdd_rrd4kth1 test
+00:50:46 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:52:46, will wait at most till 00:57:46
+00:50:46 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:50:46 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:50:46 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:52:50 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:52:50 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:52:51 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:52:51 -     INFO - wally           - Will run hdd_rrd4kth1 test
+00:52:51 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:54:51, will wait at most till 00:59:51
+00:52:51 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:52:51 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:52:51 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:54:55 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:54:55 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:54:55 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:54:56 -     INFO - wally           - Will run hdd_rrd4kth5 test
+00:54:56 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 00:57:26, will wait at most till 01:02:26
+00:54:56 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:54:56 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:54:56 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:57:29 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:57:30 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:57:30 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:57:31 -     INFO - wally           - Will run hdd_rrd4kth5 test
+00:57:31 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:59:31, will wait at most till 01:04:31
+00:57:31 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:57:31 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:57:31 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:59:35 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:59:35 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:59:35 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:59:36 -     INFO - wally           - Will run hdd_rrd4kth5 test
+00:59:36 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:01:36, will wait at most till 01:06:36
+00:59:36 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:59:36 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+00:59:36 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:01:40 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:01:40 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:01:40 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:01:41 -     INFO - wally           - Will run hdd_rrd4kth5 test
+01:01:41 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:03:41, will wait at most till 01:08:41
+01:01:41 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:01:41 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:01:41 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:03:45 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:03:45 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:03:45 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:03:46 -     INFO - wally           - Will run hdd_rrd4kth5 test
+01:03:46 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:05:46, will wait at most till 01:10:46
+01:03:46 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:03:46 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:03:46 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:05:50 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:05:50 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:05:50 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:05:51 -     INFO - wally           - Will run hdd_rrd4kth5 test
+01:05:51 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:07:51, will wait at most till 01:12:51
+01:05:51 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:05:51 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:05:51 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:07:55 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:07:55 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:07:55 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:07:56 -     INFO - wally           - Will run hdd_rrd4kth5 test
+01:07:56 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:09:56, will wait at most till 01:14:56
+01:07:56 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:07:56 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:07:56 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:09:59 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:10:00 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:10:00 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:10:02 -     INFO - wally           - Will run hdd_rrd4kth10 test
+01:10:02 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 01:12:32, will wait at most till 01:17:32
+01:10:02 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:10:02 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:10:02 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:12:35 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:12:35 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:12:36 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:12:37 -     INFO - wally           - Will run hdd_rrd4kth10 test
+01:12:37 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:14:37, will wait at most till 01:19:37
+01:12:37 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:12:37 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:12:37 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:14:41 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:14:41 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:14:41 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:14:42 -     INFO - wally           - Will run hdd_rrd4kth10 test
+01:14:42 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:16:42, will wait at most till 01:21:42
+01:14:42 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:14:42 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:14:42 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:16:46 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:16:46 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:16:46 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:16:46 -     INFO - wally           - Will run hdd_rrd4kth10 test
+01:16:46 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:18:46, will wait at most till 01:23:46
+01:16:47 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:16:47 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:16:47 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:18:50 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:18:50 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:18:51 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:18:51 -     INFO - wally           - Will run hdd_rrd4kth10 test
+01:18:51 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:20:51, will wait at most till 01:25:51
+01:18:51 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:18:51 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:18:51 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:20:55 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:20:55 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:20:55 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:20:56 -     INFO - wally           - Will run hdd_rrd4kth10 test
+01:20:56 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:22:56, will wait at most till 01:27:56
+01:20:56 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:20:56 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:20:56 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:23:00 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:23:00 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:23:00 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:23:01 -     INFO - wally           - Will run hdd_rrd4kth10 test
+01:23:01 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:25:01, will wait at most till 01:30:01
+01:23:01 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:23:01 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:23:01 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:25:05 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:25:05 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:25:05 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:25:06 -     INFO - wally           - Will run hdd_rrd4kth15 test
+01:25:06 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 01:27:36, will wait at most till 01:32:36
+01:25:06 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:25:06 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:25:06 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:27:39 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:27:41 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:27:41 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:27:41 -     INFO - wally           - Will run hdd_rrd4kth15 test
+01:27:41 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:29:41, will wait at most till 01:34:41
+01:27:41 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:27:41 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:27:41 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:29:45 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:29:46 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:29:46 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:29:46 -     INFO - wally           - Will run hdd_rrd4kth15 test
+01:29:46 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:31:46, will wait at most till 01:36:46
+01:29:47 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:29:47 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:29:47 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:31:50 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:31:50 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:31:50 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:31:51 -     INFO - wally           - Will run hdd_rrd4kth15 test
+01:31:51 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:33:51, will wait at most till 01:38:51
+01:31:52 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:31:52 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:31:52 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:33:55 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:33:55 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:33:56 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:33:56 -     INFO - wally           - Will run hdd_rrd4kth15 test
+01:33:56 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:35:56, will wait at most till 01:40:56
+01:33:57 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:33:57 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:33:57 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:36:01 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:36:01 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:36:01 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:36:02 -     INFO - wally           - Will run hdd_rrd4kth15 test
+01:36:02 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:38:02, will wait at most till 01:43:02
+01:36:02 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:36:02 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:36:02 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:38:06 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:38:06 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:38:06 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:38:07 -     INFO - wally           - Will run hdd_rrd4kth15 test
+01:38:07 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:40:07, will wait at most till 01:45:07
+01:38:07 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:38:07 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:38:07 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:40:11 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:40:11 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:40:11 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:40:12 -     INFO - wally           - Will run hdd_rrd4kth25 test
+01:40:12 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 01:42:42, will wait at most till 01:47:42
+01:40:12 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:40:12 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:40:12 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:42:45 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:42:45 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:42:45 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:42:46 -     INFO - wally           - Will run hdd_rrd4kth25 test
+01:42:46 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:44:46, will wait at most till 01:49:46
+01:42:46 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:42:46 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:42:46 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:44:50 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:44:50 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:44:51 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:44:52 -     INFO - wally           - Will run hdd_rrd4kth25 test
+01:44:52 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:46:52, will wait at most till 01:51:52
+01:44:52 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:44:52 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:44:52 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:46:56 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:46:56 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:46:56 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:46:57 -     INFO - wally           - Will run hdd_rrd4kth25 test
+01:46:57 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:48:57, will wait at most till 01:53:57
+01:46:57 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:46:57 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:46:57 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:49:01 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:49:01 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:49:02 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:49:03 -     INFO - wally           - Will run hdd_rrd4kth25 test
+01:49:03 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:51:03, will wait at most till 01:56:03
+01:49:03 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:49:03 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:49:03 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:51:07 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:51:07 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:51:08 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:51:08 -     INFO - wally           - Will run hdd_rrd4kth25 test
+01:51:08 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:53:08, will wait at most till 01:58:08
+01:51:08 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:51:08 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:51:09 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:53:12 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:53:12 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:53:12 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:53:14 -     INFO - wally           - Will run hdd_rrd4kth25 test
+01:53:14 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:55:14, will wait at most till 02:00:14
+01:53:14 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:53:14 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:53:14 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:55:18 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:55:18 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:55:18 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:55:19 -     INFO - wally           - Will run hdd_rrd4kth40 test
+01:55:19 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 01:57:49, will wait at most till 02:02:49
+01:55:19 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:55:19 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:55:19 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:57:51 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:57:52 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:57:52 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:57:53 -     INFO - wally           - Will run hdd_rrd4kth40 test
+01:57:53 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:59:53, will wait at most till 02:04:53
+01:57:54 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:57:54 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:57:54 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:59:56 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:59:57 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:59:58 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:59:59 -     INFO - wally           - Will run hdd_rrd4kth40 test
+01:59:59 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:01:59, will wait at most till 02:06:59
+01:59:59 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:59:59 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+01:59:59 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:02:03 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:02:03 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:02:03 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:02:04 -     INFO - wally           - Will run hdd_rrd4kth40 test
+02:02:04 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:04:04, will wait at most till 02:09:04
+02:02:05 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:02:05 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:02:05 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:04:09 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:04:09 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:04:09 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:04:10 -     INFO - wally           - Will run hdd_rrd4kth40 test
+02:04:10 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:06:10, will wait at most till 02:11:10
+02:04:11 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:04:11 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:04:11 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:06:15 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:06:15 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:06:15 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:06:16 -     INFO - wally           - Will run hdd_rrd4kth40 test
+02:06:16 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:08:16, will wait at most till 02:13:16
+02:06:17 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:06:17 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:06:17 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:08:21 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:08:21 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:08:21 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:08:22 -     INFO - wally           - Will run hdd_rrd4kth40 test
+02:08:22 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:10:22, will wait at most till 02:15:22
+02:08:23 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:08:23 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:08:23 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:10:26 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:10:27 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:10:27 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:10:28 -     INFO - wally           - Will run hdd_srd1mth1 test
+02:10:28 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 02:12:58, will wait at most till 02:17:58
+02:10:28 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:10:28 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:10:28 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:13:00 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:13:02 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:13:02 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:13:03 -     INFO - wally           - Will run hdd_srd1mth1 test
+02:13:03 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:15:03, will wait at most till 02:20:03
+02:13:03 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:13:03 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:13:03 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:15:07 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:15:07 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:15:07 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:15:08 -     INFO - wally           - Will run hdd_srd1mth1 test
+02:15:08 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:17:08, will wait at most till 02:22:08
+02:15:08 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:15:08 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:15:08 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:17:12 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:17:12 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:17:12 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:17:13 -     INFO - wally           - Will run hdd_srd1mth1 test
+02:17:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:19:13, will wait at most till 02:24:13
+02:17:13 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:17:13 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:17:13 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:19:17 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:19:17 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:19:17 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:19:17 -     INFO - wally           - Will run hdd_srd1mth1 test
+02:19:17 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:21:17, will wait at most till 02:26:17
+02:19:18 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:19:18 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:19:18 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:21:21 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:21:21 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:21:22 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:21:22 -     INFO - wally           - Will run hdd_srd1mth1 test
+02:21:22 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:23:22, will wait at most till 02:28:22
+02:21:22 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:21:22 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:21:22 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:23:26 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:23:26 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:23:26 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:23:27 -     INFO - wally           - Will run hdd_srd1mth1 test
+02:23:27 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:25:27, will wait at most till 02:30:27
+02:23:27 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:23:27 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:23:27 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:25:31 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:25:31 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:25:31 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:25:32 -     INFO - wally           - Will run hdd_swd1mth1 test
+02:25:32 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 02:28:02, will wait at most till 02:33:02
+02:25:32 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:25:32 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:25:32 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:28:04 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:28:06 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:28:06 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:28:07 -     INFO - wally           - Will run hdd_swd1mth1 test
+02:28:07 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:30:07, will wait at most till 02:35:07
+02:28:07 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:28:07 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:28:07 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:30:11 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:30:11 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:30:11 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:30:11 -     INFO - wally           - Will run hdd_swd1mth1 test
+02:30:11 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:32:11, will wait at most till 02:37:11
+02:30:12 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:30:12 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:30:12 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:32:15 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:32:15 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:32:15 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:32:16 -     INFO - wally           - Will run hdd_swd1mth1 test
+02:32:16 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:34:16, will wait at most till 02:39:16
+02:32:16 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:32:16 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:32:16 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:34:20 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:34:20 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:34:20 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:34:21 -     INFO - wally           - Will run hdd_swd1mth1 test
+02:34:21 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:36:21, will wait at most till 02:41:21
+02:34:21 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:34:21 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:34:21 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:36:25 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:36:25 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:36:25 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:36:26 -     INFO - wally           - Will run hdd_swd1mth1 test
+02:36:26 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:38:26, will wait at most till 02:43:26
+02:36:26 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:36:26 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:36:26 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:38:30 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:38:30 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:38:30 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:38:31 -     INFO - wally           - Will run hdd_swd1mth1 test
+02:38:31 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:40:31, will wait at most till 02:45:31
+02:38:31 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:38:31 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:38:31 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:40:35 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:40:35 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:40:35 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:40:36 -     INFO - wally           - Will run hdd_rwd4kth1 test
+02:40:36 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 02:43:06, will wait at most till 02:48:06
+02:40:36 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:40:36 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:40:36 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:43:10 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:43:10 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:43:10 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:43:11 -     INFO - wally           - Will run hdd_rwd4kth1 test
+02:43:11 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:45:11, will wait at most till 02:50:11
+02:43:11 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:43:11 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:43:11 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:45:15 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:45:15 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:45:15 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:45:16 -     INFO - wally           - Will run hdd_rwd4kth1 test
+02:45:16 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:47:16, will wait at most till 02:52:16
+02:45:25 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:45:25 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:45:26 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:47:29 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:47:30 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:47:30 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:47:30 -     INFO - wally           - Will run hdd_rwd4kth1 test
+02:47:30 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:49:30, will wait at most till 02:54:30
+02:47:30 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:47:30 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:47:30 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:49:36 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:49:36 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:49:40 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:49:41 -     INFO - wally           - Will run hdd_rwd4kth1 test
+02:49:41 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:51:41, will wait at most till 02:56:41
+02:49:41 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:49:41 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:49:41 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:51:45 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:51:45 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:51:45 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:51:46 -     INFO - wally           - Will run hdd_rwd4kth1 test
+02:51:46 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:53:46, will wait at most till 02:58:46
+02:51:58 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:51:58 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:51:58 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:54:01 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:54:02 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:54:02 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:54:02 -     INFO - wally           - Will run hdd_rwd4kth1 test
+02:54:02 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:56:02, will wait at most till 03:01:02
+02:54:17 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:54:17 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:54:17 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/perceivable_jaxson/io/cmd.sh'
+02:56:21 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:56:21 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:56:21 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:56:21 -     INFO - wally           - Start store_raw_results_stage
+02:56:21 -     INFO - wally           - Start disconnect_stage
+02:56:21 -    DEBUG - wally           - Start utils.cleanup
+02:56:21 -     INFO - wally           - Start console_report_stage
+02:56:28 -     INFO - wally           - Text report were stored in /var/wally_results/perceivable_jaxson/report.txt
+02:56:28 -     INFO - wally           - Start html_report_stage
+02:56:32 -    ERROR - wally.report    - Diring hdd report generation
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/wally/report.py", line 811, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "/usr/local/lib/python2.7/dist-packages/wally/report.py", line 633, in make_hdd_report
+    di = get_disk_info(perf_infos)
+  File "/usr/local/lib/python2.7/dist-packages/wally/report.py", line 591, in get_disk_info
+    th_iops_coef = (iops2 - iops1) / (th2 - th1)
+ZeroDivisionError: float division by zero
+02:56:32 -     INFO - wally           - All info stored into /var/wally_results/perceivable_jaxson
+02:56:32 -     INFO - wally           - Tests finished successfully

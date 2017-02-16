@@ -1,0 +1,191 @@
+00:17:38 -     INFO - wally           - All info would be stored into /var/wally_results/unobviable_ameer
+00:17:38 -     INFO - wally           - Start discover_stage
+00:17:46 -     INFO - wally           - Start reuse_vms_stage
+00:17:46 -     INFO - wally           - Start log_nodes_statistic_stage
+00:17:46 -     INFO - wally           - Found 7 nodes total
+00:17:46 -    DEBUG - wally           - Found 3 nodes with role ceph-mon
+00:17:46 -    DEBUG - wally           - Found 3 nodes with role ceph-osd
+00:17:46 -    DEBUG - wally           - Found 1 nodes with role testnode
+00:17:46 -     INFO - wally           - Start save_nodes_stage
+00:17:46 -     INFO - wally           - Start connect_stage
+00:17:46 -     INFO - wally           - Connecting to nodes
+00:17:59 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:17:59 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:17:59 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:17:59 -    ERROR - paramiko.transport -     self._check_banner()
+00:17:59 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:17:59 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:17:59 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:17:59 -    ERROR - paramiko.transport - 
+00:18:00 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:18:00 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:18:00 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:18:00 -    ERROR - paramiko.transport -     self._check_banner()
+00:18:00 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:18:00 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:18:00 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:18:00 -    ERROR - paramiko.transport - 
+00:18:01 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:18:01 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:18:01 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:18:01 -    ERROR - paramiko.transport -     self._check_banner()
+00:18:01 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:18:01 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:18:01 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:18:01 -    ERROR - paramiko.transport - 
+00:18:06 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:18:06 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:18:06 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:18:06 -    ERROR - paramiko.transport -     self._check_banner()
+00:18:06 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:18:06 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:18:06 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:18:06 -    ERROR - paramiko.transport - 
+00:18:08 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:18:08 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:18:08 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:18:08 -    ERROR - paramiko.transport -     self._check_banner()
+00:18:08 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:18:08 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:18:08 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:18:08 -    ERROR - paramiko.transport - 
+00:18:10 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:18:10 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:18:10 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:18:10 -    ERROR - paramiko.transport -     self._check_banner()
+00:18:10 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:18:10 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:18:10 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:18:10 -    ERROR - paramiko.transport - 
+00:18:13 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:18:13 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:18:13 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:18:13 -    ERROR - paramiko.transport -     self._check_banner()
+00:18:13 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:18:13 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:18:13 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:18:13 -    ERROR - paramiko.transport - 
+00:18:14 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:18:14 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:18:14 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:18:14 -    ERROR - paramiko.transport -     self._check_banner()
+00:18:14 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:18:14 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:18:14 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:18:14 -    ERROR - paramiko.transport - 
+00:18:16 -    ERROR - wally           - During connect to 172.17.3.3: timed out
+00:18:16 -    ERROR - wally           - During connect to 172.17.3.1: timed out
+00:18:16 -    ERROR - wally           - During connect to 172.17.3.2: timed out
+00:18:16 -    ERROR - wally           - During connect to 172.17.1.3: not a valid EC private key file
+00:18:16 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:18:16 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:18:16 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:18:16 -    ERROR - paramiko.transport -     self._check_banner()
+00:18:16 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:18:16 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:18:16 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:18:16 -    ERROR - paramiko.transport - 
+00:18:16 -    ERROR - wally           - During connect to 172.17.1.2: Error reading SSH protocol banner
+00:18:18 -  WARNING - wally           - Node(s) 172.17.3.1:22,172.17.3.3:22,172.17.3.2:22,172.17.1.3:22,172.17.1.2:22 would be excluded - can't connect
+00:18:18 -     INFO - wally           - Start run_tests_stage
+00:18:18 -    DEBUG - wally.sensors   - Installing sensors on 0 nodes
+00:18:18 -    DEBUG - wally.sensors   - Starting sensors on 0 nodes
+00:18:18 -    DEBUG - wally           - Run preparation
+00:18:19 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'sudo yum -y install fio'
+00:18:26 -     INFO - wally           - Prefilling file /dev/rbd0
+00:18:26 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'sudo fio --name=xxx --filename=/dev/rbd0 --direct=1 --bs=4m --size=20480m --rw=write'
+00:19:21 -     INFO - wally           - Initiall fio fill bw is 372 MiBps for this vm
+00:19:21 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 01:40:12
+00:19:21 -     INFO - wally           - Will run ceph_rws4kth1 test
+00:19:21 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:22:51, will wait at most till 00:27:51
+00:19:21 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+00:22:56 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:22:56 -     INFO - wally           - Will run ceph_rws4kth5 test
+00:22:56 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:26:26, will wait at most till 00:31:26
+00:22:56 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+00:26:31 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:26:31 -     INFO - wally           - Will run ceph_rws4kth10 test
+00:26:31 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:30:01, will wait at most till 00:35:01
+00:26:32 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+00:30:07 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:30:07 -     INFO - wally           - Will run ceph_rws4kth15 test
+00:30:07 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:33:37, will wait at most till 00:38:37
+00:30:07 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+00:33:45 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:33:45 -     INFO - wally           - Will run ceph_rws4kth25 test
+00:33:45 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:37:15, will wait at most till 00:42:15
+00:33:45 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+00:37:24 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:37:25 -     INFO - wally           - Will run ceph_rws4kth40 test
+00:37:25 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:40:55, will wait at most till 00:45:55
+00:37:25 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+00:41:16 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:41:17 -     INFO - wally           - Will run ceph_rrd4kth1 test
+00:41:17 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:44:47, will wait at most till 00:49:47
+00:41:17 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+00:44:51 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:44:51 -     INFO - wally           - Will run ceph_rrd4kth5 test
+00:44:51 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:48:21, will wait at most till 00:53:21
+00:44:51 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+00:48:28 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:48:29 -     INFO - wally           - Will run ceph_rrd4kth10 test
+00:48:29 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:51:59, will wait at most till 00:56:59
+00:48:29 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+00:52:14 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:52:15 -     INFO - wally           - Will run ceph_rrd4kth15 test
+00:52:15 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:55:45, will wait at most till 01:00:45
+00:52:15 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+00:55:52 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:55:53 -     INFO - wally           - Will run ceph_rrd4kth25 test
+00:55:53 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:59:23, will wait at most till 01:04:23
+00:55:53 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+00:59:37 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:59:37 -     INFO - wally           - Will run ceph_rrd4kth40 test
+00:59:37 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:03:07, will wait at most till 01:08:07
+00:59:38 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+01:03:25 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+01:03:25 -     INFO - wally           - Will run ceph_rrd4kth80 test
+01:03:25 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:06:55, will wait at most till 01:11:55
+01:03:25 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+01:07:09 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+01:07:10 -     INFO - wally           - Will run ceph_rrd4kth120 test
+01:07:10 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:10:40, will wait at most till 01:15:40
+01:07:10 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+01:11:11 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+01:11:13 -     INFO - wally           - Will run ceph_rwd4kth1 test
+01:11:13 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:14:43, will wait at most till 01:19:43
+01:11:13 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+01:15:08 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+01:15:09 -     INFO - wally           - Will run ceph_rrd16mth1 test
+01:15:09 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:18:39, will wait at most till 01:23:39
+01:15:09 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+01:18:54 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+01:18:54 -     INFO - wally           - Will run ceph_rrd16mth3 test
+01:18:54 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:22:24, will wait at most till 01:27:24
+01:18:55 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+01:22:40 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+01:22:40 -     INFO - wally           - Will run ceph_rrd16mth10 test
+01:22:40 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:26:10, will wait at most till 01:31:10
+01:22:40 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+01:26:26 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+01:26:26 -     INFO - wally           - Will run ceph_rwd16mth1 test
+01:26:26 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:29:56, will wait at most till 01:34:56
+01:26:26 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+01:30:40 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+01:30:40 -     INFO - wally           - Will run ceph_rwd16mth3 test
+01:30:40 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:34:10, will wait at most till 01:39:10
+01:30:40 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+01:34:32 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+01:34:32 -     INFO - wally           - Will run ceph_rwd16mth10 test
+01:34:32 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:38:02, will wait at most till 01:43:02
+01:34:32 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unobviable_ameer/io/cmd.sh'
+01:38:30 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+01:38:30 -     INFO - wally           - Start store_raw_results_stage
+01:38:30 -     INFO - wally           - Start disconnect_stage
+01:38:30 -    DEBUG - wally           - Start utils.cleanup
+01:38:30 -     INFO - wally           - Start console_report_stage
+01:38:31 -     INFO - wally           - Text report were stored in /var/wally_results/unobviable_ameer/report.txt
+01:38:31 -     INFO - wally           - Start html_report_stage
+01:38:33 -     INFO - wally.report    - Report ceph saved into /var/wally_results/unobviable_ameer/ceph_report.html
+01:38:33 -     INFO - wally           - All info stored into /var/wally_results/unobviable_ameer
+01:38:33 -     INFO - wally           - Tests finished successfully

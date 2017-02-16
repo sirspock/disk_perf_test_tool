@@ -1,0 +1,115 @@
+13:43:52 -     INFO - wally           - All info would be stored into /var/wally_results/unhammered_quentin
+13:43:52 -     INFO - wally           - Start discover_stage
+13:44:29 -     INFO - wally           - Start reuse_vms_stage
+13:44:29 -     INFO - wally           - Start log_nodes_statistic_stage
+13:44:29 -     INFO - wally           - Found 7 nodes total
+13:44:29 -    DEBUG - wally           - Found 3 nodes with role ceph-mon
+13:44:29 -    DEBUG - wally           - Found 3 nodes with role ceph-osd
+13:44:29 -    DEBUG - wally           - Found 1 nodes with role testnode
+13:44:29 -     INFO - wally           - Start save_nodes_stage
+13:44:29 -     INFO - wally           - Start connect_stage
+13:44:29 -     INFO - wally           - Connecting to nodes
+13:44:59 -    ERROR - wally           - During connect to 172.17.3.1: [Errno None] Unable to connect to port 22 on  or 172.17.3.1
+13:45:03 -    ERROR - wally           - During connect to 172.17.3.2: [Errno None] Unable to connect to port 22 on  or 172.17.3.2
+13:45:03 -    ERROR - wally           - During connect to 172.17.3.3: [Errno None] Unable to connect to port 22 on  or 172.17.3.3
+13:45:03 -    ERROR - wally           - During connect to 172.17.1.1: [Errno None] Unable to connect to port 22 on  or 172.17.1.1
+13:45:03 -  WARNING - wally           - Node(s) 172.17.3.1:22,172.17.3.3:22,172.17.3.2:22,172.17.1.1:22 would be excluded - can't connect
+13:45:03 -     INFO - wally           - Start run_tests_stage
+13:45:03 -    DEBUG - wally.sensors   - Installing sensors on 0 nodes
+13:45:03 -    DEBUG - wally.sensors   - Starting sensors on 0 nodes
+13:45:03 -    DEBUG - wally           - Run preparation
+13:45:05 -    DEBUG - wally           - prefill is skipped
+13:45:05 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 15:05:56
+13:45:05 -     INFO - wally           - Will run ceph_rws4kth1 test
+13:45:05 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:48:35, will wait at most till 13:53:35
+13:45:06 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+13:48:38 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+13:48:39 -     INFO - wally           - Will run ceph_rws4kth5 test
+13:48:39 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:52:09, will wait at most till 13:57:09
+13:48:39 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+13:52:12 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+13:52:12 -     INFO - wally           - Will run ceph_rws4kth10 test
+13:52:12 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:55:42, will wait at most till 14:00:42
+13:52:12 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+13:55:45 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+13:55:45 -     INFO - wally           - Will run ceph_rws4kth15 test
+13:55:45 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:59:15, will wait at most till 14:04:15
+13:55:45 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+13:59:18 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+13:59:18 -     INFO - wally           - Will run ceph_rws4kth25 test
+13:59:18 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:02:48, will wait at most till 14:07:48
+13:59:19 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+14:02:51 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:02:52 -     INFO - wally           - Will run ceph_rws4kth40 test
+14:02:52 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:06:22, will wait at most till 14:11:22
+14:02:52 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+14:06:25 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:06:25 -     INFO - wally           - Will run ceph_rrd4kth1 test
+14:06:25 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:09:55, will wait at most till 14:14:55
+14:06:25 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+14:09:58 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:09:58 -     INFO - wally           - Will run ceph_rrd4kth5 test
+14:09:58 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:13:28, will wait at most till 14:18:28
+14:09:58 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+14:13:31 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:13:32 -     INFO - wally           - Will run ceph_rrd4kth10 test
+14:13:32 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:17:02, will wait at most till 14:22:02
+14:13:32 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+14:17:04 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:17:05 -     INFO - wally           - Will run ceph_rrd4kth15 test
+14:17:05 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:20:35, will wait at most till 14:25:35
+14:17:05 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+14:20:38 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:20:38 -     INFO - wally           - Will run ceph_rrd4kth25 test
+14:20:38 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:24:08, will wait at most till 14:29:08
+14:20:38 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+14:24:11 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:24:11 -     INFO - wally           - Will run ceph_rrd4kth40 test
+14:24:11 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:27:41, will wait at most till 14:32:41
+14:24:11 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+14:27:44 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:27:45 -     INFO - wally           - Will run ceph_rrd4kth80 test
+14:27:45 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:31:15, will wait at most till 14:36:15
+14:27:45 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+14:31:18 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:31:19 -     INFO - wally           - Will run ceph_rrd4kth120 test
+14:31:19 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:34:49, will wait at most till 14:39:49
+14:31:19 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+14:34:51 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:34:52 -     INFO - wally           - Will run ceph_rwd4kth1 test
+14:34:52 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:38:22, will wait at most till 14:43:22
+14:34:52 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+14:38:25 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:38:26 -     INFO - wally           - Will run ceph_rrd16mth1 test
+14:38:26 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:41:56, will wait at most till 14:46:56
+14:38:26 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+14:41:58 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:41:59 -     INFO - wally           - Will run ceph_rrd16mth3 test
+14:41:59 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:45:29, will wait at most till 14:50:29
+14:41:59 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+14:45:32 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:45:32 -     INFO - wally           - Will run ceph_rrd16mth10 test
+14:45:32 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:49:02, will wait at most till 14:54:02
+14:45:32 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+14:49:05 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:49:05 -     INFO - wally           - Will run ceph_rwd16mth1 test
+14:49:05 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:52:35, will wait at most till 14:57:35
+14:49:05 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+14:52:38 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:52:38 -     INFO - wally           - Will run ceph_rwd16mth3 test
+14:52:38 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:56:08, will wait at most till 15:01:08
+14:52:38 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+14:56:11 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:56:12 -     INFO - wally           - Will run ceph_rwd16mth10 test
+14:56:12 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:59:42, will wait at most till 15:04:42
+14:56:12 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unhammered_quentin/io/cmd.sh'
+14:59:44 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:59:45 -     INFO - wally           - Start store_raw_results_stage
+14:59:45 -     INFO - wally           - Start disconnect_stage
+14:59:45 -    DEBUG - wally           - Start utils.cleanup
+14:59:45 -     INFO - wally           - Start console_report_stage
+14:59:46 -     INFO - wally           - Text report were stored in /var/wally_results/unhammered_quentin/report.txt
+14:59:46 -     INFO - wally           - Start html_report_stage
+14:59:48 -     INFO - wally.report    - Report ceph saved into /var/wally_results/unhammered_quentin/ceph_report.html
+14:59:48 -     INFO - wally           - All info stored into /var/wally_results/unhammered_quentin
+14:59:48 -     INFO - wally           - Tests finished successfully

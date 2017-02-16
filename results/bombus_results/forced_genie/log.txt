@@ -1,0 +1,117 @@
+15:41:48 -     INFO - wally           - All info would be stored into /var/wally_results/forced_genie
+15:41:48 -     INFO - wally           - Start discover_stage
+15:41:48 -     INFO - wally           - Start reuse_vms_stage
+15:41:48 -     INFO - wally           - Start log_nodes_statistic_stage
+15:41:48 -     INFO - wally           - Found 3 nodes total
+15:41:48 -    DEBUG - wally           - Found 3 nodes with role testnode
+15:41:48 -     INFO - wally           - Start save_nodes_stage
+15:41:48 -     INFO - wally           - Start connect_stage
+15:41:48 -     INFO - wally           - Connecting to nodes
+15:41:48 -     INFO - wally           - All nodes connected successfully
+15:41:48 -     INFO - wally           - Start run_tests_stage
+15:41:48 -    DEBUG - wally           - Run preparation
+15:41:49 -     INFO - wally           - Prefilling file /test/ssd/test
+15:41:49 -    DEBUG - wally           - SSH:138.219.228.11:22 Exec 'sudo fio --name=xxx --filename=/test/ssd/test --direct=1 --bs=4m --size=10240m --rw=write'
+15:41:49 -    DEBUG - wally           - SSH:138.219.228.15:22 Exec 'sudo yum -y install screen'
+15:41:49 -     INFO - wally           - Prefilling file /test/ssd/test
+15:41:49 -    DEBUG - wally           - SSH:138.219.228.13:22 Exec 'sudo fio --name=xxx --filename=/test/ssd/test --direct=1 --bs=4m --size=10240m --rw=write'
+15:41:49 -    ERROR - wally           - XXXX
+Traceback (most recent call last):
+  File "wally/suits/io/fio.py", line 669, in pre_run_th
+    self.prefill_test_files(rossh, files, force)
+  File "wally/suits/io/fio.py", line 554, in prefill_test_files
+    rossh(cmd, timeout=curr_sz)
+  File "wally/suits/itest.py", line 204, in closure
+    **kwargs)
+  File "wally/ssh_utils.py", line 543, in run_over_ssh
+    raise OSError(templ.format(node, cmd, code, output))
+OSError: SSH:138.219.228.11:22 Cmd 'sudo fio --name=xxx --filename=/test/ssd/test --direct=1 --bs=4m --size=10240m --rw=write' failed with code 1. Output: xxx: (g=0): rw=write, bs=4M-4M/4M-4M/4M-4M, ioengine=sync, iodepth=1
+fio-2.1.10
+Starting 1 process
+fio: pid=0, err=2/file:filesetup.c:79, func=open, error=No such file or directory
+xxx: Laying out IO file(s) (1 file(s) / 10240MB)
+
+
+Run status group 0 (all jobs):
+
+15:41:49 -    ERROR - wally           - XXXX
+Traceback (most recent call last):
+  File "wally/suits/io/fio.py", line 669, in pre_run_th
+    self.prefill_test_files(rossh, files, force)
+  File "wally/suits/io/fio.py", line 554, in prefill_test_files
+    rossh(cmd, timeout=curr_sz)
+  File "wally/suits/itest.py", line 204, in closure
+    **kwargs)
+  File "wally/ssh_utils.py", line 543, in run_over_ssh
+    raise OSError(templ.format(node, cmd, code, output))
+OSError: SSH:138.219.228.13:22 Cmd 'sudo fio --name=xxx --filename=/test/ssd/test --direct=1 --bs=4m --size=10240m --rw=write' failed with code 1. Output: xxx: (g=0): rw=write, bs=4M-4M/4M-4M/4M-4M, ioengine=sync, iodepth=1
+fio-2.1.10
+Starting 1 process
+fio: pid=0, err=2/file:filesetup.c:79, func=open, error=No such file or directory
+xxx: Laying out IO file(s) (1 file(s) / 10240MB)
+
+
+Run status group 0 (all jobs):
+
+15:41:51 -     INFO - wally           - Prefilling file /test/ssd/test
+15:41:51 -    DEBUG - wally           - SSH:138.219.228.15:22 Exec 'sudo fio --name=xxx --filename=/test/ssd/test --direct=1 --bs=4m --size=10240m --rw=write'
+15:41:51 -    ERROR - wally           - XXXX
+Traceback (most recent call last):
+  File "wally/suits/io/fio.py", line 669, in pre_run_th
+    self.prefill_test_files(rossh, files, force)
+  File "wally/suits/io/fio.py", line 554, in prefill_test_files
+    rossh(cmd, timeout=curr_sz)
+  File "wally/suits/itest.py", line 204, in closure
+    **kwargs)
+  File "wally/ssh_utils.py", line 543, in run_over_ssh
+    raise OSError(templ.format(node, cmd, code, output))
+OSError: SSH:138.219.228.15:22 Cmd 'sudo fio --name=xxx --filename=/test/ssd/test --direct=1 --bs=4m --size=10240m --rw=write' failed with code 1. Output: xxx: (g=0): rw=write, bs=4M-4M/4M-4M/4M-4M, ioengine=sync, iodepth=1
+fio-2.1.10
+Starting 1 process
+fio: pid=0, err=2/file:filesetup.c:79, func=open, error=No such file or directory
+xxx: Laying out IO file(s) (1 file(s) / 10240MB)
+
+
+Run status group 0 (all jobs):
+
+15:41:51 -    ERROR - wally           - During run_tests_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 124, in log_stage
+    yield
+  File "wally/main.py", line 276, in main
+    stage(cfg, ctx)
+  File "wally/run_test.py", line 481, in run_tests_stage
+    for tp, res in run_tests(cfg, test_group, ctx.nodes):
+  File "wally/run_test.py", line 242, in run_tests
+    res = test_cls(test_cfg).run()
+  File "wally/suits/io/fio.py", line 688, in run
+    self.pre_run()
+  File "wally/suits/io/fio.py", line 643, in pre_run
+    list(pool.map(fc, self.config.nodes))
+  File "/usr/local/lib/python2.7/dist-packages/concurrent/futures/_base.py", line 581, in result_iterator
+    yield future.result()
+  File "/usr/local/lib/python2.7/dist-packages/concurrent/futures/_base.py", line 405, in result
+    return self.__get_result()
+  File "/usr/local/lib/python2.7/dist-packages/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "wally/suits/io/fio.py", line 669, in pre_run_th
+    self.prefill_test_files(rossh, files, force)
+  File "wally/suits/io/fio.py", line 554, in prefill_test_files
+    rossh(cmd, timeout=curr_sz)
+  File "wally/suits/itest.py", line 204, in closure
+    **kwargs)
+  File "wally/ssh_utils.py", line 543, in run_over_ssh
+    raise OSError(templ.format(node, cmd, code, output))
+OSError: SSH:138.219.228.13:22 Cmd 'sudo fio --name=xxx --filename=/test/ssd/test --direct=1 --bs=4m --size=10240m --rw=write' failed with code 1. Output: xxx: (g=0): rw=write, bs=4M-4M/4M-4M/4M-4M, ioengine=sync, iodepth=1
+fio-2.1.10
+Starting 1 process
+fio: pid=0, err=2/file:filesetup.c:79, func=open, error=No such file or directory
+xxx: Laying out IO file(s) (1 file(s) / 10240MB)
+
+
+Run status group 0 (all jobs):
+
+15:41:51 -     INFO - wally           - Start disconnect_stage
+15:41:51 -    DEBUG - wally           - Start utils.cleanup
+15:41:51 -     INFO - wally           - All info stored into /var/wally_results/forced_genie
+15:41:51 -    ERROR - wally           - Tests are failed. See detailed error above

@@ -1,0 +1,141 @@
+16:59:49 -     INFO - wally           - All info would be stored into /var/wally_results/infusive_elene
+16:59:49 -     INFO - wally           - Start discover_stage
+16:59:49 -     INFO - wally           - Start reuse_vms_stage
+16:59:49 -     INFO - wally           - Start log_nodes_statistic_stage
+16:59:49 -     INFO - wally           - Found 3 nodes total
+16:59:49 -    DEBUG - wally           - Found 3 nodes with role testnode
+16:59:49 -     INFO - wally           - Start save_nodes_stage
+16:59:49 -     INFO - wally           - Start connect_stage
+16:59:49 -     INFO - wally           - Connecting to nodes
+16:59:49 -     INFO - wally           - All nodes connected successfully
+16:59:49 -     INFO - wally           - Start run_tests_stage
+16:59:49 -    DEBUG - wally           - Run preparation
+16:59:52 -    DEBUG - wally           - prefill is skipped
+16:59:54 -    DEBUG - wally           - prefill is skipped
+16:59:55 -    DEBUG - wally           - prefill is skipped
+16:59:55 -     INFO - wally           - Entire test should takes aroud: 3:59:15 and finished at 20:59:10
+16:59:55 -     INFO - wally           - Will run hdd_rwx4kth1 test
+16:59:55 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:02:25, will wait at most till 17:07:25
+16:59:55 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+16:59:56 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+16:59:56 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:02:28 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+17:02:28 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+17:02:29 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+17:02:30 -     INFO - wally           - Will run hdd_rwx4kth1 test
+17:02:30 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 17:04:30, will wait at most till 17:09:30
+17:02:30 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:02:30 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:02:31 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:04:33 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+17:04:33 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+17:04:34 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+17:04:35 -     INFO - wally           - Will run hdd_rwx4kth1 test
+17:04:35 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 17:06:35, will wait at most till 17:11:35
+17:04:35 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:04:35 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:04:35 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:06:37 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+17:06:37 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+17:06:39 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+17:06:40 -     INFO - wally           - Will run hdd_rwx4kth1 test
+17:06:40 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 17:08:40, will wait at most till 17:13:40
+17:06:40 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:06:40 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:06:41 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:08:43 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+17:08:44 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+17:08:45 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+17:08:45 -     INFO - wally           - Will run hdd_rwx4kth1 test
+17:08:45 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 17:10:45, will wait at most till 17:15:45
+17:08:45 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:08:45 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:08:45 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:10:48 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+17:10:48 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+17:10:49 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+17:10:50 -     INFO - wally           - Will run hdd_rwx4kth1 test
+17:10:50 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 17:12:50, will wait at most till 17:17:50
+17:10:50 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:10:50 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:10:50 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:12:54 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+17:12:54 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+17:12:54 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+17:12:55 -     INFO - wally           - Will run hdd_rwx4kth1 test
+17:12:55 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 17:14:55, will wait at most till 17:19:55
+17:12:55 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:12:55 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:12:56 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:14:58 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+17:14:59 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+17:14:59 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+17:15:00 -     INFO - wally           - Will run hdd_rwx4kth5 test
+17:15:00 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:17:30, will wait at most till 17:22:30
+17:15:00 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:15:00 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:15:00 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:17:33 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+17:17:34 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+17:17:34 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+17:17:35 -     INFO - wally           - Will run hdd_rwx4kth5 test
+17:17:35 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 17:19:35, will wait at most till 17:24:35
+17:17:36 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:17:36 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:17:36 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:19:38 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+17:19:39 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+17:19:39 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+17:19:40 -     INFO - wally           - Will run hdd_rwx4kth5 test
+17:19:40 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 17:21:40, will wait at most till 17:26:40
+17:19:40 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:19:40 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:19:40 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:21:42 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+17:21:42 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+17:21:43 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+17:21:43 -     INFO - wally           - Will run hdd_rwx4kth5 test
+17:21:43 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 17:23:43, will wait at most till 17:28:43
+17:21:43 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:21:43 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:21:43 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:23:47 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+17:23:47 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+17:23:48 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+17:23:48 -     INFO - wally           - Will run hdd_rwx4kth5 test
+17:23:48 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 17:25:48, will wait at most till 17:30:48
+17:23:49 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:23:49 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:23:49 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:25:52 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+17:25:52 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+17:25:53 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+17:25:53 -     INFO - wally           - Will run hdd_rwx4kth5 test
+17:25:53 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 17:27:53, will wait at most till 17:32:53
+17:25:53 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:25:53 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:25:53 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:27:56 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+17:27:56 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+17:27:57 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+17:27:58 -     INFO - wally           - Will run hdd_rwx4kth5 test
+17:27:58 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 17:29:58, will wait at most till 17:34:58
+17:27:58 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:27:58 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:27:58 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:30:01 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+17:30:02 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+17:30:03 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+17:30:04 -     INFO - wally           - Will run hdd_rwx4kth10 test
+17:30:04 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:32:34, will wait at most till 17:37:34
+17:30:05 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:30:05 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:30:05 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:32:37 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+17:32:37 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+17:32:37 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+17:32:38 -     INFO - wally           - Will run hdd_rwx4kth10 test
+17:32:38 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 17:34:38, will wait at most till 17:39:38
+17:32:38 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:32:38 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'
+17:32:38 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/infusive_elene/io/cmd.sh'

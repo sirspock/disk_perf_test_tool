@@ -1,0 +1,2 @@
+13:13:57 -     INFO - wally           - All info would be stored into /var/wally_results/semidivided_nickole
+13:13:57 -     INFO - wally           - Start discover_stage

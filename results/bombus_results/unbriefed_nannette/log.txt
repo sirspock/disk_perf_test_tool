@@ -1,0 +1,895 @@
+18:22:21 -     INFO - wally           - All info would be stored into /var/wally_results/unbriefed_nannette
+18:22:21 -     INFO - wally           - Start discover_stage
+18:22:21 -     INFO - wally           - Start reuse_vms_stage
+18:22:21 -     INFO - wally           - Start log_nodes_statistic_stage
+18:22:21 -     INFO - wally           - Found 3 nodes total
+18:22:21 -    DEBUG - wally           - Found 3 nodes with role testnode
+18:22:21 -     INFO - wally           - Start save_nodes_stage
+18:22:21 -     INFO - wally           - Start connect_stage
+18:22:21 -     INFO - wally           - Connecting to nodes
+18:22:23 -     INFO - wally           - All nodes connected successfully
+18:22:23 -     INFO - wally           - Start run_tests_stage
+18:22:23 -    DEBUG - wally           - Run preparation
+18:22:24 -     INFO - wally           - Prefilling file /test/ssd
+18:22:24 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'sudo fio --name=xxx --filename=/test/ssd --direct=1 --bs=4m --size=10240m --rw=write'
+18:22:26 -    DEBUG - wally           - prefill is skipped
+18:22:26 -    DEBUG - wally           - prefill is skipped
+18:23:16 -     INFO - wally           - Initiall fio fill bw is 199 MiBps for this vm
+18:23:16 -     INFO - wally           - Entire test should takes aroud: 3:59:15 and finished at 22:22:31
+18:23:16 -     INFO - wally           - Will run hdd_rwx4kth1 test
+18:23:16 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 18:25:46, will wait at most till 18:30:46
+18:23:16 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:23:16 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:23:16 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:25:49 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+18:25:50 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+18:25:50 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+18:25:51 -     INFO - wally           - Will run hdd_rwx4kth1 test
+18:25:51 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 18:27:51, will wait at most till 18:32:51
+18:25:51 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:25:51 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:25:51 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:27:54 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+18:27:55 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+18:27:56 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+18:27:56 -     INFO - wally           - Will run hdd_rwx4kth1 test
+18:27:56 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 18:29:56, will wait at most till 18:34:56
+18:27:56 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:27:56 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:27:56 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:29:59 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+18:30:00 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+18:30:01 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+18:30:01 -     INFO - wally           - Will run hdd_rwx4kth1 test
+18:30:01 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 18:32:01, will wait at most till 18:37:01
+18:30:02 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:30:02 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:30:02 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:32:04 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+18:32:05 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+18:32:05 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+18:32:06 -     INFO - wally           - Will run hdd_rwx4kth1 test
+18:32:06 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 18:34:06, will wait at most till 18:39:06
+18:32:06 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:32:06 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:32:07 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:34:10 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+18:34:10 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+18:34:10 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+18:34:11 -     INFO - wally           - Will run hdd_rwx4kth1 test
+18:34:11 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 18:36:11, will wait at most till 18:41:11
+18:34:12 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:34:12 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:34:12 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:36:14 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+18:36:14 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+18:36:15 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+18:36:16 -     INFO - wally           - Will run hdd_rwx4kth1 test
+18:36:16 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 18:38:16, will wait at most till 18:43:16
+18:36:16 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:36:16 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:36:16 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:38:19 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+18:38:19 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+18:38:20 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+18:38:20 -     INFO - wally           - Will run hdd_rwx4kth5 test
+18:38:20 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 18:40:50, will wait at most till 18:45:50
+18:38:21 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:38:21 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:38:21 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:40:54 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+18:40:54 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+18:40:54 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+18:40:55 -     INFO - wally           - Will run hdd_rwx4kth5 test
+18:40:55 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 18:42:55, will wait at most till 18:47:55
+18:40:55 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:40:55 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:40:55 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:42:59 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+18:42:59 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+18:42:59 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+18:43:00 -     INFO - wally           - Will run hdd_rwx4kth5 test
+18:43:00 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 18:45:00, will wait at most till 18:50:00
+18:43:01 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:43:01 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:43:01 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:45:05 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+18:45:05 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+18:45:05 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+18:45:06 -     INFO - wally           - Will run hdd_rwx4kth5 test
+18:45:06 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 18:47:06, will wait at most till 18:52:06
+18:45:06 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:45:06 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:45:06 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:47:10 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+18:47:10 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+18:47:10 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+18:47:11 -     INFO - wally           - Will run hdd_rwx4kth5 test
+18:47:11 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 18:49:11, will wait at most till 18:54:11
+18:47:11 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:47:11 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:47:11 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:49:15 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+18:49:15 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+18:49:15 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+18:49:16 -     INFO - wally           - Will run hdd_rwx4kth5 test
+18:49:16 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 18:51:16, will wait at most till 18:56:16
+18:49:16 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:49:16 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:49:16 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:51:18 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+18:51:19 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+18:51:21 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+18:51:21 -     INFO - wally           - Will run hdd_rwx4kth5 test
+18:51:21 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 18:53:21, will wait at most till 18:58:21
+18:51:21 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:51:21 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:51:21 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:53:24 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+18:53:24 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+18:53:25 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+18:53:26 -     INFO - wally           - Will run hdd_rwx4kth10 test
+18:53:26 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 18:55:56, will wait at most till 19:00:56
+18:53:26 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:53:26 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:53:26 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:55:58 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+18:55:59 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+18:55:59 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+18:56:00 -     INFO - wally           - Will run hdd_rwx4kth10 test
+18:56:00 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 18:58:00, will wait at most till 19:03:00
+18:56:00 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:56:00 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:56:00 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:58:02 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+18:58:03 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+18:58:03 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+18:58:03 -     INFO - wally           - Will run hdd_rwx4kth10 test
+18:58:03 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:00:03, will wait at most till 19:05:03
+18:58:03 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:58:03 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+18:58:03 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:00:07 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:00:07 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:00:07 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:00:08 -     INFO - wally           - Will run hdd_rwx4kth10 test
+19:00:08 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:02:08, will wait at most till 19:07:08
+19:00:08 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:00:08 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:00:08 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:02:12 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:02:13 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:02:13 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:02:13 -     INFO - wally           - Will run hdd_rwx4kth10 test
+19:02:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:04:13, will wait at most till 19:09:13
+19:02:13 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:02:13 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:02:13 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:04:16 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:04:17 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:04:18 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:04:18 -     INFO - wally           - Will run hdd_rwx4kth10 test
+19:04:18 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:06:18, will wait at most till 19:11:18
+19:04:19 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:04:19 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:04:19 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:06:21 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:06:23 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:06:23 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:06:23 -     INFO - wally           - Will run hdd_rwx4kth10 test
+19:06:23 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:08:23, will wait at most till 19:13:23
+19:06:24 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:06:24 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:06:24 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:08:27 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:08:28 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:08:28 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:08:28 -     INFO - wally           - Will run hdd_rwx4kth15 test
+19:08:28 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 19:10:58, will wait at most till 19:15:58
+19:08:29 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:08:29 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:08:29 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:11:02 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:11:02 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:11:02 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:11:03 -     INFO - wally           - Will run hdd_rwx4kth15 test
+19:11:03 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:13:03, will wait at most till 19:18:03
+19:11:03 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:11:03 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:11:03 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:13:06 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:13:07 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:13:07 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:13:07 -     INFO - wally           - Will run hdd_rwx4kth15 test
+19:13:07 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:15:07, will wait at most till 19:20:07
+19:13:07 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:13:07 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:13:08 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:15:11 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:15:11 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:15:12 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:15:12 -     INFO - wally           - Will run hdd_rwx4kth15 test
+19:15:12 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:17:12, will wait at most till 19:22:12
+19:15:13 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:15:13 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:15:13 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:17:15 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:17:17 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:17:17 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:17:18 -     INFO - wally           - Will run hdd_rwx4kth15 test
+19:17:18 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:19:18, will wait at most till 19:24:18
+19:17:18 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:17:18 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:17:18 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:19:21 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:19:22 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:19:22 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:19:23 -     INFO - wally           - Will run hdd_rwx4kth15 test
+19:19:23 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:21:23, will wait at most till 19:26:23
+19:19:23 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:19:23 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:19:23 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:21:26 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:21:27 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:21:28 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:21:28 -     INFO - wally           - Will run hdd_rwx4kth15 test
+19:21:28 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:23:28, will wait at most till 19:28:28
+19:21:28 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:21:28 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:21:28 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:23:31 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:23:32 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:23:32 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:23:33 -     INFO - wally           - Will run hdd_rwx4kth25 test
+19:23:33 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 19:26:03, will wait at most till 19:31:03
+19:23:33 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:23:33 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:23:33 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:26:06 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:26:06 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:26:08 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:26:08 -     INFO - wally           - Will run hdd_rwx4kth25 test
+19:26:08 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:28:08, will wait at most till 19:33:08
+19:26:09 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:26:09 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:26:09 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:28:12 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:28:29 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:28:29 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:28:30 -     INFO - wally           - Will run hdd_rwx4kth25 test
+19:28:30 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:30:30, will wait at most till 19:35:30
+19:28:30 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:28:30 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:28:30 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:30:32 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:30:33 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:30:34 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:30:35 -     INFO - wally           - Will run hdd_rwx4kth25 test
+19:30:35 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:32:35, will wait at most till 19:37:35
+19:30:35 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:30:35 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:30:35 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:32:39 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:32:39 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:32:40 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:32:40 -     INFO - wally           - Will run hdd_rwx4kth25 test
+19:32:40 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:34:40, will wait at most till 19:39:40
+19:32:40 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:32:40 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:32:41 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:34:44 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:34:44 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:34:45 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:34:45 -     INFO - wally           - Will run hdd_rwx4kth25 test
+19:34:45 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:36:45, will wait at most till 19:41:45
+19:34:45 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:34:45 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:34:46 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:36:50 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:36:50 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:36:50 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:36:51 -     INFO - wally           - Will run hdd_rwx4kth25 test
+19:36:51 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:38:51, will wait at most till 19:43:51
+19:36:51 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:36:51 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:36:51 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:38:53 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:38:55 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:38:55 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:38:56 -     INFO - wally           - Will run hdd_rwx4kth40 test
+19:38:56 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 19:41:26, will wait at most till 19:46:26
+19:38:57 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:38:57 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:38:57 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:41:30 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:41:44 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:41:45 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:41:45 -     INFO - wally           - Will run hdd_rwx4kth40 test
+19:41:45 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:43:45, will wait at most till 19:48:45
+19:41:45 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:41:45 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:41:45 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:43:48 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:43:49 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:43:49 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:43:50 -     INFO - wally           - Will run hdd_rwx4kth40 test
+19:43:50 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:45:50, will wait at most till 19:50:50
+19:43:51 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:43:51 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:43:51 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:45:53 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:45:55 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:45:55 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:45:56 -     INFO - wally           - Will run hdd_rwx4kth40 test
+19:45:56 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:47:56, will wait at most till 19:52:56
+19:45:56 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:45:56 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:45:56 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:48:00 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:48:00 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:48:02 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:48:03 -     INFO - wally           - Will run hdd_rwx4kth40 test
+19:48:03 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:50:03, will wait at most till 19:55:03
+19:48:03 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:48:03 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:48:03 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:50:05 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:50:05 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:50:07 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:50:08 -     INFO - wally           - Will run hdd_rwx4kth40 test
+19:50:08 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:52:08, will wait at most till 19:57:08
+19:50:08 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:50:08 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:50:08 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:52:12 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:52:12 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:52:12 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:52:13 -     INFO - wally           - Will run hdd_rwx4kth40 test
+19:52:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:54:13, will wait at most till 19:59:13
+19:52:13 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:52:13 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:52:13 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:54:17 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:54:17 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:54:17 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:54:18 -     INFO - wally           - Will run hdd_rrd4kth1 test
+19:54:18 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 19:56:48, will wait at most till 20:01:48
+19:54:19 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:54:19 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:54:19 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:56:52 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:56:52 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:56:53 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:56:54 -     INFO - wally           - Will run hdd_rrd4kth1 test
+19:56:54 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 19:58:54, will wait at most till 20:03:54
+19:56:54 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:56:54 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:56:54 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:58:57 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+19:58:58 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+19:58:58 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+19:58:58 -     INFO - wally           - Will run hdd_rrd4kth1 test
+19:58:58 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:00:58, will wait at most till 20:05:58
+19:58:58 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:58:58 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+19:58:58 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:01:00 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:01:01 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:01:03 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:01:03 -     INFO - wally           - Will run hdd_rrd4kth1 test
+20:01:03 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:03:03, will wait at most till 20:08:03
+20:01:03 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:01:03 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:01:03 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:03:06 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:03:06 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:03:07 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:03:07 -     INFO - wally           - Will run hdd_rrd4kth1 test
+20:03:07 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:05:07, will wait at most till 20:10:07
+20:03:08 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:03:08 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:03:08 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:05:11 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:05:11 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:05:12 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:05:12 -     INFO - wally           - Will run hdd_rrd4kth1 test
+20:05:12 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:07:12, will wait at most till 20:12:12
+20:05:12 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:05:12 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:05:12 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:07:16 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:07:16 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:07:16 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:07:17 -     INFO - wally           - Will run hdd_rrd4kth1 test
+20:07:17 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:09:17, will wait at most till 20:14:17
+20:07:17 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:07:17 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:07:17 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:09:21 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:09:21 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:09:21 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:09:22 -     INFO - wally           - Will run hdd_rrd4kth5 test
+20:09:22 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 20:11:52, will wait at most till 20:16:52
+20:09:22 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:09:22 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:09:22 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:11:55 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:11:55 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:11:55 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:11:56 -     INFO - wally           - Will run hdd_rrd4kth5 test
+20:11:56 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:13:56, will wait at most till 20:18:56
+20:11:56 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:11:56 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:11:56 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:14:00 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:14:00 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:14:00 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:14:01 -     INFO - wally           - Will run hdd_rrd4kth5 test
+20:14:01 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:16:01, will wait at most till 20:21:01
+20:14:01 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:14:01 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:14:01 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:16:05 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:16:05 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:16:06 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:16:06 -     INFO - wally           - Will run hdd_rrd4kth5 test
+20:16:06 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:18:06, will wait at most till 20:23:06
+20:16:06 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:16:06 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:16:06 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:18:10 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:18:10 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:18:11 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:18:11 -     INFO - wally           - Will run hdd_rrd4kth5 test
+20:18:11 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:20:11, will wait at most till 20:25:11
+20:18:11 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:18:11 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:18:11 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:20:14 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:20:14 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:20:15 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:20:16 -     INFO - wally           - Will run hdd_rrd4kth5 test
+20:20:16 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:22:16, will wait at most till 20:27:16
+20:20:16 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:20:16 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:20:16 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:22:19 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:22:19 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:22:20 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:22:21 -     INFO - wally           - Will run hdd_rrd4kth5 test
+20:22:21 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:24:21, will wait at most till 20:29:21
+20:22:21 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:22:21 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:22:21 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:24:23 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:24:23 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:24:24 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:24:24 -     INFO - wally           - Will run hdd_rrd4kth10 test
+20:24:24 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 20:26:54, will wait at most till 20:31:54
+20:24:24 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:24:24 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:24:24 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:26:57 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:26:57 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:26:58 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:26:58 -     INFO - wally           - Will run hdd_rrd4kth10 test
+20:26:58 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:28:58, will wait at most till 20:33:58
+20:26:59 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:26:59 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:26:59 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:29:01 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:29:02 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:29:02 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:29:02 -     INFO - wally           - Will run hdd_rrd4kth10 test
+20:29:02 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:31:02, will wait at most till 20:36:02
+20:29:03 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:29:03 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:29:03 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:31:06 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:31:07 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:31:07 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:31:08 -     INFO - wally           - Will run hdd_rrd4kth10 test
+20:31:08 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:33:08, will wait at most till 20:38:08
+20:31:08 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:31:08 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:31:08 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:33:10 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:33:12 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:33:12 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:33:12 -     INFO - wally           - Will run hdd_rrd4kth10 test
+20:33:12 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:35:12, will wait at most till 20:40:12
+20:33:13 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:33:13 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:33:13 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:35:15 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:35:16 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:35:17 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:35:17 -     INFO - wally           - Will run hdd_rrd4kth10 test
+20:35:17 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:37:17, will wait at most till 20:42:17
+20:35:17 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:35:17 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:35:17 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:37:21 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:37:21 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:37:21 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:37:22 -     INFO - wally           - Will run hdd_rrd4kth10 test
+20:37:22 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:39:22, will wait at most till 20:44:22
+20:37:22 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:37:23 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:37:23 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:39:26 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:39:26 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:39:27 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:39:27 -     INFO - wally           - Will run hdd_rrd4kth15 test
+20:39:27 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 20:41:57, will wait at most till 20:46:57
+20:39:27 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:39:27 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:39:27 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:42:00 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:42:02 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:42:02 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:42:02 -     INFO - wally           - Will run hdd_rrd4kth15 test
+20:42:02 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:44:02, will wait at most till 20:49:02
+20:42:03 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:42:03 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:42:03 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:44:07 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:44:07 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:44:07 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:44:07 -     INFO - wally           - Will run hdd_rrd4kth15 test
+20:44:07 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:46:07, will wait at most till 20:51:07
+20:44:08 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:44:08 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:44:08 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:46:12 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:46:12 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:46:12 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:46:13 -     INFO - wally           - Will run hdd_rrd4kth15 test
+20:46:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:48:13, will wait at most till 20:53:13
+20:46:13 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:46:13 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:46:13 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:48:17 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:48:17 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:48:17 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:48:18 -     INFO - wally           - Will run hdd_rrd4kth15 test
+20:48:18 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:50:18, will wait at most till 20:55:18
+20:48:18 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:48:18 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:48:18 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:50:20 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:50:22 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:50:22 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:50:23 -     INFO - wally           - Will run hdd_rrd4kth15 test
+20:50:23 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:52:23, will wait at most till 20:57:23
+20:50:23 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:50:23 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:50:23 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:52:27 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:52:27 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:52:27 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:52:28 -     INFO - wally           - Will run hdd_rrd4kth15 test
+20:52:28 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:54:28, will wait at most till 20:59:28
+20:52:28 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:52:28 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:52:28 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:54:32 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:54:32 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:54:33 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:54:33 -     INFO - wally           - Will run hdd_rrd4kth25 test
+20:54:33 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 20:57:03, will wait at most till 21:02:03
+20:54:34 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:54:34 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:54:34 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:57:06 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:57:06 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:57:06 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:57:07 -     INFO - wally           - Will run hdd_rrd4kth25 test
+20:57:07 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 20:59:07, will wait at most till 21:04:07
+20:57:07 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:57:07 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:57:07 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:59:11 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+20:59:11 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+20:59:11 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+20:59:12 -     INFO - wally           - Will run hdd_rrd4kth25 test
+20:59:12 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:01:12, will wait at most till 21:06:12
+20:59:13 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:59:13 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+20:59:13 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:01:15 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:01:17 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:01:18 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:01:18 -     INFO - wally           - Will run hdd_rrd4kth25 test
+21:01:18 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:03:18, will wait at most till 21:08:18
+21:01:19 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:01:19 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:01:19 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:03:23 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:03:23 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:03:23 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:03:23 -     INFO - wally           - Will run hdd_rrd4kth25 test
+21:03:23 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:05:23, will wait at most till 21:10:23
+21:03:24 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:03:24 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:03:24 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:05:28 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:05:28 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:05:28 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:05:29 -     INFO - wally           - Will run hdd_rrd4kth25 test
+21:05:29 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:07:29, will wait at most till 21:12:29
+21:05:29 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:05:29 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:05:29 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:07:33 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:07:33 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:07:33 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:07:34 -     INFO - wally           - Will run hdd_rrd4kth25 test
+21:07:34 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:09:34, will wait at most till 21:14:34
+21:07:34 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:07:34 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:07:34 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:09:38 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:09:38 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:09:38 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:09:39 -     INFO - wally           - Will run hdd_rrd4kth40 test
+21:09:39 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 21:12:09, will wait at most till 21:17:09
+21:09:39 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:09:39 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:09:39 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:12:13 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:12:14 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:12:14 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:12:15 -     INFO - wally           - Will run hdd_rrd4kth40 test
+21:12:15 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:14:15, will wait at most till 21:19:15
+21:12:16 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:12:16 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:12:16 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:14:20 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:14:20 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:14:20 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:14:21 -     INFO - wally           - Will run hdd_rrd4kth40 test
+21:14:21 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:16:21, will wait at most till 21:21:21
+21:14:21 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:14:21 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:14:21 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:16:25 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:16:25 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:16:25 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:16:26 -     INFO - wally           - Will run hdd_rrd4kth40 test
+21:16:26 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:18:26, will wait at most till 21:23:26
+21:16:27 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:16:27 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:16:27 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:18:31 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:18:31 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:18:31 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:18:32 -     INFO - wally           - Will run hdd_rrd4kth40 test
+21:18:32 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:20:32, will wait at most till 21:25:32
+21:18:32 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:18:32 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:18:32 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:20:36 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:20:36 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:20:37 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:20:38 -     INFO - wally           - Will run hdd_rrd4kth40 test
+21:20:38 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:22:38, will wait at most till 21:27:38
+21:20:38 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:20:38 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:20:38 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:22:42 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:22:42 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:22:42 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:22:43 -     INFO - wally           - Will run hdd_rrd4kth40 test
+21:22:43 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:24:43, will wait at most till 21:29:43
+21:22:44 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:22:44 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:22:44 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:24:47 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:24:48 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:24:48 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:24:49 -     INFO - wally           - Will run hdd_srd1mth1 test
+21:24:49 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 21:27:19, will wait at most till 21:32:19
+21:24:49 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:24:49 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:24:49 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:27:21 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:27:22 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:27:23 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:27:24 -     INFO - wally           - Will run hdd_srd1mth1 test
+21:27:24 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:29:24, will wait at most till 21:34:24
+21:27:24 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:27:24 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:27:24 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:29:28 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:29:28 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:29:28 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:29:28 -     INFO - wally           - Will run hdd_srd1mth1 test
+21:29:28 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:31:28, will wait at most till 21:36:28
+21:29:28 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:29:28 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:29:28 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:31:32 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:31:33 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:31:33 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:31:33 -     INFO - wally           - Will run hdd_srd1mth1 test
+21:31:33 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:33:33, will wait at most till 21:38:33
+21:31:33 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:31:33 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:31:33 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:33:37 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:33:37 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:33:37 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:33:38 -     INFO - wally           - Will run hdd_srd1mth1 test
+21:33:38 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:35:38, will wait at most till 21:40:38
+21:33:38 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:33:38 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:33:38 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:35:42 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:35:42 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:35:42 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:35:43 -     INFO - wally           - Will run hdd_srd1mth1 test
+21:35:43 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:37:43, will wait at most till 21:42:43
+21:35:43 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:35:43 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:35:43 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:37:47 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:37:47 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:37:47 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:37:48 -     INFO - wally           - Will run hdd_srd1mth1 test
+21:37:48 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:39:48, will wait at most till 21:44:48
+21:37:48 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:37:48 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:37:48 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:39:50 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:39:52 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:39:53 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:39:53 -     INFO - wally           - Will run hdd_swd1mth1 test
+21:39:53 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 21:42:23, will wait at most till 21:47:23
+21:39:53 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:39:53 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:39:53 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:42:26 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:42:26 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:42:27 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:42:28 -     INFO - wally           - Will run hdd_swd1mth1 test
+21:42:28 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:44:28, will wait at most till 21:49:28
+21:42:28 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:42:28 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:42:28 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:44:32 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:44:32 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:44:32 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:44:33 -     INFO - wally           - Will run hdd_swd1mth1 test
+21:44:33 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:46:33, will wait at most till 21:51:33
+21:44:33 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:44:33 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:44:33 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:46:37 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:46:37 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:46:37 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:46:37 -     INFO - wally           - Will run hdd_swd1mth1 test
+21:46:37 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:48:37, will wait at most till 21:53:37
+21:46:38 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:46:38 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:46:38 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:48:41 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:48:41 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:48:42 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:48:42 -     INFO - wally           - Will run hdd_swd1mth1 test
+21:48:42 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:50:42, will wait at most till 21:55:42
+21:48:42 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:48:42 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:48:42 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:50:46 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:50:46 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:50:46 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:50:47 -     INFO - wally           - Will run hdd_swd1mth1 test
+21:50:47 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:52:47, will wait at most till 21:57:47
+21:50:47 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:50:47 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:50:47 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:52:51 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:52:51 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:52:51 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:52:52 -     INFO - wally           - Will run hdd_swd1mth1 test
+21:52:52 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:54:52, will wait at most till 21:59:52
+21:52:52 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:52:52 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:52:52 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:54:56 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:54:56 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:54:56 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:54:57 -     INFO - wally           - Will run hdd_rwd4kth1 test
+21:54:57 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 21:57:27, will wait at most till 22:02:27
+21:54:57 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:54:57 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:54:57 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:57:31 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+21:58:08 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+21:58:08 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+21:58:08 -     INFO - wally           - Will run hdd_rwd4kth1 test
+21:58:08 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:00:08, will wait at most till 22:05:08
+21:58:09 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:58:09 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+21:58:09 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+22:00:12 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:00:13 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:00:18 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:00:19 -     INFO - wally           - Will run hdd_rwd4kth1 test
+22:00:19 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:02:19, will wait at most till 22:07:19
+22:00:19 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+22:00:19 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+22:00:19 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+22:02:23 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:02:51 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:02:52 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:02:52 -     INFO - wally           - Will run hdd_rwd4kth1 test
+22:02:52 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:04:52, will wait at most till 22:09:52
+22:02:52 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+22:02:52 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+22:02:52 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+22:04:55 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:04:56 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:05:03 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:05:03 -     INFO - wally           - Will run hdd_rwd4kth1 test
+22:05:03 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:07:03, will wait at most till 22:12:03
+22:05:03 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+22:05:03 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+22:05:03 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+22:07:07 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:07:07 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:07:08 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:07:08 -     INFO - wally           - Will run hdd_rwd4kth1 test
+22:07:08 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:09:08, will wait at most till 22:14:08
+22:07:08 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+22:07:08 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+22:07:08 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+22:09:18 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:09:27 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:09:27 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:09:27 -     INFO - wally           - Will run hdd_rwd4kth1 test
+22:09:27 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:11:27, will wait at most till 22:16:27
+22:09:27 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+22:09:27 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+22:09:27 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unbriefed_nannette/io/cmd.sh'
+22:11:30 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:11:31 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:11:32 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:11:32 -     INFO - wally           - Start store_raw_results_stage
+22:11:32 -     INFO - wally           - Start disconnect_stage
+22:11:32 -    DEBUG - wally           - Start utils.cleanup
+22:11:32 -     INFO - wally           - Start console_report_stage
+22:11:39 -     INFO - wally           - Text report were stored in /var/wally_results/unbriefed_nannette/report.txt
+22:11:39 -     INFO - wally           - Start html_report_stage
+22:11:43 -     INFO - wally.report    - Report hdd saved into /var/wally_results/unbriefed_nannette/hdd_report.html
+22:11:43 -     INFO - wally           - All info stored into /var/wally_results/unbriefed_nannette
+22:11:43 -     INFO - wally           - Tests finished successfully
+23:32:24 -     INFO - wally           - All info would be stored into /var/wally_results/unbriefed_nannette
+23:32:24 -     INFO - wally           - Start load_data_from_path_stage
+23:32:41 -    DEBUG - wally           - Start utils.cleanup
+23:32:41 -     INFO - wally           - Start console_report_stage
+23:32:49 -     INFO - wally           - Text report were stored in /var/wally_results/unbriefed_nannette/report.txt
+23:32:49 -     INFO - wally           - Start html_report_stage
+23:32:52 -     INFO - wally.report    - Report hdd saved into /var/wally_results/unbriefed_nannette/hdd_report.html
+23:32:52 -     INFO - wally           - All info stored into /var/wally_results/unbriefed_nannette
+23:32:52 -     INFO - wally           - Tests finished successfully
+12:09:23 -     INFO - wally           - All info would be stored into /var/wally_results/unbriefed_nannette
+12:09:23 -     INFO - wally           - Start load_data_from_path_stage
+12:09:41 -    DEBUG - wally           - Start utils.cleanup
+12:09:41 -     INFO - wally           - Start console_report_stage
+12:09:49 -     INFO - wally           - Text report were stored in /var/wally_results/unbriefed_nannette/report.txt
+12:09:49 -     INFO - wally           - Start test_load_report_stage
+12:09:49 -    ERROR - wally           - During test_load_report_stage
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/wally/main.py", line 124, in log_stage
+    yield
+  File "/usr/local/lib/python2.7/dist-packages/wally/main.py", line 294, in main
+    report_stage(cfg, ctx)
+  File "/usr/local/lib/python2.7/dist-packages/wally/run_test.py", line 572, in test_load_report_stage
+    report.make_load_report(idx, cfg['results'], load_rep_fname)
+TypeError: 'Config' object has no attribute '__getitem__'
+12:09:49 -     INFO - wally           - Start html_report_stage
+12:09:52 -     INFO - wally.report    - Report hdd saved into /var/wally_results/unbriefed_nannette/hdd_report.html
+12:09:52 -     INFO - wally           - All info stored into /var/wally_results/unbriefed_nannette
+12:09:52 -     INFO - wally           - Tests finished successfully

@@ -1,0 +1,28 @@
+15:39:57 -     INFO - wally           - All info would be stored into /var/wally_results/unprim_hosea
+15:39:57 -     INFO - wally           - Start discover_stage
+15:39:57 -     INFO - wally           - Start reuse_vms_stage
+15:39:57 -     INFO - wally           - Start log_nodes_statistic_stage
+15:39:57 -     INFO - wally           - Found 3 nodes total
+15:39:57 -    DEBUG - wally           - Found 3 nodes with role testnode
+15:39:57 -     INFO - wally           - Start save_nodes_stage
+15:39:57 -     INFO - wally           - Start connect_stage
+15:39:57 -     INFO - wally           - Connecting to nodes
+15:39:58 -     INFO - wally           - All nodes connected successfully
+15:39:58 -     INFO - wally           - Start run_tests_stage
+15:39:58 -    ERROR - wally           - During run_tests_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 124, in log_stage
+    yield
+  File "wally/main.py", line 276, in main
+    stage(cfg, ctx)
+  File "wally/run_test.py", line 480, in run_tests_stage
+    with sensor_ctx:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "wally/sensors_utils.py", line 61, in with_sensors_util
+    srp = sensors_cfg['sensors_remote_path']
+KeyError: 'sensors_remote_path'
+15:39:58 -     INFO - wally           - Start disconnect_stage
+15:39:58 -    DEBUG - wally           - Start utils.cleanup
+15:39:58 -     INFO - wally           - All info stored into /var/wally_results/unprim_hosea
+15:39:58 -    ERROR - wally           - Tests are failed. See detailed error above

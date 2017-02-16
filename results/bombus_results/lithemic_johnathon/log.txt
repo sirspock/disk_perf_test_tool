@@ -1,0 +1,446 @@
+21:18:18 -     INFO - wally           - All info would be stored into /var/wally_results/lithemic_johnathon
+21:18:18 -     INFO - wally           - Start discover_stage
+21:18:18 -     INFO - wally           - Start reuse_vms_stage
+21:18:18 -     INFO - wally           - Start log_nodes_statistic_stage
+21:18:18 -     INFO - wally           - Found 1 nodes total
+21:18:18 -    DEBUG - wally           - Found 1 nodes with role testnode
+21:18:18 -     INFO - wally           - Start save_nodes_stage
+21:18:18 -     INFO - wally           - Start connect_stage
+21:18:18 -     INFO - wally           - Connecting to nodes
+21:18:18 -     INFO - wally           - All nodes connected successfully
+21:18:18 -     INFO - wally           - Start run_tests_stage
+21:18:18 -    DEBUG - wally           - Run preparation
+21:18:19 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'sudo yum -y install fio'
+21:18:28 -     INFO - wally           - Prefilling file /var/lib/ceph/osd/ceph-17/test
+21:18:28 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'sudo fio --name=xxx --filename=/var/lib/ceph/osd/ceph-17/test --direct=1 --bs=4m --size=20480m --rw=write'
+21:19:22 -     INFO - wally           - Initiall fio fill bw is 378 MiBps for this vm
+21:19:22 -     INFO - wally           - Entire test should takes aroud: 3:59:15 and finished at 01:18:37
+21:19:22 -     INFO - wally           - Will run hdd_rwx4kth1 test
+21:19:22 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 21:21:52, will wait at most till 21:26:52
+21:19:22 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+21:21:56 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+21:21:56 -     INFO - wally           - Will run hdd_rwx4kth1 test
+21:21:56 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:23:56, will wait at most till 21:28:56
+21:21:57 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+21:24:00 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+21:24:01 -     INFO - wally           - Will run hdd_rwx4kth1 test
+21:24:01 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:26:01, will wait at most till 21:31:01
+21:24:01 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+21:26:04 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+21:26:05 -     INFO - wally           - Will run hdd_rwx4kth1 test
+21:26:05 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:28:05, will wait at most till 21:33:05
+21:26:05 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+21:28:09 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+21:28:09 -     INFO - wally           - Will run hdd_rwx4kth1 test
+21:28:09 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:30:09, will wait at most till 21:35:09
+21:28:09 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+21:30:13 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+21:30:13 -     INFO - wally           - Will run hdd_rwx4kth1 test
+21:30:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:32:13, will wait at most till 21:37:13
+21:30:13 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+21:32:17 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+21:32:17 -     INFO - wally           - Will run hdd_rwx4kth1 test
+21:32:17 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:34:17, will wait at most till 21:39:17
+21:32:18 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+21:34:21 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+21:34:22 -     INFO - wally           - Will run hdd_rwx4kth5 test
+21:34:22 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 21:36:52, will wait at most till 21:41:52
+21:34:22 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+21:36:56 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+21:36:56 -     INFO - wally           - Will run hdd_rwx4kth5 test
+21:36:56 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:38:56, will wait at most till 21:43:56
+21:36:56 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+21:39:00 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+21:39:00 -     INFO - wally           - Will run hdd_rwx4kth5 test
+21:39:00 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:41:00, will wait at most till 21:46:00
+21:39:00 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+21:41:04 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+21:41:05 -     INFO - wally           - Will run hdd_rwx4kth5 test
+21:41:05 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:43:05, will wait at most till 21:48:05
+21:41:05 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+21:43:08 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+21:43:09 -     INFO - wally           - Will run hdd_rwx4kth5 test
+21:43:09 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:45:09, will wait at most till 21:50:09
+21:43:09 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+21:45:13 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+21:45:13 -     INFO - wally           - Will run hdd_rwx4kth5 test
+21:45:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:47:13, will wait at most till 21:52:13
+21:45:13 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+21:47:17 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+21:47:17 -     INFO - wally           - Will run hdd_rwx4kth5 test
+21:47:17 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:49:17, will wait at most till 21:54:17
+21:47:17 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+21:49:21 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+21:49:22 -     INFO - wally           - Will run hdd_rwx4kth10 test
+21:49:22 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 21:51:52, will wait at most till 21:56:52
+21:49:22 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+21:51:56 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+21:51:56 -     INFO - wally           - Will run hdd_rwx4kth10 test
+21:51:56 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:53:56, will wait at most till 21:58:56
+21:51:56 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+21:54:00 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+21:54:00 -     INFO - wally           - Will run hdd_rwx4kth10 test
+21:54:00 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:56:00, will wait at most till 22:01:00
+21:54:01 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+21:56:04 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+21:56:05 -     INFO - wally           - Will run hdd_rwx4kth10 test
+21:56:05 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 21:58:05, will wait at most till 22:03:05
+21:56:05 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+21:58:08 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+21:58:09 -     INFO - wally           - Will run hdd_rwx4kth10 test
+21:58:09 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:00:09, will wait at most till 22:05:09
+21:58:09 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:00:13 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:00:13 -     INFO - wally           - Will run hdd_rwx4kth10 test
+22:00:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:02:13, will wait at most till 22:07:13
+22:00:13 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:02:17 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:02:17 -     INFO - wally           - Will run hdd_rwx4kth10 test
+22:02:17 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:04:17, will wait at most till 22:09:17
+22:02:17 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:04:21 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:04:22 -     INFO - wally           - Will run hdd_rwx4kth15 test
+22:04:22 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 22:06:52, will wait at most till 22:11:52
+22:04:22 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:06:56 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:06:56 -     INFO - wally           - Will run hdd_rwx4kth15 test
+22:06:56 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:08:56, will wait at most till 22:13:56
+22:06:56 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:09:00 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:09:00 -     INFO - wally           - Will run hdd_rwx4kth15 test
+22:09:00 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:11:00, will wait at most till 22:16:00
+22:09:00 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:11:04 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:11:05 -     INFO - wally           - Will run hdd_rwx4kth15 test
+22:11:05 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:13:05, will wait at most till 22:18:05
+22:11:05 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:13:08 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:13:09 -     INFO - wally           - Will run hdd_rwx4kth15 test
+22:13:09 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:15:09, will wait at most till 22:20:09
+22:13:09 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:15:13 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:15:13 -     INFO - wally           - Will run hdd_rwx4kth15 test
+22:15:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:17:13, will wait at most till 22:22:13
+22:15:13 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:17:17 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:17:17 -     INFO - wally           - Will run hdd_rwx4kth15 test
+22:17:17 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:19:17, will wait at most till 22:24:17
+22:17:17 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:19:21 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:19:21 -     INFO - wally           - Will run hdd_rwx4kth25 test
+22:19:21 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 22:21:51, will wait at most till 22:26:51
+22:19:22 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:21:56 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:21:56 -     INFO - wally           - Will run hdd_rwx4kth25 test
+22:21:56 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:23:56, will wait at most till 22:28:56
+22:21:56 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:24:00 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:24:00 -     INFO - wally           - Will run hdd_rwx4kth25 test
+22:24:00 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:26:00, will wait at most till 22:31:00
+22:24:00 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:26:04 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:26:05 -     INFO - wally           - Will run hdd_rwx4kth25 test
+22:26:05 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:28:05, will wait at most till 22:33:05
+22:26:05 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:28:08 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:28:09 -     INFO - wally           - Will run hdd_rwx4kth25 test
+22:28:09 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:30:09, will wait at most till 22:35:09
+22:28:09 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:30:13 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:30:13 -     INFO - wally           - Will run hdd_rwx4kth25 test
+22:30:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:32:13, will wait at most till 22:37:13
+22:30:13 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:32:17 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:32:17 -     INFO - wally           - Will run hdd_rwx4kth25 test
+22:32:17 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:34:17, will wait at most till 22:39:17
+22:32:17 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:34:21 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:34:22 -     INFO - wally           - Will run hdd_rwx4kth40 test
+22:34:22 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 22:36:52, will wait at most till 22:41:52
+22:34:22 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:36:56 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:36:56 -     INFO - wally           - Will run hdd_rwx4kth40 test
+22:36:56 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:38:56, will wait at most till 22:43:56
+22:36:56 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:39:00 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:39:01 -     INFO - wally           - Will run hdd_rwx4kth40 test
+22:39:01 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:41:01, will wait at most till 22:46:01
+22:39:01 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:41:04 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:41:05 -     INFO - wally           - Will run hdd_rwx4kth40 test
+22:41:05 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:43:05, will wait at most till 22:48:05
+22:41:05 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:43:09 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:43:09 -     INFO - wally           - Will run hdd_rwx4kth40 test
+22:43:09 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:45:09, will wait at most till 22:50:09
+22:43:09 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:45:13 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:45:13 -     INFO - wally           - Will run hdd_rwx4kth40 test
+22:45:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:47:13, will wait at most till 22:52:13
+22:45:14 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:47:17 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:47:18 -     INFO - wally           - Will run hdd_rwx4kth40 test
+22:47:18 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:49:18, will wait at most till 22:54:18
+22:47:18 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:49:22 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:49:22 -     INFO - wally           - Will run hdd_rrd4kth1 test
+22:49:22 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 22:51:52, will wait at most till 22:56:52
+22:49:22 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:51:56 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:51:57 -     INFO - wally           - Will run hdd_rrd4kth1 test
+22:51:57 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:53:57, will wait at most till 22:58:57
+22:51:57 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:54:00 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:54:01 -     INFO - wally           - Will run hdd_rrd4kth1 test
+22:54:01 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:56:01, will wait at most till 23:01:01
+22:54:01 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:56:05 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:56:05 -     INFO - wally           - Will run hdd_rrd4kth1 test
+22:56:05 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:58:05, will wait at most till 23:03:05
+22:56:05 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+22:58:09 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+22:58:09 -     INFO - wally           - Will run hdd_rrd4kth1 test
+22:58:09 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:00:09, will wait at most till 23:05:09
+22:58:09 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:00:13 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:00:13 -     INFO - wally           - Will run hdd_rrd4kth1 test
+23:00:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:02:13, will wait at most till 23:07:13
+23:00:14 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:02:17 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:02:18 -     INFO - wally           - Will run hdd_rrd4kth1 test
+23:02:18 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:04:18, will wait at most till 23:09:18
+23:02:18 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:04:22 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:04:22 -     INFO - wally           - Will run hdd_rrd4kth5 test
+23:04:22 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:06:52, will wait at most till 23:11:52
+23:04:22 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:06:56 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:06:56 -     INFO - wally           - Will run hdd_rrd4kth5 test
+23:06:56 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:08:56, will wait at most till 23:13:56
+23:06:57 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:09:00 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:09:01 -     INFO - wally           - Will run hdd_rrd4kth5 test
+23:09:01 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:11:01, will wait at most till 23:16:01
+23:09:01 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:11:05 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:11:05 -     INFO - wally           - Will run hdd_rrd4kth5 test
+23:11:05 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:13:05, will wait at most till 23:18:05
+23:11:05 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:13:09 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:13:09 -     INFO - wally           - Will run hdd_rrd4kth5 test
+23:13:09 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:15:09, will wait at most till 23:20:09
+23:13:09 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:15:13 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:15:13 -     INFO - wally           - Will run hdd_rrd4kth5 test
+23:15:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:17:13, will wait at most till 23:22:13
+23:15:13 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:17:17 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:17:18 -     INFO - wally           - Will run hdd_rrd4kth5 test
+23:17:18 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:19:18, will wait at most till 23:24:18
+23:17:18 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:19:21 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:19:22 -     INFO - wally           - Will run hdd_rrd4kth10 test
+23:19:22 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:21:52, will wait at most till 23:26:52
+23:19:22 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:21:56 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:21:56 -     INFO - wally           - Will run hdd_rrd4kth10 test
+23:21:56 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:23:56, will wait at most till 23:28:56
+23:21:56 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:24:00 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:24:01 -     INFO - wally           - Will run hdd_rrd4kth10 test
+23:24:01 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:26:01, will wait at most till 23:31:01
+23:24:01 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:26:04 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:26:05 -     INFO - wally           - Will run hdd_rrd4kth10 test
+23:26:05 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:28:05, will wait at most till 23:33:05
+23:26:05 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:28:09 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:28:09 -     INFO - wally           - Will run hdd_rrd4kth10 test
+23:28:09 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:30:09, will wait at most till 23:35:09
+23:28:09 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:30:13 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:30:13 -     INFO - wally           - Will run hdd_rrd4kth10 test
+23:30:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:32:13, will wait at most till 23:37:13
+23:30:13 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:32:17 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:32:18 -     INFO - wally           - Will run hdd_rrd4kth10 test
+23:32:18 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:34:18, will wait at most till 23:39:18
+23:32:18 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:34:21 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:34:22 -     INFO - wally           - Will run hdd_rrd4kth15 test
+23:34:22 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:36:52, will wait at most till 23:41:52
+23:34:22 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:36:56 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:36:56 -     INFO - wally           - Will run hdd_rrd4kth15 test
+23:36:56 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:38:56, will wait at most till 23:43:56
+23:36:56 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:39:00 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:39:01 -     INFO - wally           - Will run hdd_rrd4kth15 test
+23:39:01 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:41:01, will wait at most till 23:46:01
+23:39:01 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:41:04 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:41:05 -     INFO - wally           - Will run hdd_rrd4kth15 test
+23:41:05 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:43:05, will wait at most till 23:48:05
+23:41:05 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:43:09 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:43:09 -     INFO - wally           - Will run hdd_rrd4kth15 test
+23:43:09 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:45:09, will wait at most till 23:50:09
+23:43:09 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:45:13 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:45:13 -     INFO - wally           - Will run hdd_rrd4kth15 test
+23:45:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:47:13, will wait at most till 23:52:13
+23:45:13 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:47:17 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:47:17 -     INFO - wally           - Will run hdd_rrd4kth15 test
+23:47:17 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:49:17, will wait at most till 23:54:17
+23:47:18 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:49:21 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:49:22 -     INFO - wally           - Will run hdd_rrd4kth25 test
+23:49:22 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:51:52, will wait at most till 23:56:52
+23:49:22 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:51:56 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:51:56 -     INFO - wally           - Will run hdd_rrd4kth25 test
+23:51:56 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:53:56, will wait at most till 23:58:56
+23:51:57 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:54:00 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:54:01 -     INFO - wally           - Will run hdd_rrd4kth25 test
+23:54:01 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:56:01, will wait at most till 00:01:01
+23:54:01 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:56:05 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:56:05 -     INFO - wally           - Will run hdd_rrd4kth25 test
+23:56:05 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:58:05, will wait at most till 00:03:05
+23:56:05 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+23:58:09 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+23:58:09 -     INFO - wally           - Will run hdd_rrd4kth25 test
+23:58:09 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:00:09, will wait at most till 00:05:09
+23:58:09 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:00:13 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:00:14 -     INFO - wally           - Will run hdd_rrd4kth25 test
+00:00:14 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:02:14, will wait at most till 00:07:14
+00:00:14 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:02:17 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:02:18 -     INFO - wally           - Will run hdd_rrd4kth25 test
+00:02:18 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:04:18, will wait at most till 00:09:18
+00:02:18 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:04:22 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:04:22 -     INFO - wally           - Will run hdd_rrd4kth40 test
+00:04:22 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 00:06:52, will wait at most till 00:11:52
+00:04:22 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:06:56 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:06:57 -     INFO - wally           - Will run hdd_rrd4kth40 test
+00:06:57 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:08:57, will wait at most till 00:13:57
+00:06:57 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:09:01 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:09:01 -     INFO - wally           - Will run hdd_rrd4kth40 test
+00:09:01 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:11:01, will wait at most till 00:16:01
+00:09:01 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:11:05 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:11:06 -     INFO - wally           - Will run hdd_rrd4kth40 test
+00:11:06 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:13:06, will wait at most till 00:18:06
+00:11:06 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:13:09 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:13:10 -     INFO - wally           - Will run hdd_rrd4kth40 test
+00:13:10 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:15:10, will wait at most till 00:20:10
+00:13:10 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:15:14 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:15:14 -     INFO - wally           - Will run hdd_rrd4kth40 test
+00:15:14 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:17:14, will wait at most till 00:22:14
+00:15:14 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:17:18 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:17:18 -     INFO - wally           - Will run hdd_rrd4kth40 test
+00:17:18 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:19:18, will wait at most till 00:24:18
+00:17:19 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:19:22 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:19:23 -     INFO - wally           - Will run hdd_srd1mth1 test
+00:19:23 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 00:21:53, will wait at most till 00:26:53
+00:19:23 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:21:57 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:21:57 -     INFO - wally           - Will run hdd_srd1mth1 test
+00:21:57 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:23:57, will wait at most till 00:28:57
+00:21:58 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:24:01 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:24:02 -     INFO - wally           - Will run hdd_srd1mth1 test
+00:24:02 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:26:02, will wait at most till 00:31:02
+00:24:02 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:26:05 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:26:06 -     INFO - wally           - Will run hdd_srd1mth1 test
+00:26:06 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:28:06, will wait at most till 00:33:06
+00:26:06 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:28:10 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:28:10 -     INFO - wally           - Will run hdd_srd1mth1 test
+00:28:10 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:30:10, will wait at most till 00:35:10
+00:28:10 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:30:14 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:30:14 -     INFO - wally           - Will run hdd_srd1mth1 test
+00:30:14 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:32:14, will wait at most till 00:37:14
+00:30:14 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:32:18 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:32:18 -     INFO - wally           - Will run hdd_srd1mth1 test
+00:32:18 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:34:18, will wait at most till 00:39:18
+00:32:19 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:34:22 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:34:23 -     INFO - wally           - Will run hdd_swd1mth1 test
+00:34:23 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 00:36:53, will wait at most till 00:41:53
+00:34:23 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:36:57 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:36:57 -     INFO - wally           - Will run hdd_swd1mth1 test
+00:36:57 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:38:57, will wait at most till 00:43:57
+00:36:57 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:39:01 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:39:01 -     INFO - wally           - Will run hdd_swd1mth1 test
+00:39:01 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:41:01, will wait at most till 00:46:01
+00:39:01 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:41:05 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:41:06 -     INFO - wally           - Will run hdd_swd1mth1 test
+00:41:06 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:43:06, will wait at most till 00:48:06
+00:41:06 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:43:09 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:43:10 -     INFO - wally           - Will run hdd_swd1mth1 test
+00:43:10 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:45:10, will wait at most till 00:50:10
+00:43:10 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:45:14 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:45:14 -     INFO - wally           - Will run hdd_swd1mth1 test
+00:45:14 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:47:14, will wait at most till 00:52:14
+00:45:14 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:47:18 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:47:18 -     INFO - wally           - Will run hdd_swd1mth1 test
+00:47:18 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:49:18, will wait at most till 00:54:18
+00:47:18 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:49:22 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:49:22 -     INFO - wally           - Will run hdd_rwd4kth1 test
+00:49:22 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 00:51:52, will wait at most till 00:56:52
+00:49:22 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:51:56 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:51:57 -     INFO - wally           - Will run hdd_rwd4kth1 test
+00:51:57 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:53:57, will wait at most till 00:58:57
+00:51:57 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:54:01 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:54:01 -     INFO - wally           - Will run hdd_rwd4kth1 test
+00:54:01 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:56:01, will wait at most till 01:01:01
+00:54:01 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:56:05 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:56:05 -     INFO - wally           - Will run hdd_rwd4kth1 test
+00:56:05 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:58:05, will wait at most till 01:03:05
+00:56:05 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+00:58:09 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+00:58:09 -     INFO - wally           - Will run hdd_rwd4kth1 test
+00:58:09 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:00:09, will wait at most till 01:05:09
+00:58:10 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+01:00:13 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+01:00:14 -     INFO - wally           - Will run hdd_rwd4kth1 test
+01:00:14 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:02:14, will wait at most till 01:07:14
+01:00:14 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+01:02:18 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+01:02:18 -     INFO - wally           - Will run hdd_rwd4kth1 test
+01:02:18 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:04:18, will wait at most till 01:09:18
+01:02:18 -    DEBUG - wally           - SSH:172.17.1.3:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/lithemic_johnathon/io/cmd.sh'
+01:04:22 -    DEBUG - wally           - Test on node 172.17.1.3_22 is finished
+01:04:22 -     INFO - wally           - Start store_raw_results_stage
+01:04:22 -     INFO - wally           - Start disconnect_stage
+01:04:22 -    DEBUG - wally           - Start utils.cleanup
+01:04:22 -     INFO - wally           - Start console_report_stage
+01:04:25 -     INFO - wally           - Text report were stored in /var/wally_results/lithemic_johnathon/report.txt
+01:04:25 -     INFO - wally           - Start html_report_stage
+01:04:28 -     INFO - wally.report    - Report hdd saved into /var/wally_results/lithemic_johnathon/hdd_report.html
+01:04:28 -     INFO - wally           - All info stored into /var/wally_results/lithemic_johnathon
+01:04:28 -     INFO - wally           - Tests finished successfully

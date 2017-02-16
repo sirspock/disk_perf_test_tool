@@ -1,0 +1,235 @@
+09:44:34 -     INFO - wally           - All info would be stored into /var/wally_results/unforged_angelique
+09:44:34 -     INFO - wally           - Start discover_stage
+09:44:42 -     INFO - wally           - Start reuse_vms_stage
+09:44:42 -     INFO - wally           - Start log_nodes_statistic_stage
+09:44:42 -     INFO - wally           - Found 7 nodes total
+09:44:42 -    DEBUG - wally           - Found 3 nodes with role ceph-mon
+09:44:42 -    DEBUG - wally           - Found 3 nodes with role ceph-osd
+09:44:42 -    DEBUG - wally           - Found 1 nodes with role testnode
+09:44:42 -     INFO - wally           - Start save_nodes_stage
+09:44:42 -     INFO - wally           - Start connect_stage
+09:44:42 -     INFO - wally           - Connecting to nodes
+09:44:56 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+09:44:56 -    ERROR - paramiko.transport - Traceback (most recent call last):
+09:44:56 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+09:44:56 -    ERROR - paramiko.transport -     self._check_banner()
+09:44:56 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+09:44:56 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+09:44:56 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+09:44:56 -    ERROR - paramiko.transport - 
+09:44:57 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+09:44:57 -    ERROR - paramiko.transport - Traceback (most recent call last):
+09:44:57 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+09:44:57 -    ERROR - paramiko.transport -     self._check_banner()
+09:44:57 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+09:44:57 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+09:44:57 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+09:44:57 -    ERROR - paramiko.transport - 
+09:44:59 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+09:44:59 -    ERROR - paramiko.transport - Traceback (most recent call last):
+09:44:59 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+09:44:59 -    ERROR - paramiko.transport -     self._check_banner()
+09:44:59 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+09:44:59 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+09:44:59 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+09:44:59 -    ERROR - paramiko.transport - 
+09:44:59 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+09:44:59 -    ERROR - paramiko.transport - Traceback (most recent call last):
+09:44:59 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+09:44:59 -    ERROR - paramiko.transport -     self._check_banner()
+09:44:59 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+09:44:59 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+09:44:59 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+09:44:59 -    ERROR - paramiko.transport - 
+09:45:00 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+09:45:00 -    ERROR - paramiko.transport - Traceback (most recent call last):
+09:45:00 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+09:45:00 -    ERROR - paramiko.transport -     self._check_banner()
+09:45:00 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+09:45:00 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+09:45:00 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+09:45:00 -    ERROR - paramiko.transport - 
+09:45:01 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+09:45:01 -    ERROR - paramiko.transport - Traceback (most recent call last):
+09:45:01 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+09:45:01 -    ERROR - paramiko.transport -     self._check_banner()
+09:45:01 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+09:45:01 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+09:45:01 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+09:45:01 -    ERROR - paramiko.transport - 
+09:45:03 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+09:45:03 -    ERROR - paramiko.transport - Traceback (most recent call last):
+09:45:03 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+09:45:03 -    ERROR - paramiko.transport -     self._check_banner()
+09:45:03 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+09:45:03 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+09:45:03 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+09:45:03 -    ERROR - paramiko.transport - 
+09:45:04 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+09:45:04 -    ERROR - paramiko.transport - Traceback (most recent call last):
+09:45:04 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+09:45:04 -    ERROR - paramiko.transport -     self._check_banner()
+09:45:04 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+09:45:04 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+09:45:04 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+09:45:04 -    ERROR - paramiko.transport - 
+09:45:05 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+09:45:05 -    ERROR - paramiko.transport - Traceback (most recent call last):
+09:45:05 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+09:45:05 -    ERROR - paramiko.transport -     self._check_banner()
+09:45:05 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+09:45:05 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+09:45:05 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+09:45:05 -    ERROR - paramiko.transport - 
+09:45:07 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+09:45:07 -    ERROR - paramiko.transport - Traceback (most recent call last):
+09:45:07 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+09:45:07 -    ERROR - paramiko.transport -     self._check_banner()
+09:45:07 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+09:45:07 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+09:45:07 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+09:45:07 -    ERROR - paramiko.transport - 
+09:45:09 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+09:45:09 -    ERROR - paramiko.transport - Traceback (most recent call last):
+09:45:09 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+09:45:09 -    ERROR - paramiko.transport -     self._check_banner()
+09:45:09 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+09:45:09 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+09:45:09 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+09:45:09 -    ERROR - paramiko.transport - 
+09:45:10 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+09:45:10 -    ERROR - paramiko.transport - Traceback (most recent call last):
+09:45:10 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+09:45:10 -    ERROR - paramiko.transport -     self._check_banner()
+09:45:10 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+09:45:10 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+09:45:10 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+09:45:10 -    ERROR - paramiko.transport - 
+09:45:11 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+09:45:11 -    ERROR - paramiko.transport - Traceback (most recent call last):
+09:45:11 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+09:45:11 -    ERROR - paramiko.transport -     self._check_banner()
+09:45:11 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+09:45:11 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+09:45:11 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+09:45:11 -    ERROR - paramiko.transport - 
+09:45:12 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+09:45:12 -    ERROR - paramiko.transport - Traceback (most recent call last):
+09:45:12 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+09:45:12 -    ERROR - paramiko.transport -     self._check_banner()
+09:45:12 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+09:45:12 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+09:45:12 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+09:45:12 -    ERROR - paramiko.transport - 
+09:45:12 -    ERROR - wally           - During connect to 172.17.3.2: timed out
+09:45:12 -    ERROR - wally           - During connect to 172.17.3.1: timed out
+09:45:12 -    ERROR - wally           - During connect to 172.17.3.3: timed out
+09:45:12 -    ERROR - wally           - During connect to 172.17.1.3: not a valid EC private key file
+09:45:13 -    ERROR - wally           - During connect to 172.17.1.2: not a valid EC private key file
+09:45:15 -  WARNING - wally           - Node(s) 172.17.3.1:22,172.17.3.3:22,172.17.3.2:22,172.17.1.3:22,172.17.1.2:22 would be excluded - can't connect
+09:45:15 -     INFO - wally           - Start run_tests_stage
+09:45:15 -    DEBUG - wally.sensors   - Installing sensors on 0 nodes
+09:45:15 -    DEBUG - wally.sensors   - Starting sensors on 0 nodes
+09:45:15 -    DEBUG - wally           - Run preparation
+09:45:18 -    ERROR - wally           - File data check is failed - Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IOError: [Errno 22] Invalid argument
+d41d8cd98f00b204e9800998ecf8427e  -
+
+09:45:18 -     INFO - wally           - Prefilling file /dev/rbd0
+09:45:18 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'sudo fio --name=xxx --filename=/dev/rbd0 --direct=1 --bs=4m --size=20480m --rw=write'
+09:46:09 -     INFO - wally           - Initiall fio fill bw is 395 MiBps for this vm
+09:46:09 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 11:07:00
+09:46:09 -     INFO - wally           - Will run ceph_rws4kth1 test
+09:46:09 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 09:49:39, will wait at most till 09:54:39
+09:46:09 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+09:49:42 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+09:49:43 -     INFO - wally           - Will run ceph_rws4kth5 test
+09:49:43 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 09:53:13, will wait at most till 09:58:13
+09:49:43 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+09:53:16 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+09:53:16 -     INFO - wally           - Will run ceph_rws4kth10 test
+09:53:16 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 09:56:46, will wait at most till 10:01:46
+09:53:16 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+09:56:50 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+09:56:50 -     INFO - wally           - Will run ceph_rws4kth15 test
+09:56:50 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:00:20, will wait at most till 10:05:20
+09:56:50 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+10:00:24 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+10:00:24 -     INFO - wally           - Will run ceph_rws4kth25 test
+10:00:24 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:03:54, will wait at most till 10:08:54
+10:00:25 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+10:03:58 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+10:03:59 -     INFO - wally           - Will run ceph_rws4kth40 test
+10:03:59 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:07:29, will wait at most till 10:12:29
+10:03:59 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+10:07:32 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+10:07:33 -     INFO - wally           - Will run ceph_rrd4kth1 test
+10:07:33 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:11:03, will wait at most till 10:16:03
+10:07:33 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+10:11:07 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+10:11:08 -     INFO - wally           - Will run ceph_rrd4kth5 test
+10:11:08 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:14:38, will wait at most till 10:19:38
+10:11:08 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+10:14:41 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+10:14:41 -     INFO - wally           - Will run ceph_rrd4kth10 test
+10:14:41 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:18:11, will wait at most till 10:23:11
+10:14:41 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+10:18:15 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+10:18:16 -     INFO - wally           - Will run ceph_rrd4kth15 test
+10:18:16 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:21:46, will wait at most till 10:26:46
+10:18:16 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+10:21:49 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+10:21:50 -     INFO - wally           - Will run ceph_rrd4kth25 test
+10:21:50 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:25:20, will wait at most till 10:30:20
+10:21:50 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+10:25:23 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+10:25:24 -     INFO - wally           - Will run ceph_rrd4kth40 test
+10:25:24 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:28:54, will wait at most till 10:33:54
+10:25:24 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+10:28:58 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+10:28:59 -     INFO - wally           - Will run ceph_rrd4kth80 test
+10:28:59 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:32:29, will wait at most till 10:37:29
+10:28:59 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+10:32:32 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+10:32:33 -     INFO - wally           - Will run ceph_rrd4kth120 test
+10:32:33 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:36:03, will wait at most till 10:41:03
+10:32:34 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+10:36:07 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+10:36:09 -     INFO - wally           - Will run ceph_rwd4kth1 test
+10:36:09 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:39:39, will wait at most till 10:44:39
+10:36:09 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+10:39:43 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+10:39:43 -     INFO - wally           - Will run ceph_rrd16mth1 test
+10:39:43 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:43:13, will wait at most till 10:48:13
+10:39:43 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+10:43:17 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+10:43:17 -     INFO - wally           - Will run ceph_rrd16mth3 test
+10:43:17 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:46:47, will wait at most till 10:51:47
+10:43:18 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+10:46:51 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+10:46:51 -     INFO - wally           - Will run ceph_rrd16mth10 test
+10:46:51 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:50:21, will wait at most till 10:55:21
+10:46:52 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+10:50:26 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+10:50:26 -     INFO - wally           - Will run ceph_rwd16mth1 test
+10:50:26 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:53:56, will wait at most till 10:58:56
+10:50:26 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+10:54:00 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+10:54:00 -     INFO - wally           - Will run ceph_rwd16mth3 test
+10:54:00 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 10:57:30, will wait at most till 11:02:30
+10:54:00 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+10:57:34 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+10:57:34 -     INFO - wally           - Will run ceph_rwd16mth10 test
+10:57:34 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 11:01:04, will wait at most till 11:06:04
+10:57:34 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unforged_angelique/io/cmd.sh'
+11:01:08 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+11:01:08 -     INFO - wally           - Start store_raw_results_stage
+11:01:08 -     INFO - wally           - Start disconnect_stage
+11:01:09 -    DEBUG - wally           - Start utils.cleanup
+11:01:09 -     INFO - wally           - Start console_report_stage
+11:01:10 -     INFO - wally           - Text report were stored in /var/wally_results/unforged_angelique/report.txt
+11:01:10 -     INFO - wally           - Start html_report_stage
+11:01:11 -     INFO - wally.report    - Report ceph saved into /var/wally_results/unforged_angelique/ceph_report.html
+11:01:11 -     INFO - wally           - All info stored into /var/wally_results/unforged_angelique
+11:01:11 -     INFO - wally           - Tests finished successfully

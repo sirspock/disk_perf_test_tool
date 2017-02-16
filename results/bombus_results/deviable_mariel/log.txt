@@ -1,0 +1,86 @@
+12:42:59 -     INFO - wally           - All info would be stored into /var/wally_results/deviable_mariel
+12:42:59 -     INFO - wally           - Start discover_stage
+12:42:59 -     INFO - wally           - Start reuse_vms_stage
+12:42:59 -     INFO - wally           - Start log_nodes_statistic_stage
+12:42:59 -     INFO - wally           - Found 1 nodes total
+12:42:59 -    DEBUG - wally           - Found 1 nodes with role testnode
+12:42:59 -     INFO - wally           - Start save_nodes_stage
+12:42:59 -     INFO - wally           - Start connect_stage
+12:42:59 -     INFO - wally           - Connecting to nodes
+12:43:00 -     INFO - wally           - All nodes connected successfully
+12:43:00 -     INFO - wally           - Start run_tests_stage
+12:43:00 -    DEBUG - wally           - Run preparation
+12:43:00 -    DEBUG - wally           - SSH:138.219.230.20:22 Exec 'sudo yum -y install screen'
+12:43:01 -     INFO - wally           - Prefilling file /test/ssd
+12:43:01 -    DEBUG - wally           - SSH:138.219.230.20:22 Exec 'sudo fio --name=xxx --filename=/test/ssd --direct=1 --bs=4m --size=10240m --rw=write'
+12:43:27 -     INFO - wally           - Initiall fio fill bw is 396 MiBps for this vm
+12:43:27 -     INFO - wally           - Entire test should takes aroud: 0:41:15 and finished at 13:24:42
+12:43:27 -     INFO - wally           - Will run hdd_rwx4kth1 test
+12:43:27 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 12:45:57, will wait at most till 12:50:57
+12:43:27 -    DEBUG - wally           - SSH:138.219.230.20:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/deviable_mariel/io/cmd.sh'
+12:46:00 -    DEBUG - wally           - Test on node 138.219.230.20_22 is finished
+12:46:00 -     INFO - wally           - Will run hdd_rwx4kth5 test
+12:46:00 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 12:48:30, will wait at most till 12:53:30
+12:46:00 -    DEBUG - wally           - SSH:138.219.230.20:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/deviable_mariel/io/cmd.sh'
+12:48:33 -    DEBUG - wally           - Test on node 138.219.230.20_22 is finished
+12:48:33 -     INFO - wally           - Will run hdd_rwx4kth10 test
+12:48:33 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 12:51:03, will wait at most till 12:56:03
+12:48:34 -    DEBUG - wally           - SSH:138.219.230.20:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/deviable_mariel/io/cmd.sh'
+12:51:07 -    DEBUG - wally           - Test on node 138.219.230.20_22 is finished
+12:51:07 -     INFO - wally           - Will run hdd_rwx4kth15 test
+12:51:07 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 12:53:37, will wait at most till 12:58:37
+12:51:07 -    DEBUG - wally           - SSH:138.219.230.20:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/deviable_mariel/io/cmd.sh'
+12:53:40 -    DEBUG - wally           - Test on node 138.219.230.20_22 is finished
+12:53:41 -     INFO - wally           - Will run hdd_rwx4kth25 test
+12:53:41 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 12:56:11, will wait at most till 13:01:11
+12:53:41 -    DEBUG - wally           - SSH:138.219.230.20:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/deviable_mariel/io/cmd.sh'
+12:56:15 -    DEBUG - wally           - Test on node 138.219.230.20_22 is finished
+12:56:15 -     INFO - wally           - Will run hdd_rwx4kth40 test
+12:56:15 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 12:58:45, will wait at most till 13:03:45
+12:56:16 -    DEBUG - wally           - SSH:138.219.230.20:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/deviable_mariel/io/cmd.sh'
+12:58:49 -    DEBUG - wally           - Test on node 138.219.230.20_22 is finished
+12:58:50 -     INFO - wally           - Will run hdd_rrd4kth1 test
+12:58:50 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 13:01:20, will wait at most till 13:06:20
+12:58:50 -    DEBUG - wally           - SSH:138.219.230.20:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/deviable_mariel/io/cmd.sh'
+13:01:23 -    DEBUG - wally           - Test on node 138.219.230.20_22 is finished
+13:01:23 -     INFO - wally           - Will run hdd_rrd4kth5 test
+13:01:23 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 13:03:53, will wait at most till 13:08:53
+13:01:23 -    DEBUG - wally           - SSH:138.219.230.20:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/deviable_mariel/io/cmd.sh'
+13:03:56 -    DEBUG - wally           - Test on node 138.219.230.20_22 is finished
+13:03:57 -     INFO - wally           - Will run hdd_rrd4kth10 test
+13:03:57 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 13:06:27, will wait at most till 13:11:27
+13:03:57 -    DEBUG - wally           - SSH:138.219.230.20:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/deviable_mariel/io/cmd.sh'
+13:06:30 -    DEBUG - wally           - Test on node 138.219.230.20_22 is finished
+13:06:30 -     INFO - wally           - Will run hdd_rrd4kth15 test
+13:06:30 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 13:09:00, will wait at most till 13:14:00
+13:06:30 -    DEBUG - wally           - SSH:138.219.230.20:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/deviable_mariel/io/cmd.sh'
+13:09:03 -    DEBUG - wally           - Test on node 138.219.230.20_22 is finished
+13:09:03 -     INFO - wally           - Will run hdd_rrd4kth25 test
+13:09:03 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 13:11:33, will wait at most till 13:16:33
+13:09:03 -    DEBUG - wally           - SSH:138.219.230.20:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/deviable_mariel/io/cmd.sh'
+13:11:37 -    DEBUG - wally           - Test on node 138.219.230.20_22 is finished
+13:11:38 -     INFO - wally           - Will run hdd_rrd4kth40 test
+13:11:38 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 13:14:08, will wait at most till 13:19:08
+13:11:39 -    DEBUG - wally           - SSH:138.219.230.20:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/deviable_mariel/io/cmd.sh'
+13:14:11 -    DEBUG - wally           - Test on node 138.219.230.20_22 is finished
+13:14:13 -     INFO - wally           - Will run hdd_srd1mth1 test
+13:14:13 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 13:16:43, will wait at most till 13:21:43
+13:14:13 -    DEBUG - wally           - SSH:138.219.230.20:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/deviable_mariel/io/cmd.sh'
+13:16:47 -    DEBUG - wally           - Test on node 138.219.230.20_22 is finished
+13:16:48 -     INFO - wally           - Will run hdd_swd1mth1 test
+13:16:48 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 13:19:18, will wait at most till 13:24:18
+13:16:48 -    DEBUG - wally           - SSH:138.219.230.20:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/deviable_mariel/io/cmd.sh'
+13:19:20 -    DEBUG - wally           - Test on node 138.219.230.20_22 is finished
+13:19:21 -     INFO - wally           - Will run hdd_rwd4kth1 test
+13:19:21 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 13:21:51, will wait at most till 13:26:51
+13:19:21 -    DEBUG - wally           - SSH:138.219.230.20:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/deviable_mariel/io/cmd.sh'
+13:21:54 -    DEBUG - wally           - Test on node 138.219.230.20_22 is finished
+13:21:55 -     INFO - wally           - Start store_raw_results_stage
+13:21:55 -     INFO - wally           - Start disconnect_stage
+13:21:55 -    DEBUG - wally           - Start utils.cleanup
+13:21:55 -     INFO - wally           - Start console_report_stage
+13:21:55 -     INFO - wally           - Text report were stored in /var/wally_results/deviable_mariel/report.txt
+13:21:55 -     INFO - wally           - Start html_report_stage
+13:21:57 -     INFO - wally.report    - Report hdd saved into /var/wally_results/deviable_mariel/hdd_report.html
+13:21:57 -     INFO - wally           - All info stored into /var/wally_results/deviable_mariel
+13:21:57 -     INFO - wally           - Tests finished successfully

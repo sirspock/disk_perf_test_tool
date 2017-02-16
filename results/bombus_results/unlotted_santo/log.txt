@@ -1,0 +1,45 @@
+10:25:34 -     INFO - wally           - All info would be stored into /var/wally_results/unlotted_santo
+10:25:34 -     INFO - wally           - Start discover_stage
+10:25:34 -     INFO - wally           - Start reuse_vms_stage
+10:25:34 -     INFO - wally           - Start log_nodes_statistic_stage
+10:25:34 -     INFO - wally           - Found 3 nodes total
+10:25:34 -    DEBUG - wally           - Found 3 nodes with role testnode
+10:25:34 -     INFO - wally           - Start save_nodes_stage
+10:25:34 -     INFO - wally           - Start connect_stage
+10:25:34 -     INFO - wally           - Connecting to nodes
+10:25:35 -     INFO - wally           - All nodes connected successfully
+10:25:35 -     INFO - wally           - Start run_tests_stage
+10:25:35 -    DEBUG - wally           - Run preparation
+10:25:37 -    DEBUG - wally           - prefill is skipped
+10:25:37 -    DEBUG - wally           - prefill is skipped
+10:25:37 -    DEBUG - wally           - prefill is skipped
+10:25:37 -     INFO - wally           - Entire test should takes aroud: 3:59:15 and finished at 14:24:52
+10:25:37 -     INFO - wally           - Will run hdd_rwx4kth1 test
+10:25:37 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 10:28:07, will wait at most till 10:33:07
+10:25:38 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unlotted_santo/io/cmd.sh'
+10:25:38 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unlotted_santo/io/cmd.sh'
+10:25:38 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unlotted_santo/io/cmd.sh'
+10:28:10 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+10:28:11 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+10:28:11 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+10:28:12 -     INFO - wally           - Will run hdd_rwx4kth1 test
+10:28:12 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 10:30:12, will wait at most till 10:35:12
+10:28:12 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unlotted_santo/io/cmd.sh'
+10:28:12 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unlotted_santo/io/cmd.sh'
+10:28:12 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unlotted_santo/io/cmd.sh'
+10:30:15 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+10:30:15 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+10:30:15 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+10:30:17 -     INFO - wally           - Will run hdd_rwx4kth1 test
+10:30:17 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 10:32:17, will wait at most till 10:37:17
+10:30:17 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unlotted_santo/io/cmd.sh'
+10:30:17 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unlotted_santo/io/cmd.sh'
+10:30:17 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unlotted_santo/io/cmd.sh'
+10:32:19 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+10:32:20 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+10:32:20 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+10:32:21 -     INFO - wally           - Will run hdd_rwx4kth1 test
+10:32:21 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 10:34:21, will wait at most till 10:39:21
+10:32:21 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unlotted_santo/io/cmd.sh'
+10:32:22 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unlotted_santo/io/cmd.sh'
+10:32:22 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unlotted_santo/io/cmd.sh'

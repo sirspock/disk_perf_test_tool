@@ -1,0 +1,357 @@
+17:48:12 -     INFO - wally           - All info would be stored into /var/wally_results/preroyal_houston
+17:48:12 -     INFO - wally           - Start discover_stage
+17:48:12 -     INFO - wally           - Start reuse_vms_stage
+17:48:12 -     INFO - wally           - Start log_nodes_statistic_stage
+17:48:12 -     INFO - wally           - Found 1 nodes total
+17:48:12 -    DEBUG - wally           - Found 1 nodes with role testnode
+17:48:12 -     INFO - wally           - Start save_nodes_stage
+17:48:12 -     INFO - wally           - Start connect_stage
+17:48:12 -     INFO - wally           - Connecting to nodes
+17:48:40 -     INFO - wally           - All nodes connected successfully
+17:48:40 -     INFO - wally           - Start run_tests_stage
+17:48:40 -    DEBUG - wally           - Run preparation
+17:48:41 -    DEBUG - wally           - SSH:138.219.228.43:22 Exec 'sudo yum -y install screen fio'
+17:49:46 -    DEBUG - wally           - SSH:138.219.228.43:22 Exec 'sudo yum -y install screen fio'
+17:50:51 -    DEBUG - wally           - SSH:138.219.228.43:22 Exec 'sudo yum -y install screen fio'
+17:51:56 -    ERROR - wally           - XXXX
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 668, in pre_run_th
+    self.install_utils(node, rossh)
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 595, in install_utils
+    raise OSError("Can't install - " + str(err))
+OSError: Can't install - Loaded plugins: fastestmirror
+Existing lock /var/run/yum.pid: another copy is running as pid 9103.
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:23 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:25 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:27 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:29 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:31 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:33 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:35 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:37 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:39 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:41 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:43 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:45 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:47 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:49 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:51 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:53 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:55 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:57 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:59 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:01 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:03 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:05 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:07 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:09 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:11 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:13 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:15 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:17 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:19 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:21 ago
+    State  : Sleeping, pid: 9103
+
+Execution timeout
+17:51:56 -    ERROR - wally           - During run_tests_stage
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/wally/main.py", line 124, in log_stage
+    yield
+  File "/usr/local/lib/python2.7/dist-packages/wally/main.py", line 276, in main
+    stage(cfg, ctx)
+  File "/usr/local/lib/python2.7/dist-packages/wally/run_test.py", line 481, in run_tests_stage
+    for tp, res in run_tests(cfg, test_group, ctx.nodes):
+  File "/usr/local/lib/python2.7/dist-packages/wally/run_test.py", line 242, in run_tests
+    res = test_cls(test_cfg).run()
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 688, in run
+    self.pre_run()
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 643, in pre_run
+    list(pool.map(fc, self.config.nodes))
+  File "/usr/local/lib/python2.7/dist-packages/concurrent/futures/_base.py", line 581, in result_iterator
+    yield future.result()
+  File "/usr/local/lib/python2.7/dist-packages/concurrent/futures/_base.py", line 405, in result
+    return self.__get_result()
+  File "/usr/local/lib/python2.7/dist-packages/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 668, in pre_run_th
+    self.install_utils(node, rossh)
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 595, in install_utils
+    raise OSError("Can't install - " + str(err))
+OSError: Can't install - Loaded plugins: fastestmirror
+Existing lock /var/run/yum.pid: another copy is running as pid 9103.
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:23 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:25 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:27 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:29 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:31 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:33 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:35 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:37 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:39 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:41 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:43 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:45 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:47 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:49 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:51 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:53 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:55 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:57 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 07:59 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:01 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:03 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:05 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:07 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:09 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:11 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:13 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:15 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:17 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:19 ago
+    State  : Sleeping, pid: 9103
+Another app is currently holding the yum lock; waiting for it to exit...
+  The other application is: yum
+    Memory :  23 M RSS (416 MB VSZ)
+    Started: Sun Jan 24 20:43:28 2016 - 08:21 ago
+    State  : Sleeping, pid: 9103
+
+Execution timeout
+17:51:56 -     INFO - wally           - Start disconnect_stage
+17:51:56 -    DEBUG - wally           - Start utils.cleanup
+17:51:56 -     INFO - wally           - All info stored into /var/wally_results/preroyal_houston
+17:51:56 -    ERROR - wally           - Tests are failed. See detailed error above

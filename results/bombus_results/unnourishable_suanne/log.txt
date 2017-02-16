@@ -1,0 +1,122 @@
+12:14:13 -     INFO - wally           - All info would be stored into /var/wally_results/unnourishable_suanne
+12:14:13 -     INFO - wally           - Start discover_stage
+12:14:30 -     INFO - wally           - Start reuse_vms_stage
+12:14:30 -     INFO - wally           - Start log_nodes_statistic_stage
+12:14:30 -     INFO - wally           - Found 7 nodes total
+12:14:30 -    DEBUG - wally           - Found 3 nodes with role ceph-mon
+12:14:30 -    DEBUG - wally           - Found 3 nodes with role ceph-osd
+12:14:30 -    DEBUG - wally           - Found 1 nodes with role testnode
+12:14:30 -     INFO - wally           - Start save_nodes_stage
+12:14:30 -     INFO - wally           - Start connect_stage
+12:14:30 -     INFO - wally           - Connecting to nodes
+12:15:00 -    ERROR - wally           - During connect to 172.17.3.2: timed out
+12:15:00 -    ERROR - wally           - During connect to 172.17.3.1: timed out
+12:15:00 -    ERROR - wally           - During connect to 172.17.3.3: timed out
+12:15:04 -    ERROR - wally           - During connect to 172.17.1.3: not a valid EC private key file
+12:15:04 -  WARNING - wally           - Node(s) 172.17.3.1:22,172.17.3.3:22,172.17.3.2:22,172.17.1.3:22 would be excluded - can't connect
+12:15:04 -     INFO - wally           - Start run_tests_stage
+12:15:04 -    DEBUG - wally.sensors   - Installing sensors on 0 nodes
+12:15:04 -    DEBUG - wally.sensors   - Starting sensors on 0 nodes
+12:15:04 -    DEBUG - wally           - Run preparation
+12:15:06 -    ERROR - wally           - File data check is failed - Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IOError: [Errno 22] Invalid argument
+d41d8cd98f00b204e9800998ecf8427e  -
+
+12:15:06 -     INFO - wally           - Prefilling file /dev/rbd0
+12:15:06 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'sudo fio --name=xxx --filename=/dev/rbd0 --direct=1 --bs=4m --size=20480m --rw=write'
+12:15:58 -     INFO - wally           - Initiall fio fill bw is 395 MiBps for this vm
+12:15:58 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 13:36:49
+12:15:58 -     INFO - wally           - Will run ceph_rws4kth1 test
+12:15:58 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:19:28, will wait at most till 12:24:28
+12:15:58 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+12:19:32 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+12:19:33 -     INFO - wally           - Will run ceph_rws4kth5 test
+12:19:33 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:23:03, will wait at most till 12:28:03
+12:19:33 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+12:23:05 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+12:23:06 -     INFO - wally           - Will run ceph_rws4kth10 test
+12:23:06 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:26:36, will wait at most till 12:31:36
+12:23:07 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+12:26:41 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+12:26:42 -     INFO - wally           - Will run ceph_rws4kth15 test
+12:26:42 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:30:12, will wait at most till 12:35:12
+12:26:42 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+12:30:17 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+12:30:18 -     INFO - wally           - Will run ceph_rws4kth25 test
+12:30:18 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:33:48, will wait at most till 12:38:48
+12:30:18 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+12:33:53 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+12:33:54 -     INFO - wally           - Will run ceph_rws4kth40 test
+12:33:54 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:37:24, will wait at most till 12:42:24
+12:33:54 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+12:37:27 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+12:37:28 -     INFO - wally           - Will run ceph_rrd4kth1 test
+12:37:28 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:40:58, will wait at most till 12:45:58
+12:37:28 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+12:41:03 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+12:41:03 -     INFO - wally           - Will run ceph_rrd4kth5 test
+12:41:03 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:44:33, will wait at most till 12:49:33
+12:41:03 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+12:44:37 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+12:44:38 -     INFO - wally           - Will run ceph_rrd4kth10 test
+12:44:38 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:48:08, will wait at most till 12:53:08
+12:44:38 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+12:48:11 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+12:48:13 -     INFO - wally           - Will run ceph_rrd4kth15 test
+12:48:13 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:51:43, will wait at most till 12:56:43
+12:48:13 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+12:51:47 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+12:51:48 -     INFO - wally           - Will run ceph_rrd4kth25 test
+12:51:48 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:55:18, will wait at most till 13:00:18
+12:51:48 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+12:55:23 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+12:55:24 -     INFO - wally           - Will run ceph_rrd4kth40 test
+12:55:24 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:58:54, will wait at most till 13:03:54
+12:55:24 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+12:58:57 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+12:58:58 -     INFO - wally           - Will run ceph_rrd4kth80 test
+12:58:58 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:02:28, will wait at most till 13:07:28
+12:58:58 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+13:02:32 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+13:02:35 -     INFO - wally           - Will run ceph_rrd4kth120 test
+13:02:35 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:06:05, will wait at most till 13:11:05
+13:02:35 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+13:06:08 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+13:06:11 -     INFO - wally           - Will run ceph_rwd4kth1 test
+13:06:11 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:09:41, will wait at most till 13:14:41
+13:06:11 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+13:09:44 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+13:09:44 -     INFO - wally           - Will run ceph_rrd16mth1 test
+13:09:44 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:13:14, will wait at most till 13:18:14
+13:09:44 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+13:13:17 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+13:13:17 -     INFO - wally           - Will run ceph_rrd16mth3 test
+13:13:17 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:16:47, will wait at most till 13:21:47
+13:13:17 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+13:16:51 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+13:16:52 -     INFO - wally           - Will run ceph_rrd16mth10 test
+13:16:52 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:20:22, will wait at most till 13:25:22
+13:16:52 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+13:20:25 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+13:20:26 -     INFO - wally           - Will run ceph_rwd16mth1 test
+13:20:26 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:23:56, will wait at most till 13:28:56
+13:20:26 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+13:24:00 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+13:24:01 -     INFO - wally           - Will run ceph_rwd16mth3 test
+13:24:01 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:27:31, will wait at most till 13:32:31
+13:24:01 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+13:27:34 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+13:27:34 -     INFO - wally           - Will run ceph_rwd16mth10 test
+13:27:34 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:31:04, will wait at most till 13:36:04
+13:27:34 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unnourishable_suanne/io/cmd.sh'
+13:31:08 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+13:31:08 -     INFO - wally           - Start store_raw_results_stage
+13:31:08 -     INFO - wally           - Start disconnect_stage
+13:31:08 -    DEBUG - wally           - Start utils.cleanup
+13:31:08 -     INFO - wally           - Start console_report_stage
+13:31:09 -     INFO - wally           - Text report were stored in /var/wally_results/unnourishable_suanne/report.txt
+13:31:09 -     INFO - wally           - Start html_report_stage
+13:31:11 -     INFO - wally.report    - Report ceph saved into /var/wally_results/unnourishable_suanne/ceph_report.html
+13:31:11 -     INFO - wally           - All info stored into /var/wally_results/unnourishable_suanne
+13:31:11 -     INFO - wally           - Tests finished successfully

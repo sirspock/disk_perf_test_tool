@@ -1,0 +1,163 @@
+23:53:32 -     INFO - wally           - All info would be stored into /var/wally_results/unimpairable_cameron
+23:53:32 -     INFO - wally           - Start discover_stage
+23:53:39 -     INFO - wally           - Start reuse_vms_stage
+23:53:39 -     INFO - wally           - Start log_nodes_statistic_stage
+23:53:39 -     INFO - wally           - Found 7 nodes total
+23:53:39 -    DEBUG - wally           - Found 3 nodes with role ceph-mon
+23:53:39 -    DEBUG - wally           - Found 3 nodes with role ceph-osd
+23:53:39 -    DEBUG - wally           - Found 1 nodes with role testnode
+23:53:39 -     INFO - wally           - Start save_nodes_stage
+23:53:39 -     INFO - wally           - Start connect_stage
+23:53:39 -     INFO - wally           - Connecting to nodes
+23:53:52 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+23:53:52 -    ERROR - paramiko.transport - Traceback (most recent call last):
+23:53:52 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+23:53:52 -    ERROR - paramiko.transport -     self._check_banner()
+23:53:52 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+23:53:52 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+23:53:52 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+23:53:52 -    ERROR - paramiko.transport - 
+23:53:53 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+23:53:53 -    ERROR - paramiko.transport - Traceback (most recent call last):
+23:53:53 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+23:53:53 -    ERROR - paramiko.transport -     self._check_banner()
+23:53:53 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+23:53:53 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+23:53:53 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+23:53:53 -    ERROR - paramiko.transport - 
+23:53:57 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+23:53:57 -    ERROR - paramiko.transport - Traceback (most recent call last):
+23:53:57 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+23:53:57 -    ERROR - paramiko.transport -     self._check_banner()
+23:53:57 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+23:53:57 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+23:53:57 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+23:53:57 -    ERROR - paramiko.transport - 
+23:54:02 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+23:54:02 -    ERROR - paramiko.transport - Traceback (most recent call last):
+23:54:02 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+23:54:02 -    ERROR - paramiko.transport -     self._check_banner()
+23:54:02 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+23:54:02 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+23:54:02 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+23:54:02 -    ERROR - paramiko.transport - 
+23:54:05 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+23:54:05 -    ERROR - paramiko.transport - Traceback (most recent call last):
+23:54:05 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+23:54:05 -    ERROR - paramiko.transport -     self._check_banner()
+23:54:05 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+23:54:05 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+23:54:05 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+23:54:05 -    ERROR - paramiko.transport - 
+23:54:09 -    ERROR - wally           - During connect to 172.17.3.1: timed out
+23:54:09 -    ERROR - wally           - During connect to 172.17.3.3: timed out
+23:54:09 -    ERROR - wally           - During connect to 172.17.3.2: timed out
+23:54:09 -    ERROR - wally           - During connect to 172.17.1.3: not a valid EC private key file
+23:54:09 -    ERROR - wally           - During connect to 172.17.1.2: not a valid EC private key file
+23:54:12 -  WARNING - wally           - Node(s) 172.17.3.1:22,172.17.3.3:22,172.17.3.2:22,172.17.1.3:22,172.17.1.2:22 would be excluded - can't connect
+23:54:12 -     INFO - wally           - Start run_tests_stage
+23:54:12 -    DEBUG - wally.sensors   - Installing sensors on 0 nodes
+23:54:12 -    DEBUG - wally.sensors   - Starting sensors on 0 nodes
+23:54:12 -    DEBUG - wally           - Run preparation
+23:54:14 -    ERROR - wally           - File data check is failed - Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IOError: [Errno 22] Invalid argument
+d41d8cd98f00b204e9800998ecf8427e  -
+
+23:54:14 -     INFO - wally           - Prefilling file /dev/rbd0
+23:54:14 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'sudo fio --name=xxx --filename=/dev/rbd0 --direct=1 --bs=4m --size=20480m --rw=write'
+23:55:06 -     INFO - wally           - Initiall fio fill bw is 390 MiBps for this vm
+23:55:06 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 01:15:57
+23:55:06 -     INFO - wally           - Will run ceph_rws4kth1 test
+23:55:06 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 23:58:36, will wait at most till 00:03:36
+23:55:06 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+23:58:40 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+23:58:40 -     INFO - wally           - Will run ceph_rws4kth5 test
+23:58:40 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:02:10, will wait at most till 00:07:10
+23:58:41 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+00:02:14 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:02:15 -     INFO - wally           - Will run ceph_rws4kth10 test
+00:02:15 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:05:45, will wait at most till 00:10:45
+00:02:15 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+00:05:49 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:05:49 -     INFO - wally           - Will run ceph_rws4kth15 test
+00:05:49 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:09:19, will wait at most till 00:14:19
+00:05:49 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+00:09:22 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:09:23 -     INFO - wally           - Will run ceph_rws4kth25 test
+00:09:23 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:12:53, will wait at most till 00:17:53
+00:09:23 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+00:12:57 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:12:57 -     INFO - wally           - Will run ceph_rws4kth40 test
+00:12:57 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:16:27, will wait at most till 00:21:27
+00:12:57 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+00:16:30 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:16:31 -     INFO - wally           - Will run ceph_rrd4kth1 test
+00:16:31 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:20:01, will wait at most till 00:25:01
+00:16:31 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+00:20:04 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:20:05 -     INFO - wally           - Will run ceph_rrd4kth5 test
+00:20:05 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:23:35, will wait at most till 00:28:35
+00:20:05 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+00:23:38 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:23:38 -     INFO - wally           - Will run ceph_rrd4kth10 test
+00:23:38 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:27:08, will wait at most till 00:32:08
+00:23:38 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+00:27:11 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:27:12 -     INFO - wally           - Will run ceph_rrd4kth15 test
+00:27:12 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:30:42, will wait at most till 00:35:42
+00:27:12 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+00:30:45 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:30:45 -     INFO - wally           - Will run ceph_rrd4kth25 test
+00:30:45 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:34:15, will wait at most till 00:39:15
+00:30:45 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+00:34:18 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:34:19 -     INFO - wally           - Will run ceph_rrd4kth40 test
+00:34:19 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:37:49, will wait at most till 00:42:49
+00:34:19 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+00:37:52 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:37:53 -     INFO - wally           - Will run ceph_rrd4kth80 test
+00:37:53 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:41:23, will wait at most till 00:46:23
+00:37:53 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+00:41:26 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:41:28 -     INFO - wally           - Will run ceph_rrd4kth120 test
+00:41:28 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:44:58, will wait at most till 00:49:58
+00:41:28 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+00:45:01 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:45:03 -     INFO - wally           - Will run ceph_rwd4kth1 test
+00:45:03 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:48:33, will wait at most till 00:53:33
+00:45:03 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+00:48:37 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:48:37 -     INFO - wally           - Will run ceph_rrd16mth1 test
+00:48:37 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:52:07, will wait at most till 00:57:07
+00:48:37 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+00:52:11 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:52:11 -     INFO - wally           - Will run ceph_rrd16mth3 test
+00:52:11 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:55:41, will wait at most till 01:00:41
+00:52:11 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+00:55:44 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:55:45 -     INFO - wally           - Will run ceph_rrd16mth10 test
+00:55:45 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 00:59:15, will wait at most till 01:04:15
+00:55:45 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+00:59:18 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+00:59:19 -     INFO - wally           - Will run ceph_rwd16mth1 test
+00:59:19 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:02:49, will wait at most till 01:07:49
+00:59:19 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+01:02:52 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+01:02:52 -     INFO - wally           - Will run ceph_rwd16mth3 test
+01:02:52 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:06:22, will wait at most till 01:11:22
+01:02:52 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+01:06:25 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+01:06:26 -     INFO - wally           - Will run ceph_rwd16mth10 test
+01:06:26 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:09:56, will wait at most till 01:14:56
+01:06:26 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimpairable_cameron/io/cmd.sh'
+01:09:59 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+01:10:00 -     INFO - wally           - Start store_raw_results_stage
+01:10:00 -     INFO - wally           - Start disconnect_stage
+01:10:00 -    DEBUG - wally           - Start utils.cleanup
+01:10:00 -     INFO - wally           - Start console_report_stage
+01:10:01 -     INFO - wally           - Text report were stored in /var/wally_results/unimpairable_cameron/report.txt
+01:10:01 -     INFO - wally           - Start html_report_stage
+01:10:03 -     INFO - wally.report    - Report ceph saved into /var/wally_results/unimpairable_cameron/ceph_report.html
+01:10:03 -     INFO - wally           - All info stored into /var/wally_results/unimpairable_cameron
+01:10:03 -     INFO - wally           - Tests finished successfully

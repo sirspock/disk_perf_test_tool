@@ -1,0 +1,43 @@
+15:57:54 -     INFO - wally           - All info would be stored into /var/wally_results/uncalmative_delta
+15:57:54 -     INFO - wally           - Start discover_stage
+15:57:54 -     INFO - wally           - Start reuse_vms_stage
+15:57:54 -     INFO - wally           - Start log_nodes_statistic_stage
+15:57:54 -     INFO - wally           - Found 3 nodes total
+15:57:54 -    DEBUG - wally           - Found 3 nodes with role testnode
+15:57:54 -     INFO - wally           - Start save_nodes_stage
+15:57:54 -     INFO - wally           - Start connect_stage
+15:57:54 -     INFO - wally           - Connecting to nodes
+15:57:55 -     INFO - wally           - All nodes connected successfully
+15:57:55 -     INFO - wally           - Start run_tests_stage
+15:57:55 -    DEBUG - wally           - Run preparation
+15:57:57 -    DEBUG - wally           - prefill is skipped
+15:57:58 -    DEBUG - wally           - prefill is skipped
+15:57:58 -    DEBUG - wally           - prefill is skipped
+15:57:58 -     INFO - wally           - Entire test should takes aroud: 3:59:15 and finished at 19:57:13
+15:57:58 -     INFO - wally           - Will run hdd_rwx4kth1 test
+15:57:58 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 16:00:28, will wait at most till 16:05:28
+15:57:58 -    DEBUG - wally           - SSH:138.219.228.15:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncalmative_delta/io/cmd.sh'
+15:57:59 -    DEBUG - wally           - SSH:138.219.228.13:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncalmative_delta/io/cmd.sh'
+15:57:59 -    DEBUG - wally           - SSH:138.219.228.11:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncalmative_delta/io/cmd.sh'
+16:00:31 -    DEBUG - wally           - Test on node 138.219.228.13_22 is finished
+16:00:31 -    DEBUG - wally           - Test on node 138.219.228.15_22 is finished
+16:00:32 -    DEBUG - wally           - Test on node 138.219.228.11_22 is finished
+16:00:32 -    ERROR - wally           - During run_tests_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 124, in log_stage
+    yield
+  File "wally/main.py", line 276, in main
+    stage(cfg, ctx)
+  File "wally/run_test.py", line 481, in run_tests_stage
+    for tp, res in run_tests(cfg, test_group, ctx.nodes):
+  File "wally/run_test.py", line 242, in run_tests
+    res = test_cls(test_cfg).run()
+  File "wally/suits/io/fio.py", line 778, in run
+    test_res = res.get_params_from_fio_report()
+  File "wally/suits/io/fio.py", line 281, in get_params_from_fio_report
+    total_ios = [self.raw_result[node]['jobs'][0]['mixed']['total_ios'] for node in nodes]
+KeyError: 'total_ios'
+16:00:32 -     INFO - wally           - Start disconnect_stage
+16:00:33 -    DEBUG - wally           - Start utils.cleanup
+16:00:33 -     INFO - wally           - All info stored into /var/wally_results/uncalmative_delta
+16:00:33 -    ERROR - wally           - Tests are failed. See detailed error above

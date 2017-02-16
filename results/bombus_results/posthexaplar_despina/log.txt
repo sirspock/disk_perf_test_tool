@@ -1,0 +1,38 @@
+17:17:03 -     INFO - wally           - All info would be stored into /var/wally_results/posthexaplar_despina
+17:17:03 -     INFO - wally           - Start discover_stage
+17:17:03 -     INFO - wally           - Start reuse_vms_stage
+17:17:03 -     INFO - wally           - Start log_nodes_statistic_stage
+17:17:03 -     INFO - wally           - Found 1 nodes total
+17:17:03 -    DEBUG - wally           - Found 1 nodes with role testnode
+17:17:03 -     INFO - wally           - Start save_nodes_stage
+17:17:03 -     INFO - wally           - Start connect_stage
+17:17:03 -     INFO - wally           - Connecting to nodes
+17:17:05 -     INFO - wally           - All nodes connected successfully
+17:17:05 -     INFO - wally           - Start run_tests_stage
+17:17:05 -    DEBUG - wally           - Run preparation
+17:17:05 -    ERROR - wally           - Failed to create folder /tmp/wally/posthexaplar_despina/io on remote 104.196.13.165:22. Error: SSH:104.196.13.165:22 Cmd 'sudo mkdir -p "/tmp/wally/posthexaplar_despina/io" ; sudo chown root /tmp/wally/posthexaplar_despina/io' failed with code 1. Output: sudo: sorry, you must have a tty to run sudo
+sudo: sorry, you must have a tty to run sudo
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 657, in pre_run_th
+    rossh(cmd, nolog=True)
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/itest.py", line 204, in closure
+    **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/wally/ssh_utils.py", line 543, in run_over_ssh
+    raise OSError(templ.format(node, cmd, code, output))
+OSError: SSH:104.196.13.165:22 Cmd 'sudo mkdir -p "/tmp/wally/posthexaplar_despina/io" ; sudo chown root /tmp/wally/posthexaplar_despina/io' failed with code 1. Output: sudo: sorry, you must have a tty to run sudo
+sudo: sorry, you must have a tty to run sudo
+
+17:17:05 -    ERROR - wally           - XXXX
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 666, in pre_run_th
+    raise StopTestError(msg, exc)
+StopTestError: Failed to create folder /tmp/wally/posthexaplar_despina/io on remote 104.196.13.165:22. Error: SSH:104.196.13.165:22 Cmd 'sudo mkdir -p "/tmp/wally/posthexaplar_despina/io" ; sudo chown root /tmp/wally/posthexaplar_despina/io' failed with code 1. Output: sudo: sorry, you must have a tty to run sudo
+sudo: sorry, you must have a tty to run sudo
+
+17:17:05 -    ERROR - wally           - Exception during run_tests_stage: Failed to create folder /tmp/wally/posthexaplar_despina/io on remote 104.196.13.165:22. Error: SSH:104.196.13.165:22 Cmd 'sudo mkdir -p "/tmp/wally/posthexaplar_despina/io" ; sudo chown root /tmp/wally/posthexaplar_despina/io' failed with code 1. Output: sudo: sorry, you must have a tty to run sudo
+sudo: sorry, you must have a tty to run sudo
+
+17:17:05 -     INFO - wally           - Start disconnect_stage
+17:17:05 -    DEBUG - wally           - Start utils.cleanup
+17:17:05 -     INFO - wally           - All info stored into /var/wally_results/posthexaplar_despina
+17:17:05 -    ERROR - wally           - Tests are failed. See detailed error above

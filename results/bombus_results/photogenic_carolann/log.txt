@@ -1,0 +1,2 @@
+23:49:09 -     INFO - wally           - All info would be stored into /var/wally_results/photogenic_carolann
+23:49:09 -     INFO - wally           - Start discover_stage

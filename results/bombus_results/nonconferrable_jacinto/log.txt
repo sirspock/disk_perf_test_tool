@@ -1,0 +1,127 @@
+12:08:12 -     INFO - wally           - All info would be stored into /var/wally_results/nonconferrable_jacinto
+12:08:12 -     INFO - wally           - Start discover_stage
+12:08:19 -     INFO - wally           - Start reuse_vms_stage
+12:08:19 -     INFO - wally           - Start log_nodes_statistic_stage
+12:08:19 -     INFO - wally           - Found 7 nodes total
+12:08:19 -    DEBUG - wally           - Found 3 nodes with role ceph-mon
+12:08:19 -    DEBUG - wally           - Found 3 nodes with role ceph-osd
+12:08:19 -    DEBUG - wally           - Found 1 nodes with role testnode
+12:08:19 -     INFO - wally           - Start save_nodes_stage
+12:08:19 -     INFO - wally           - Start connect_stage
+12:08:19 -     INFO - wally           - Connecting to nodes
+12:08:20 -     INFO - wally           - All nodes connected successfully
+12:08:20 -     INFO - wally           - Start run_tests_stage
+12:08:20 -    DEBUG - wally.sensors   - Installing sensors on 3 nodes
+12:08:20 -    DEBUG - wally.sensors   - Starting sensors on 3 nodes
+12:08:20 -    DEBUG - wally           - SSH:172.17.3.1:22 Exec 'env PYTHONPATH="/tmp/sensors" python -m sensors.main -d start -u csvfile:///tmp/sensors/results.csv /tmp/sensors/conf.json'
+12:08:20 -    DEBUG - wally           - SSH:172.17.3.3:22 Exec 'env PYTHONPATH="/tmp/sensors" python -m sensors.main -d start -u csvfile:///tmp/sensors/results.csv /tmp/sensors/conf.json'
+12:08:20 -    DEBUG - wally           - SSH:172.17.3.2:22 Exec 'env PYTHONPATH="/tmp/sensors" python -m sensors.main -d start -u csvfile:///tmp/sensors/results.csv /tmp/sensors/conf.json'
+12:08:20 -    DEBUG - wally           - Run preparation
+12:08:23 -    ERROR - wally           - File data check is failed - Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IOError: [Errno 22] Invalid argument
+d41d8cd98f00b204e9800998ecf8427e  -
+
+12:08:23 -     INFO - wally           - Prefilling file /dev/rbd1
+12:08:23 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'sudo fio --name=xxx --filename=/dev/rbd1 --direct=1 --bs=4m --size=20480m --rw=write'
+12:09:26 -     INFO - wally           - Initiall fio fill bw is 321 MiBps for this vm
+12:09:26 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 13:30:17
+12:09:26 -     INFO - wally           - Will run ceph_rws4kth1 test
+12:09:26 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:12:56, will wait at most till 12:17:56
+12:09:26 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+12:13:01 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+12:13:01 -     INFO - wally           - Will run ceph_rws4kth5 test
+12:13:01 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:16:31, will wait at most till 12:21:31
+12:13:02 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+12:16:36 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+12:16:36 -     INFO - wally           - Will run ceph_rws4kth10 test
+12:16:36 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:20:06, will wait at most till 12:25:06
+12:16:37 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+12:20:25 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+12:20:26 -     INFO - wally           - Will run ceph_rws4kth15 test
+12:20:26 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:23:56, will wait at most till 12:28:56
+12:20:26 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+12:24:13 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+12:24:13 -     INFO - wally           - Will run ceph_rws4kth25 test
+12:24:13 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:27:43, will wait at most till 12:32:43
+12:24:13 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+12:27:58 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+12:27:58 -     INFO - wally           - Will run ceph_rws4kth40 test
+12:27:58 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:31:28, will wait at most till 12:36:28
+12:27:58 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+12:31:45 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+12:31:45 -     INFO - wally           - Will run ceph_rrd4kth1 test
+12:31:45 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:35:15, will wait at most till 12:40:15
+12:31:45 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+12:35:30 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+12:35:30 -     INFO - wally           - Will run ceph_rrd4kth5 test
+12:35:30 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:39:00, will wait at most till 12:44:00
+12:35:30 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+12:39:03 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+12:39:04 -     INFO - wally           - Will run ceph_rrd4kth10 test
+12:39:04 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:42:34, will wait at most till 12:47:34
+12:39:04 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+12:42:36 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+12:42:37 -     INFO - wally           - Will run ceph_rrd4kth15 test
+12:42:37 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:46:07, will wait at most till 12:51:07
+12:42:37 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+12:46:09 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+12:46:10 -     INFO - wally           - Will run ceph_rrd4kth25 test
+12:46:10 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:49:40, will wait at most till 12:54:40
+12:46:10 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+12:49:43 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+12:49:43 -     INFO - wally           - Will run ceph_rrd4kth40 test
+12:49:43 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:53:13, will wait at most till 12:58:13
+12:49:43 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+12:53:16 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+12:53:16 -     INFO - wally           - Will run ceph_rrd4kth80 test
+12:53:16 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 12:56:46, will wait at most till 13:01:46
+12:53:16 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+12:56:49 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+12:56:50 -     INFO - wally           - Will run ceph_rrd4kth120 test
+12:56:50 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:00:20, will wait at most till 13:05:20
+12:56:50 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+13:00:23 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+13:00:24 -     INFO - wally           - Will run ceph_rwd4kth1 test
+13:00:24 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:03:54, will wait at most till 13:08:54
+13:00:24 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+13:03:57 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+13:03:57 -     INFO - wally           - Will run ceph_rrd16mth1 test
+13:03:57 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:07:27, will wait at most till 13:12:27
+13:03:57 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+13:07:32 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+13:07:32 -     INFO - wally           - Will run ceph_rrd16mth3 test
+13:07:32 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:11:02, will wait at most till 13:16:02
+13:07:32 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+13:11:05 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+13:11:05 -     INFO - wally           - Will run ceph_rrd16mth10 test
+13:11:05 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:14:35, will wait at most till 13:19:35
+13:11:05 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+13:14:38 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+13:14:38 -     INFO - wally           - Will run ceph_rwd16mth1 test
+13:14:38 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:18:08, will wait at most till 13:23:08
+13:14:38 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+13:18:11 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+13:18:11 -     INFO - wally           - Will run ceph_rwd16mth3 test
+13:18:11 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:21:41, will wait at most till 13:26:41
+13:18:11 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+13:21:44 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+13:21:44 -     INFO - wally           - Will run ceph_rwd16mth10 test
+13:21:44 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:25:14, will wait at most till 13:30:14
+13:21:44 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/nonconferrable_jacinto/io/cmd.sh'
+13:25:19 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+13:25:20 -    DEBUG - wally           - SSH:172.17.3.1:22 Exec 'env PYTHONPATH="/tmp/sensors" python -m sensors.main -d stop'
+13:25:20 -    DEBUG - wally           - SSH:172.17.3.3:22 Exec 'env PYTHONPATH="/tmp/sensors" python -m sensors.main -d stop'
+13:25:20 -    DEBUG - wally           - SSH:172.17.3.2:22 Exec 'env PYTHONPATH="/tmp/sensors" python -m sensors.main -d stop'
+13:25:22 -    DEBUG - wally           - SSH:172.17.3.1:22 Exec 'rm -rf /tmp/sensors2/'
+13:25:22 -    DEBUG - wally           - SSH:172.17.3.3:22 Exec 'rm -rf /tmp/sensors2/'
+13:25:22 -    DEBUG - wally           - SSH:172.17.3.2:22 Exec 'rm -rf /tmp/sensors2/'
+13:25:22 -     INFO - wally           - Start store_raw_results_stage
+13:25:22 -     INFO - wally           - Start disconnect_stage
+13:25:23 -    DEBUG - wally           - Start utils.cleanup
+13:25:23 -     INFO - wally           - Start console_report_stage
+13:25:24 -     INFO - wally           - Text report were stored in /var/wally_results/nonconferrable_jacinto/report.txt
+13:25:24 -     INFO - wally           - Start html_report_stage
+13:25:26 -     INFO - wally.report    - Report ceph saved into /var/wally_results/nonconferrable_jacinto/ceph_report.html
+13:25:26 -     INFO - wally           - All info stored into /var/wally_results/nonconferrable_jacinto
+13:25:26 -     INFO - wally           - Tests finished successfully

@@ -1,0 +1,155 @@
+15:20:34 -     INFO - wally           - All info would be stored into /var/wally_results/uncrystalline_chu
+15:20:34 -     INFO - wally           - Start discover_stage
+15:20:42 -     INFO - wally           - Start reuse_vms_stage
+15:20:42 -     INFO - wally           - Start log_nodes_statistic_stage
+15:20:42 -     INFO - wally           - Found 7 nodes total
+15:20:42 -    DEBUG - wally           - Found 3 nodes with role ceph-mon
+15:20:42 -    DEBUG - wally           - Found 3 nodes with role ceph-osd
+15:20:42 -    DEBUG - wally           - Found 1 nodes with role testnode
+15:20:42 -     INFO - wally           - Start save_nodes_stage
+15:20:42 -     INFO - wally           - Start connect_stage
+15:20:42 -     INFO - wally           - Connecting to nodes
+15:20:55 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+15:20:55 -    ERROR - paramiko.transport - Traceback (most recent call last):
+15:20:55 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+15:20:55 -    ERROR - paramiko.transport -     self._check_banner()
+15:20:55 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+15:20:55 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+15:20:55 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+15:20:55 -    ERROR - paramiko.transport - 
+15:20:59 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+15:20:59 -    ERROR - paramiko.transport - Traceback (most recent call last):
+15:20:59 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+15:20:59 -    ERROR - paramiko.transport -     self._check_banner()
+15:20:59 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+15:20:59 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+15:20:59 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+15:20:59 -    ERROR - paramiko.transport - 
+15:21:01 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+15:21:01 -    ERROR - paramiko.transport - Traceback (most recent call last):
+15:21:01 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+15:21:01 -    ERROR - paramiko.transport -     self._check_banner()
+15:21:01 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+15:21:01 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+15:21:01 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+15:21:01 -    ERROR - paramiko.transport - 
+15:21:02 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+15:21:02 -    ERROR - paramiko.transport - Traceback (most recent call last):
+15:21:02 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+15:21:02 -    ERROR - paramiko.transport -     self._check_banner()
+15:21:02 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+15:21:02 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+15:21:02 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner[Errno 104] Connection reset by peer
+15:21:02 -    ERROR - paramiko.transport - 
+15:21:12 -    ERROR - wally           - During connect to 172.17.1.1: timed out
+15:21:12 -    ERROR - wally           - During connect to 172.17.3.1: timed out
+15:21:12 -    ERROR - wally           - During connect to 172.17.3.2: timed out
+15:21:12 -    ERROR - wally           - During connect to 172.17.3.3: timed out
+15:21:12 -    ERROR - wally           - During connect to 172.17.1.3: not a valid EC private key file
+15:21:14 -  WARNING - wally           - Node(s) 172.17.3.1:22,172.17.3.3:22,172.17.3.2:22,172.17.1.3:22,172.17.1.1:22 would be excluded - can't connect
+15:21:14 -     INFO - wally           - Start run_tests_stage
+15:21:14 -    DEBUG - wally.sensors   - Installing sensors on 0 nodes
+15:21:14 -    DEBUG - wally.sensors   - Starting sensors on 0 nodes
+15:21:14 -    DEBUG - wally           - Run preparation
+15:21:17 -    ERROR - wally           - File data check is failed - Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IOError: [Errno 22] Invalid argument
+d41d8cd98f00b204e9800998ecf8427e  -
+
+15:21:17 -     INFO - wally           - Prefilling file /dev/rbd0
+15:21:17 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'sudo fio --name=xxx --filename=/dev/rbd0 --direct=1 --bs=4m --size=20480m --rw=write'
+15:22:10 -     INFO - wally           - Initiall fio fill bw is 384 MiBps for this vm
+15:22:10 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 16:43:01
+15:22:10 -     INFO - wally           - Will run ceph_rws4kth1 test
+15:22:10 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:25:40, will wait at most till 15:30:40
+15:22:10 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+15:25:43 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:25:44 -     INFO - wally           - Will run ceph_rws4kth5 test
+15:25:44 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:29:14, will wait at most till 15:34:14
+15:25:44 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+15:29:18 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:29:18 -     INFO - wally           - Will run ceph_rws4kth10 test
+15:29:18 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:32:48, will wait at most till 15:37:48
+15:29:18 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+15:32:52 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:32:52 -     INFO - wally           - Will run ceph_rws4kth15 test
+15:32:52 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:36:22, will wait at most till 15:41:22
+15:32:53 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+15:36:26 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:36:27 -     INFO - wally           - Will run ceph_rws4kth25 test
+15:36:27 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:39:57, will wait at most till 15:44:57
+15:36:27 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+15:40:00 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:40:01 -     INFO - wally           - Will run ceph_rws4kth40 test
+15:40:01 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:43:31, will wait at most till 15:48:31
+15:40:01 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+15:43:33 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:43:34 -     INFO - wally           - Will run ceph_rrd4kth1 test
+15:43:34 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:47:04, will wait at most till 15:52:04
+15:43:34 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+15:47:08 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:47:09 -     INFO - wally           - Will run ceph_rrd4kth5 test
+15:47:09 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:50:39, will wait at most till 15:55:39
+15:47:09 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+15:50:43 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:50:43 -     INFO - wally           - Will run ceph_rrd4kth10 test
+15:50:43 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:54:13, will wait at most till 15:59:13
+15:50:44 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+15:54:16 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:54:17 -     INFO - wally           - Will run ceph_rrd4kth15 test
+15:54:17 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:57:47, will wait at most till 16:02:47
+15:54:17 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+15:57:50 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:57:50 -     INFO - wally           - Will run ceph_rrd4kth25 test
+15:57:50 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:01:20, will wait at most till 16:06:20
+15:57:50 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+16:01:23 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+16:01:24 -     INFO - wally           - Will run ceph_rrd4kth40 test
+16:01:24 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:04:54, will wait at most till 16:09:54
+16:01:24 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+16:04:57 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+16:04:58 -     INFO - wally           - Will run ceph_rrd4kth80 test
+16:04:58 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:08:28, will wait at most till 16:13:28
+16:04:58 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+16:08:31 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+16:08:34 -     INFO - wally           - Will run ceph_rrd4kth120 test
+16:08:34 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:12:04, will wait at most till 16:17:04
+16:08:34 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+16:12:08 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+16:12:10 -     INFO - wally           - Will run ceph_rwd4kth1 test
+16:12:10 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:15:40, will wait at most till 16:20:40
+16:12:10 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+16:15:44 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+16:15:45 -     INFO - wally           - Will run ceph_rrd16mth1 test
+16:15:45 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:19:15, will wait at most till 16:24:15
+16:15:45 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+16:19:18 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+16:19:19 -     INFO - wally           - Will run ceph_rrd16mth3 test
+16:19:19 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:22:49, will wait at most till 16:27:49
+16:19:19 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+16:22:51 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+16:22:52 -     INFO - wally           - Will run ceph_rrd16mth10 test
+16:22:52 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:26:22, will wait at most till 16:31:22
+16:22:52 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+16:26:26 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+16:26:26 -     INFO - wally           - Will run ceph_rwd16mth1 test
+16:26:26 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:29:56, will wait at most till 16:34:56
+16:26:26 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+16:29:59 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+16:30:00 -     INFO - wally           - Will run ceph_rwd16mth3 test
+16:30:00 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:33:30, will wait at most till 16:38:30
+16:30:00 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+16:33:33 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+16:33:33 -     INFO - wally           - Will run ceph_rwd16mth10 test
+16:33:33 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 16:37:03, will wait at most till 16:42:03
+16:33:34 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/uncrystalline_chu/io/cmd.sh'
+16:37:08 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+16:37:09 -     INFO - wally           - Start store_raw_results_stage
+16:37:09 -     INFO - wally           - Start disconnect_stage
+16:37:09 -    DEBUG - wally           - Start utils.cleanup
+16:37:09 -     INFO - wally           - Start console_report_stage
+16:37:10 -     INFO - wally           - Text report were stored in /var/wally_results/uncrystalline_chu/report.txt
+16:37:10 -     INFO - wally           - Start html_report_stage
+16:37:11 -     INFO - wally.report    - Report ceph saved into /var/wally_results/uncrystalline_chu/ceph_report.html
+16:37:11 -     INFO - wally           - All info stored into /var/wally_results/uncrystalline_chu
+16:37:11 -     INFO - wally           - Tests finished successfully

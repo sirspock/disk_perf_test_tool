@@ -1,0 +1,93 @@
+17:15:32 -     INFO - wally           - All info would be stored into /home/mosorio/wally/results/nomada_results/ace_squid
+17:15:32 -     INFO - wally           - Start discover_stage
+17:15:32 -     INFO - wally           - Start reuse_vms_stage
+17:15:32 -     INFO - wally           - Start log_nodes_statistic_stage
+17:15:32 -     INFO - wally           - Found 1 nodes total
+17:15:32 -    DEBUG - wally           - Found 1 nodes with role testnode
+17:15:32 -     INFO - wally           - Start save_nodes_stage
+17:15:32 -     INFO - wally           - Start connect_stage
+17:15:32 -     INFO - wally           - Connecting to nodes
+17:15:33 -     INFO - wally           - All nodes connected successfully
+17:15:33 -     INFO - wally           - Start run_tests_stage
+17:15:33 -    DEBUG - wally           - Run preparation
+17:15:35 -    DEBUG - wally           - prefill is skipped
+17:15:35 -     INFO - wally           - Entire test should takes aroud: 0:41:15 and finished at 17:56:50
+17:15:35 -     INFO - wally           - Will run hdd_rwx4kth1 test
+17:15:35 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:18:05, will wait at most till 17:23:05
+17:15:35 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/ace_squid/io/cmd.sh'
+17:18:09 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+17:18:09 -     INFO - wally           - Will run hdd_rwx4kth5 test
+17:18:09 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:20:39, will wait at most till 17:25:39
+17:18:09 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/ace_squid/io/cmd.sh'
+17:20:42 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+17:20:43 -     INFO - wally           - Will run hdd_rwx4kth10 test
+17:20:43 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:23:13, will wait at most till 17:28:13
+17:20:43 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/ace_squid/io/cmd.sh'
+17:23:16 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+17:23:17 -     INFO - wally           - Will run hdd_rwx4kth15 test
+17:23:17 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:25:47, will wait at most till 17:30:47
+17:23:17 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/ace_squid/io/cmd.sh'
+17:25:53 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+17:25:53 -     INFO - wally           - Will run hdd_rwx4kth25 test
+17:25:53 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:28:23, will wait at most till 17:33:23
+17:25:54 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/ace_squid/io/cmd.sh'
+17:28:26 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+17:28:28 -     INFO - wally           - Will run hdd_rwx4kth40 test
+17:28:28 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:30:58, will wait at most till 17:35:58
+17:28:28 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/ace_squid/io/cmd.sh'
+17:31:02 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+17:31:03 -     INFO - wally           - Will run hdd_rrd4kth1 test
+17:31:03 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:33:33, will wait at most till 17:38:33
+17:31:03 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/ace_squid/io/cmd.sh'
+17:33:36 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+17:33:36 -     INFO - wally           - Will run hdd_rrd4kth5 test
+17:33:36 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:36:06, will wait at most till 17:41:06
+17:33:36 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/ace_squid/io/cmd.sh'
+17:36:09 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+17:36:11 -     INFO - wally           - Will run hdd_rrd4kth10 test
+17:36:11 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:38:41, will wait at most till 17:43:41
+17:36:11 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/ace_squid/io/cmd.sh'
+17:38:44 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+17:38:45 -     INFO - wally           - Will run hdd_rrd4kth15 test
+17:38:45 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:41:15, will wait at most till 17:46:15
+17:38:45 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/ace_squid/io/cmd.sh'
+17:41:19 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+17:41:20 -     INFO - wally           - Will run hdd_rrd4kth25 test
+17:41:20 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:43:50, will wait at most till 17:48:50
+17:41:20 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/ace_squid/io/cmd.sh'
+17:43:53 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+17:43:55 -     INFO - wally           - Will run hdd_rrd4kth40 test
+17:43:55 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:46:25, will wait at most till 17:51:25
+17:43:56 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/ace_squid/io/cmd.sh'
+17:46:29 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+17:46:30 -     INFO - wally           - Will run hdd_srd1mth1 test
+17:46:30 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:49:00, will wait at most till 17:54:00
+17:46:30 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/ace_squid/io/cmd.sh'
+17:49:03 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+17:49:04 -     INFO - wally           - Will run hdd_swd1mth1 test
+17:49:04 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:51:34, will wait at most till 17:56:34
+17:49:04 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/ace_squid/io/cmd.sh'
+17:51:37 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+17:51:37 -     INFO - wally           - Will run hdd_rwd4kth1 test
+17:51:37 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 17:54:07, will wait at most till 17:59:07
+17:51:38 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/ace_squid/io/cmd.sh'
+17:54:11 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+17:54:12 -     INFO - wally           - Start store_raw_results_stage
+17:54:12 -     INFO - wally           - Start disconnect_stage
+17:54:12 -    DEBUG - wally           - Start utils.cleanup
+17:54:12 -     INFO - wally           - Start console_report_stage
+17:54:13 -     INFO - wally           - Text report were stored in /home/mosorio/wally/results/nomada_results/ace_squid/report.txt
+17:54:13 -     INFO - wally           - Start html_report_stage
+17:54:13 -    ERROR - wally.report    - Diring hdd report generation
+Traceback (most recent call last):
+  File "wally/report.py", line 821, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "wally/report.py", line 642, in make_hdd_report
+    images = make_plots(perf_infos, plots)
+  File "wally/report.py", line 511, in make_plots
+    error2=data_dev)
+  File "wally/report.py", line 381, in io_chart
+    fig, p1 = plt.subplots()
+AttributeError: 'NoneType' object has no attribute 'subplots'
+17:54:13 -     INFO - wally           - All info stored into /home/mosorio/wally/results/nomada_results/ace_squid
+17:54:13 -     INFO - wally           - Tests finished successfully

@@ -1,0 +1,124 @@
+11:45:53 -     INFO - wally           - All info would be stored into /var/wally_results/postrhinal_miesha
+11:45:53 -     INFO - wally           - Start discover_stage
+11:46:00 -     INFO - wally           - Start reuse_vms_stage
+11:46:00 -     INFO - wally           - Start log_nodes_statistic_stage
+11:46:00 -     INFO - wally           - Found 7 nodes total
+11:46:00 -    DEBUG - wally           - Found 3 nodes with role ceph-mon
+11:46:00 -    DEBUG - wally           - Found 3 nodes with role ceph-osd
+11:46:00 -    DEBUG - wally           - Found 1 nodes with role testnode
+11:46:00 -     INFO - wally           - Start save_nodes_stage
+11:46:00 -     INFO - wally           - Start connect_stage
+11:46:00 -     INFO - wally           - Connecting to nodes
+11:46:17 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+11:46:17 -    ERROR - paramiko.transport - Traceback (most recent call last):
+11:46:17 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+11:46:17 -    ERROR - paramiko.transport -     self._check_banner()
+11:46:17 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+11:46:17 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+11:46:17 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+11:46:17 -    ERROR - paramiko.transport - 
+11:46:20 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+11:46:20 -    ERROR - paramiko.transport - Traceback (most recent call last):
+11:46:20 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+11:46:20 -    ERROR - paramiko.transport -     self._check_banner()
+11:46:20 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+11:46:20 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+11:46:20 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+11:46:20 -    ERROR - paramiko.transport - 
+11:46:27 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+11:46:27 -    ERROR - paramiko.transport - Traceback (most recent call last):
+11:46:27 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+11:46:27 -    ERROR - paramiko.transport -     self._check_banner()
+11:46:27 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+11:46:27 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+11:46:27 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+11:46:27 -    ERROR - paramiko.transport - 
+11:46:28 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+11:46:28 -    ERROR - paramiko.transport - Traceback (most recent call last):
+11:46:28 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+11:46:28 -    ERROR - paramiko.transport -     self._check_banner()
+11:46:28 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+11:46:28 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+11:46:28 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+11:46:28 -    ERROR - paramiko.transport - 
+11:46:30 -    ERROR - wally           - During connect to 172.17.3.1: timed out
+11:46:30 -    ERROR - wally           - During connect to 172.17.3.2: timed out
+11:46:30 -    ERROR - wally           - During connect to 172.17.3.3: timed out
+11:46:30 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+11:46:30 -    ERROR - paramiko.transport - Traceback (most recent call last):
+11:46:30 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+11:46:30 -    ERROR - paramiko.transport -     self._check_banner()
+11:46:30 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+11:46:30 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+11:46:30 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+11:46:30 -    ERROR - paramiko.transport - 
+11:46:30 -    ERROR - wally           - During connect to 172.17.1.3: Error reading SSH protocol banner
+11:46:32 -  WARNING - wally           - Node(s) 172.17.3.1:22,172.17.3.3:22,172.17.3.2:22,172.17.1.3:22 would be excluded - can't connect
+11:46:32 -     INFO - wally           - Start run_tests_stage
+11:46:32 -    DEBUG - wally.sensors   - Installing sensors on 0 nodes
+11:46:32 -    DEBUG - wally.sensors   - Starting sensors on 0 nodes
+11:46:32 -    DEBUG - wally           - Run preparation
+11:46:33 -     INFO - wally           - Prefilling file /dev/rbd0
+11:46:33 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'sudo fio --name=xxx --filename=/dev/rbd0 --direct=1 --bs=4m --size=20480m --rw=write'
+11:46:38 -    ERROR - wally           - XXXX
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 669, in pre_run_th
+    self.prefill_test_files(rossh, files, force)
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 554, in prefill_test_files
+    rossh(cmd, timeout=curr_sz)
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/itest.py", line 204, in closure
+    **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/wally/ssh_utils.py", line 543, in run_over_ssh
+    raise OSError(templ.format(node, cmd, code, output))
+OSError: SSH:172.17.1.2:22 Cmd 'sudo fio --name=xxx --filename=/dev/rbd0 --direct=1 --bs=4m --size=20480m --rw=write' failed with code 1. Output: xxx: (g=0): rw=write, bs=4M-4M/4M-4M/4M-4M, ioengine=sync, iodepth=1
+fio-2.2.8
+Starting 1 process
+fio: looks like your file system does not support direct=1/buffered=0
+fio: destination does not support O_DIRECT
+xxx: Laying out IO file(s) (1 file(s) / 20480MB)
+
+
+Run status group 0 (all jobs):
+
+11:46:38 -    ERROR - wally           - During run_tests_stage
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/wally/main.py", line 124, in log_stage
+    yield
+  File "/usr/local/lib/python2.7/dist-packages/wally/main.py", line 276, in main
+    stage(cfg, ctx)
+  File "/usr/local/lib/python2.7/dist-packages/wally/run_test.py", line 481, in run_tests_stage
+    for tp, res in run_tests(cfg, test_group, ctx.nodes):
+  File "/usr/local/lib/python2.7/dist-packages/wally/run_test.py", line 242, in run_tests
+    res = test_cls(test_cfg).run()
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 688, in run
+    self.pre_run()
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 643, in pre_run
+    list(pool.map(fc, self.config.nodes))
+  File "/usr/local/lib/python2.7/dist-packages/concurrent/futures/_base.py", line 581, in result_iterator
+    yield future.result()
+  File "/usr/local/lib/python2.7/dist-packages/concurrent/futures/_base.py", line 405, in result
+    return self.__get_result()
+  File "/usr/local/lib/python2.7/dist-packages/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 669, in pre_run_th
+    self.prefill_test_files(rossh, files, force)
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 554, in prefill_test_files
+    rossh(cmd, timeout=curr_sz)
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/itest.py", line 204, in closure
+    **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/wally/ssh_utils.py", line 543, in run_over_ssh
+    raise OSError(templ.format(node, cmd, code, output))
+OSError: SSH:172.17.1.2:22 Cmd 'sudo fio --name=xxx --filename=/dev/rbd0 --direct=1 --bs=4m --size=20480m --rw=write' failed with code 1. Output: xxx: (g=0): rw=write, bs=4M-4M/4M-4M/4M-4M, ioengine=sync, iodepth=1
+fio-2.2.8
+Starting 1 process
+fio: looks like your file system does not support direct=1/buffered=0
+fio: destination does not support O_DIRECT
+xxx: Laying out IO file(s) (1 file(s) / 20480MB)
+
+
+Run status group 0 (all jobs):
+
+11:46:38 -     INFO - wally           - Start disconnect_stage
+11:46:38 -    DEBUG - wally           - Start utils.cleanup
+11:46:38 -     INFO - wally           - All info stored into /var/wally_results/postrhinal_miesha
+11:46:38 -    ERROR - wally           - Tests are failed. See detailed error above

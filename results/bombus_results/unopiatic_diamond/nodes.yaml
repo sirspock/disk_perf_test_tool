@@ -1,0 +1,6 @@
+'ssh://172.17.3.1': [ceph-osd]
+'ssh://172.17.3.3': [ceph-osd]
+'ssh://172.17.3.2': [ceph-osd]
+'ssh://172.17.1.3': [ceph-mon]
+'ssh://172.17.1.2': [ceph-mon]
+'ssh://172.17.1.1': [ceph-mon]

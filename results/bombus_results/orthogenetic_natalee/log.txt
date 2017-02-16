@@ -1,0 +1,127 @@
+01:39:53 -     INFO - wally           - All info would be stored into /var/wally_results/orthogenetic_natalee
+01:39:53 -     INFO - wally           - Start discover_stage
+01:39:59 -     INFO - wally           - Start reuse_vms_stage
+01:39:59 -     INFO - wally           - Start log_nodes_statistic_stage
+01:39:59 -     INFO - wally           - Found 7 nodes total
+01:39:59 -    DEBUG - wally           - Found 3 nodes with role ceph-mon
+01:39:59 -    DEBUG - wally           - Found 3 nodes with role ceph-osd
+01:39:59 -    DEBUG - wally           - Found 1 nodes with role testnode
+01:39:59 -     INFO - wally           - Start save_nodes_stage
+01:39:59 -     INFO - wally           - Start connect_stage
+01:39:59 -     INFO - wally           - Connecting to nodes
+01:40:00 -     INFO - wally           - All nodes connected successfully
+01:40:00 -     INFO - wally           - Start run_tests_stage
+01:40:00 -    DEBUG - wally.sensors   - Installing sensors on 3 nodes
+01:40:01 -    DEBUG - wally.sensors   - Starting sensors on 3 nodes
+01:40:01 -    DEBUG - wally           - SSH:172.17.3.3:22 Exec 'env PYTHONPATH="/tmp/sensors" python -m sensors.main -d start -u csvfile:///tmp/sensors/results.csv /tmp/sensors/conf.json'
+01:40:01 -    DEBUG - wally           - SSH:172.17.3.2:22 Exec 'env PYTHONPATH="/tmp/sensors" python -m sensors.main -d start -u csvfile:///tmp/sensors/results.csv /tmp/sensors/conf.json'
+01:40:01 -    DEBUG - wally           - SSH:172.17.3.1:22 Exec 'env PYTHONPATH="/tmp/sensors" python -m sensors.main -d start -u csvfile:///tmp/sensors/results.csv /tmp/sensors/conf.json'
+01:40:01 -    DEBUG - wally           - Run preparation
+01:40:02 -    ERROR - wally           - File data check is failed - Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IOError: [Errno 22] Invalid argument
+d41d8cd98f00b204e9800998ecf8427e  -
+
+01:40:02 -     INFO - wally           - Prefilling file /dev/rbd1
+01:40:02 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'sudo fio --name=xxx --filename=/dev/rbd1 --direct=1 --bs=4m --size=20480m --rw=write'
+01:41:17 -     INFO - wally           - Initiall fio fill bw is 273 MiBps for this vm
+01:41:17 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 03:02:08
+01:41:17 -     INFO - wally           - Will run ceph_rws4kth1 test
+01:41:17 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:44:47, will wait at most till 01:49:47
+01:41:17 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+01:44:50 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+01:44:50 -     INFO - wally           - Will run ceph_rws4kth5 test
+01:44:50 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:48:20, will wait at most till 01:53:20
+01:44:50 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+01:48:25 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+01:48:25 -     INFO - wally           - Will run ceph_rws4kth10 test
+01:48:25 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:51:55, will wait at most till 01:56:55
+01:48:25 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+01:52:12 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+01:52:12 -     INFO - wally           - Will run ceph_rws4kth15 test
+01:52:12 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:55:42, will wait at most till 02:00:42
+01:52:13 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+01:55:57 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+01:55:58 -     INFO - wally           - Will run ceph_rws4kth25 test
+01:55:58 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 01:59:28, will wait at most till 02:04:28
+01:55:58 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+01:59:46 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+01:59:47 -     INFO - wally           - Will run ceph_rws4kth40 test
+01:59:47 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 02:03:17, will wait at most till 02:08:17
+01:59:47 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+02:03:33 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+02:03:34 -     INFO - wally           - Will run ceph_rrd4kth1 test
+02:03:34 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 02:07:04, will wait at most till 02:12:04
+02:03:34 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+02:07:17 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+02:07:17 -     INFO - wally           - Will run ceph_rrd4kth5 test
+02:07:17 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 02:10:47, will wait at most till 02:15:47
+02:07:17 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+02:10:50 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+02:10:50 -     INFO - wally           - Will run ceph_rrd4kth10 test
+02:10:50 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 02:14:20, will wait at most till 02:19:20
+02:10:50 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+02:14:23 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+02:14:23 -     INFO - wally           - Will run ceph_rrd4kth15 test
+02:14:23 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 02:17:53, will wait at most till 02:22:53
+02:14:23 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+02:17:56 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+02:17:57 -     INFO - wally           - Will run ceph_rrd4kth25 test
+02:17:57 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 02:21:27, will wait at most till 02:26:27
+02:17:57 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+02:21:29 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+02:21:30 -     INFO - wally           - Will run ceph_rrd4kth40 test
+02:21:30 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 02:25:00, will wait at most till 02:30:00
+02:21:30 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+02:25:03 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+02:25:03 -     INFO - wally           - Will run ceph_rrd4kth80 test
+02:25:03 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 02:28:33, will wait at most till 02:33:33
+02:25:03 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+02:28:36 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+02:28:37 -     INFO - wally           - Will run ceph_rrd4kth120 test
+02:28:37 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 02:32:07, will wait at most till 02:37:07
+02:28:37 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+02:32:10 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+02:32:11 -     INFO - wally           - Will run ceph_rwd4kth1 test
+02:32:11 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 02:35:41, will wait at most till 02:40:41
+02:32:11 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+02:35:43 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+02:35:44 -     INFO - wally           - Will run ceph_rrd16mth1 test
+02:35:44 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 02:39:14, will wait at most till 02:44:14
+02:35:44 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+02:39:19 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+02:39:19 -     INFO - wally           - Will run ceph_rrd16mth3 test
+02:39:19 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 02:42:49, will wait at most till 02:47:49
+02:39:19 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+02:42:52 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+02:42:52 -     INFO - wally           - Will run ceph_rrd16mth10 test
+02:42:52 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 02:46:22, will wait at most till 02:51:22
+02:42:52 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+02:46:25 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+02:46:25 -     INFO - wally           - Will run ceph_rwd16mth1 test
+02:46:25 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 02:49:55, will wait at most till 02:54:55
+02:46:25 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+02:49:58 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+02:49:58 -     INFO - wally           - Will run ceph_rwd16mth3 test
+02:49:58 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 02:53:28, will wait at most till 02:58:28
+02:49:58 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+02:53:31 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+02:53:31 -     INFO - wally           - Will run ceph_rwd16mth10 test
+02:53:31 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 02:57:01, will wait at most till 03:02:01
+02:53:32 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/orthogenetic_natalee/io/cmd.sh'
+02:57:08 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+02:57:09 -    DEBUG - wally           - SSH:172.17.3.1:22 Exec 'env PYTHONPATH="/tmp/sensors" python -m sensors.main -d stop'
+02:57:09 -    DEBUG - wally           - SSH:172.17.3.2:22 Exec 'env PYTHONPATH="/tmp/sensors" python -m sensors.main -d stop'
+02:57:09 -    DEBUG - wally           - SSH:172.17.3.3:22 Exec 'env PYTHONPATH="/tmp/sensors" python -m sensors.main -d stop'
+02:57:11 -    DEBUG - wally           - SSH:172.17.3.1:22 Exec 'rm -rf /tmp/sensors2/'
+02:57:11 -    DEBUG - wally           - SSH:172.17.3.3:22 Exec 'rm -rf /tmp/sensors2/'
+02:57:11 -    DEBUG - wally           - SSH:172.17.3.2:22 Exec 'rm -rf /tmp/sensors2/'
+02:57:11 -     INFO - wally           - Start store_raw_results_stage
+02:57:11 -     INFO - wally           - Start disconnect_stage
+02:57:12 -    DEBUG - wally           - Start utils.cleanup
+02:57:12 -     INFO - wally           - Start console_report_stage
+02:57:13 -     INFO - wally           - Text report were stored in /var/wally_results/orthogenetic_natalee/report.txt
+02:57:13 -     INFO - wally           - Start html_report_stage
+02:57:15 -     INFO - wally.report    - Report ceph saved into /var/wally_results/orthogenetic_natalee/ceph_report.html
+02:57:15 -     INFO - wally           - All info stored into /var/wally_results/orthogenetic_natalee
+02:57:15 -     INFO - wally           - Tests finished successfully

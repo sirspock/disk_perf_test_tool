@@ -1,0 +1,16 @@
+[global]
+
+osd_pool_default_min_size = 2
+osd_pool_default_pg_num = 256
+osd_pool_default_pgp_num = 256
+osd_pool_default_size = 3
+
+[osd]
+journal_max_write_bytes = 1048576000 #(1 GB)
+journal_max_write_entries = 1000
+journal_queue_max_bytes = 1048576000 #(1 GB)
+journal_queue_max_ops = 3000
+osd_enable_op_tracker = false
+osd_client_message_cap = 0
+osd_client_message_size_cap = 0
+

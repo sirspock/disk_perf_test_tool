@@ -1,0 +1,156 @@
+03:20:28 -     INFO - wally           - All info would be stored into /var/wally_results/familistic_leonila
+03:20:28 -     INFO - wally           - Start discover_stage
+03:20:34 -     INFO - wally           - Start reuse_vms_stage
+03:20:34 -     INFO - wally           - Start log_nodes_statistic_stage
+03:20:34 -     INFO - wally           - Found 7 nodes total
+03:20:34 -    DEBUG - wally           - Found 3 nodes with role ceph-mon
+03:20:34 -    DEBUG - wally           - Found 3 nodes with role ceph-osd
+03:20:34 -    DEBUG - wally           - Found 1 nodes with role testnode
+03:20:34 -     INFO - wally           - Start save_nodes_stage
+03:20:34 -     INFO - wally           - Start connect_stage
+03:20:34 -     INFO - wally           - Connecting to nodes
+03:20:35 -     INFO - wally           - All nodes connected successfully
+03:20:35 -     INFO - wally           - Start run_tests_stage
+03:20:35 -    DEBUG - wally.sensors   - Installing sensors on 3 nodes
+03:20:36 -    DEBUG - wally.sensors   - Starting sensors on 3 nodes
+03:20:36 -    DEBUG - wally           - SSH:172.17.3.3:22 Exec 'env PYTHONPATH="/tmp/sensors" python -m sensors.main -d start -u csvfile:///tmp/sensors/results.csv /tmp/sensors/conf.json'
+03:20:36 -    DEBUG - wally           - SSH:172.17.3.2:22 Exec 'env PYTHONPATH="/tmp/sensors" python -m sensors.main -d start -u csvfile:///tmp/sensors/results.csv /tmp/sensors/conf.json'
+03:20:36 -    DEBUG - wally           - SSH:172.17.3.1:22 Exec 'env PYTHONPATH="/tmp/sensors" python -m sensors.main -d start -u csvfile:///tmp/sensors/results.csv /tmp/sensors/conf.json'
+03:20:36 -    DEBUG - wally           - Run preparation
+03:20:38 -    ERROR - wally           - File data check is failed - Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IOError: [Errno 22] Invalid argument
+d41d8cd98f00b204e9800998ecf8427e  -
+
+03:20:38 -     INFO - wally           - Prefilling file /dev/rbd1
+03:20:38 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'sudo fio --name=xxx --filename=/dev/rbd1 --direct=1 --bs=4m --size=20480m --rw=write'
+03:21:39 -     INFO - wally           - Initiall fio fill bw is 337 MiBps for this vm
+03:21:39 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 04:42:30
+03:21:39 -     INFO - wally           - Will run ceph_rws4kth1 test
+03:21:39 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 03:25:09, will wait at most till 03:30:09
+03:21:39 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+03:25:12 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+03:25:12 -     INFO - wally           - Will run ceph_rws4kth5 test
+03:25:12 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 03:28:42, will wait at most till 03:33:42
+03:25:12 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+03:28:47 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+03:28:47 -     INFO - wally           - Will run ceph_rws4kth10 test
+03:28:47 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 03:32:17, will wait at most till 03:37:17
+03:28:47 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+03:32:36 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+03:32:36 -     INFO - wally           - Will run ceph_rws4kth15 test
+03:32:36 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 03:36:06, will wait at most till 03:41:06
+03:32:36 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+03:36:23 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+03:36:24 -     INFO - wally           - Will run ceph_rws4kth25 test
+03:36:24 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 03:39:54, will wait at most till 03:44:54
+03:36:24 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+03:40:02 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+03:40:03 -     INFO - wally           - Will run ceph_rws4kth40 test
+03:40:03 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 03:43:33, will wait at most till 03:48:33
+03:40:03 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+03:43:53 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+03:43:54 -     INFO - wally           - Will run ceph_rrd4kth1 test
+03:43:54 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 03:47:24, will wait at most till 03:52:24
+03:43:54 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+03:47:39 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+03:47:39 -     INFO - wally           - Will run ceph_rrd4kth5 test
+03:47:39 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 03:51:09, will wait at most till 03:56:09
+03:47:39 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+03:51:12 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+03:51:12 -     INFO - wally           - Will run ceph_rrd4kth10 test
+03:51:12 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 03:54:42, will wait at most till 03:59:42
+03:51:12 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+03:54:45 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+03:54:46 -     INFO - wally           - Will run ceph_rrd4kth15 test
+03:54:46 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 03:58:16, will wait at most till 04:03:16
+03:54:46 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+03:58:18 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+03:58:19 -     INFO - wally           - Will run ceph_rrd4kth25 test
+03:58:19 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 04:01:49, will wait at most till 04:06:49
+03:58:19 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+04:01:52 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+04:01:52 -     INFO - wally           - Will run ceph_rrd4kth40 test
+04:01:52 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 04:05:22, will wait at most till 04:10:22
+04:01:52 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+04:05:25 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+04:05:25 -     INFO - wally           - Will run ceph_rrd4kth80 test
+04:05:25 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 04:08:55, will wait at most till 04:13:55
+04:05:25 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+04:08:58 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+04:08:59 -     INFO - wally           - Will run ceph_rrd4kth120 test
+04:08:59 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 04:12:29, will wait at most till 04:17:29
+04:08:59 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+04:12:32 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+04:12:33 -     INFO - wally           - Will run ceph_rwd4kth1 test
+04:12:33 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 04:16:03, will wait at most till 04:21:03
+04:12:33 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+04:16:05 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+04:16:06 -     INFO - wally           - Will run ceph_rrd16mth1 test
+04:16:06 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 04:19:36, will wait at most till 04:24:36
+04:16:06 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+04:19:41 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+04:19:41 -     INFO - wally           - Will run ceph_rrd16mth3 test
+04:19:41 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 04:23:11, will wait at most till 04:28:11
+04:19:41 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+04:23:14 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+04:23:14 -     INFO - wally           - Will run ceph_rrd16mth10 test
+04:23:14 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 04:26:44, will wait at most till 04:31:44
+04:23:14 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+04:26:47 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+04:26:47 -     INFO - wally           - Will run ceph_rwd16mth1 test
+04:26:47 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 04:30:17, will wait at most till 04:35:17
+04:26:47 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+04:30:20 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+04:30:20 -     INFO - wally           - Will run ceph_rwd16mth3 test
+04:30:20 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 04:33:50, will wait at most till 04:38:50
+04:30:20 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+04:33:53 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+04:33:53 -     INFO - wally           - Will run ceph_rwd16mth10 test
+04:33:53 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 04:37:23, will wait at most till 04:42:23
+04:33:54 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/familistic_leonila/io/cmd.sh'
+04:37:28 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+04:37:29 -    DEBUG - wally           - SSH:172.17.3.1:22 Exec 'env PYTHONPATH="/tmp/sensors" python -m sensors.main -d stop'
+04:37:29 -    DEBUG - wally           - SSH:172.17.3.3:22 Exec 'env PYTHONPATH="/tmp/sensors" python -m sensors.main -d stop'
+04:37:29 -    DEBUG - wally           - SSH:172.17.3.2:22 Exec 'env PYTHONPATH="/tmp/sensors" python -m sensors.main -d stop'
+04:37:31 -    DEBUG - wally           - SSH:172.17.3.1:22 Exec 'rm -rf /tmp/sensors2/'
+04:37:31 -    DEBUG - wally           - SSH:172.17.3.3:22 Exec 'rm -rf /tmp/sensors2/'
+04:37:31 -    DEBUG - wally           - SSH:172.17.3.2:22 Exec 'rm -rf /tmp/sensors2/'
+04:37:31 -     INFO - wally           - Start store_raw_results_stage
+04:37:31 -     INFO - wally           - Start disconnect_stage
+04:37:32 -    DEBUG - wally           - Start utils.cleanup
+04:37:32 -     INFO - wally           - Start console_report_stage
+04:37:33 -     INFO - wally           - Text report were stored in /var/wally_results/familistic_leonila/report.txt
+04:37:33 -     INFO - wally           - Start html_report_stage
+04:37:35 -    ERROR - wally.report    - Diring ceph report generation
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/wally/report.py", line 811, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "/usr/local/lib/python2.7/dist-packages/wally/report.py", line 670, in make_ceph_report
+    return render_all_html(comment, di, lab_info, images, "report_ceph.html")
+  File "/usr/local/lib/python2.7/dist-packages/wally/report.py", line 348, in render_all_html
+    return get_template(templ_name).format(lab_info=lab_description,
+  File "/usr/local/lib/python2.7/dist-packages/wally/report.py", line 127, in get_template
+    return open(templ_file, 'r').read()
+IOError: [Errno 2] No such file or directory: '/usr/local/lib/python2.7/dist-packages/report_templates/report_ceph.html'
+04:37:35 -     INFO - wally           - All info stored into /var/wally_results/familistic_leonila
+04:37:35 -     INFO - wally           - Tests finished successfully
+11:50:55 -     INFO - wally           - All info would be stored into /var/wally_results/familistic_leonila
+11:50:55 -     INFO - wally           - Start load_data_from_path_stage
+11:50:56 -    DEBUG - wally           - Start utils.cleanup
+11:50:56 -     INFO - wally           - Start console_report_stage
+11:50:57 -     INFO - wally           - Text report were stored in /var/wally_results/familistic_leonila/report.txt
+11:50:57 -     INFO - wally           - Start test_load_report_stage
+11:50:57 -    ERROR - wally           - During test_load_report_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 124, in log_stage
+    yield
+  File "wally/main.py", line 294, in main
+    report_stage(cfg, ctx)
+  File "wally/run_test.py", line 572, in test_load_report_stage
+    report.make_load_report(idx, cfg['results'], load_rep_fname)
+TypeError: 'Config' object has no attribute '__getitem__'
+11:50:57 -     INFO - wally           - Start html_report_stage
+11:50:59 -     INFO - wally.report    - Report ceph saved into /var/wally_results/familistic_leonila/ceph_report.html
+11:50:59 -     INFO - wally           - All info stored into /var/wally_results/familistic_leonila
+11:50:59 -     INFO - wally           - Tests finished successfully

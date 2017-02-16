@@ -1,0 +1,30 @@
+12:40:20 -     INFO - wally           - All info would be stored into /var/wally_results/multinucleolated_ladonna
+12:40:20 -     INFO - wally           - Start discover_stage
+12:41:20 -    ERROR - wally           - During discover_stage
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/wally/main.py", line 124, in log_stage
+    yield
+  File "/usr/local/lib/python2.7/dist-packages/wally/main.py", line 276, in main
+    stage(cfg, ctx)
+  File "/usr/local/lib/python2.7/dist-packages/wally/run_test.py", line 275, in discover_stage
+    not cfg.dont_discover_nodes)
+  File "/usr/local/lib/python2.7/dist-packages/wally/discover/discover.py", line 100, in discover
+    nodes_to_run.extend(ceph.discover_ceph_nodes(cluster_info))
+  File "/usr/local/lib/python2.7/dist-packages/wally/discover/ceph.py", line 30, in discover_ceph_nodes
+    executor = ssh_execute(connect(ip))
+  File "/usr/local/lib/python2.7/dist-packages/wally/ssh_utils.py", line 376, in connect
+    res = ssh_connect(creds, **params)
+  File "/usr/local/lib/python2.7/dist-packages/wally/ssh_utils.py", line 141, in ssh_connect
+    **banner_timeout)
+  File "/usr/local/lib/python2.7/dist-packages/paramiko/client.py", line 292, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "/usr/local/lib/python2.7/dist-packages/paramiko/util.py", line 270, in retry_on_signal
+    return function()
+  File "/usr/local/lib/python2.7/dist-packages/paramiko/client.py", line 292, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+12:41:20 -    DEBUG - wally           - Start utils.cleanup
+12:41:20 -     INFO - wally           - All info stored into /var/wally_results/multinucleolated_ladonna
+12:41:20 -    ERROR - wally           - Tests are failed. See detailed error above

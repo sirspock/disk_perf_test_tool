@@ -1,0 +1,892 @@
+00:04:06 -     INFO - wally           - All info would be stored into /var/wally_results/unterrified_minerva
+00:04:06 -     INFO - wally           - Start discover_stage
+00:04:06 -     INFO - wally           - Start reuse_vms_stage
+00:04:06 -     INFO - wally           - Start log_nodes_statistic_stage
+00:04:06 -     INFO - wally           - Found 3 nodes total
+00:04:06 -    DEBUG - wally           - Found 3 nodes with role testnode
+00:04:06 -     INFO - wally           - Start save_nodes_stage
+00:04:06 -     INFO - wally           - Start connect_stage
+00:04:06 -     INFO - wally           - Connecting to nodes
+00:04:06 -     INFO - wally           - All nodes connected successfully
+00:04:06 -     INFO - wally           - Start run_tests_stage
+00:04:06 -    DEBUG - wally           - Run preparation
+00:04:09 -    DEBUG - wally           - prefill is skipped
+00:04:09 -    DEBUG - wally           - prefill is skipped
+00:04:09 -    DEBUG - wally           - prefill is skipped
+00:04:09 -     INFO - wally           - Entire test should takes aroud: 3:59:15 and finished at 04:03:24
+00:04:09 -     INFO - wally           - Will run hdd_rwx4kth1 test
+00:04:09 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 00:06:39, will wait at most till 00:11:39
+00:04:09 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:04:09 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:04:09 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:06:42 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:06:42 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:06:42 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:06:42 -     INFO - wally           - Will run hdd_rwx4kth1 test
+00:06:42 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:08:42, will wait at most till 00:13:42
+00:06:43 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:06:43 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:06:43 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:08:45 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:08:47 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:08:47 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:08:47 -     INFO - wally           - Will run hdd_rwx4kth1 test
+00:08:47 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:10:47, will wait at most till 00:15:47
+00:08:48 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:08:48 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:08:48 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:10:51 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:10:51 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:10:52 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:10:52 -     INFO - wally           - Will run hdd_rwx4kth1 test
+00:10:52 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:12:52, will wait at most till 00:17:52
+00:10:53 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:10:53 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:10:53 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:12:55 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:12:55 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:12:57 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:12:57 -     INFO - wally           - Will run hdd_rwx4kth1 test
+00:12:57 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:14:57, will wait at most till 00:19:57
+00:12:57 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:12:57 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:12:57 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:15:01 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:15:02 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:15:02 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:15:02 -     INFO - wally           - Will run hdd_rwx4kth1 test
+00:15:02 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:17:02, will wait at most till 00:22:02
+00:15:02 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:15:02 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:15:03 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:17:06 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:17:07 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:17:07 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:17:07 -     INFO - wally           - Will run hdd_rwx4kth1 test
+00:17:07 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:19:07, will wait at most till 00:24:07
+00:17:07 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:17:07 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:17:07 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:19:11 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:19:11 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:19:11 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:19:12 -     INFO - wally           - Will run hdd_rwx4kth5 test
+00:19:12 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 00:21:42, will wait at most till 00:26:42
+00:19:12 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:19:12 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:19:12 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:21:44 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:21:44 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:21:46 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:21:46 -     INFO - wally           - Will run hdd_rwx4kth5 test
+00:21:46 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:23:46, will wait at most till 00:28:46
+00:21:47 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:21:47 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:21:47 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:23:49 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:23:51 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:23:51 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:23:52 -     INFO - wally           - Will run hdd_rwx4kth5 test
+00:23:52 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:25:52, will wait at most till 00:30:52
+00:23:52 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:23:52 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:23:52 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:25:55 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:25:55 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:25:56 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:25:57 -     INFO - wally           - Will run hdd_rwx4kth5 test
+00:25:57 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:27:57, will wait at most till 00:32:57
+00:25:57 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:25:57 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:25:57 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:28:00 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:28:09 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:28:10 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:28:10 -     INFO - wally           - Will run hdd_rwx4kth5 test
+00:28:10 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:30:10, will wait at most till 00:35:10
+00:28:10 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:28:10 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:28:10 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:30:14 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:30:14 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:30:14 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:30:15 -     INFO - wally           - Will run hdd_rwx4kth5 test
+00:30:15 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:32:15, will wait at most till 00:37:15
+00:30:15 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:30:15 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:30:15 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:32:19 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:32:19 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:32:19 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:32:20 -     INFO - wally           - Will run hdd_rwx4kth5 test
+00:32:20 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:34:20, will wait at most till 00:39:20
+00:32:20 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:32:20 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:32:20 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:34:22 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:34:22 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:34:24 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:34:24 -     INFO - wally           - Will run hdd_rwx4kth10 test
+00:34:24 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 00:36:54, will wait at most till 00:41:54
+00:34:24 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:34:24 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:34:24 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:36:57 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:36:57 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:36:57 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:36:57 -     INFO - wally           - Will run hdd_rwx4kth10 test
+00:36:57 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:38:57, will wait at most till 00:43:57
+00:36:58 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:36:58 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:36:58 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:39:01 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:39:02 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:39:02 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:39:03 -     INFO - wally           - Will run hdd_rwx4kth10 test
+00:39:03 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:41:03, will wait at most till 00:46:03
+00:39:03 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:39:03 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:39:03 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:41:05 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:41:15 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:41:17 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:41:17 -     INFO - wally           - Will run hdd_rwx4kth10 test
+00:41:17 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:43:17, will wait at most till 00:48:17
+00:41:18 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:41:18 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:41:18 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:43:22 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:43:22 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:43:22 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:43:22 -     INFO - wally           - Will run hdd_rwx4kth10 test
+00:43:22 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:45:22, will wait at most till 00:50:22
+00:43:22 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:43:22 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:43:23 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:45:26 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:45:27 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:45:27 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:45:27 -     INFO - wally           - Will run hdd_rwx4kth10 test
+00:45:27 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:47:27, will wait at most till 00:52:27
+00:45:27 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:45:27 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:45:27 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:47:30 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:47:56 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:47:56 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:47:57 -     INFO - wally           - Will run hdd_rwx4kth10 test
+00:47:57 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:49:57, will wait at most till 00:54:57
+00:47:57 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:47:57 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:47:57 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:50:01 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:50:01 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:50:01 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:50:02 -     INFO - wally           - Will run hdd_rwx4kth15 test
+00:50:02 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 00:52:32, will wait at most till 00:57:32
+00:50:02 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:50:02 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:50:02 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:52:34 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:52:34 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:52:34 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:52:35 -     INFO - wally           - Will run hdd_rwx4kth15 test
+00:52:35 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:54:35, will wait at most till 00:59:35
+00:52:35 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:52:35 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:52:35 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:54:38 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:54:38 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:54:38 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:54:39 -     INFO - wally           - Will run hdd_rwx4kth15 test
+00:54:39 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:56:39, will wait at most till 01:01:39
+00:54:39 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:54:39 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:54:39 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:56:43 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:56:43 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:56:43 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:56:43 -     INFO - wally           - Will run hdd_rwx4kth15 test
+00:56:43 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:58:43, will wait at most till 01:03:43
+00:56:44 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:56:44 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:56:44 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:58:47 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:58:48 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:58:48 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:58:48 -     INFO - wally           - Will run hdd_rwx4kth15 test
+00:58:48 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:00:48, will wait at most till 01:05:48
+00:58:48 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:58:48 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+00:58:48 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:00:52 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:00:52 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:00:52 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:00:53 -     INFO - wally           - Will run hdd_rwx4kth15 test
+01:00:53 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:02:53, will wait at most till 01:07:53
+01:00:54 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:00:54 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:00:54 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:02:58 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:02:58 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:02:58 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:02:58 -     INFO - wally           - Will run hdd_rwx4kth15 test
+01:02:58 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:04:58, will wait at most till 01:09:58
+01:02:58 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:02:58 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:02:58 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:05:01 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:05:02 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:05:02 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:05:03 -     INFO - wally           - Will run hdd_rwx4kth25 test
+01:05:03 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 01:07:33, will wait at most till 01:12:33
+01:05:03 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:05:03 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:05:03 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:07:36 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:07:56 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:07:57 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:07:57 -     INFO - wally           - Will run hdd_rwx4kth25 test
+01:07:57 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:09:57, will wait at most till 01:14:57
+01:07:57 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:07:57 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:07:57 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:09:59 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:10:01 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:10:01 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:10:02 -     INFO - wally           - Will run hdd_rwx4kth25 test
+01:10:02 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:12:02, will wait at most till 01:17:02
+01:10:03 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:10:03 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:10:03 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:12:07 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:12:29 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:12:29 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:12:30 -     INFO - wally           - Will run hdd_rwx4kth25 test
+01:12:30 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:14:30, will wait at most till 01:19:30
+01:12:30 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:12:30 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:12:30 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:14:34 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:14:34 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:14:34 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:14:35 -     INFO - wally           - Will run hdd_rwx4kth25 test
+01:14:35 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:16:35, will wait at most till 01:21:35
+01:14:35 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:14:35 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:14:35 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:16:39 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:16:39 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:16:39 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:16:40 -     INFO - wally           - Will run hdd_rwx4kth25 test
+01:16:40 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:18:40, will wait at most till 01:23:40
+01:16:40 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:16:40 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:16:40 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:18:44 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:18:44 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:18:44 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:18:45 -     INFO - wally           - Will run hdd_rwx4kth25 test
+01:18:45 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:20:45, will wait at most till 01:25:45
+01:18:45 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:18:45 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:18:45 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:20:49 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:20:49 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:20:49 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:20:50 -     INFO - wally           - Will run hdd_rwx4kth40 test
+01:20:50 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 01:23:20, will wait at most till 01:28:20
+01:20:50 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:20:50 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:20:50 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:23:23 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:23:23 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:23:23 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:23:24 -     INFO - wally           - Will run hdd_rwx4kth40 test
+01:23:24 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:25:24, will wait at most till 01:30:24
+01:23:24 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:23:24 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:23:24 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:25:28 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:25:42 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:25:42 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:25:43 -     INFO - wally           - Will run hdd_rwx4kth40 test
+01:25:43 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:27:43, will wait at most till 01:32:43
+01:25:43 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:25:43 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:25:43 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:27:47 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:27:47 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:27:47 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:27:48 -     INFO - wally           - Will run hdd_rwx4kth40 test
+01:27:48 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:29:48, will wait at most till 01:34:48
+01:27:48 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:27:48 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:27:48 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:29:52 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:29:52 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:29:52 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:29:54 -     INFO - wally           - Will run hdd_rwx4kth40 test
+01:29:54 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:31:54, will wait at most till 01:36:54
+01:29:54 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:29:54 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:29:54 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:31:56 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:31:58 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:31:58 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:31:58 -     INFO - wally           - Will run hdd_rwx4kth40 test
+01:31:58 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:33:58, will wait at most till 01:38:58
+01:31:59 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:31:59 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:31:59 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:34:02 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:34:03 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:34:03 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:34:04 -     INFO - wally           - Will run hdd_rwx4kth40 test
+01:34:04 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:36:04, will wait at most till 01:41:04
+01:34:04 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:34:04 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:34:04 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:36:08 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:36:08 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:36:08 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:36:09 -     INFO - wally           - Will run hdd_rrd4kth1 test
+01:36:09 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 01:38:39, will wait at most till 01:43:39
+01:36:09 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:36:09 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:36:09 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:38:41 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:38:43 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:38:43 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:38:44 -     INFO - wally           - Will run hdd_rrd4kth1 test
+01:38:44 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:40:44, will wait at most till 01:45:44
+01:38:44 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:38:44 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:38:44 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:40:48 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:40:48 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:40:48 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:40:48 -     INFO - wally           - Will run hdd_rrd4kth1 test
+01:40:48 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:42:48, will wait at most till 01:47:48
+01:40:49 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:40:49 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:40:49 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:42:52 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:42:52 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:42:52 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:42:53 -     INFO - wally           - Will run hdd_rrd4kth1 test
+01:42:53 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:44:53, will wait at most till 01:49:53
+01:42:53 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:42:53 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:42:53 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:44:57 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:44:57 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:44:57 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:44:58 -     INFO - wally           - Will run hdd_rrd4kth1 test
+01:44:58 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:46:58, will wait at most till 01:51:58
+01:44:58 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:44:58 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:44:58 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:47:02 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:47:02 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:47:02 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:47:03 -     INFO - wally           - Will run hdd_rrd4kth1 test
+01:47:03 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:49:03, will wait at most till 01:54:03
+01:47:03 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:47:03 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:47:03 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:49:07 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:49:07 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:49:07 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:49:07 -     INFO - wally           - Will run hdd_rrd4kth1 test
+01:49:07 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:51:07, will wait at most till 01:56:07
+01:49:07 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:49:07 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:49:07 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:51:11 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:51:11 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:51:12 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:51:12 -     INFO - wally           - Will run hdd_rrd4kth5 test
+01:51:12 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 01:53:42, will wait at most till 01:58:42
+01:51:12 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:51:12 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:51:12 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:53:45 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:53:45 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:53:45 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:53:46 -     INFO - wally           - Will run hdd_rrd4kth5 test
+01:53:46 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:55:46, will wait at most till 02:00:46
+01:53:46 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:53:46 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:53:46 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:55:50 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:55:50 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:55:50 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:55:51 -     INFO - wally           - Will run hdd_rrd4kth5 test
+01:55:51 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:57:51, will wait at most till 02:02:51
+01:55:51 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:55:51 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:55:51 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:57:55 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:57:55 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:57:55 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:57:56 -     INFO - wally           - Will run hdd_rrd4kth5 test
+01:57:56 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:59:56, will wait at most till 02:04:56
+01:57:56 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:57:56 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+01:57:56 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:00:00 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:00:00 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:00:00 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:00:01 -     INFO - wally           - Will run hdd_rrd4kth5 test
+02:00:01 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:02:01, will wait at most till 02:07:01
+02:00:01 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:00:01 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:00:01 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:02:05 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:02:05 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:02:05 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:02:06 -     INFO - wally           - Will run hdd_rrd4kth5 test
+02:02:06 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:04:06, will wait at most till 02:09:06
+02:02:06 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:02:06 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:02:06 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:04:09 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:04:10 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:04:10 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:04:10 -     INFO - wally           - Will run hdd_rrd4kth5 test
+02:04:10 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:06:10, will wait at most till 02:11:10
+02:04:11 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:04:11 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:04:11 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:06:14 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:06:14 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:06:15 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:06:15 -     INFO - wally           - Will run hdd_rrd4kth10 test
+02:06:15 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 02:08:45, will wait at most till 02:13:45
+02:06:15 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:06:15 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:06:15 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:08:48 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:08:49 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:08:49 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:08:50 -     INFO - wally           - Will run hdd_rrd4kth10 test
+02:08:50 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:10:50, will wait at most till 02:15:50
+02:08:50 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:08:50 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:08:50 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:10:54 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:10:54 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:10:55 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:10:55 -     INFO - wally           - Will run hdd_rrd4kth10 test
+02:10:55 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:12:55, will wait at most till 02:17:55
+02:10:55 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:10:55 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:10:55 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:12:59 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:12:59 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:12:59 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:13:00 -     INFO - wally           - Will run hdd_rrd4kth10 test
+02:13:00 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:15:00, will wait at most till 02:20:00
+02:13:00 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:13:00 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:13:00 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:15:04 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:15:04 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:15:05 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:15:05 -     INFO - wally           - Will run hdd_rrd4kth10 test
+02:15:05 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:17:05, will wait at most till 02:22:05
+02:15:05 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:15:05 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:15:05 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:17:09 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:17:10 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:17:10 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:17:10 -     INFO - wally           - Will run hdd_rrd4kth10 test
+02:17:10 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:19:10, will wait at most till 02:24:10
+02:17:11 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:17:11 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:17:11 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:19:13 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:19:15 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:19:15 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:19:15 -     INFO - wally           - Will run hdd_rrd4kth10 test
+02:19:15 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:21:15, will wait at most till 02:26:15
+02:19:15 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:19:16 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:19:16 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:21:19 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:21:20 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:21:20 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:21:20 -     INFO - wally           - Will run hdd_rrd4kth15 test
+02:21:20 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 02:23:50, will wait at most till 02:28:50
+02:21:20 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:21:20 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:21:20 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:23:53 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:23:53 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:23:55 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:23:55 -     INFO - wally           - Will run hdd_rrd4kth15 test
+02:23:55 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:25:55, will wait at most till 02:30:55
+02:23:56 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:23:56 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:23:56 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:26:00 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:26:00 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:26:00 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:26:01 -     INFO - wally           - Will run hdd_rrd4kth15 test
+02:26:01 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:28:01, will wait at most till 02:33:01
+02:26:01 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:26:01 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:26:01 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:28:05 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:28:05 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:28:05 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:28:06 -     INFO - wally           - Will run hdd_rrd4kth15 test
+02:28:06 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:30:06, will wait at most till 02:35:06
+02:28:06 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:28:06 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:28:06 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:30:10 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:30:10 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:30:10 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:30:11 -     INFO - wally           - Will run hdd_rrd4kth15 test
+02:30:11 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:32:11, will wait at most till 02:37:11
+02:30:11 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:30:11 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:30:11 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:32:15 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:32:15 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:32:15 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:32:16 -     INFO - wally           - Will run hdd_rrd4kth15 test
+02:32:16 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:34:16, will wait at most till 02:39:16
+02:32:17 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:32:17 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:32:17 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:34:20 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:34:20 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:34:21 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:34:21 -     INFO - wally           - Will run hdd_rrd4kth15 test
+02:34:21 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:36:21, will wait at most till 02:41:21
+02:34:22 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:34:22 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:34:22 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:36:26 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:36:26 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:36:26 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:36:27 -     INFO - wally           - Will run hdd_rrd4kth25 test
+02:36:27 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 02:38:57, will wait at most till 02:43:57
+02:36:27 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:36:27 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:36:27 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:38:59 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:38:59 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:39:01 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:39:02 -     INFO - wally           - Will run hdd_rrd4kth25 test
+02:39:02 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:41:02, will wait at most till 02:46:02
+02:39:02 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:39:02 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:39:02 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:41:06 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:41:06 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:41:06 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:41:07 -     INFO - wally           - Will run hdd_rrd4kth25 test
+02:41:07 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:43:07, will wait at most till 02:48:07
+02:41:07 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:41:07 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:41:07 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:43:11 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:43:11 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:43:11 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:43:13 -     INFO - wally           - Will run hdd_rrd4kth25 test
+02:43:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:45:13, will wait at most till 02:50:13
+02:43:13 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:43:13 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:43:13 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:45:17 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:45:17 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:45:17 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:45:18 -     INFO - wally           - Will run hdd_rrd4kth25 test
+02:45:18 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:47:18, will wait at most till 02:52:18
+02:45:18 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:45:18 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:45:18 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:47:22 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:47:22 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:47:23 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:47:24 -     INFO - wally           - Will run hdd_rrd4kth25 test
+02:47:24 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:49:24, will wait at most till 02:54:24
+02:47:24 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:47:24 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:47:24 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:49:28 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:49:28 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:49:28 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:49:29 -     INFO - wally           - Will run hdd_rrd4kth25 test
+02:49:29 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:51:29, will wait at most till 02:56:29
+02:49:29 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:49:29 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:49:29 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:51:33 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:51:33 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:51:33 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:51:34 -     INFO - wally           - Will run hdd_rrd4kth40 test
+02:51:34 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 02:54:04, will wait at most till 02:59:04
+02:51:34 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:51:34 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:51:34 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:54:07 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:54:07 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:54:09 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:54:10 -     INFO - wally           - Will run hdd_rrd4kth40 test
+02:54:10 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:56:10, will wait at most till 03:01:10
+02:54:10 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:54:10 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:54:10 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:56:14 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:56:14 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:56:14 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:56:16 -     INFO - wally           - Will run hdd_rrd4kth40 test
+02:56:16 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:58:16, will wait at most till 03:03:16
+02:56:16 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:56:16 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:56:16 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:58:20 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:58:20 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:58:20 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:58:21 -     INFO - wally           - Will run hdd_rrd4kth40 test
+02:58:21 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:00:21, will wait at most till 03:05:21
+02:58:21 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:58:21 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+02:58:21 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:00:23 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:00:25 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:00:26 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:00:27 -     INFO - wally           - Will run hdd_rrd4kth40 test
+03:00:27 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:02:27, will wait at most till 03:07:27
+03:00:27 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:00:27 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:00:27 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:02:31 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:02:31 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:02:31 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:02:32 -     INFO - wally           - Will run hdd_rrd4kth40 test
+03:02:32 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:04:32, will wait at most till 03:09:32
+03:02:32 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:02:32 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:02:32 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:04:34 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:04:36 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:04:36 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:04:37 -     INFO - wally           - Will run hdd_rrd4kth40 test
+03:04:37 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:06:37, will wait at most till 03:11:37
+03:04:37 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:04:37 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:04:37 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:06:41 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:06:41 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:06:41 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:06:42 -     INFO - wally           - Will run hdd_srd1mth1 test
+03:06:42 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 03:09:12, will wait at most till 03:14:12
+03:06:42 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:06:42 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:06:43 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:09:15 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:09:15 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:09:17 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:09:17 -     INFO - wally           - Will run hdd_srd1mth1 test
+03:09:17 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:11:17, will wait at most till 03:16:17
+03:09:17 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:09:17 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:09:17 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:11:21 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:11:22 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:11:22 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:11:22 -     INFO - wally           - Will run hdd_srd1mth1 test
+03:11:22 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:13:22, will wait at most till 03:18:22
+03:11:22 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:11:22 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:11:22 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:13:26 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:13:26 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:13:26 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:13:27 -     INFO - wally           - Will run hdd_srd1mth1 test
+03:13:27 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:15:27, will wait at most till 03:20:27
+03:13:27 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:13:27 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:13:27 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:15:31 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:15:31 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:15:31 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:15:32 -     INFO - wally           - Will run hdd_srd1mth1 test
+03:15:32 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:17:32, will wait at most till 03:22:32
+03:15:32 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:15:32 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:15:32 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:17:36 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:17:36 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:17:36 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:17:37 -     INFO - wally           - Will run hdd_srd1mth1 test
+03:17:37 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:19:37, will wait at most till 03:24:37
+03:17:37 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:17:37 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:17:37 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:19:41 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:19:41 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:19:41 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:19:41 -     INFO - wally           - Will run hdd_srd1mth1 test
+03:19:41 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:21:41, will wait at most till 03:26:41
+03:19:42 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:19:42 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:19:42 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:21:45 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:21:46 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:21:46 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:21:47 -     INFO - wally           - Will run hdd_swd1mth1 test
+03:21:47 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 03:24:17, will wait at most till 03:29:17
+03:21:47 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:21:47 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:21:47 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:24:19 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:24:19 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:24:21 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:24:21 -     INFO - wally           - Will run hdd_swd1mth1 test
+03:24:21 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:26:21, will wait at most till 03:31:21
+03:24:22 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:24:22 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:24:22 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:26:25 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:26:25 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:26:26 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:26:26 -     INFO - wally           - Will run hdd_swd1mth1 test
+03:26:26 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:28:26, will wait at most till 03:33:26
+03:26:26 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:26:27 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:26:27 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:28:30 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:28:30 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:28:30 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:28:31 -     INFO - wally           - Will run hdd_swd1mth1 test
+03:28:31 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:30:31, will wait at most till 03:35:31
+03:28:31 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:28:31 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:28:31 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:30:33 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:30:35 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:30:35 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:30:36 -     INFO - wally           - Will run hdd_swd1mth1 test
+03:30:36 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:32:36, will wait at most till 03:37:36
+03:30:36 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:30:36 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:30:36 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:32:40 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:32:40 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:32:40 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:32:40 -     INFO - wally           - Will run hdd_swd1mth1 test
+03:32:40 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:34:40, will wait at most till 03:39:40
+03:32:41 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:32:41 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:32:41 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:34:45 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:34:45 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:34:45 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:34:45 -     INFO - wally           - Will run hdd_swd1mth1 test
+03:34:45 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:36:45, will wait at most till 03:41:45
+03:34:46 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:34:46 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:34:46 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:36:49 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:36:49 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:36:50 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:36:50 -     INFO - wally           - Will run hdd_rwd4kth1 test
+03:36:50 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 03:39:20, will wait at most till 03:44:20
+03:36:50 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:36:50 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:36:50 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:39:25 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:39:25 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:39:27 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:39:27 -     INFO - wally           - Will run hdd_rwd4kth1 test
+03:39:27 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:41:27, will wait at most till 03:46:27
+03:39:28 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:39:28 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:39:28 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:41:31 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:41:31 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:41:32 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:41:32 -     INFO - wally           - Will run hdd_rwd4kth1 test
+03:41:32 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:43:32, will wait at most till 03:48:32
+03:41:32 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:41:32 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:41:32 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:43:36 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:43:36 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:43:36 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:43:37 -     INFO - wally           - Will run hdd_rwd4kth1 test
+03:43:37 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:45:37, will wait at most till 03:50:37
+03:43:37 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:43:37 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:43:37 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:45:41 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:45:41 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:45:42 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:45:42 -     INFO - wally           - Will run hdd_rwd4kth1 test
+03:45:42 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:47:42, will wait at most till 03:52:42
+03:45:42 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:45:42 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:45:43 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:47:46 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:47:46 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:47:47 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:47:47 -     INFO - wally           - Will run hdd_rwd4kth1 test
+03:47:47 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:49:47, will wait at most till 03:54:47
+03:47:47 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:47:47 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:47:47 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:49:51 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:49:51 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:49:55 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:49:56 -     INFO - wally           - Will run hdd_rwd4kth1 test
+03:49:56 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 03:51:56, will wait at most till 03:56:56
+03:49:56 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:49:56 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:49:56 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unterrified_minerva/io/cmd.sh'
+03:52:00 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+03:52:00 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+03:52:06 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+03:52:07 -     INFO - wally           - Start store_raw_results_stage
+03:52:07 -     INFO - wally           - Start disconnect_stage
+03:52:07 -    DEBUG - wally           - Start utils.cleanup
+03:52:07 -     INFO - wally           - Start console_report_stage
+03:52:14 -     INFO - wally           - Text report were stored in /var/wally_results/unterrified_minerva/report.txt
+03:52:14 -     INFO - wally           - Start html_report_stage
+03:52:18 -    ERROR - wally.report    - Diring hdd report generation
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/wally/report.py", line 811, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "/usr/local/lib/python2.7/dist-packages/wally/report.py", line 633, in make_hdd_report
+    di = get_disk_info(perf_infos)
+  File "/usr/local/lib/python2.7/dist-packages/wally/report.py", line 591, in get_disk_info
+    th_iops_coef = (iops2 - iops1) / (th2 - th1)
+ZeroDivisionError: float division by zero
+03:52:18 -     INFO - wally           - All info stored into /var/wally_results/unterrified_minerva
+03:52:18 -     INFO - wally           - Tests finished successfully
+12:10:01 -     INFO - wally           - All info would be stored into /var/wally_results/unterrified_minerva
+12:10:01 -     INFO - wally           - Start load_data_from_path_stage
+12:10:19 -    DEBUG - wally           - Start utils.cleanup
+12:10:19 -     INFO - wally           - Start console_report_stage
+12:10:27 -     INFO - wally           - Text report were stored in /var/wally_results/unterrified_minerva/report.txt
+12:10:27 -     INFO - wally           - Start test_load_report_stage
+12:10:27 -    ERROR - wally           - During test_load_report_stage
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/wally/main.py", line 124, in log_stage
+    yield
+  File "/usr/local/lib/python2.7/dist-packages/wally/main.py", line 294, in main
+    report_stage(cfg, ctx)
+  File "/usr/local/lib/python2.7/dist-packages/wally/run_test.py", line 572, in test_load_report_stage
+    report.make_load_report(idx, cfg['results'], load_rep_fname)
+TypeError: 'Config' object has no attribute '__getitem__'
+12:10:27 -     INFO - wally           - Start html_report_stage
+12:10:31 -     INFO - wally.report    - Report hdd saved into /var/wally_results/unterrified_minerva/hdd_report.html
+12:10:31 -     INFO - wally           - All info stored into /var/wally_results/unterrified_minerva
+12:10:31 -     INFO - wally           - Tests finished successfully

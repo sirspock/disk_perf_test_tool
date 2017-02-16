@@ -1,0 +1,162 @@
+00:15:47 -     INFO - wally           - All info would be stored into /var/wally_results/untastable_garry
+00:15:47 -     INFO - wally           - Start discover_stage
+00:16:02 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:16:02 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:16:02 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:16:02 -    ERROR - paramiko.transport -     self._check_banner()
+00:16:02 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:16:02 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:16:02 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:16:02 -    ERROR - paramiko.transport - 
+00:16:08 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:16:08 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:16:08 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:16:08 -    ERROR - paramiko.transport -     self._check_banner()
+00:16:08 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:16:08 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:16:08 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:16:08 -    ERROR - paramiko.transport - 
+00:16:10 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:16:10 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:16:10 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:16:10 -    ERROR - paramiko.transport -     self._check_banner()
+00:16:10 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:16:10 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:16:10 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:16:10 -    ERROR - paramiko.transport - 
+00:16:17 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:16:17 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:16:17 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:16:17 -    ERROR - paramiko.transport -     self._check_banner()
+00:16:17 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:16:17 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:16:17 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:16:17 -    ERROR - paramiko.transport - 
+00:16:22 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:16:22 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:16:22 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:16:22 -    ERROR - paramiko.transport -     self._check_banner()
+00:16:22 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:16:22 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:16:22 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:16:22 -    ERROR - paramiko.transport - 
+00:16:23 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:16:23 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:16:23 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:16:23 -    ERROR - paramiko.transport -     self._check_banner()
+00:16:23 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:16:23 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:16:23 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:16:23 -    ERROR - paramiko.transport - 
+00:16:24 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:16:24 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:16:24 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:16:24 -    ERROR - paramiko.transport -     self._check_banner()
+00:16:24 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:16:24 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:16:24 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:16:24 -    ERROR - paramiko.transport - 
+00:16:25 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:16:25 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:16:25 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:16:25 -    ERROR - paramiko.transport -     self._check_banner()
+00:16:25 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:16:25 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:16:25 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:16:25 -    ERROR - paramiko.transport - 
+00:16:26 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:16:26 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:16:26 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:16:26 -    ERROR - paramiko.transport -     self._check_banner()
+00:16:26 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:16:26 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:16:26 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:16:26 -    ERROR - paramiko.transport - 
+00:16:33 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:16:33 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:16:33 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:16:33 -    ERROR - paramiko.transport -     self._check_banner()
+00:16:33 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:16:33 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:16:33 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:16:33 -    ERROR - paramiko.transport - 
+00:16:35 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:16:35 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:16:35 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:16:35 -    ERROR - paramiko.transport -     self._check_banner()
+00:16:35 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:16:35 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:16:35 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:16:35 -    ERROR - paramiko.transport - 
+00:16:36 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:16:36 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:16:36 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:16:36 -    ERROR - paramiko.transport -     self._check_banner()
+00:16:36 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:16:36 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:16:36 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:16:36 -    ERROR - paramiko.transport - 
+00:16:37 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:16:37 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:16:37 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:16:37 -    ERROR - paramiko.transport -     self._check_banner()
+00:16:37 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:16:37 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:16:37 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:16:37 -    ERROR - paramiko.transport - 
+00:16:38 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:16:38 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:16:38 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:16:38 -    ERROR - paramiko.transport -     self._check_banner()
+00:16:38 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:16:38 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:16:38 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:16:38 -    ERROR - paramiko.transport - 
+00:16:41 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:16:41 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:16:41 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:16:41 -    ERROR - paramiko.transport -     self._check_banner()
+00:16:41 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:16:41 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:16:41 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:16:41 -    ERROR - paramiko.transport - 
+00:16:45 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:16:45 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:16:45 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:16:45 -    ERROR - paramiko.transport -     self._check_banner()
+00:16:45 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:16:45 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:16:45 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:16:45 -    ERROR - paramiko.transport - 
+00:16:47 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+00:16:47 -    ERROR - paramiko.transport - Traceback (most recent call last):
+00:16:47 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+00:16:47 -    ERROR - paramiko.transport -     self._check_banner()
+00:16:47 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+00:16:47 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+00:16:47 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+00:16:47 -    ERROR - paramiko.transport - 
+00:16:47 -    ERROR - wally           - During discover_stage
+Traceback (most recent call last):
+  File "wally/main.py", line 124, in log_stage
+    yield
+  File "wally/main.py", line 276, in main
+    stage(cfg, ctx)
+  File "wally/run_test.py", line 275, in discover_stage
+    not cfg.dont_discover_nodes)
+  File "wally/discover/discover.py", line 100, in discover
+    nodes_to_run.extend(ceph.discover_ceph_nodes(cluster_info))
+  File "wally/discover/ceph.py", line 30, in discover_ceph_nodes
+    executor = ssh_execute(connect(ip))
+  File "wally/ssh_utils.py", line 376, in connect
+    res = ssh_connect(creds, **params)
+  File "wally/ssh_utils.py", line 141, in ssh_connect
+    **banner_timeout)
+  File "/usr/local/lib/python2.7/dist-packages/paramiko/client.py", line 325, in connect
+    t.start_client()
+  File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 492, in start_client
+    raise e
+SSHException: Error reading SSH protocol banner
+00:16:47 -    DEBUG - wally           - Start utils.cleanup
+00:16:47 -     INFO - wally           - All info stored into /var/wally_results/untastable_garry
+00:16:47 -    ERROR - wally           - Tests are failed. See detailed error above

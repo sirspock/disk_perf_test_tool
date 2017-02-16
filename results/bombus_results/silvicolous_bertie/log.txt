@@ -1,0 +1,2 @@
+12:36:48 -     INFO - wally           - All info would be stored into /var/wally_results/silvicolous_bertie
+12:36:48 -     INFO - wally           - Start discover_stage

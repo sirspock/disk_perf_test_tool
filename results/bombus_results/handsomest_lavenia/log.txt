@@ -1,0 +1,11 @@
+12:09:43 -     INFO - wally           - All info would be stored into /var/wally_results/handsomest_lavenia
+12:09:43 -     INFO - wally           - Start discover_stage
+12:09:50 -     INFO - wally           - Start reuse_vms_stage
+12:09:50 -     INFO - wally           - Start log_nodes_statistic_stage
+12:09:50 -     INFO - wally           - Found 7 nodes total
+12:09:50 -    DEBUG - wally           - Found 3 nodes with role ceph-mon
+12:09:50 -    DEBUG - wally           - Found 3 nodes with role ceph-osd
+12:09:50 -    DEBUG - wally           - Found 1 nodes with role testnode
+12:09:50 -     INFO - wally           - Start save_nodes_stage
+12:09:50 -     INFO - wally           - Start connect_stage
+12:09:50 -     INFO - wally           - Connecting to nodes

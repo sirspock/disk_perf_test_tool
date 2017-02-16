@@ -1,0 +1,2 @@
+11:59:16 -     INFO - wally           - All info would be stored into /var/wally_results/nonconditional_kaia
+11:59:16 -     INFO - wally           - Start discover_stage

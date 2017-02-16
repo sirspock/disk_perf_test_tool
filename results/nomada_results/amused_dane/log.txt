@@ -1,0 +1,83 @@
+15:04:38 -     INFO - wally           - All info would be stored into /home/mosorio/wally/results/nomada_results/amused_dane
+15:04:38 -     INFO - wally           - Start discover_stage
+15:04:38 -     INFO - wally           - Start reuse_vms_stage
+15:04:38 -     INFO - wally           - Start log_nodes_statistic_stage
+15:04:38 -     INFO - wally           - Found 1 nodes total
+15:04:38 -    DEBUG - wally           - Found 1 nodes with role testnode
+15:04:38 -     INFO - wally           - Start save_nodes_stage
+15:04:38 -     INFO - wally           - Start connect_stage
+15:04:38 -     INFO - wally           - Connecting to nodes
+15:04:38 -     INFO - wally           - All nodes connected successfully
+15:04:38 -     INFO - wally           - Start run_tests_stage
+15:04:38 -    DEBUG - wally           - Run preparation
+15:04:41 -    DEBUG - wally           - prefill is skipped
+15:04:41 -     INFO - wally           - Entire test should takes aroud: 0:41:15 and finished at 15:45:56
+15:04:41 -     INFO - wally           - Will run hdd_rwx4kth1 test
+15:04:41 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:07:11, will wait at most till 15:12:11
+15:04:41 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/amused_dane/io/cmd.sh'
+15:07:13 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+15:07:14 -     INFO - wally           - Will run hdd_rwx4kth5 test
+15:07:14 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:09:44, will wait at most till 15:14:44
+15:07:14 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/amused_dane/io/cmd.sh'
+15:09:47 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+15:09:47 -     INFO - wally           - Will run hdd_rwx4kth10 test
+15:09:47 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:12:17, will wait at most till 15:17:17
+15:09:48 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/amused_dane/io/cmd.sh'
+15:12:21 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+15:12:21 -     INFO - wally           - Will run hdd_rwx4kth15 test
+15:12:21 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:14:51, will wait at most till 15:19:51
+15:12:21 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/amused_dane/io/cmd.sh'
+15:14:55 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+15:14:56 -     INFO - wally           - Will run hdd_rwx4kth25 test
+15:14:56 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:17:26, will wait at most till 15:22:26
+15:14:56 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/amused_dane/io/cmd.sh'
+15:17:30 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+15:17:30 -     INFO - wally           - Will run hdd_rwx4kth40 test
+15:17:30 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:20:00, will wait at most till 15:25:00
+15:17:30 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/amused_dane/io/cmd.sh'
+15:20:09 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+15:20:10 -     INFO - wally           - Will run hdd_rrd4kth1 test
+15:20:10 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:22:40, will wait at most till 15:27:40
+15:20:10 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/amused_dane/io/cmd.sh'
+15:22:47 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+15:22:48 -     INFO - wally           - Will run hdd_rrd4kth5 test
+15:22:48 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:25:18, will wait at most till 15:30:18
+15:22:48 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/amused_dane/io/cmd.sh'
+15:25:22 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+15:25:23 -     INFO - wally           - Will run hdd_rrd4kth10 test
+15:25:23 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:27:53, will wait at most till 15:32:53
+15:25:23 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/amused_dane/io/cmd.sh'
+15:27:57 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+15:27:58 -     INFO - wally           - Will run hdd_rrd4kth15 test
+15:27:58 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:30:28, will wait at most till 15:35:28
+15:27:58 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/amused_dane/io/cmd.sh'
+15:30:30 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+15:30:31 -     INFO - wally           - Will run hdd_rrd4kth25 test
+15:30:31 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:33:01, will wait at most till 15:38:01
+15:30:31 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/amused_dane/io/cmd.sh'
+15:33:05 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+15:33:06 -     INFO - wally           - Will run hdd_rrd4kth40 test
+15:33:06 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:35:36, will wait at most till 15:40:36
+15:33:06 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/amused_dane/io/cmd.sh'
+15:35:39 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+15:35:40 -     INFO - wally           - Will run hdd_srd1mth1 test
+15:35:40 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:38:10, will wait at most till 15:43:10
+15:35:40 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/amused_dane/io/cmd.sh'
+15:38:13 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+15:38:14 -     INFO - wally           - Will run hdd_swd1mth1 test
+15:38:14 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:40:44, will wait at most till 15:45:44
+15:38:14 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/amused_dane/io/cmd.sh'
+15:40:47 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+15:40:48 -     INFO - wally           - Will run hdd_rwd4kth1 test
+15:40:48 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 15:43:18, will wait at most till 15:48:18
+15:40:48 -    DEBUG - wally           - SSH:170.80.74.57:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/amused_dane/io/cmd.sh'
+15:43:23 -    DEBUG - wally           - Test on node 170.80.74.57_22 is finished
+15:43:23 -     INFO - wally           - Start store_raw_results_stage
+15:43:23 -     INFO - wally           - Start disconnect_stage
+15:43:23 -    DEBUG - wally           - Start utils.cleanup
+15:43:23 -     INFO - wally           - Start console_report_stage
+15:43:24 -     INFO - wally           - Text report were stored in /home/mosorio/wally/results/nomada_results/amused_dane/report.txt
+15:43:24 -     INFO - wally           - Start html_report_stage
+15:43:26 -     INFO - wally.report    - Report hdd saved into /home/mosorio/wally/results/nomada_results/amused_dane/hdd_report.html
+15:43:26 -     INFO - wally           - All info stored into /home/mosorio/wally/results/nomada_results/amused_dane
+15:43:26 -     INFO - wally           - Tests finished successfully

@@ -1,0 +1,19 @@
+12:25:19 -     INFO - wally           - All info would be stored into /var/wally_results/unmannish_lindy
+12:25:19 -     INFO - wally           - Start discover_stage
+12:25:19 -     INFO - wally           - Start reuse_vms_stage
+12:25:19 -     INFO - wally           - Start log_nodes_statistic_stage
+12:25:19 -     INFO - wally           - Found 1 nodes total
+12:25:19 -    DEBUG - wally           - Found 1 nodes with role testnode
+12:25:19 -     INFO - wally           - Start save_nodes_stage
+12:25:19 -     INFO - wally           - Start connect_stage
+12:25:19 -     INFO - wally           - Connecting to nodes
+12:25:20 -     INFO - wally           - All nodes connected successfully
+12:25:20 -     INFO - wally           - Start run_tests_stage
+12:25:20 -    DEBUG - wally           - Run preparation
+12:25:21 -     INFO - wally           - Prefilling file /test/ssd
+12:25:21 -    DEBUG - wally           - SSH:138.219.230.20:22 Exec 'sudo fio --name=xxx --filename=/test/ssd --direct=1 --bs=4m --size=10240m --rw=write'
+12:25:46 -     INFO - wally           - Initiall fio fill bw is 399 MiBps for this vm
+12:25:46 -     INFO - wally           - Entire test should takes aroud: 0:41:15 and finished at 13:07:01
+12:25:46 -     INFO - wally           - Will run hdd_rwx4kth1 test
+12:25:46 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 12:28:16, will wait at most till 12:33:16
+12:25:46 -    DEBUG - wally           - SSH:138.219.230.20:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unmannish_lindy/io/cmd.sh'

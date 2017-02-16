@@ -1,0 +1,189 @@
+17:12:59 -     INFO - wally           - All info would be stored into /var/wally_results/unopiatic_diamond
+17:12:59 -     INFO - wally           - Start discover_stage
+17:13:06 -     INFO - wally           - Start reuse_vms_stage
+17:13:06 -     INFO - wally           - Start log_nodes_statistic_stage
+17:13:06 -     INFO - wally           - Found 7 nodes total
+17:13:06 -    DEBUG - wally           - Found 3 nodes with role ceph-mon
+17:13:06 -    DEBUG - wally           - Found 3 nodes with role ceph-osd
+17:13:06 -    DEBUG - wally           - Found 1 nodes with role testnode
+17:13:06 -     INFO - wally           - Start save_nodes_stage
+17:13:06 -     INFO - wally           - Start connect_stage
+17:13:06 -     INFO - wally           - Connecting to nodes
+17:13:21 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+17:13:21 -    ERROR - paramiko.transport - Traceback (most recent call last):
+17:13:21 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+17:13:21 -    ERROR - paramiko.transport -     self._check_banner()
+17:13:21 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+17:13:21 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+17:13:21 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+17:13:21 -    ERROR - paramiko.transport - 
+17:13:24 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+17:13:24 -    ERROR - paramiko.transport - Traceback (most recent call last):
+17:13:24 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+17:13:24 -    ERROR - paramiko.transport -     self._check_banner()
+17:13:24 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+17:13:24 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+17:13:24 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+17:13:24 -    ERROR - paramiko.transport - 
+17:13:27 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+17:13:27 -    ERROR - paramiko.transport - Traceback (most recent call last):
+17:13:27 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+17:13:27 -    ERROR - paramiko.transport -     self._check_banner()
+17:13:27 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+17:13:27 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+17:13:27 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+17:13:27 -    ERROR - paramiko.transport - 
+17:13:28 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+17:13:28 -    ERROR - paramiko.transport - Traceback (most recent call last):
+17:13:28 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+17:13:28 -    ERROR - paramiko.transport -     self._check_banner()
+17:13:28 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+17:13:28 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+17:13:28 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+17:13:28 -    ERROR - paramiko.transport - 
+17:13:29 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+17:13:29 -    ERROR - paramiko.transport - Traceback (most recent call last):
+17:13:29 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+17:13:29 -    ERROR - paramiko.transport -     self._check_banner()
+17:13:29 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+17:13:29 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+17:13:29 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+17:13:29 -    ERROR - paramiko.transport - 
+17:13:30 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+17:13:30 -    ERROR - paramiko.transport - Traceback (most recent call last):
+17:13:30 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+17:13:30 -    ERROR - paramiko.transport -     self._check_banner()
+17:13:30 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+17:13:30 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+17:13:30 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+17:13:30 -    ERROR - paramiko.transport - 
+17:13:32 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+17:13:32 -    ERROR - paramiko.transport - Traceback (most recent call last):
+17:13:32 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+17:13:32 -    ERROR - paramiko.transport -     self._check_banner()
+17:13:32 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+17:13:32 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+17:13:32 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+17:13:32 -    ERROR - paramiko.transport - 
+17:13:34 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+17:13:34 -    ERROR - paramiko.transport - Traceback (most recent call last):
+17:13:34 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+17:13:34 -    ERROR - paramiko.transport -     self._check_banner()
+17:13:34 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+17:13:34 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+17:13:34 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+17:13:34 -    ERROR - paramiko.transport - 
+17:13:36 -    ERROR - wally           - During connect to 172.17.3.1: timed out
+17:13:36 -    ERROR - wally           - During connect to 172.17.3.2: timed out
+17:13:36 -    ERROR - wally           - During connect to 172.17.3.3: timed out
+17:13:37 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+17:13:37 -    ERROR - paramiko.transport - Traceback (most recent call last):
+17:13:37 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+17:13:37 -    ERROR - paramiko.transport -     self._check_banner()
+17:13:37 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+17:13:37 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+17:13:37 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+17:13:37 -    ERROR - paramiko.transport - 
+17:13:37 -    ERROR - wally           - During connect to 172.17.1.3: Error reading SSH protocol banner
+17:13:38 -  WARNING - wally           - Node(s) 172.17.3.1:22,172.17.3.3:22,172.17.3.2:22,172.17.1.3:22 would be excluded - can't connect
+17:13:38 -     INFO - wally           - Start run_tests_stage
+17:13:38 -    DEBUG - wally.sensors   - Installing sensors on 0 nodes
+17:13:38 -    DEBUG - wally.sensors   - Starting sensors on 0 nodes
+17:13:38 -    DEBUG - wally           - Run preparation
+17:13:39 -     INFO - wally           - Prefilling file /dev/rbd0
+17:13:39 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'sudo fio --name=xxx --filename=/dev/rbd0 --direct=1 --bs=4m --size=20480m --rw=write'
+17:15:19 -     INFO - wally           - Initiall fio fill bw is 204 MiBps for this vm
+17:15:19 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 18:36:10
+17:15:19 -     INFO - wally           - Will run ceph_rws4kth1 test
+17:15:19 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 17:18:49, will wait at most till 17:23:49
+17:15:20 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+17:18:53 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+17:18:54 -     INFO - wally           - Will run ceph_rws4kth5 test
+17:18:54 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 17:22:24, will wait at most till 17:27:24
+17:18:54 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+17:22:28 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+17:22:29 -     INFO - wally           - Will run ceph_rws4kth10 test
+17:22:29 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 17:25:59, will wait at most till 17:30:59
+17:22:29 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+17:26:03 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+17:26:03 -     INFO - wally           - Will run ceph_rws4kth15 test
+17:26:03 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 17:29:33, will wait at most till 17:34:33
+17:26:03 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+17:29:37 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+17:29:37 -     INFO - wally           - Will run ceph_rws4kth25 test
+17:29:37 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 17:33:07, will wait at most till 17:38:07
+17:29:37 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+17:33:11 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+17:33:12 -     INFO - wally           - Will run ceph_rws4kth40 test
+17:33:12 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 17:36:42, will wait at most till 17:41:42
+17:33:12 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+17:36:46 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+17:36:47 -     INFO - wally           - Will run ceph_rrd4kth1 test
+17:36:47 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 17:40:17, will wait at most till 17:45:17
+17:36:47 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+17:40:20 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+17:40:20 -     INFO - wally           - Will run ceph_rrd4kth5 test
+17:40:20 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 17:43:50, will wait at most till 17:48:50
+17:40:21 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+17:43:55 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+17:43:55 -     INFO - wally           - Will run ceph_rrd4kth10 test
+17:43:55 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 17:47:25, will wait at most till 17:52:25
+17:43:55 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+17:47:29 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+17:47:30 -     INFO - wally           - Will run ceph_rrd4kth15 test
+17:47:30 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 17:51:00, will wait at most till 17:56:00
+17:47:30 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+17:51:02 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+17:51:02 -     INFO - wally           - Will run ceph_rrd4kth25 test
+17:51:02 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 17:54:32, will wait at most till 17:59:32
+17:51:03 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+17:54:37 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+17:54:37 -     INFO - wally           - Will run ceph_rrd4kth40 test
+17:54:37 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 17:58:07, will wait at most till 18:03:07
+17:54:38 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+17:58:10 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+17:58:11 -     INFO - wally           - Will run ceph_rrd4kth80 test
+17:58:11 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 18:01:41, will wait at most till 18:06:41
+17:58:11 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+18:01:45 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+18:01:46 -     INFO - wally           - Will run ceph_rrd4kth120 test
+18:01:46 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 18:05:16, will wait at most till 18:10:16
+18:01:47 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+18:05:21 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+18:05:22 -     INFO - wally           - Will run ceph_rwd4kth1 test
+18:05:22 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 18:08:52, will wait at most till 18:13:52
+18:05:22 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+18:08:56 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+18:08:57 -     INFO - wally           - Will run ceph_rrd16mth1 test
+18:08:57 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 18:12:27, will wait at most till 18:17:27
+18:08:57 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+18:12:30 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+18:12:31 -     INFO - wally           - Will run ceph_rrd16mth3 test
+18:12:31 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 18:16:01, will wait at most till 18:21:01
+18:12:31 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+18:16:05 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+18:16:05 -     INFO - wally           - Will run ceph_rrd16mth10 test
+18:16:05 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 18:19:35, will wait at most till 18:24:35
+18:16:05 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+18:19:39 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+18:19:40 -     INFO - wally           - Will run ceph_rwd16mth1 test
+18:19:40 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 18:23:10, will wait at most till 18:28:10
+18:19:40 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+18:23:14 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+18:23:15 -     INFO - wally           - Will run ceph_rwd16mth3 test
+18:23:15 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 18:26:45, will wait at most till 18:31:45
+18:23:15 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+18:26:49 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+18:26:49 -     INFO - wally           - Will run ceph_rwd16mth10 test
+18:26:49 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 18:30:19, will wait at most till 18:35:19
+18:26:49 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unopiatic_diamond/io/cmd.sh'
+18:30:24 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+18:30:24 -     INFO - wally           - Start store_raw_results_stage
+18:30:24 -     INFO - wally           - Start disconnect_stage
+18:30:24 -    DEBUG - wally           - Start utils.cleanup
+18:30:24 -     INFO - wally           - Start console_report_stage
+18:30:26 -     INFO - wally           - Text report were stored in /var/wally_results/unopiatic_diamond/report.txt
+18:30:26 -     INFO - wally           - Start html_report_stage
+18:30:27 -     INFO - wally.report    - Report ceph saved into /var/wally_results/unopiatic_diamond/ceph_report.html
+18:30:27 -     INFO - wally           - All info stored into /var/wally_results/unopiatic_diamond
+18:30:27 -     INFO - wally           - Tests finished successfully

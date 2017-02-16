@@ -1,0 +1,13 @@
+12:22:22 -     INFO - wally           - All info would be stored into /var/wally_results/unrestrainable_braelyn
+12:22:22 -     INFO - wally           - Start discover_stage
+12:22:22 -     INFO - wally           - Start reuse_vms_stage
+12:22:22 -     INFO - wally           - Start log_nodes_statistic_stage
+12:22:22 -     INFO - wally           - Found 1 nodes total
+12:22:22 -    DEBUG - wally           - Found 1 nodes with role testnode
+12:22:22 -     INFO - wally           - Start save_nodes_stage
+12:22:22 -     INFO - wally           - Start connect_stage
+12:22:22 -     INFO - wally           - Connecting to nodes
+12:22:22 -     INFO - wally           - All nodes connected successfully
+12:22:22 -     INFO - wally           - Start run_tests_stage
+12:22:22 -    DEBUG - wally           - Run preparation
+12:22:23 -    DEBUG - wally           - SSH:138.219.230.20:22 Exec 'sudo yum -y install screen fio'

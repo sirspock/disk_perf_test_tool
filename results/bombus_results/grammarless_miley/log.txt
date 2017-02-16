@@ -1,0 +1,875 @@
+22:21:34 -     INFO - wally           - All info would be stored into /var/wally_results/grammarless_miley
+22:21:34 -     INFO - wally           - Start discover_stage
+22:21:34 -     INFO - wally           - Start reuse_vms_stage
+22:21:34 -     INFO - wally           - Start log_nodes_statistic_stage
+22:21:34 -     INFO - wally           - Found 3 nodes total
+22:21:34 -    DEBUG - wally           - Found 3 nodes with role testnode
+22:21:34 -     INFO - wally           - Start save_nodes_stage
+22:21:34 -     INFO - wally           - Start connect_stage
+22:21:34 -     INFO - wally           - Connecting to nodes
+22:21:35 -     INFO - wally           - All nodes connected successfully
+22:21:35 -     INFO - wally           - Start run_tests_stage
+22:21:35 -    DEBUG - wally           - Run preparation
+22:21:36 -     INFO - wally           - Prefilling file /test/ssd
+22:21:36 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'sudo fio --name=xxx --filename=/test/ssd --direct=1 --bs=4m --size=10240m --rw=write'
+22:21:37 -    DEBUG - wally           - prefill is skipped
+22:21:37 -    DEBUG - wally           - prefill is skipped
+22:22:31 -     INFO - wally           - Initiall fio fill bw is 185 MiBps for this vm
+22:22:31 -     INFO - wally           - Entire test should takes aroud: 3:59:15 and finished at 02:21:46
+22:22:31 -     INFO - wally           - Will run hdd_rwx4kth1 test
+22:22:31 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 22:25:01, will wait at most till 22:30:01
+22:22:31 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:22:31 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:22:31 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:25:04 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:25:05 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:25:06 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:25:06 -     INFO - wally           - Will run hdd_rwx4kth1 test
+22:25:06 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:27:06, will wait at most till 22:32:06
+22:25:06 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:25:06 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:25:06 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:27:10 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:27:10 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:27:10 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:27:11 -     INFO - wally           - Will run hdd_rwx4kth1 test
+22:27:11 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:29:11, will wait at most till 22:34:11
+22:27:11 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:27:11 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:27:11 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:29:15 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:29:15 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:29:15 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:29:15 -     INFO - wally           - Will run hdd_rwx4kth1 test
+22:29:15 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:31:15, will wait at most till 22:36:15
+22:29:16 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:29:16 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:29:16 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:31:18 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:31:20 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:31:20 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:31:20 -     INFO - wally           - Will run hdd_rwx4kth1 test
+22:31:20 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:33:20, will wait at most till 22:38:20
+22:31:20 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:31:20 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:31:20 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:33:23 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:33:23 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:33:24 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:33:24 -     INFO - wally           - Will run hdd_rwx4kth1 test
+22:33:24 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:35:24, will wait at most till 22:40:24
+22:33:25 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:33:25 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:33:25 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:35:28 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:35:29 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:35:29 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:35:29 -     INFO - wally           - Will run hdd_rwx4kth1 test
+22:35:29 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:37:29, will wait at most till 22:42:29
+22:35:29 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:35:29 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:35:29 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:37:33 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:37:33 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:37:33 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:37:33 -     INFO - wally           - Will run hdd_rwx4kth5 test
+22:37:33 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 22:40:03, will wait at most till 22:45:03
+22:37:34 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:37:34 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:37:34 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:40:06 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:40:08 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:40:08 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:40:08 -     INFO - wally           - Will run hdd_rwx4kth5 test
+22:40:08 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:42:08, will wait at most till 22:47:08
+22:40:08 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:40:08 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:40:08 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:42:12 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:42:12 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:42:13 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:42:13 -     INFO - wally           - Will run hdd_rwx4kth5 test
+22:42:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:44:13, will wait at most till 22:49:13
+22:42:14 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:42:14 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:42:14 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:44:18 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:44:18 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:44:18 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:44:19 -     INFO - wally           - Will run hdd_rwx4kth5 test
+22:44:19 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:46:19, will wait at most till 22:51:19
+22:44:19 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:44:19 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:44:19 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:46:23 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:46:23 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:46:23 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:46:23 -     INFO - wally           - Will run hdd_rwx4kth5 test
+22:46:23 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:48:23, will wait at most till 22:53:23
+22:46:24 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:46:24 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:46:24 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:48:28 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:48:28 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:48:28 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:48:28 -     INFO - wally           - Will run hdd_rwx4kth5 test
+22:48:28 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:50:28, will wait at most till 22:55:28
+22:48:28 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:48:28 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:48:29 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:50:32 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:50:32 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:50:33 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:50:33 -     INFO - wally           - Will run hdd_rwx4kth5 test
+22:50:33 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:52:33, will wait at most till 22:57:33
+22:50:33 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:50:33 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:50:33 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:52:36 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:52:36 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:52:37 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:52:38 -     INFO - wally           - Will run hdd_rwx4kth10 test
+22:52:38 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 22:55:08, will wait at most till 23:00:08
+22:52:38 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:52:38 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:52:38 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:55:10 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:55:11 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:55:14 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:55:14 -     INFO - wally           - Will run hdd_rwx4kth10 test
+22:55:14 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:57:14, will wait at most till 23:02:14
+22:55:15 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:55:15 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:55:15 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:57:19 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:57:19 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:57:19 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:57:19 -     INFO - wally           - Will run hdd_rwx4kth10 test
+22:57:19 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 22:59:19, will wait at most till 23:04:19
+22:57:20 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:57:20 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:57:20 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:59:23 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+22:59:23 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+22:59:24 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+22:59:24 -     INFO - wally           - Will run hdd_rwx4kth10 test
+22:59:24 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:01:24, will wait at most till 23:06:24
+22:59:24 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:59:24 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+22:59:24 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:01:28 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:01:28 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:01:29 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:01:29 -     INFO - wally           - Will run hdd_rwx4kth10 test
+23:01:29 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:03:29, will wait at most till 23:08:29
+23:01:29 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:01:29 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:01:29 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:03:33 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:03:33 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:03:34 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:03:34 -     INFO - wally           - Will run hdd_rwx4kth10 test
+23:03:34 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:05:34, will wait at most till 23:10:34
+23:03:34 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:03:34 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:03:34 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:05:38 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:05:38 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:05:38 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:05:39 -     INFO - wally           - Will run hdd_rwx4kth10 test
+23:05:39 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:07:39, will wait at most till 23:12:39
+23:05:39 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:05:39 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:05:39 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:07:43 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:07:43 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:07:43 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:07:44 -     INFO - wally           - Will run hdd_rwx4kth15 test
+23:07:44 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:10:14, will wait at most till 23:15:14
+23:07:44 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:07:44 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:07:44 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:10:16 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:10:16 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:10:18 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:10:19 -     INFO - wally           - Will run hdd_rwx4kth15 test
+23:10:19 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:12:19, will wait at most till 23:17:19
+23:10:19 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:10:19 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:10:19 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:12:23 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:12:23 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:12:23 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:12:24 -     INFO - wally           - Will run hdd_rwx4kth15 test
+23:12:24 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:14:24, will wait at most till 23:19:24
+23:12:24 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:12:24 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:12:24 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:14:28 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:14:28 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:14:28 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:14:28 -     INFO - wally           - Will run hdd_rwx4kth15 test
+23:14:28 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:16:28, will wait at most till 23:21:28
+23:14:29 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:14:29 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:14:29 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:16:32 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:16:33 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:16:33 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:16:34 -     INFO - wally           - Will run hdd_rwx4kth15 test
+23:16:34 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:18:34, will wait at most till 23:23:34
+23:16:34 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:16:34 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:16:34 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:18:38 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:18:38 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:18:38 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:18:38 -     INFO - wally           - Will run hdd_rwx4kth15 test
+23:18:38 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:20:38, will wait at most till 23:25:38
+23:18:39 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:18:39 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:18:39 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:20:43 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:20:43 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:20:43 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:20:44 -     INFO - wally           - Will run hdd_rwx4kth15 test
+23:20:44 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:22:44, will wait at most till 23:27:44
+23:20:44 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:20:44 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:20:44 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:22:48 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:22:48 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:22:48 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:22:49 -     INFO - wally           - Will run hdd_rwx4kth25 test
+23:22:49 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:25:19, will wait at most till 23:30:19
+23:22:49 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:22:49 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:22:49 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:25:23 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:25:23 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:25:27 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:25:28 -     INFO - wally           - Will run hdd_rwx4kth25 test
+23:25:28 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:27:28, will wait at most till 23:32:28
+23:25:28 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:25:28 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:25:28 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:27:32 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:27:32 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:27:32 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:27:33 -     INFO - wally           - Will run hdd_rwx4kth25 test
+23:27:33 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:29:33, will wait at most till 23:34:33
+23:27:33 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:27:33 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:27:33 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:29:37 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:29:37 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:29:37 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:29:37 -     INFO - wally           - Will run hdd_rwx4kth25 test
+23:29:37 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:31:37, will wait at most till 23:36:37
+23:29:37 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:29:38 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:29:38 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:31:41 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:31:41 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:31:42 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:31:42 -     INFO - wally           - Will run hdd_rwx4kth25 test
+23:31:42 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:33:42, will wait at most till 23:38:42
+23:31:43 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:31:43 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:31:43 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:33:45 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:33:46 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:33:47 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:33:47 -     INFO - wally           - Will run hdd_rwx4kth25 test
+23:33:47 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:35:47, will wait at most till 23:40:47
+23:33:48 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:33:48 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:33:48 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:35:52 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:35:52 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:35:52 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:35:53 -     INFO - wally           - Will run hdd_rwx4kth25 test
+23:35:53 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:37:53, will wait at most till 23:42:53
+23:35:53 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:35:53 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:35:53 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:37:57 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:37:57 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:37:57 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:37:57 -     INFO - wally           - Will run hdd_rwx4kth40 test
+23:37:57 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:40:27, will wait at most till 23:45:27
+23:37:58 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:37:58 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:37:58 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:40:32 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:40:32 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:40:32 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:40:33 -     INFO - wally           - Will run hdd_rwx4kth40 test
+23:40:33 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:42:33, will wait at most till 23:47:33
+23:40:33 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:40:33 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:40:33 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:42:37 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:42:37 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:42:38 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:42:38 -     INFO - wally           - Will run hdd_rwx4kth40 test
+23:42:38 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:44:38, will wait at most till 23:49:38
+23:42:39 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:42:39 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:42:39 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:44:42 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:44:43 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:44:43 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:44:44 -     INFO - wally           - Will run hdd_rwx4kth40 test
+23:44:44 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:46:44, will wait at most till 23:51:44
+23:44:44 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:44:44 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:44:44 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:46:48 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:46:48 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:46:48 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:46:49 -     INFO - wally           - Will run hdd_rwx4kth40 test
+23:46:49 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:48:49, will wait at most till 23:53:49
+23:46:49 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:46:49 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:46:49 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:48:53 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:48:53 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:48:54 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:48:54 -     INFO - wally           - Will run hdd_rwx4kth40 test
+23:48:54 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:50:54, will wait at most till 23:55:54
+23:48:55 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:48:55 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:48:55 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:50:58 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:50:58 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:50:59 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:51:00 -     INFO - wally           - Will run hdd_rwx4kth40 test
+23:51:00 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:53:00, will wait at most till 23:58:00
+23:51:00 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:51:00 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:51:00 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:53:04 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:53:04 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:53:18 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:53:19 -     INFO - wally           - Will run hdd_rrd4kth1 test
+23:53:19 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:55:49, will wait at most till 00:00:49
+23:53:19 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:53:19 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:53:19 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:55:51 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:55:52 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:55:53 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:55:53 -     INFO - wally           - Will run hdd_rrd4kth1 test
+23:55:53 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:57:53, will wait at most till 00:02:53
+23:55:54 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:55:54 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:55:54 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:57:58 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+23:57:58 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+23:57:58 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:57:58 -     INFO - wally           - Will run hdd_rrd4kth1 test
+23:57:58 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 23:59:58, will wait at most till 00:04:58
+23:57:59 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:57:59 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+23:57:59 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:00:03 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:00:03 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:00:03 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:00:03 -     INFO - wally           - Will run hdd_rrd4kth1 test
+00:00:03 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:02:03, will wait at most till 00:07:03
+00:00:04 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:00:04 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:00:04 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:02:07 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:02:08 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:02:08 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:02:09 -     INFO - wally           - Will run hdd_rrd4kth1 test
+00:02:09 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:04:09, will wait at most till 00:09:09
+00:02:09 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:02:09 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:02:09 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:04:13 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:04:13 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:04:13 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:04:13 -     INFO - wally           - Will run hdd_rrd4kth1 test
+00:04:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:06:13, will wait at most till 00:11:13
+00:04:13 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:04:14 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:04:14 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:06:17 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:06:18 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:06:18 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:06:18 -     INFO - wally           - Will run hdd_rrd4kth1 test
+00:06:18 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:08:18, will wait at most till 00:13:18
+00:06:18 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:06:18 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:06:18 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:08:22 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:08:22 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:08:22 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:08:23 -     INFO - wally           - Will run hdd_rrd4kth5 test
+00:08:23 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 00:10:53, will wait at most till 00:15:53
+00:08:23 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:08:23 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:08:23 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:10:55 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:10:56 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:10:57 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:10:58 -     INFO - wally           - Will run hdd_rrd4kth5 test
+00:10:58 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:12:58, will wait at most till 00:17:58
+00:10:58 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:10:58 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:10:58 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:13:02 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:13:02 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:13:02 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:13:03 -     INFO - wally           - Will run hdd_rrd4kth5 test
+00:13:03 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:15:03, will wait at most till 00:20:03
+00:13:03 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:13:03 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:13:03 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:15:07 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:15:07 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:15:07 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:15:08 -     INFO - wally           - Will run hdd_rrd4kth5 test
+00:15:08 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:17:08, will wait at most till 00:22:08
+00:15:08 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:15:08 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:15:08 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:17:12 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:17:12 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:17:12 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:17:13 -     INFO - wally           - Will run hdd_rrd4kth5 test
+00:17:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:19:13, will wait at most till 00:24:13
+00:17:13 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:17:13 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:17:13 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:19:16 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:19:17 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:19:17 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:19:17 -     INFO - wally           - Will run hdd_rrd4kth5 test
+00:19:17 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:21:17, will wait at most till 00:26:17
+00:19:18 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:19:18 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:19:18 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:21:22 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:21:22 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:21:22 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:21:23 -     INFO - wally           - Will run hdd_rrd4kth5 test
+00:21:23 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:23:23, will wait at most till 00:28:23
+00:21:23 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:21:23 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:21:23 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:23:25 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:23:27 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:23:27 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:23:28 -     INFO - wally           - Will run hdd_rrd4kth10 test
+00:23:28 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 00:25:58, will wait at most till 00:30:58
+00:23:28 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:23:28 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:23:28 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:26:02 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:26:02 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:26:02 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:26:03 -     INFO - wally           - Will run hdd_rrd4kth10 test
+00:26:03 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:28:03, will wait at most till 00:33:03
+00:26:03 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:26:03 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:26:03 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:28:07 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:28:07 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:28:07 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:28:08 -     INFO - wally           - Will run hdd_rrd4kth10 test
+00:28:08 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:30:08, will wait at most till 00:35:08
+00:28:08 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:28:08 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:28:08 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:30:10 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:30:12 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:30:12 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:30:13 -     INFO - wally           - Will run hdd_rrd4kth10 test
+00:30:13 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:32:13, will wait at most till 00:37:13
+00:30:13 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:30:13 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:30:13 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:32:17 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:32:17 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:32:17 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:32:18 -     INFO - wally           - Will run hdd_rrd4kth10 test
+00:32:18 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:34:18, will wait at most till 00:39:18
+00:32:18 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:32:18 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:32:18 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:34:22 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:34:22 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:34:22 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:34:23 -     INFO - wally           - Will run hdd_rrd4kth10 test
+00:34:23 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:36:23, will wait at most till 00:41:23
+00:34:23 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:34:23 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:34:23 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:36:27 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:36:27 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:36:27 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:36:29 -     INFO - wally           - Will run hdd_rrd4kth10 test
+00:36:29 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:38:29, will wait at most till 00:43:29
+00:36:30 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:36:30 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:36:30 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:38:34 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:38:34 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:38:34 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:38:34 -     INFO - wally           - Will run hdd_rrd4kth15 test
+00:38:34 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 00:41:04, will wait at most till 00:46:04
+00:38:34 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:38:35 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:38:35 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:41:07 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:41:07 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:41:09 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:41:09 -     INFO - wally           - Will run hdd_rrd4kth15 test
+00:41:09 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:43:09, will wait at most till 00:48:09
+00:41:10 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:41:10 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:41:10 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:43:14 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:43:14 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:43:14 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:43:15 -     INFO - wally           - Will run hdd_rrd4kth15 test
+00:43:15 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:45:15, will wait at most till 00:50:15
+00:43:15 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:43:15 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:43:15 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:45:19 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:45:19 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:45:19 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:45:20 -     INFO - wally           - Will run hdd_rrd4kth15 test
+00:45:20 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:47:20, will wait at most till 00:52:20
+00:45:20 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:45:20 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:45:21 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:47:24 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:47:24 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:47:25 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:47:25 -     INFO - wally           - Will run hdd_rrd4kth15 test
+00:47:25 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:49:25, will wait at most till 00:54:25
+00:47:25 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:47:25 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:47:25 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:49:29 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:49:29 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:49:29 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:49:30 -     INFO - wally           - Will run hdd_rrd4kth15 test
+00:49:30 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:51:30, will wait at most till 00:56:30
+00:49:31 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:49:31 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:49:31 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:51:33 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:51:35 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:51:35 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:51:36 -     INFO - wally           - Will run hdd_rrd4kth15 test
+00:51:36 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:53:36, will wait at most till 00:58:36
+00:51:36 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:51:36 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:51:36 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:53:40 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:53:40 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:53:40 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:53:41 -     INFO - wally           - Will run hdd_rrd4kth25 test
+00:53:41 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 00:56:11, will wait at most till 01:01:11
+00:53:41 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:53:41 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:53:41 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:56:15 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:56:15 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:56:15 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:56:16 -     INFO - wally           - Will run hdd_rrd4kth25 test
+00:56:16 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 00:58:16, will wait at most till 01:03:16
+00:56:16 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:56:16 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:56:16 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:58:20 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:58:20 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:58:21 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+00:58:22 -     INFO - wally           - Will run hdd_rrd4kth25 test
+00:58:22 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:00:22, will wait at most till 01:05:22
+00:58:22 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:58:22 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+00:58:22 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:00:26 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:00:26 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:00:26 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:00:27 -     INFO - wally           - Will run hdd_rrd4kth25 test
+01:00:27 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:02:27, will wait at most till 01:07:27
+01:00:27 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:00:27 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:00:27 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:02:31 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:02:31 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:02:31 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:02:32 -     INFO - wally           - Will run hdd_rrd4kth25 test
+01:02:32 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:04:32, will wait at most till 01:09:32
+01:02:32 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:02:32 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:02:32 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:04:36 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:04:36 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:04:37 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:04:37 -     INFO - wally           - Will run hdd_rrd4kth25 test
+01:04:37 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:06:37, will wait at most till 01:11:37
+01:04:38 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:04:38 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:04:38 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:06:41 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:06:41 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:06:42 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:06:43 -     INFO - wally           - Will run hdd_rrd4kth25 test
+01:06:43 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:08:43, will wait at most till 01:13:43
+01:06:43 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:06:43 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:06:43 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:08:47 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:08:47 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:08:47 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:08:48 -     INFO - wally           - Will run hdd_rrd4kth40 test
+01:08:48 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 01:11:18, will wait at most till 01:16:18
+01:08:48 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:08:48 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:08:48 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:11:20 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:11:20 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:11:21 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:11:22 -     INFO - wally           - Will run hdd_rrd4kth40 test
+01:11:22 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:13:22, will wait at most till 01:18:22
+01:11:22 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:11:22 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:11:22 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:13:26 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:13:26 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:13:26 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:13:28 -     INFO - wally           - Will run hdd_rrd4kth40 test
+01:13:28 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:15:28, will wait at most till 01:20:28
+01:13:29 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:13:29 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:13:29 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:15:32 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:15:33 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:15:33 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:15:34 -     INFO - wally           - Will run hdd_rrd4kth40 test
+01:15:34 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:17:34, will wait at most till 01:22:34
+01:15:34 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:15:34 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:15:34 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:17:38 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:17:38 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:17:38 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:17:39 -     INFO - wally           - Will run hdd_rrd4kth40 test
+01:17:39 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:19:39, will wait at most till 01:24:39
+01:17:39 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:17:39 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:17:39 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:19:43 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:19:43 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:19:44 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:19:45 -     INFO - wally           - Will run hdd_rrd4kth40 test
+01:19:45 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:21:45, will wait at most till 01:26:45
+01:19:45 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:19:45 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:19:45 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:21:47 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:21:49 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:21:49 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:21:50 -     INFO - wally           - Will run hdd_rrd4kth40 test
+01:21:50 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:23:50, will wait at most till 01:28:50
+01:21:51 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:21:51 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:21:51 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:23:54 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:23:55 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:23:55 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:23:56 -     INFO - wally           - Will run hdd_srd1mth1 test
+01:23:56 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 01:26:26, will wait at most till 01:31:26
+01:23:56 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:23:56 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:23:56 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:26:29 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:26:29 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:26:30 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:26:31 -     INFO - wally           - Will run hdd_srd1mth1 test
+01:26:31 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:28:31, will wait at most till 01:33:31
+01:26:31 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:26:31 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:26:31 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:28:33 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:28:35 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:28:35 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:28:36 -     INFO - wally           - Will run hdd_srd1mth1 test
+01:28:36 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:30:36, will wait at most till 01:35:36
+01:28:36 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:28:36 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:28:36 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:30:40 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:30:40 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:30:41 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:30:41 -     INFO - wally           - Will run hdd_srd1mth1 test
+01:30:41 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:32:41, will wait at most till 01:37:41
+01:30:41 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:30:41 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:30:41 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:32:45 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:32:45 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:32:45 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:32:46 -     INFO - wally           - Will run hdd_srd1mth1 test
+01:32:46 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:34:46, will wait at most till 01:39:46
+01:32:46 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:32:46 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:32:46 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:34:50 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:34:50 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:34:50 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:34:50 -     INFO - wally           - Will run hdd_srd1mth1 test
+01:34:50 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:36:50, will wait at most till 01:41:50
+01:34:51 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:34:51 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:34:51 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:36:55 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:36:55 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:36:55 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:36:56 -     INFO - wally           - Will run hdd_srd1mth1 test
+01:36:56 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:38:56, will wait at most till 01:43:56
+01:36:56 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:36:56 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:36:56 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:39:00 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:39:00 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:39:00 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:39:00 -     INFO - wally           - Will run hdd_swd1mth1 test
+01:39:00 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 01:41:30, will wait at most till 01:46:30
+01:39:01 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:39:01 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:39:01 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:41:33 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:41:33 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:41:33 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:41:34 -     INFO - wally           - Will run hdd_swd1mth1 test
+01:41:34 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:43:34, will wait at most till 01:48:34
+01:41:34 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:41:34 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:41:34 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:43:38 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:43:38 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:43:38 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:43:39 -     INFO - wally           - Will run hdd_swd1mth1 test
+01:43:39 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:45:39, will wait at most till 01:50:39
+01:43:39 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:43:39 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:43:39 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:45:43 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:45:43 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:45:43 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:45:43 -     INFO - wally           - Will run hdd_swd1mth1 test
+01:45:43 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:47:43, will wait at most till 01:52:43
+01:45:44 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:45:44 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:45:44 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:47:47 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:47:48 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:47:48 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:47:48 -     INFO - wally           - Will run hdd_swd1mth1 test
+01:47:48 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:49:48, will wait at most till 01:54:48
+01:47:48 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:47:48 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:47:48 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:49:52 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:49:53 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:49:53 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:49:53 -     INFO - wally           - Will run hdd_swd1mth1 test
+01:49:53 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:51:53, will wait at most till 01:56:53
+01:49:53 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:49:53 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:49:53 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:51:57 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:51:57 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:51:58 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:51:58 -     INFO - wally           - Will run hdd_swd1mth1 test
+01:51:58 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:53:58, will wait at most till 01:58:58
+01:51:58 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:51:58 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:51:59 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:54:02 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:54:02 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:54:03 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:54:03 -     INFO - wally           - Will run hdd_rwd4kth1 test
+01:54:03 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 01:56:33, will wait at most till 02:01:33
+01:54:04 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:54:04 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:54:04 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:56:36 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:56:38 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:56:38 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:56:38 -     INFO - wally           - Will run hdd_rwd4kth1 test
+01:56:38 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 01:58:38, will wait at most till 02:03:38
+01:56:39 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:56:39 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:56:39 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:58:49 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+01:58:59 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+01:59:05 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+01:59:06 -     INFO - wally           - Will run hdd_rwd4kth1 test
+01:59:06 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:01:06, will wait at most till 02:06:06
+01:59:06 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:59:06 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+01:59:06 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+02:01:10 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:01:10 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:01:10 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:01:10 -     INFO - wally           - Will run hdd_rwd4kth1 test
+02:01:10 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:03:10, will wait at most till 02:08:10
+02:01:11 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+02:01:11 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+02:01:11 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+02:03:14 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:03:15 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:03:15 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:03:15 -     INFO - wally           - Will run hdd_rwd4kth1 test
+02:03:15 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:05:15, will wait at most till 02:10:15
+02:03:16 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+02:03:16 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+02:03:16 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+02:05:19 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:05:28 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:05:28 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:05:29 -     INFO - wally           - Will run hdd_rwd4kth1 test
+02:05:29 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:07:29, will wait at most till 02:12:29
+02:05:29 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+02:05:29 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+02:05:29 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+02:07:33 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:07:41 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:07:43 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:07:43 -     INFO - wally           - Will run hdd_rwd4kth1 test
+02:07:43 -     INFO - wally           - Test should takes about 0:02:00. Should finish at 02:09:43, will wait at most till 02:14:43
+02:07:43 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+02:07:43 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+02:07:43 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/grammarless_miley/io/cmd.sh'
+02:09:47 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished
+02:09:47 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+02:09:47 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+02:09:48 -     INFO - wally           - Start store_raw_results_stage
+02:09:48 -     INFO - wally           - Start disconnect_stage
+02:09:48 -    DEBUG - wally           - Start utils.cleanup
+02:09:48 -     INFO - wally           - Start console_report_stage
+02:09:55 -     INFO - wally           - Text report were stored in /var/wally_results/grammarless_miley/report.txt
+02:09:55 -     INFO - wally           - Start html_report_stage
+02:09:59 -    ERROR - wally.report    - Diring hdd report generation
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/wally/report.py", line 811, in make_io_report
+    report = func(dinfo, lab_info, comment)
+  File "/usr/local/lib/python2.7/dist-packages/wally/report.py", line 633, in make_hdd_report
+    di = get_disk_info(perf_infos)
+  File "/usr/local/lib/python2.7/dist-packages/wally/report.py", line 591, in get_disk_info
+    th_iops_coef = (iops2 - iops1) / (th2 - th1)
+ZeroDivisionError: float division by zero
+02:09:59 -     INFO - wally           - All info stored into /var/wally_results/grammarless_miley
+02:09:59 -     INFO - wally           - Tests finished successfully

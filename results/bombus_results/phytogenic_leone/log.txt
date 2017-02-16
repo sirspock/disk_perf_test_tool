@@ -1,0 +1,76 @@
+15:40:07 -     INFO - wally           - All info would be stored into /var/wally_results/phytogenic_leone
+15:40:07 -     INFO - wally           - Start discover_stage
+15:40:07 -     INFO - wally           - Start reuse_vms_stage
+15:40:07 -     INFO - wally           - Start log_nodes_statistic_stage
+15:40:07 -     INFO - wally           - Found 3 nodes total
+15:40:07 -    DEBUG - wally           - Found 3 nodes with role testnode
+15:40:07 -     INFO - wally           - Start save_nodes_stage
+15:40:07 -     INFO - wally           - Start connect_stage
+15:40:07 -     INFO - wally           - Connecting to nodes
+15:40:08 -     INFO - wally           - All nodes connected successfully
+15:40:08 -     INFO - wally           - Start run_tests_stage
+15:40:08 -    DEBUG - wally           - Run preparation
+15:40:08 -    ERROR - wally           - Failed to create folder /tmp/wally/phytogenic_leone/io on remote 138.219.228.15:22. Error: SSH:138.219.228.15:22 Cmd 'sudo mkdir -p "/tmp/wally/phytogenic_leone/io" ; sudo chown beebop /tmp/wally/phytogenic_leone/io' failed with code 1. Output: sudo: sorry, you must have a tty to run sudo
+sudo: sorry, you must have a tty to run sudo
+Traceback (most recent call last):
+  File "wally/suits/io/fio.py", line 657, in pre_run_th
+    rossh(cmd, nolog=True)
+  File "wally/suits/itest.py", line 204, in closure
+    **kwargs)
+  File "wally/ssh_utils.py", line 543, in run_over_ssh
+    raise OSError(templ.format(node, cmd, code, output))
+OSError: SSH:138.219.228.15:22 Cmd 'sudo mkdir -p "/tmp/wally/phytogenic_leone/io" ; sudo chown beebop /tmp/wally/phytogenic_leone/io' failed with code 1. Output: sudo: sorry, you must have a tty to run sudo
+sudo: sorry, you must have a tty to run sudo
+
+15:40:08 -    ERROR - wally           - XXXX
+Traceback (most recent call last):
+  File "wally/suits/io/fio.py", line 666, in pre_run_th
+    raise StopTestError(msg, exc)
+StopTestError: Failed to create folder /tmp/wally/phytogenic_leone/io on remote 138.219.228.15:22. Error: SSH:138.219.228.15:22 Cmd 'sudo mkdir -p "/tmp/wally/phytogenic_leone/io" ; sudo chown beebop /tmp/wally/phytogenic_leone/io' failed with code 1. Output: sudo: sorry, you must have a tty to run sudo
+sudo: sorry, you must have a tty to run sudo
+
+15:40:08 -    ERROR - wally           - Failed to create folder /tmp/wally/phytogenic_leone/io on remote 138.219.228.11:22. Error: SSH:138.219.228.11:22 Cmd 'sudo mkdir -p "/tmp/wally/phytogenic_leone/io" ; sudo chown beebop /tmp/wally/phytogenic_leone/io' failed with code 1. Output: sudo: sorry, you must have a tty to run sudo
+sudo: sorry, you must have a tty to run sudo
+Traceback (most recent call last):
+  File "wally/suits/io/fio.py", line 657, in pre_run_th
+    rossh(cmd, nolog=True)
+  File "wally/suits/itest.py", line 204, in closure
+    **kwargs)
+  File "wally/ssh_utils.py", line 543, in run_over_ssh
+    raise OSError(templ.format(node, cmd, code, output))
+OSError: SSH:138.219.228.11:22 Cmd 'sudo mkdir -p "/tmp/wally/phytogenic_leone/io" ; sudo chown beebop /tmp/wally/phytogenic_leone/io' failed with code 1. Output: sudo: sorry, you must have a tty to run sudo
+sudo: sorry, you must have a tty to run sudo
+
+15:40:08 -    ERROR - wally           - Failed to create folder /tmp/wally/phytogenic_leone/io on remote 138.219.228.13:22. Error: SSH:138.219.228.13:22 Cmd 'sudo mkdir -p "/tmp/wally/phytogenic_leone/io" ; sudo chown beebop /tmp/wally/phytogenic_leone/io' failed with code 1. Output: sudo: sorry, you must have a tty to run sudo
+sudo: sorry, you must have a tty to run sudo
+Traceback (most recent call last):
+  File "wally/suits/io/fio.py", line 657, in pre_run_th
+    rossh(cmd, nolog=True)
+  File "wally/suits/itest.py", line 204, in closure
+    **kwargs)
+  File "wally/ssh_utils.py", line 543, in run_over_ssh
+    raise OSError(templ.format(node, cmd, code, output))
+OSError: SSH:138.219.228.13:22 Cmd 'sudo mkdir -p "/tmp/wally/phytogenic_leone/io" ; sudo chown beebop /tmp/wally/phytogenic_leone/io' failed with code 1. Output: sudo: sorry, you must have a tty to run sudo
+sudo: sorry, you must have a tty to run sudo
+
+15:40:08 -    ERROR - wally           - XXXX
+Traceback (most recent call last):
+  File "wally/suits/io/fio.py", line 666, in pre_run_th
+    raise StopTestError(msg, exc)
+StopTestError: Failed to create folder /tmp/wally/phytogenic_leone/io on remote 138.219.228.11:22. Error: SSH:138.219.228.11:22 Cmd 'sudo mkdir -p "/tmp/wally/phytogenic_leone/io" ; sudo chown beebop /tmp/wally/phytogenic_leone/io' failed with code 1. Output: sudo: sorry, you must have a tty to run sudo
+sudo: sorry, you must have a tty to run sudo
+
+15:40:08 -    ERROR - wally           - XXXX
+Traceback (most recent call last):
+  File "wally/suits/io/fio.py", line 666, in pre_run_th
+    raise StopTestError(msg, exc)
+StopTestError: Failed to create folder /tmp/wally/phytogenic_leone/io on remote 138.219.228.13:22. Error: SSH:138.219.228.13:22 Cmd 'sudo mkdir -p "/tmp/wally/phytogenic_leone/io" ; sudo chown beebop /tmp/wally/phytogenic_leone/io' failed with code 1. Output: sudo: sorry, you must have a tty to run sudo
+sudo: sorry, you must have a tty to run sudo
+
+15:40:08 -    ERROR - wally           - Exception during run_tests_stage: Failed to create folder /tmp/wally/phytogenic_leone/io on remote 138.219.228.13:22. Error: SSH:138.219.228.13:22 Cmd 'sudo mkdir -p "/tmp/wally/phytogenic_leone/io" ; sudo chown beebop /tmp/wally/phytogenic_leone/io' failed with code 1. Output: sudo: sorry, you must have a tty to run sudo
+sudo: sorry, you must have a tty to run sudo
+
+15:40:08 -     INFO - wally           - Start disconnect_stage
+15:40:08 -    DEBUG - wally           - Start utils.cleanup
+15:40:08 -     INFO - wally           - All info stored into /var/wally_results/phytogenic_leone
+15:40:08 -    ERROR - wally           - Tests are failed. See detailed error above

@@ -1,0 +1,21 @@
+15:38:45 -     INFO - wally           - All info would be stored into /var/wally_results/dithionic_riley
+15:38:45 -     INFO - wally           - Start discover_stage
+15:38:45 -     INFO - wally           - Start reuse_vms_stage
+15:38:45 -     INFO - wally           - Start log_nodes_statistic_stage
+15:38:45 -     INFO - wally           - Found 3 nodes total
+15:38:45 -    DEBUG - wally           - Found 1 nodes with role node1
+15:38:45 -    DEBUG - wally           - Found 1 nodes with role node2
+15:38:45 -    DEBUG - wally           - Found 1 nodes with role node3
+15:38:45 -     INFO - wally           - Start save_nodes_stage
+15:38:45 -     INFO - wally           - Start connect_stage
+15:38:45 -     INFO - wally           - Connecting to nodes
+15:38:45 -     INFO - wally           - All nodes connected successfully
+15:38:45 -     INFO - wally           - Start run_tests_stage
+15:38:45 -    ERROR - wally           - No test nodes found
+15:38:45 -     INFO - wally           - Start store_raw_results_stage
+15:38:45 -     INFO - wally           - Start disconnect_stage
+15:38:46 -    DEBUG - wally           - Start utils.cleanup
+15:38:46 -     INFO - wally           - Start console_report_stage
+15:38:46 -     INFO - wally           - Start html_report_stage
+15:38:46 -     INFO - wally           - All info stored into /var/wally_results/dithionic_riley
+15:38:46 -     INFO - wally           - Tests finished successfully

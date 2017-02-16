@@ -1,0 +1,16 @@
+18:19:19 -     INFO - wally           - All info would be stored into /var/wally_results/unexplorative_cathern
+18:19:19 -     INFO - wally           - Start discover_stage
+18:19:19 -     INFO - wally           - Start reuse_vms_stage
+18:19:19 -     INFO - wally           - Start log_nodes_statistic_stage
+18:19:19 -     INFO - wally           - Found 3 nodes total
+18:19:19 -    DEBUG - wally           - Found 3 nodes with role testnode
+18:19:19 -     INFO - wally           - Start save_nodes_stage
+18:19:19 -     INFO - wally           - Start connect_stage
+18:19:19 -     INFO - wally           - Connecting to nodes
+18:19:52 -    ERROR - wally           - During connect to beebop@138.219.230.10::/root/.ssh/id_rsa: [Errno None] Unable to connect to port 22 on  or 138.219.230.10
+18:19:52 -    ERROR - wally           - Can't connect to testnode(s) 138.219.230.10:22
+18:19:52 -    ERROR - wally           - Exception during connect_stage: Can't connect to testnode(s) 138.219.230.10:22
+18:19:52 -     INFO - wally           - Start disconnect_stage
+18:19:52 -    DEBUG - wally           - Start utils.cleanup
+18:19:52 -     INFO - wally           - All info stored into /var/wally_results/unexplorative_cathern
+18:19:52 -    ERROR - wally           - Tests are failed. See detailed error above

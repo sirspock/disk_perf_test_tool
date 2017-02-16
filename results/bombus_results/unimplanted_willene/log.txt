@@ -1,0 +1,18 @@
+20:46:13 -     INFO - wally           - All info would be stored into /var/wally_results/unimplanted_willene
+20:46:13 -     INFO - wally           - Start discover_stage
+20:46:13 -     INFO - wally           - Start reuse_vms_stage
+20:46:13 -     INFO - wally           - Start log_nodes_statistic_stage
+20:46:13 -     INFO - wally           - Found 1 nodes total
+20:46:13 -    DEBUG - wally           - Found 1 nodes with role testnode
+20:46:13 -     INFO - wally           - Start save_nodes_stage
+20:46:13 -     INFO - wally           - Start connect_stage
+20:46:13 -     INFO - wally           - Connecting to nodes
+20:46:15 -     INFO - wally           - All nodes connected successfully
+20:46:15 -     INFO - wally           - Start run_tests_stage
+20:46:15 -    DEBUG - wally           - Run preparation
+20:46:27 -    DEBUG - wally           - prefill is skipped
+20:46:27 -     INFO - wally           - Entire test should takes aroud: 0:41:15 and finished at 21:27:42
+20:46:27 -     INFO - wally           - Will run hdd_rwx4kth1 test
+20:46:27 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 20:48:57, will wait at most till 20:53:57
+20:46:29 -    DEBUG - wally           - SSH:162.243.94.217:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/unimplanted_willene/io/cmd.sh'
+20:49:05 -    DEBUG - wally           - Test on node 162.243.94.217_22 is finished

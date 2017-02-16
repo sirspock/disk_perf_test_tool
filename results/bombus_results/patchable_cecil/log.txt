@@ -1,0 +1,33 @@
+16:30:56 -     INFO - wally           - All info would be stored into /var/wally_results/patchable_cecil
+16:30:56 -     INFO - wally           - Start discover_stage
+16:30:56 -     INFO - wally           - Start reuse_vms_stage
+16:30:56 -     INFO - wally           - Start log_nodes_statistic_stage
+16:30:56 -     INFO - wally           - Found 1 nodes total
+16:30:56 -    DEBUG - wally           - Found 1 nodes with role testnode
+16:30:56 -     INFO - wally           - Start save_nodes_stage
+16:30:56 -     INFO - wally           - Start connect_stage
+16:30:56 -     INFO - wally           - Connecting to nodes
+16:30:56 -     INFO - wally           - All nodes connected successfully
+16:30:56 -     INFO - wally           - Start run_tests_stage
+16:30:56 -    DEBUG - wally           - Run preparation
+16:30:56 -    ERROR - wally           - During run_tests_stage
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/wally/main.py", line 124, in log_stage
+    yield
+  File "/usr/local/lib/python2.7/dist-packages/wally/main.py", line 276, in main
+    stage(cfg, ctx)
+  File "/usr/local/lib/python2.7/dist-packages/wally/run_test.py", line 481, in run_tests_stage
+    for tp, res in run_tests(cfg, test_group, ctx.nodes):
+  File "/usr/local/lib/python2.7/dist-packages/wally/run_test.py", line 242, in run_tests
+    res = test_cls(test_cfg).run()
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 688, in run
+    self.pre_run()
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 623, in pre_run
+    self.fio_configs = list(self.fio_configs)
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio_task_parser.py", line 305, in finall_process
+    sec.vals['size'].name))
+ValueError: Variable TEST_FILE_SIZE isn't provided
+16:30:56 -     INFO - wally           - Start disconnect_stage
+16:30:56 -    DEBUG - wally           - Start utils.cleanup
+16:30:56 -     INFO - wally           - All info stored into /var/wally_results/patchable_cecil
+16:30:56 -    ERROR - wally           - Tests are failed. See detailed error above

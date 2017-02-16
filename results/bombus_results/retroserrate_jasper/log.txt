@@ -1,0 +1,122 @@
+14:18:18 -     INFO - wally           - All info would be stored into /var/wally_results/retroserrate_jasper
+14:18:18 -     INFO - wally           - Start discover_stage
+14:18:47 -     INFO - wally           - Start reuse_vms_stage
+14:18:47 -     INFO - wally           - Start log_nodes_statistic_stage
+14:18:47 -     INFO - wally           - Found 7 nodes total
+14:18:47 -    DEBUG - wally           - Found 3 nodes with role ceph-mon
+14:18:47 -    DEBUG - wally           - Found 3 nodes with role ceph-osd
+14:18:47 -    DEBUG - wally           - Found 1 nodes with role testnode
+14:18:47 -     INFO - wally           - Start save_nodes_stage
+14:18:47 -     INFO - wally           - Start connect_stage
+14:18:47 -     INFO - wally           - Connecting to nodes
+14:19:17 -    ERROR - wally           - During connect to 172.17.3.1: timed out
+14:19:17 -    ERROR - wally           - During connect to 172.17.3.3: timed out
+14:19:17 -    ERROR - wally           - During connect to 172.17.3.2: timed out
+14:19:17 -    ERROR - wally           - During connect to 172.17.1.1: timed out
+14:19:17 -  WARNING - wally           - Node(s) 172.17.3.1:22,172.17.3.3:22,172.17.3.2:22,172.17.1.1:22 would be excluded - can't connect
+14:19:17 -     INFO - wally           - Start run_tests_stage
+14:19:17 -    DEBUG - wally.sensors   - Installing sensors on 0 nodes
+14:19:17 -    DEBUG - wally.sensors   - Starting sensors on 0 nodes
+14:19:17 -    DEBUG - wally           - Run preparation
+14:19:18 -    ERROR - wally           - File data check is failed - Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IOError: [Errno 22] Invalid argument
+d41d8cd98f00b204e9800998ecf8427e  -
+
+14:19:18 -     INFO - wally           - Prefilling file /dev/rbd0
+14:19:18 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'sudo fio --name=xxx --filename=/dev/rbd0 --direct=1 --bs=4m --size=20480m --rw=write'
+14:20:38 -     INFO - wally           - Initiall fio fill bw is 257 MiBps for this vm
+14:20:38 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 15:41:29
+14:20:38 -     INFO - wally           - Will run ceph_rws4kth1 test
+14:20:38 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:24:08, will wait at most till 14:29:08
+14:20:38 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+14:24:15 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:24:15 -     INFO - wally           - Will run ceph_rws4kth5 test
+14:24:15 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:27:45, will wait at most till 14:32:45
+14:24:15 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+14:27:50 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:27:50 -     INFO - wally           - Will run ceph_rws4kth10 test
+14:27:50 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:31:20, will wait at most till 14:36:20
+14:27:50 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+14:31:27 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:31:28 -     INFO - wally           - Will run ceph_rws4kth15 test
+14:31:28 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:34:58, will wait at most till 14:39:58
+14:31:28 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+14:35:09 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:35:09 -     INFO - wally           - Will run ceph_rws4kth25 test
+14:35:09 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:38:39, will wait at most till 14:43:39
+14:35:09 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+14:38:50 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:38:50 -     INFO - wally           - Will run ceph_rws4kth40 test
+14:38:50 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:42:20, will wait at most till 14:47:20
+14:38:50 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+14:42:29 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:42:29 -     INFO - wally           - Will run ceph_rrd4kth1 test
+14:42:29 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:45:59, will wait at most till 14:50:59
+14:42:30 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+14:46:08 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:46:09 -     INFO - wally           - Will run ceph_rrd4kth5 test
+14:46:09 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:49:39, will wait at most till 14:54:39
+14:46:09 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+14:49:41 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:49:42 -     INFO - wally           - Will run ceph_rrd4kth10 test
+14:49:42 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:53:12, will wait at most till 14:58:12
+14:49:42 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+14:53:15 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:53:15 -     INFO - wally           - Will run ceph_rrd4kth15 test
+14:53:15 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:56:45, will wait at most till 15:01:45
+14:53:15 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+14:56:48 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+14:56:48 -     INFO - wally           - Will run ceph_rrd4kth25 test
+14:56:48 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:00:18, will wait at most till 15:05:18
+14:56:48 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+15:00:21 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:00:22 -     INFO - wally           - Will run ceph_rrd4kth40 test
+15:00:22 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:03:52, will wait at most till 15:08:52
+15:00:22 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+15:03:54 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:03:55 -     INFO - wally           - Will run ceph_rrd4kth80 test
+15:03:55 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:07:25, will wait at most till 15:12:25
+15:03:55 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+15:07:28 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:07:28 -     INFO - wally           - Will run ceph_rrd4kth120 test
+15:07:28 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:10:58, will wait at most till 15:15:58
+15:07:29 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+15:11:01 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:11:02 -     INFO - wally           - Will run ceph_rwd4kth1 test
+15:11:02 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:14:32, will wait at most till 15:19:32
+15:11:03 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+15:14:35 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:14:36 -     INFO - wally           - Will run ceph_rrd16mth1 test
+15:14:36 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:18:06, will wait at most till 15:23:06
+15:14:36 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+15:18:10 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:18:11 -     INFO - wally           - Will run ceph_rrd16mth3 test
+15:18:11 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:21:41, will wait at most till 15:26:41
+15:18:11 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+15:21:44 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:21:44 -     INFO - wally           - Will run ceph_rrd16mth10 test
+15:21:44 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:25:14, will wait at most till 15:30:14
+15:21:44 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+15:25:17 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:25:17 -     INFO - wally           - Will run ceph_rwd16mth1 test
+15:25:17 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:28:47, will wait at most till 15:33:47
+15:25:17 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+15:28:50 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:28:50 -     INFO - wally           - Will run ceph_rwd16mth3 test
+15:28:50 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:32:20, will wait at most till 15:37:20
+15:28:50 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+15:32:23 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:32:24 -     INFO - wally           - Will run ceph_rwd16mth10 test
+15:32:24 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 15:35:54, will wait at most till 15:40:54
+15:32:24 -    DEBUG - wally           - SSH:172.17.1.2:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/retroserrate_jasper/io/cmd.sh'
+15:36:01 -    DEBUG - wally           - Test on node 172.17.1.2_22 is finished
+15:36:01 -     INFO - wally           - Start store_raw_results_stage
+15:36:01 -     INFO - wally           - Start disconnect_stage
+15:36:01 -    DEBUG - wally           - Start utils.cleanup
+15:36:01 -     INFO - wally           - Start console_report_stage
+15:36:02 -     INFO - wally           - Text report were stored in /var/wally_results/retroserrate_jasper/report.txt
+15:36:02 -     INFO - wally           - Start html_report_stage
+15:36:04 -     INFO - wally.report    - Report ceph saved into /var/wally_results/retroserrate_jasper/ceph_report.html
+15:36:04 -     INFO - wally           - All info stored into /var/wally_results/retroserrate_jasper
+15:36:04 -     INFO - wally           - Tests finished successfully

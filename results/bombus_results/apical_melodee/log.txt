@@ -1,0 +1,195 @@
+13:14:48 -     INFO - wally           - All info would be stored into /var/wally_results/apical_melodee
+13:14:48 -     INFO - wally           - Start discover_stage
+13:14:55 -     INFO - wally           - Start reuse_vms_stage
+13:14:55 -     INFO - wally           - Start log_nodes_statistic_stage
+13:14:55 -     INFO - wally           - Found 7 nodes total
+13:14:55 -    DEBUG - wally           - Found 3 nodes with role ceph-mon
+13:14:55 -    DEBUG - wally           - Found 3 nodes with role ceph-osd
+13:14:55 -    DEBUG - wally           - Found 1 nodes with role testnode
+13:14:55 -     INFO - wally           - Start save_nodes_stage
+13:14:55 -     INFO - wally           - Start connect_stage
+13:14:55 -     INFO - wally           - Connecting to nodes
+13:15:07 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+13:15:07 -    ERROR - paramiko.transport - Traceback (most recent call last):
+13:15:07 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+13:15:07 -    ERROR - paramiko.transport -     self._check_banner()
+13:15:07 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+13:15:07 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+13:15:07 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+13:15:07 -    ERROR - paramiko.transport - 
+13:15:08 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+13:15:08 -    ERROR - paramiko.transport - Traceback (most recent call last):
+13:15:08 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+13:15:08 -    ERROR - paramiko.transport -     self._check_banner()
+13:15:08 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+13:15:08 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+13:15:08 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+13:15:08 -    ERROR - paramiko.transport - 
+13:15:10 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+13:15:10 -    ERROR - paramiko.transport - Traceback (most recent call last):
+13:15:10 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+13:15:10 -    ERROR - paramiko.transport -     self._check_banner()
+13:15:10 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+13:15:10 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+13:15:10 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+13:15:10 -    ERROR - paramiko.transport - 
+13:15:19 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+13:15:19 -    ERROR - paramiko.transport - Traceback (most recent call last):
+13:15:19 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+13:15:19 -    ERROR - paramiko.transport -     self._check_banner()
+13:15:19 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+13:15:19 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+13:15:19 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+13:15:19 -    ERROR - paramiko.transport - 
+13:15:20 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+13:15:20 -    ERROR - paramiko.transport - Traceback (most recent call last):
+13:15:20 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+13:15:20 -    ERROR - paramiko.transport -     self._check_banner()
+13:15:20 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+13:15:20 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+13:15:20 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+13:15:20 -    ERROR - paramiko.transport - 
+13:15:22 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+13:15:22 -    ERROR - paramiko.transport - Traceback (most recent call last):
+13:15:22 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+13:15:22 -    ERROR - paramiko.transport -     self._check_banner()
+13:15:22 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+13:15:22 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+13:15:22 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+13:15:22 -    ERROR - paramiko.transport - 
+13:15:24 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+13:15:24 -    ERROR - paramiko.transport - Traceback (most recent call last):
+13:15:24 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+13:15:24 -    ERROR - paramiko.transport -     self._check_banner()
+13:15:24 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+13:15:24 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+13:15:24 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+13:15:24 -    ERROR - paramiko.transport - 
+13:15:25 -    ERROR - wally           - During connect to 172.17.3.1: timed out
+13:15:25 -    ERROR - wally           - During connect to 172.17.3.2: timed out
+13:15:25 -    ERROR - wally           - During connect to 172.17.3.3: timed out
+13:15:25 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+13:15:25 -    ERROR - paramiko.transport - Traceback (most recent call last):
+13:15:25 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+13:15:25 -    ERROR - paramiko.transport -     self._check_banner()
+13:15:25 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+13:15:25 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+13:15:25 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+13:15:25 -    ERROR - paramiko.transport - 
+13:15:25 -    ERROR - wally           - During connect to 172.17.1.2: Error reading SSH protocol banner
+13:15:25 -    ERROR - paramiko.transport - Exception: Error reading SSH protocol banner
+13:15:25 -    ERROR - paramiko.transport - Traceback (most recent call last):
+13:15:25 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1710, in run
+13:15:25 -    ERROR - paramiko.transport -     self._check_banner()
+13:15:25 -    ERROR - paramiko.transport -   File "/usr/local/lib/python2.7/dist-packages/paramiko/transport.py", line 1858, in _check_banner
+13:15:25 -    ERROR - paramiko.transport -     raise SSHException('Error reading SSH protocol banner' + str(e))
+13:15:25 -    ERROR - paramiko.transport - SSHException: Error reading SSH protocol banner
+13:15:25 -    ERROR - paramiko.transport - 
+13:15:25 -    ERROR - wally           - During connect to 172.17.1.3: Error reading SSH protocol banner
+13:15:27 -  WARNING - wally           - Node(s) 172.17.3.1:22,172.17.3.3:22,172.17.3.2:22,172.17.1.3:22,172.17.1.2:22 would be excluded - can't connect
+13:15:27 -     INFO - wally           - Start run_tests_stage
+13:15:27 -    DEBUG - wally.sensors   - Installing sensors on 0 nodes
+13:15:27 -    DEBUG - wally.sensors   - Starting sensors on 0 nodes
+13:15:27 -    DEBUG - wally           - Run preparation
+13:15:29 -    ERROR - wally           - File data check is failed - Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IOError: [Errno 22] Invalid argument
+d41d8cd98f00b204e9800998ecf8427e  -
+
+13:15:29 -     INFO - wally           - Prefilling file /dev/rbd0
+13:15:29 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'sudo fio --name=xxx --filename=/dev/rbd0 --direct=1 --bs=4m --size=20480m --rw=write'
+13:16:23 -     INFO - wally           - Initiall fio fill bw is 383 MiBps for this vm
+13:16:23 -     INFO - wally           - Entire test should takes aroud: 1:20:51 and finished at 14:37:14
+13:16:23 -     INFO - wally           - Will run ceph_rws4kth1 test
+13:16:23 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:19:53, will wait at most till 13:24:53
+13:16:23 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+13:19:56 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+13:19:56 -     INFO - wally           - Will run ceph_rws4kth5 test
+13:19:56 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:23:26, will wait at most till 13:28:26
+13:19:56 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+13:23:29 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+13:23:30 -     INFO - wally           - Will run ceph_rws4kth10 test
+13:23:30 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:27:00, will wait at most till 13:32:00
+13:23:30 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+13:27:03 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+13:27:04 -     INFO - wally           - Will run ceph_rws4kth15 test
+13:27:04 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:30:34, will wait at most till 13:35:34
+13:27:04 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+13:30:37 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+13:30:38 -     INFO - wally           - Will run ceph_rws4kth25 test
+13:30:38 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:34:08, will wait at most till 13:39:08
+13:30:38 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+13:34:11 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+13:34:11 -     INFO - wally           - Will run ceph_rws4kth40 test
+13:34:11 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:37:41, will wait at most till 13:42:41
+13:34:11 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+13:37:44 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+13:37:46 -     INFO - wally           - Will run ceph_rrd4kth1 test
+13:37:46 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:41:16, will wait at most till 13:46:16
+13:37:46 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+13:41:19 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+13:41:19 -     INFO - wally           - Will run ceph_rrd4kth5 test
+13:41:19 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:44:49, will wait at most till 13:49:49
+13:41:20 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+13:44:53 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+13:44:53 -     INFO - wally           - Will run ceph_rrd4kth10 test
+13:44:53 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:48:23, will wait at most till 13:53:23
+13:44:53 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+13:48:26 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+13:48:27 -     INFO - wally           - Will run ceph_rrd4kth15 test
+13:48:27 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:51:57, will wait at most till 13:56:57
+13:48:27 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+13:52:00 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+13:52:01 -     INFO - wally           - Will run ceph_rrd4kth25 test
+13:52:01 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:55:31, will wait at most till 14:00:31
+13:52:01 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+13:55:34 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+13:55:34 -     INFO - wally           - Will run ceph_rrd4kth40 test
+13:55:34 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 13:59:04, will wait at most till 14:04:04
+13:55:34 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+13:59:08 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+13:59:08 -     INFO - wally           - Will run ceph_rrd4kth80 test
+13:59:08 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:02:38, will wait at most till 14:07:38
+13:59:08 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+14:02:41 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+14:02:43 -     INFO - wally           - Will run ceph_rrd4kth120 test
+14:02:43 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:06:13, will wait at most till 14:11:13
+14:02:44 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+14:06:17 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+14:06:19 -     INFO - wally           - Will run ceph_rwd4kth1 test
+14:06:19 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:09:49, will wait at most till 14:14:49
+14:06:19 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+14:09:52 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+14:09:52 -     INFO - wally           - Will run ceph_rrd16mth1 test
+14:09:52 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:13:22, will wait at most till 14:18:22
+14:09:52 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+14:13:25 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+14:13:25 -     INFO - wally           - Will run ceph_rrd16mth3 test
+14:13:25 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:16:55, will wait at most till 14:21:55
+14:13:26 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+14:16:59 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+14:16:59 -     INFO - wally           - Will run ceph_rrd16mth10 test
+14:16:59 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:20:29, will wait at most till 14:25:29
+14:16:59 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+14:20:32 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+14:20:32 -     INFO - wally           - Will run ceph_rwd16mth1 test
+14:20:32 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:24:02, will wait at most till 14:29:02
+14:20:32 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+14:24:05 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+14:24:06 -     INFO - wally           - Will run ceph_rwd16mth3 test
+14:24:06 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:27:36, will wait at most till 14:32:36
+14:24:06 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+14:27:39 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+14:27:39 -     INFO - wally           - Will run ceph_rwd16mth10 test
+14:27:39 -     INFO - wally           - Test should takes about 0:03:30. Should finish at 14:31:09, will wait at most till 14:36:09
+14:27:39 -    DEBUG - wally           - SSH:172.17.1.1:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/apical_melodee/io/cmd.sh'
+14:31:13 -    DEBUG - wally           - Test on node 172.17.1.1_22 is finished
+14:31:13 -     INFO - wally           - Start store_raw_results_stage
+14:31:13 -     INFO - wally           - Start disconnect_stage
+14:31:13 -    DEBUG - wally           - Start utils.cleanup
+14:31:13 -     INFO - wally           - Start console_report_stage
+14:31:14 -     INFO - wally           - Text report were stored in /var/wally_results/apical_melodee/report.txt
+14:31:14 -     INFO - wally           - Start html_report_stage
+14:31:16 -     INFO - wally.report    - Report ceph saved into /var/wally_results/apical_melodee/ceph_report.html
+14:31:16 -     INFO - wally           - All info stored into /var/wally_results/apical_melodee
+14:31:16 -     INFO - wally           - Tests finished successfully

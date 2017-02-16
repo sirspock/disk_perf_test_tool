@@ -1,0 +1,40 @@
+16:44:47 -     INFO - wally           - All info would be stored into /var/wally_results/thalamencephalic_alane
+16:44:47 -     INFO - wally           - Start discover_stage
+16:44:47 -     INFO - wally           - Start reuse_vms_stage
+16:44:47 -     INFO - wally           - Start log_nodes_statistic_stage
+16:44:47 -     INFO - wally           - Found 1 nodes total
+16:44:47 -    DEBUG - wally           - Found 1 nodes with role testnode
+16:44:47 -     INFO - wally           - Start save_nodes_stage
+16:44:47 -     INFO - wally           - Start connect_stage
+16:44:47 -     INFO - wally           - Connecting to nodes
+16:44:48 -     INFO - wally           - All nodes connected successfully
+16:44:48 -     INFO - wally           - Start run_tests_stage
+16:44:48 -    DEBUG - wally           - Run preparation
+16:44:52 -    DEBUG - wally           - SSH:104.196.13.165:22 Exec 'sudo apt-get -y install screen fio'
+16:44:57 -     INFO - wally           - Prefilling file /mnt/test
+16:44:57 -    DEBUG - wally           - SSH:104.196.13.165:22 Exec 'sudo fio --name=xxx --filename=/mnt/test --direct=1 --bs=4m --size=20480m --rw=write'
+16:51:43 -     INFO - wally           - Initiall fio fill bw is 50 MiBps for this vm
+16:51:43 -     INFO - wally           - Entire test should takes aroud: 3:59:15 and finished at 20:50:58
+16:51:43 -     INFO - wally           - Will run hdd_rwx4kth1 test
+16:51:43 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 16:54:13, will wait at most till 16:59:13
+16:51:45 -    DEBUG - wally           - SSH:104.196.13.165:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/thalamencephalic_alane/io/cmd.sh'
+16:54:19 -    DEBUG - wally           - Test on node 104.196.13.165_22 is finished
+16:54:23 -    ERROR - wally           - During run_tests_stage
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/wally/main.py", line 124, in log_stage
+    yield
+  File "/usr/local/lib/python2.7/dist-packages/wally/main.py", line 276, in main
+    stage(cfg, ctx)
+  File "/usr/local/lib/python2.7/dist-packages/wally/run_test.py", line 481, in run_tests_stage
+    for tp, res in run_tests(cfg, test_group, ctx.nodes):
+  File "/usr/local/lib/python2.7/dist-packages/wally/run_test.py", line 242, in run_tests
+    res = test_cls(test_cfg).run()
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 778, in run
+    test_res = res.get_params_from_fio_report()
+  File "/usr/local/lib/python2.7/dist-packages/wally/suits/io/fio.py", line 281, in get_params_from_fio_report
+    total_ios = [self.raw_result[node]['jobs'][0]['mixed']['total_ios'] for node in nodes]
+KeyError: 'total_ios'
+16:54:23 -     INFO - wally           - Start disconnect_stage
+16:54:23 -    DEBUG - wally           - Start utils.cleanup
+16:54:23 -     INFO - wally           - All info stored into /var/wally_results/thalamencephalic_alane
+16:54:23 -    ERROR - wally           - Tests are failed. See detailed error above

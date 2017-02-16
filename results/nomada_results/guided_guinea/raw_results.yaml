@@ -1,0 +1,18 @@
+-   -   io
+    -   -   hdd: 
+                -   /home/mosorio/wally/results/nomada_results/guided_guinea/results/io_0
+                -   [rwx4kth1vm1,0]
+                -   [rwx4kth5vm1,1]
+                -   [rwx4kth10vm1,2]
+                -   [rwx4kth15vm1,3]
+                -   [rwx4kth25vm1,4]
+                -   [rwx4kth40vm1,5]
+                -   [rrd4kth1vm1,6]
+                -   [rrd4kth5vm1,7]
+                -   [rrd4kth10vm1,8]
+                -   [rrd4kth15vm1,9]
+                -   [rrd4kth25vm1,10]
+                -   [rrd4kth40vm1,11]
+                -   [srd1mth1vm1,12]
+                -   [swd1mth1vm1,13]
+                -   [rwd4kth1vm1,14]

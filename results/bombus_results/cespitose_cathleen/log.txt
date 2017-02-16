@@ -1,0 +1,27 @@
+00:01:45 -     INFO - wally           - All info would be stored into /var/wally_results/cespitose_cathleen
+00:01:45 -     INFO - wally           - Start discover_stage
+00:01:45 -     INFO - wally           - Start reuse_vms_stage
+00:01:45 -     INFO - wally           - Start log_nodes_statistic_stage
+00:01:45 -     INFO - wally           - Found 3 nodes total
+00:01:45 -    DEBUG - wally           - Found 3 nodes with role testnode
+00:01:45 -     INFO - wally           - Start save_nodes_stage
+00:01:45 -     INFO - wally           - Start connect_stage
+00:01:45 -     INFO - wally           - Connecting to nodes
+00:01:46 -     INFO - wally           - All nodes connected successfully
+00:01:46 -     INFO - wally           - Start run_tests_stage
+00:01:46 -    DEBUG - wally           - Run preparation
+00:01:47 -     INFO - wally           - Prefilling file /test/ssd
+00:01:47 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'sudo fio --name=xxx --filename=/test/ssd --direct=1 --bs=4m --size=10240m --rw=write'
+00:01:48 -    DEBUG - wally           - prefill is skipped
+00:01:48 -    DEBUG - wally           - prefill is skipped
+00:02:55 -     INFO - wally           - Initiall fio fill bw is 149 MiBps for this vm
+00:02:55 -     INFO - wally           - Entire test should takes aroud: 3:59:15 and finished at 04:02:10
+00:02:55 -     INFO - wally           - Will run hdd_rwx4kth1 test
+00:02:55 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 00:05:25, will wait at most till 00:10:25
+00:02:56 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/cespitose_cathleen/io/cmd.sh'
+00:02:56 -    DEBUG - wally           - SSH:138.219.230.8:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/cespitose_cathleen/io/cmd.sh'
+00:02:56 -    DEBUG - wally           - SSH:138.219.230.10:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/cespitose_cathleen/io/cmd.sh'
+00:03:03 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:03:03 -    ERROR - wally           - No exit code file found on 138.219.230.12_22. Looks like process failed to start
+00:05:28 -    DEBUG - wally           - Test on node 138.219.230.10_22 is finished
+00:05:30 -    DEBUG - wally           - Test on node 138.219.230.8_22 is finished

@@ -1,0 +1,83 @@
+23:25:44 -     INFO - wally           - All info would be stored into /var/wally_results/oilfired_nigel
+23:25:44 -     INFO - wally           - Start discover_stage
+23:25:44 -     INFO - wally           - Start reuse_vms_stage
+23:25:44 -     INFO - wally           - Start log_nodes_statistic_stage
+23:25:44 -     INFO - wally           - Found 1 nodes total
+23:25:44 -    DEBUG - wally           - Found 1 nodes with role testnode
+23:25:44 -     INFO - wally           - Start save_nodes_stage
+23:25:44 -     INFO - wally           - Start connect_stage
+23:25:44 -     INFO - wally           - Connecting to nodes
+23:25:45 -     INFO - wally           - All nodes connected successfully
+23:25:45 -     INFO - wally           - Start run_tests_stage
+23:25:45 -    DEBUG - wally           - Run preparation
+23:25:47 -    DEBUG - wally           - prefill is skipped
+23:25:47 -     INFO - wally           - Entire test should takes aroud: 0:41:15 and finished at 00:07:02
+23:25:47 -     INFO - wally           - Will run hdd_rwx4kth1 test
+23:25:47 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:28:17, will wait at most till 23:33:17
+23:25:47 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/oilfired_nigel/io/cmd.sh'
+23:28:21 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:28:22 -     INFO - wally           - Will run hdd_rwx4kth5 test
+23:28:22 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:30:52, will wait at most till 23:35:52
+23:28:22 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/oilfired_nigel/io/cmd.sh'
+23:30:56 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:30:56 -     INFO - wally           - Will run hdd_rwx4kth10 test
+23:30:56 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:33:26, will wait at most till 23:38:26
+23:30:56 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/oilfired_nigel/io/cmd.sh'
+23:33:31 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:33:31 -     INFO - wally           - Will run hdd_rwx4kth15 test
+23:33:31 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:36:01, will wait at most till 23:41:01
+23:33:32 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/oilfired_nigel/io/cmd.sh'
+23:36:05 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:36:05 -     INFO - wally           - Will run hdd_rwx4kth25 test
+23:36:05 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:38:35, will wait at most till 23:43:35
+23:36:05 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/oilfired_nigel/io/cmd.sh'
+23:38:40 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:38:40 -     INFO - wally           - Will run hdd_rwx4kth40 test
+23:38:40 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:41:10, will wait at most till 23:46:10
+23:38:40 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/oilfired_nigel/io/cmd.sh'
+23:41:39 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:41:40 -     INFO - wally           - Will run hdd_rrd4kth1 test
+23:41:40 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:44:10, will wait at most till 23:49:10
+23:41:40 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/oilfired_nigel/io/cmd.sh'
+23:44:13 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:44:13 -     INFO - wally           - Will run hdd_rrd4kth5 test
+23:44:13 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:46:43, will wait at most till 23:51:43
+23:44:13 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/oilfired_nigel/io/cmd.sh'
+23:46:48 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:46:48 -     INFO - wally           - Will run hdd_rrd4kth10 test
+23:46:48 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:49:18, will wait at most till 23:54:18
+23:46:48 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/oilfired_nigel/io/cmd.sh'
+23:49:22 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:49:23 -     INFO - wally           - Will run hdd_rrd4kth15 test
+23:49:23 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:51:53, will wait at most till 23:56:53
+23:49:23 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/oilfired_nigel/io/cmd.sh'
+23:51:57 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:51:58 -     INFO - wally           - Will run hdd_rrd4kth25 test
+23:51:58 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:54:28, will wait at most till 23:59:28
+23:51:58 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/oilfired_nigel/io/cmd.sh'
+23:54:32 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:54:32 -     INFO - wally           - Will run hdd_rrd4kth40 test
+23:54:32 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:57:02, will wait at most till 00:02:02
+23:54:32 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/oilfired_nigel/io/cmd.sh'
+23:57:05 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:57:05 -     INFO - wally           - Will run hdd_srd1mth1 test
+23:57:05 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 23:59:35, will wait at most till 00:04:35
+23:57:05 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/oilfired_nigel/io/cmd.sh'
+23:59:39 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+23:59:39 -     INFO - wally           - Will run hdd_swd1mth1 test
+23:59:39 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 00:02:09, will wait at most till 00:07:09
+23:59:39 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/oilfired_nigel/io/cmd.sh'
+00:02:12 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:02:12 -     INFO - wally           - Will run hdd_rwd4kth1 test
+00:02:12 -     INFO - wally           - Test should takes about 0:02:30. Should finish at 00:04:42, will wait at most till 00:09:42
+00:02:12 -    DEBUG - wally           - SSH:138.219.230.12:22 Exec 'screen -S test -d -m sudo bash /tmp/wally/oilfired_nigel/io/cmd.sh'
+00:04:50 -    DEBUG - wally           - Test on node 138.219.230.12_22 is finished
+00:04:51 -     INFO - wally           - Start store_raw_results_stage
+00:04:51 -     INFO - wally           - Start disconnect_stage
+00:04:51 -    DEBUG - wally           - Start utils.cleanup
+00:04:51 -     INFO - wally           - Start console_report_stage
+00:04:51 -     INFO - wally           - Text report were stored in /var/wally_results/oilfired_nigel/report.txt
+00:04:51 -     INFO - wally           - Start html_report_stage
+00:04:52 -     INFO - wally.report    - Report hdd saved into /var/wally_results/oilfired_nigel/hdd_report.html
+00:04:52 -     INFO - wally           - All info stored into /var/wally_results/oilfired_nigel
+00:04:52 -     INFO - wally           - Tests finished successfully

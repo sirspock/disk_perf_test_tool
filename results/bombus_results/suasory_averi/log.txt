@@ -1,0 +1,16 @@
+21:17:02 -     INFO - wally           - All info would be stored into /var/wally_results/suasory_averi
+21:17:02 -     INFO - wally           - Start discover_stage
+21:17:02 -     INFO - wally           - Start reuse_vms_stage
+21:17:02 -     INFO - wally           - Start log_nodes_statistic_stage
+21:17:02 -     INFO - wally           - Found 1 nodes total
+21:17:02 -    DEBUG - wally           - Found 1 nodes with role testnode
+21:17:02 -     INFO - wally           - Start save_nodes_stage
+21:17:02 -     INFO - wally           - Start connect_stage
+21:17:02 -     INFO - wally           - Connecting to nodes
+21:17:32 -    ERROR - wally           - During connect to root@172.16.1.3::/root/.ssh/id_rsa: timed out
+21:17:32 -    ERROR - wally           - Can't connect to testnode(s) 172.16.1.3:22
+21:17:32 -    ERROR - wally           - Exception during connect_stage: Can't connect to testnode(s) 172.16.1.3:22
+21:17:32 -     INFO - wally           - Start disconnect_stage
+21:17:32 -    DEBUG - wally           - Start utils.cleanup
+21:17:32 -     INFO - wally           - All info stored into /var/wally_results/suasory_averi
+21:17:32 -    ERROR - wally           - Tests are failed. See detailed error above

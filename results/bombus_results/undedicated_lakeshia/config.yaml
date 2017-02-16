@@ -1,0 +1,46 @@
+config_folder: /root/disk_perf_test_tool/configs-examples
+comment: 'digital ocean completo'
+tests: 
+    -   io: 
+            cfg: hdd
+            params: 
+                {FILENAME: /test/ssd, NUM_ROUNDS: 7, TEST_FILE_SIZE: 10G}
+results_storage: /var/wally_results/undedicated_lakeshia/results
+vm_configs: 
+    keypair_file_public: wally_vm_key.pub
+    keypair_name: wally_vm_key
+    keypair_file_private: wally_vm_key.pem
+    wally_1024: 
+        aa_group_name: 'wally-aa-{0}'
+        name_templ: 'wally-{group}-{id}'
+        vol_sz: 100
+        security_group: wally_ssh_to_everyone
+        image: 
+            url: 'https://cloud-images.ubuntu.com/trusty/current/trusty-server-cloudimg-amd64-disk1.img'
+            name: wally_ubuntu
+            creds: 'ssh://ubuntu@{ip}::{private_key_path}'
+        flavor: 
+            {cpu_count: 2, hdd_size: 100, name: wally_1024, ram_size: 1024}
+load_report_file: /var/wally_results/undedicated_lakeshia/load_report.html
+nodes_report_file: /var/wally_results/undedicated_lakeshia/nodes.yaml
+run_params_file: /var/wally_results/undedicated_lakeshia/run_params.yaml
+html_report_file: '/var/wally_results/undedicated_lakeshia/{0}_report.html'
+vm_ids_fname: /var/wally_results/undedicated_lakeshia/os_vm_ids
+run_uuid: undedicated_lakeshia
+explicit_nodes: 
+    {'ssh://root@162.243.94.217::/root/.ssh/id_rsa': testnode}
+internal: 
+    {var_dir_root: /tmp/perf_tests}
+sensor_storage: /var/wally_results/undedicated_lakeshia/sensor_storage
+text_report_file: /var/wally_results/undedicated_lakeshia/report.txt
+settings: 
+    {collect_info: false, log_level: DEBUG, results_storage: /var/wally_results, suspend_unused_vms: false}
+default_test_local_folder: '/tmp/wally/undedicated_lakeshia/{name}'
+hwreport_fname: /var/wally_results/undedicated_lakeshia/hwinfo.txt
+saved_config_file: /var/wally_results/undedicated_lakeshia/config.yaml
+results_dir: /var/wally_results/undedicated_lakeshia
+sensors_remote_path: /tmp/sensors
+testnode_log_root: /tmp/wally
+log_file: /var/wally_results/undedicated_lakeshia/log.txt
+raw_results: /var/wally_results/undedicated_lakeshia/raw_results.yaml
+hwinfo_directory: /var/wally_results/undedicated_lakeshia/hwinfo
