@@ -35,4 +35,4 @@ RUN git clone https://github.com/sirspock/disk_perf_test_tool.git \
 
 RUN cd /opt/disk_perf_tool/scripts; pip install oktest iso8601==0.1.10
 
-RUN ["/bin/bash"]
+RUN ["python -m wally ls"]
