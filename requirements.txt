@@ -1,4 +1,12 @@
-scipy
+importlib
+six
+packaging
+appdirs
+pytz
+argparse
+python-keystoneclient
+rfc3986
+stevedore
 decorator
 futures
 netaddr
